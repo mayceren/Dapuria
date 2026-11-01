@@ -58,7 +58,7 @@ def reset_chat() -> None:
     st.session_state.phase = "await_query"
     st.session_state.pending = None
     st.session_state.latest_result = None
-    st.session_state.selected_result = None
+    st.session_state.selected_result_index = None
     st.session_state.inventory = []
     st.session_state.submission = None
     st.session_state.excluded_ingredients = []
@@ -101,7 +101,7 @@ def open_chat(conversation_id: str) -> bool:
     for key in STATE_KEYS:
         st.session_state[key] = snapshot[key]
     st.session_state.conversation_id = conversation_id
-    st.session_state.selected_result = None
+    st.session_state.selected_result_index = None
     st.session_state.submission = None
     st.query_params["chat"] = conversation_id
     return True
@@ -134,13 +134,18 @@ def queue_message(text: str | None = None) -> None:
     if st.session_state.submission is None:
         value = text if text is not None else st.session_state.get("chat_composer", "")
         if value and value.strip():
+            st.session_state.selected_result_index = None
             st.session_state.submission = {"kind": "message", "text": value.strip()}
+
+
+def select_past_result(message_index: int | None) -> None:
+    st.session_state.selected_result_index = message_index
 
 
 def continue_chat() -> None:
     st.session_state.phase = "await_query"
     st.session_state.latest_result = None
-    st.session_state.selected_result = None
+    st.session_state.selected_result_index = None
     persist_chat()
 
 
@@ -209,7 +214,7 @@ for key, default in {
     "phase": "await_query",
     "pending": None,
     "latest_result": None,
-    "selected_result": None,
+    "selected_result_index": None,
     "history_error": None,
     "inventory": [],
     "submission": None,
@@ -315,10 +320,16 @@ for index, message in enumerate(st.session_state.messages):
     with chat_bubble(message["role"], bubble_key):
         st.markdown(message["content"])
         saved_result = message.get("result")
-        if (saved_result and saved_result != st.session_state.latest_result
-                and st.session_state.phase == "await_query"
-                and st.button("Lihat rekomendasi ini", key=f"past_result_{index}", icon=":material/restaurant:", disabled=busy)):
-            st.session_state.selected_result = saved_result
+        if saved_result and (not completed or saved_result != st.session_state.latest_result):
+            st.button("Lihat rekomendasi ini", key=f"past_result_{index}", icon=":material/restaurant:",
+                      disabled=busy, on_click=select_past_result, args=(index,))
+    if saved_result and st.session_state.selected_result_index == index:
+        with st.container(key=f"past_recommendations_{index}"):
+            st.info("Kamu sedang melihat rekomendasi sebelumnya dalam percakapan ini.", icon="🕰️")
+            st.button("Kembali ke hasil terbaru" if completed else "Kembali ke percakapan",
+                      key="show_latest", disabled=busy, on_click=select_past_result, args=(None,))
+            if saved_result.get("status") == "ok":
+                render_results(saved_result)
 
 if st.session_state.excluded_ingredients:
     st.caption("Bahan yang dihindari: " + ", ".join(st.session_state.excluded_ingredients))
@@ -352,7 +363,7 @@ if not completed:
 submission = st.session_state.submission
 if submission:
     with processing_guard():
-        st.session_state.selected_result = None
+        st.session_state.selected_result_index = None
         user_message = submission["text"]
         st.session_state.messages.append({"role": "user", "content": user_message})
         preferences = update_preferences(st.session_state.excluded_ingredients, user_message)
@@ -511,15 +522,8 @@ if submission:
         finish_turn()
 
 # Cards and dialogs use the original ranked data, never LLM-generated details.
-result = st.session_state.selected_result or (
-    st.session_state.latest_result if st.session_state.phase == "await_query" else None
-)
-if st.session_state.selected_result:
-    st.info("Kamu sedang melihat rekomendasi sebelumnya dalam percakapan ini.", icon="🕰️")
-    if st.button("Kembali ke hasil terbaru", key="show_latest"):
-        st.session_state.selected_result = None
-        st.rerun()
-if result and result.get("status") == "ok":
+result = st.session_state.latest_result if completed else None
+if st.session_state.selected_result_index is None and result and result.get("status") == "ok":
     render_results(result)
 
 if completed:
