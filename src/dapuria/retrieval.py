@@ -8,6 +8,7 @@ import numpy as np
 
 from .config import Settings
 from .preprocessing import ingredient_matches
+from .recipe_data import normalize_recipe
 
 
 def add_query_prefix(text: str) -> str:
@@ -45,12 +46,14 @@ class HybridRetriever:
             isinstance(name, str) for name in ingredient_names
         ):
             ingredient_names = []
-        return {
-            "title": meta.get("title", ""),
-            "ingredient_names": ingredient_names,
-            "steps_text": meta.get("steps_text", ""),
-            "num_ingredients": meta.get("num_ingredients"),
-        }
+        return normalize_recipe(
+            {
+                "title": meta.get("title", ""),
+                "ingredient_names": ingredient_names,
+                "steps_text": meta.get("steps_text", ""),
+                "num_ingredients": meta.get("num_ingredients"),
+            }
+        )
 
     def healthcheck(self) -> dict[str, Any]:
         return {

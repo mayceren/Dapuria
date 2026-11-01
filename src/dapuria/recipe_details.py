@@ -37,7 +37,10 @@ class RecipeDetails:
                         steps_by_recipe.setdefault(key, set()).add(steps)
             self._steps = steps_by_recipe
 
-        key = (recipe.get("title", ""), tuple(recipe.get("ingredient_names", [])))
+        key = (
+            recipe.get("source_title", recipe.get("title", "")),
+            tuple(recipe.get("source_ingredient_names", recipe.get("ingredient_names", []))),
+        )
         matches = [
             steps for steps in self._steps.get(key, ())
             if steps.startswith(indexed_steps)

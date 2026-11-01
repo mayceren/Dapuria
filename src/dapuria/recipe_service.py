@@ -6,6 +6,7 @@ from typing import Any
 from .config import Settings
 from .preferences import ingredient_is_excluded, update_preferences
 from .preprocessing import ingredient_matches, parse_user_ingredients
+from .recipe_data import normalize_recipe
 from .recipe_details import RecipeDetails
 from .reranking import (
     coverage_stats,
@@ -14,6 +15,7 @@ from .reranking import (
     weighted_linear_score,
 )
 from .retrieval import HybridRetriever
+from .selection import select_recommendations
 from .validation import is_relevant_enough, validate_initial
 
 COMMON_STAPLES = [
@@ -55,10 +57,10 @@ class RecipeService:
 
         canonical_query = ", ".join(user_ingredients)
 
-        candidates = self.retriever.retrieve(
-            canonical_query,
-            user_ingredients,
-        )
+        candidates = [
+            normalize_recipe(candidate)
+            for candidate in self.retriever.retrieve(canonical_query, user_ingredients)
+        ]
 
         if not candidates:
             return [], user_ingredients
@@ -138,13 +140,17 @@ class RecipeService:
         # bukan hanya candidate peringkat pertama.
         valid_results = [
             row for row in ranked_results
-            if not any(ingredient_is_excluded(name, excluded) for name in row["ingredient_names"])
+            if not any(
+                ingredient_is_excluded(name, excluded)
+                for name in row["ingredient_names"] + row.get("source_ingredient_names", [])
+            )
             and is_relevant_enough(row, parsed)
         ]
 
-        # Setelah validasi, baru ambil Top-N final.
+        # Select practical, distinct dishes only after validating the whole pool.
         results = [
-            self.details.restore_steps(row) for row in valid_results[:requested_top_n]
+            self.details.restore_steps(row)
+            for row in select_recommendations(valid_results, requested_top_n)
         ]
 
         if not results:

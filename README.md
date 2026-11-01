@@ -2,6 +2,10 @@
 
 Program skripsi rekomendasi resep berdasarkan bahan yang tersedia. Aplikasi menggunakan Streamlit, retrieval SBERT/ChromaDB, dan reranking WLC dengan bobot semantic 0,9 serta efisiensi bahan 0,1. Ollama/Llama 3 bersifat opsional untuk narasi dan klarifikasi.
 
+Nama bahan dinormalisasi sebelum pencarian dan perhitungan kecocokan: jumlah di depan/belakang bahan serta catatan pemotongan dipisahkan dari identitas bahan, alias seperti `baput`/`bamer` dikenali, dan entri angka tunggal diabaikan. Nomor daftar pada judul resep juga dihilangkan saat metadata dibaca; corpus dan indeks sumber tidak ditulis ulang.
+
+Setelah perhitungan WLC, kandidat harus memenuhi ambang relevansi, memiliki bahan utama yang cocok dengan persediaan, dan lolos batasan pengguna. Pemilihan hasil akhir mengutamakan jumlah bahan yang masih kurang paling sedikit, lalu efisiensi bahan dan skor WLC sebagai pembeda. Variasi judul masakan yang sangat mirip disaring agar alternatif lebih beragam; jumlah hasil mengikuti kandidat berbeda yang layak. Urutan hasil akhir dapat berbeda dari urutan skor WLC murni, sehingga evaluasi versi sebelumnya perlu diperbarui untuk menilai perilaku ini.
+
 ## Komponen program
 
 ```text
@@ -68,3 +72,5 @@ Riwayat dibuat otomatis di `data/local_history/chats.sqlite3` atau lokasi `DAPUR
 Indeks sudah disertakan, sehingga pembangunan ulang tidak diperlukan untuk penggunaan biasa. Bila dibutuhkan, lihat opsi dengan `python scripts/rebuild_index.py --help` menggunakan interpreter environment yang sama. Opsi `--force` menghapus indeks yang ada sebelum membangunnya kembali.
 
 Paket pengumpulan hanya memuat program dan data resep. `.venv`, cache model eksternal, credential, serta database percakapan pribadi tidak disertakan; dependency dan model disiapkan pada komputer yang menjalankan program.
+
+Pemeriksaan regresi pengembangan tersedia melalui `python -m pytest tests -q` jika `pytest` terpasang. Test tidak memuat model SBERT dan tidak membangun ulang indeks.

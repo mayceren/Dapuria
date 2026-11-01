@@ -21,4 +21,7 @@ def is_relevant_enough(candidate: dict | None, user_ingredients: list[str]) -> b
     if not candidate or not user_ingredients:
         return False
     matched_user_count = len(candidate.get("matched_user_items", []))
-    return matched_user_count >= relevance_threshold(user_ingredients)
+    return (
+        matched_user_count >= relevance_threshold(user_ingredients)
+        and has_main_ingredient(candidate.get("matched_user_items", []))
+    )

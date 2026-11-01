@@ -2,8 +2,15 @@ from __future__ import annotations
 
 import html
 import re
+from functools import lru_cache
 
-INGREDIENT_ALIASES = {"telor": "telur"}
+INGREDIENT_ALIASES = {
+    "telor": "telur",
+    "baput": "bawang putih",
+    "bamer": "bawang merah",
+    "bombai": "bombay",
+    "saos": "saus",
+}
 ALIAS_PATTERN = re.compile(r"\b(?:" + "|".join(map(re.escape, INGREDIENT_ALIASES)) + r")\b")
 # These product names describe a different pantry item from their source food.
 # Keep the same product category on both sides of a phrase match; e.g. generic
@@ -21,6 +28,7 @@ UNITS = [
     "ons",
     "ml",
     "mili",
+    "mil",
     "liter",
     "ltr",
     "l",
@@ -63,6 +71,7 @@ UNITS = [
     "klg",
     "botol",
     "btl",
+    "pcs",
 ]
 UNITS_SORTED = sorted(UNITS, key=len, reverse=True)
 UNIT_PATTERN = "|".join(re.escape(u) for u in UNITS_SORTED)
@@ -79,6 +88,16 @@ QTY_PATTERN = (
 )
 INGREDIENT_REGEX = re.compile(
     rf"^\s*(?P<qty>{QTY_PATTERN})?\s*(?:(?P<unit>{UNIT_PATTERN})\b)?\.?\s*(?P<name>.+?)\s*$",
+    re.IGNORECASE,
+)
+TRAILING_AMOUNT = re.compile(
+    rf"\s+(?:{QTY_PATTERN})\s*(?:{UNIT_PATTERN})\b\.?\s*$",
+    re.IGNORECASE,
+)
+PREPARATION_NOTE = re.compile(
+    r"\s+(?:(?:di)?(?:iris|potong|cincang|geprek|rajang|kupas|suwir|giling)\b"
+    r"|(?:di)?(?:memarkan|haluskan|parut|cuci)\b"
+    r"|sesuai\s+selera\b|secukupnya\b|sebagai\s+(?:topping|taburan)\b)",
     re.IGNORECASE,
 )
 
@@ -147,20 +166,30 @@ def normalize_ingredient_name(name: str) -> str:
     return ALIAS_PATTERN.sub(lambda match: INGREDIENT_ALIASES[match.group()], name)
 
 
+@lru_cache(maxsize=16384)
 def clean_name(name: str) -> str:
-    name = str(name)
-    name = re.sub(r"\(.*?\)", "", name)
-    return normalize_ingredient_name(name)
+    """Keep the ingredient identity, excluding amounts and preparation notes."""
+    name = html.unescape(str(name))
+    name = re.sub(r"\([^)]*(?:\)|$)", "", name)
+    name = PREPARATION_NOTE.split(name, maxsplit=1)[0]
+    name = TRAILING_AMOUNT.sub("", name.strip())
+    name = normalize_ingredient_name(name).strip(" .:;/-()")
+    if not re.search(r"[^\W\d_]", name) or name in UNITS:
+        return ""
+    return name
 
 
 def parse_ingredient(raw: str) -> dict[str, str]:
     raw = html.unescape(str(raw)).strip()
     raw = re.sub(r"^[\-\*•]+\s*", "", raw)
-    main = raw.split(",", 1)[0].strip()
+    main = re.split(r"(?<!\d),|,(?!\d)", raw, maxsplit=1)[0].strip()
+    main = re.sub(r"(?<=\d),(?=\d)", ".", main)
     match = INGREDIENT_REGEX.match(main)
     name = (
         clean_name(match.group("name"))
-        if (match and match.group("name"))
+        if (match and match.group("name") and (
+            match.group("qty") or (match.group("unit") and match.group("unit").lower() != "buah")
+        ))
         else clean_name(main)
     )
     return {"raw": raw, "name": name}
@@ -210,8 +239,8 @@ def ingredient_matches(user_name: str, recipe_name: str) -> bool:
     allowing ``ayam`` to match ``dada ayam``. Product markers keep source foods
     distinct from stock, shrimp paste and crackers in both directions.
     """
-    user_name = normalize_ingredient_name(user_name)
-    recipe_name = normalize_ingredient_name(recipe_name)
+    user_name = clean_name(user_name)
+    recipe_name = clean_name(recipe_name)
     if not user_name or not recipe_name:
         return False
     if user_name == recipe_name:
@@ -219,6 +248,12 @@ def ingredient_matches(user_name: str, recipe_name: str) -> bool:
     user_products = PRODUCT_MARKERS.intersection(re.findall(r"\w+", user_name))
     recipe_products = PRODUCT_MARKERS.intersection(re.findall(r"\w+", recipe_name))
     if user_products != recipe_products:
+        return False
+    # Stock is commonly named without its form. Other powders are not assumed
+    # available merely because the fresh ingredient is present (or vice versa).
+    if "kaldu" not in user_products and (
+        bool(re.search(r"\bbubuk\b", user_name)) != bool(re.search(r"\bbubuk\b", recipe_name))
+    ):
         return False
     pattern_u = rf"(?<!\w){re.escape(user_name)}(?!\w)"
     pattern_r = rf"(?<!\w){re.escape(recipe_name)}(?!\w)"
