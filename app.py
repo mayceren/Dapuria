@@ -131,6 +131,9 @@ def processing_guard():
 
 
 def queue_message(text: str | None = None) -> None:
+    browser_store = st.session_state.get("browser_history")
+    if browser_store and browser_store.syncing and not browser_store.error:
+        return
     if st.session_state.submission is None:
         value = text if text is not None else st.session_state.get("chat_composer", "")
         if value and value.strip():
@@ -226,12 +229,33 @@ for key, default in {
 
 render_header()
 
-try:
-    history = load_history(os.getenv("DAPURIA_HISTORY_PATH", str(ROOT / "data" / "local_history" / "chats.sqlite3")))
-except (OSError, sqlite3.Error):
-    LOGGER.exception("Could not initialize history")
-    history = None
-    st.session_state.history_error = "Penyimpanan riwayat belum tersedia. Chat tetap bisa digunakan selama sesi ini."
+history_backend = os.getenv("DAPURIA_HISTORY_BACKEND", "browser").strip().lower()
+if history_backend == "browser":
+    from dapuria.browser_storage import connect_browser_history
+
+    history = connect_browser_history()
+    redirected = history.redirects.pop(st.session_state.get("conversation_id"), None)
+    if redirected:
+        open_chat(redirected)
+    if history.refreshed:
+        history.refreshed = False
+        active_id = st.session_state.get("conversation_id")
+        if active_id and st.session_state.messages and st.session_state.submission is None:
+            refreshed = history.load(OWNER_ID, active_id)
+            if refreshed is None:
+                reset_chat()
+            elif refreshed != {key: st.session_state[key] for key in STATE_KEYS}:
+                open_chat(active_id)
+elif history_backend == "sqlite":
+    try:
+        history = load_history(os.getenv("DAPURIA_HISTORY_PATH", str(ROOT / "data" / "local_history" / "chats.sqlite3")))
+    except (OSError, sqlite3.Error):
+        LOGGER.exception("Could not initialize history")
+        history = None
+        st.session_state.history_error = "Penyimpanan riwayat belum tersedia. Chat tetap bisa digunakan selama sesi ini."
+else:
+    st.error("DAPURIA_HISTORY_BACKEND harus browser atau sqlite.")
+    st.stop()
 
 requested_chat = st.query_params.get("chat")
 if "conversation_id" not in st.session_state:
@@ -241,7 +265,9 @@ elif (requested_chat and requested_chat != st.session_state.conversation_id
       and not open_chat(requested_chat)):
     reset_chat()
 
-busy = st.session_state.submission is not None
+busy = st.session_state.submission is not None or (
+    history_backend == "browser" and history.syncing and not history.error
+)
 conversations = []
 if history is not None:
     try:
@@ -286,8 +312,18 @@ with st.sidebar:
                                      width="stretch", disabled=busy, on_change="rerun"), \
                     st.container(key=f"history_actions_{item['id']}"):
                 history_actions(item)
-        # st.divider()
-        # st.caption("Riwayat tersimpan lokal di perangkat yang menjalankan Dapuria.")
+    if history is not None:
+        st.divider()
+        st.caption("Riwayat tersimpan di browser ini." if history_backend == "browser"
+                   else "Riwayat tersimpan di perangkat yang menjalankan server Dapuria.")
+        if history_backend == "browser":
+            if history.error:
+                st.warning(history.error)
+                st.button("Coba simpan lagi", key="retry_history", on_click=history.retry)
+            elif history.syncing:
+                st.caption("Menyimpan riwayat…")
+            if history.notice:
+                st.info(history.notice)
     if st.session_state.history_error:
         st.warning(st.session_state.history_error)
 
@@ -415,7 +451,7 @@ if submission:
                 )
                 st.session_state.latest_result = None
             else:
-                candidates = service.clarification_candidates(result)
+                candidates = [] if preferences.has_directive else service.clarification_candidates(result)
                 if candidates:
                     with activity("Mengecek satu bahan pelengkap…"):
                         question = llama.clarification_question(
@@ -437,6 +473,11 @@ if submission:
                     payload = service.build_grounded_payload(result)
                     with activity("Merangkai pilihan resep untukmu…"):
                         assistant_text = llama.grounded_summary(payload)
+                    if preferences.has_directive:
+                        assistant_text = (
+                            f"Aku carikan resep tanpa **{', '.join(preferences.excluded)}**.\n\n"
+                            if preferences.excluded else "Siap, batasan bahanmu sudah diperbarui.\n\n"
+                        ) + assistant_text
                     st.session_state.messages.append(
                         {"role": "assistant", "content": assistant_text}
                     )
@@ -447,7 +488,7 @@ if submission:
             candidates = pending.get("candidate_staples", [])
             reply = llama.interpret_clarification_reply(user_message, candidates)
             confirmation = reply.confirmation
-            previous_extras = pending.get("additional_ingredients", [])
+            previous_extras = update_inventory(pending.get("additional_ingredients", []), "")
             updated_extras = update_inventory(previous_extras, user_message)
             additional = list(dict.fromkeys(
                 [item for item in previous_extras if item in updated_extras]
@@ -457,7 +498,7 @@ if submission:
             original_ingredients = pending.get("base_inventory", (initial_result or {}).get(
                 "user_ingredients", parse_user_ingredients(pending.get("original_query", ""))
             ))
-            previous = pending.get("retained_ingredients", original_ingredients)
+            previous = update_inventory(pending.get("retained_ingredients", original_ingredients), "")
             updated = update_inventory(previous, user_message)
             retained = [item for item in previous if item in updated]
             pending["retained_ingredients"] = retained

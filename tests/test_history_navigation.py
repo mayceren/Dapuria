@@ -18,6 +18,7 @@ def recommendation(title):
             "title": title,
             "ingredient_names": ["ayam", "bawang putih", "air"],
             "matched_recipe_items": ["ayam", "bawang putih"],
+            "matched_user_items": ["ayam", "bawang putih"],
             "missing_items": ["air"],
             "steps_text": "Masak hingga matang.",
         }, {
@@ -25,6 +26,7 @@ def recommendation(title):
             "title": f"Alternatif {title}",
             "ingredient_names": ["ayam", "bawang putih"],
             "matched_recipe_items": ["ayam", "bawang putih"],
+            "matched_user_items": ["ayam", "bawang putih"],
             "missing_items": [],
             "steps_text": "Kukus hingga matang.",
         }],
@@ -61,6 +63,7 @@ def open_history(monkeypatch, tmp_path, phase, latest):
     store = ChatHistoryStore(tmp_path / "history.sqlite3")
     store.save("local", "history-navigation", state)
     monkeypatch.setenv("DAPURIA_HISTORY_PATH", str(store.path))
+    monkeypatch.setenv("DAPURIA_HISTORY_BACKEND", "sqlite")
     root = Path(__file__).resolve().parents[1]
     app = AppTest.from_file(str(root / "app.py"))
     app.query_params["chat"] = "history-navigation"

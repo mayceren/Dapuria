@@ -213,6 +213,7 @@ def test_chat_flow_keeps_added_ingredients_and_renders_clean_recommendations(
     monkeypatch.setattr("dapuria.recipe_service.HybridRetriever", Retriever)
     monkeypatch.setattr("dapuria.llama_service.LlamaService.available", lambda self: False)
     monkeypatch.setenv("DAPURIA_HISTORY_PATH", str(tmp_path / "history.sqlite3"))
+    monkeypatch.setenv("DAPURIA_HISTORY_BACKEND", "sqlite")
     root = Path(__file__).resolve().parents[1]
     app = AppTest.from_file(str(root / "app.py")).run()
     app.chat_input[0].set_value("dada ayam 250 gr, kecap, garam, saus tiram").run(timeout=20)

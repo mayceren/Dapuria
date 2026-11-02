@@ -15,6 +15,7 @@ from .preprocessing import (
     ingredient_matches,
     normalize_ingredient_name,
     parse_user_ingredients,
+    strip_reply_particles,
 )
 
 
@@ -128,10 +129,6 @@ class LlamaService:
         """
         confirmation = self.interpret_confirmation(reply, candidates)
         additional: list[str] = []
-        discourse = {
-            "ya", "iya", "y", "yes", "no", "oke", "ok", "boleh", "siap",
-            "lanjut", "skip", "makasih", "terima kasih", "thanks",
-        }
         # Keep decimal quantities and comma-separated inventory together. A
         # question, uncertain phrase or negation is handled by the inventory parser.
         groups = re.split(r"(?<!\d)\.|\.(?!\d)|[;\n]|\b(?:tapi|tetapi|sedangkan|namun)\b", reply, flags=re.IGNORECASE)
@@ -149,7 +146,7 @@ class LlamaService:
             if not ownership:
                 continue
             for item in parse_user_ingredients(group):
-                if item in discourse or item in confirmation.ingredients or any(
+                if item in confirmation.ingredients or any(
                     item == candidate.casefold() or item == candidate.casefold() + "nya"
                     for candidate in candidates
                 ):
@@ -215,7 +212,7 @@ class LlamaService:
 
         # Only short, unambiguous replies confirm the single candidate.
         # Prefix matching wrongly treated "ada telur saja" as "ada garam".
-        short_reply = re.sub(r"\s+(ya|kok|nih|dong|sih|deh)$", "", reply_l)
+        short_reply = strip_reply_particles(reply_l)
         if short_reply in negative_phrases or short_reply in {
             "lanjut", "lewati", "skip", "belum", "habis", "sudah habis",
         }:
@@ -263,7 +260,7 @@ class LlamaService:
         # other ingredients must not negate it ("ada, tapi lada habis").
         generic_replies = []
         for clause in clauses:
-            short_clause = re.sub(r"\s+(ya|kok|nih|dong|sih|deh)$", "", clause)
+            short_clause = strip_reply_particles(clause)
             if short_clause in affirmative_phrases + negative_phrases + (
                 "lanjut", "lewati", "skip", "belum", "habis", "sudah habis",
                 "mungkin ada", "sepertinya ada", "kayaknya ada", "tidak yakin",

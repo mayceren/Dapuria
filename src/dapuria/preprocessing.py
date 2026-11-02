@@ -10,8 +10,19 @@ INGREDIENT_ALIASES = {
     "bamer": "bawang merah",
     "bombai": "bombay",
     "saos": "saus",
+    "toge": "tauge",
+    "taoge": "tauge",
+    "micin": "msg",
+    "mecin": "msg",
+    "vetsin": "msg",
 }
 ALIAS_PATTERN = re.compile(r"\b(?:" + "|".join(map(re.escape, INGREDIENT_ALIASES)) + r")\b")
+# A brand alone can identify MSG; a named product such as "santan Sasa" cannot.
+MSG_NAME = re.compile(
+    r"^(?:(?:penyedap(?: rasa)?|bumbu penyedap)\s+)?"
+    r"(?:msg|sasa|ajinomoto)(?:[\s/]+(?:msg|sasa|ajinomoto))*$"
+)
+NON_MSG = re.compile(r"\b(?:non[\s-]*msg|(?:tanpa|bebas)\s+msg)\b")
 # These product names describe a different pantry item from their source food.
 # Keep the same product category on both sides of a phrase match; e.g. generic
 # "kaldu" can match "kaldu ayam", while "ayam" cannot.
@@ -104,8 +115,21 @@ PREPARATION_NOTE = re.compile(
 # Apply these rules only to user messages, never to corpus ingredient names.
 SUBJECT = r"(?:aku|saya|gue|gua|kami|kita)"
 MODIFIERS = r"(?:(?:cuma|hanya|masih|kebetulan|sekarang|lagi|juga)\s+)*"
+CONVERSATION_PARTICLES = r"(?:nih+|dong+|ya+h?|saja|aja|doang|kok+|sih+|deh+)"
+REPLY_PARTICLE_SUFFIX = re.compile(rf"\s+{CONVERSATION_PARTICLES}$", re.IGNORECASE)
+NON_INGREDIENT_REPLIES = frozenset({
+    "ya", "iya", "y", "yes", "no", "oke", "ok", "boleh", "siap",
+    "lanjut", "lanjutkan", "skip", "lewati", "makasih", "terima kasih", "thanks",
+})
+# Split undelimited lists only when every word is an independent ingredient.
+# Compound names such as "telur ayam" and "jamur tiram" stay intact.
+BARE_LIST_ITEMS = frozenset({
+    "tempe", "tahu", "telur", "tauge", "tomat", "kentang", "wortel",
+    "bayam", "kangkung", "brokoli", "buncis", "kol", "jagung", "jamur",
+})
 USER_PREFIXES = tuple(re.compile(pattern, re.IGNORECASE) for pattern in (
     r"^(?:halo|hai|hei|hey)(?:\s+(?:dapuria|kak|min))?[\s,:.!]+",
+    r"^(?:aduh|waduh|duh)\b[\s,:.!]*",
     r"^di\s+(?:rumah|dapur|kulkas)(?:ku)?\s*[:,]?\s*",
     rf"^bahan(?:-bahan)?\s+yang\s+(?:{SUBJECT}\s+)?(?:punya|miliki|ada)\s*[:,]?\s*",
     r"^bahan(?:-bahan)?\s*:\s*",
@@ -118,13 +142,13 @@ USER_PREFIXES = tuple(re.compile(pattern, re.IGNORECASE) for pattern in (
     r"^(?:cuma|hanya)\s+",
 ))
 USER_SUFFIX = re.compile(
-    r"(?:\s+(?:nih|dong|ya|yah|saja|aja|doang|kok|secukupnya)"
+    rf"(?:(?:^|\s+){CONVERSATION_PARTICLES}|\s+secukupnya"
     r"|\s+(?:(?:juga|yang)\s+)?(?:ada|tersedia)"
     r"|\s+di\s+(?:rumah|dapur|kulkas)(?:ku)?)$", re.IGNORECASE,
 )
 REQUEST_SUFFIX = re.compile(
-    r"(?:[.!?,]\s*|\s+)(?:(?:bisa|boleh|enaknya|cocoknya)\s+(?:di)?(?:masak|bikin|olah|buat)\b"
-    r"|masak\s+apa\b|(?:tolong\s+)?cari(?:kan)?\s+resep\b).*$",
+    r"(?:^|[.!?,]\s*|\s+)(?:(?:bisa|boleh|enaknya|cocoknya)\s+(?:di)?(?:masak|bikin|olah|buat)\b"
+    r"|masak\s+apa\b|(?:gimana|bagaimana)\b|(?:tolong\s+)?cari(?:kan)?\s+resep\b).*$",
     re.IGNORECASE | re.DOTALL,
 )
 USER_SEPARATORS = re.compile(
@@ -163,7 +187,17 @@ def normalize_ingredient_name(name: str) -> str:
     """Normalize whitespace/case and explicitly registered whole-word aliases."""
     name = str(name).lower().strip()
     name = re.sub(r"\s+", " ", name)
-    return ALIAS_PATTERN.sub(lambda match: INGREDIENT_ALIASES[match.group()], name)
+    name = ALIAS_PATTERN.sub(lambda match: INGREDIENT_ALIASES[match.group()], name)
+    return "msg" if MSG_NAME.fullmatch(name) else name
+
+
+def strip_reply_particles(text: str) -> str:
+    """Remove emphatic suffixes while preserving a standalone answer like 'ya'."""
+    while True:
+        stripped = REPLY_PARTICLE_SUFFIX.sub("", text).strip()
+        if stripped == text:
+            return text
+        text = stripped
 
 
 @lru_cache(maxsize=16384)
@@ -227,8 +261,9 @@ def parse_user_ingredients(text: str) -> list[str]:
                 continue
             framed = re.sub(r"(?<=\d),(?=\d)", ".", framed)
             name = parse_ingredient(framed)["name"] if framed else ""
-            if name:
-                parsed.append(name)
+            if name and name not in NON_INGREDIENT_REPLIES:
+                words = name.split()
+                parsed.extend(words if len(words) > 1 and all(word in BARE_LIST_ITEMS for word in words) else [name])
     return list(dict.fromkeys(parsed))
 
 
@@ -245,6 +280,10 @@ def ingredient_matches(user_name: str, recipe_name: str) -> bool:
         return False
     if user_name == recipe_name:
         return True
+    if (user_name == "msg" and NON_MSG.search(recipe_name)) or (
+        recipe_name == "msg" and NON_MSG.search(user_name)
+    ):
+        return False
     user_products = PRODUCT_MARKERS.intersection(re.findall(r"\w+", user_name))
     recipe_products = PRODUCT_MARKERS.intersection(re.findall(r"\w+", recipe_name))
     if user_products != recipe_products:

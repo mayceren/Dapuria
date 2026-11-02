@@ -15,4 +15,4 @@ package-dir = {"" = "src"}
 where = ["src"]
 
 [tool.setuptools.package-data]
-dapuria = ["assets/*.css", "assets/image/*.png"]
+dapuria = ["assets/*.css", "assets/*.js", "assets/image/*.png"]

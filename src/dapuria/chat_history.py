@@ -10,7 +10,7 @@ from datetime import datetime, timezone
 from pathlib import Path
 from typing import Any
 
-STATE_KEYS = ("messages", "phase", "pending", "latest_result", "inventory", "excluded_ingredients")
+from .history_format import STATE_KEYS, validate_snapshot
 
 
 class ChatHistoryStore:
@@ -54,6 +54,7 @@ class ChatHistoryStore:
             snapshot["inventory"] = self._legacy_inventory(snapshot)
         if snapshot["excluded_ingredients"] is None:
             snapshot["excluded_ingredients"] = []
+        snapshot = validate_snapshot(snapshot)
         payload = json.dumps(snapshot, ensure_ascii=False, allow_nan=False)
         first_query = next((message["content"] for message in messages if message["role"] == "user"), "Percakapan")
         title = " ".join(first_query.split())[:72]
@@ -84,28 +85,7 @@ class ChatHistoryStore:
             ).fetchone()
         if row is None:
             return None
-        snapshot = json.loads(row["snapshot"])
-        if isinstance(snapshot, dict) and "inventory" not in snapshot:
-            snapshot["inventory"] = self._legacy_inventory(snapshot)
-        if isinstance(snapshot, dict):
-            snapshot.setdefault("excluded_ingredients", [])
-            if snapshot.get("phase") == "review_ingredients":
-                snapshot["phase"] = "await_query"
-                snapshot["latest_result"] = None
-        if (
-            not isinstance(snapshot, dict)
-            or not all(key in snapshot for key in STATE_KEYS)
-            or not isinstance(snapshot.get("messages"), list)
-            or snapshot.get("phase") not in {"await_query", "await_confirmation"}
-            or not isinstance(snapshot.get("inventory"), list)
-            or not all(isinstance(item, str) for item in snapshot["inventory"])
-            or not isinstance(snapshot.get("excluded_ingredients"), list)
-            or not all(isinstance(item, str) for item in snapshot["excluded_ingredients"])
-        ):
-            raise ValueError("Format riwayat percakapan tidak didukung.")
-        if snapshot["phase"] == "await_confirmation" and not isinstance(snapshot.get("pending"), dict):
-            raise ValueError("Data klarifikasi pada riwayat tidak lengkap.")
-        return snapshot
+        return validate_snapshot(json.loads(row["snapshot"]))
 
     @staticmethod
     def _legacy_inventory(snapshot: dict[str, Any]) -> list[str]:

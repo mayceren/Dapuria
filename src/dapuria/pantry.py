@@ -48,7 +48,7 @@ def update_inventory(current: list[str], message: str) -> list[str]:
     Bare lists add to the current inventory. Only an explicit reset discards it.
     Negated lists stay in removal mode until a contrast or ownership statement.
     """
-    items = list(dict.fromkeys(current))
+    items = list(dict.fromkeys(name for item in current for name in parse_user_ingredients(item)))
     text = message.strip()
     if re.fullmatch(r"(?:cari(?:kan)?(?: resep)?(?: lagi)?|lanjut(?:kan)?|coba lagi)[.!?]*", text, re.IGNORECASE):
         return items
