@@ -112,6 +112,23 @@ def test_continuing_an_old_inventory_cleans_fillers_and_canonicalizes_aliases():
     ]
 
 
+@pytest.mark.parametrize(("candidate", "answer", "owned"), [
+    ("bawang putih", "ada bawang putih bubuk", "bawang putih bubuk"),
+    ("bawang putih", "ada, bawang putih bubuk", "bawang putih bubuk"),
+    ("bawang putih", "bawang putih (bubuk)", "bawang putih bubuk"),
+    ("bawang putih", "garlic powder", "bawang putih bubuk"),
+    ("bawang putih", "baput bubuk", "bawang putih bubuk"),
+    ("gula", "ada gula merah", "gula merah"),
+    ("gula", "ada, gula aren", "gula aren"),
+])
+def test_confirming_another_form_keeps_only_the_stock_actually_named(llama, candidate, answer, owned):
+    reply = llama.interpret_clarification_reply(answer, [candidate])
+    assert reply.confirmation.status == "confirmed"
+    assert reply.confirmation.ingredients == [owned]
+    assert reply.additional_ingredients == []
+    assert not ingredient_matches(owned, candidate)
+
+
 @pytest.mark.parametrize("completed", [False, True])
 def test_chat_replaces_recommendations_after_named_unavailability(monkeypatch, tmp_path, completed):
     candidates = [{

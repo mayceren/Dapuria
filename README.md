@@ -4,7 +4,11 @@ Program skripsi rekomendasi resep berdasarkan bahan yang tersedia. Aplikasi meng
 
 Nama bahan dinormalisasi sebelum pencarian dan perhitungan kecocokan: jumlah di depan/belakang bahan serta catatan pemotongan dipisahkan dari identitas bahan, alias seperti `baput`/`bamer` dikenali, dan entri angka tunggal diabaikan. Nomor daftar pada judul resep juga dihilangkan saat metadata dibaca; corpus dan indeks sumber tidak ditulis ulang.
 
+Bawang putih segar dan bawang putih bubuk dihitung sebagai bahan berbeda, termasuk penulisan `garlic powder` dan `bawang putih (bubuk)`. Bahan `gula` dianggap setara dengan `gula pasir` hanya saat pencocokan; nama `gula` pada persediaan dan resep tetap dipertahankan. Gula merah, gula aren, gula jawa, gula palem, serta gula halus tidak otomatis dianggap tersedia dari input `gula`.
+
 Jika pengguna menyebut `kecap` tanpa jenisnya, aplikasi menanyakan kecap manis, kecap asin, atau jenis lain sebelum mencari resep. Jawaban singkat `manis`, `asin`, dan `dua-duanya` dikenali; jenis lain dapat disebutkan langsung, misalnya `kecap ikan`. Jenis yang dipilih menggantikan entri `kecap` yang umum. Pertanyaan tidak diulang jika pengguna sudah menyebut jenisnya sejak awal, dan pilihan yang belum selesai ikut tersimpan dalam riwayat.
+
+Input `bawang` juga diperjelas sebelum pencarian: bawang putih, bawang merah, bawang bombay, atau jenis lain yang disebutkan pengguna. Jawaban singkat seperti `putih` dan `merah` dikenali sesuai pertanyaan yang sedang ditampilkan. Jika bawang dan kecap sama-sama belum jelas, aplikasi menanyakannya satu per satu.
 
 Jawaban seperti `ada dongg` mengonfirmasi bahan pelengkap yang sedang ditanyakan tanpa menambah kata percakapan sebagai bahan. Pernyataan `ga punya tempe, telur toge` menghapus bahan tersebut dari persediaan dan langsung mencari ulang resep tanpa tempe, telur, atau tauge. Batasan berlaku selama percakapan sampai diubah dengan `boleh pakai tauge` atau `hapus batasan`. Nama `toge`/`taoge` disamakan dengan `tauge`; `micin`, `vetsin`, `MSG`, serta penyebutan Sasa/Ajinomoto sebagai penyedap disamakan dengan `msg`. Produk lain seperti `santan Sasa` dan penyedap berlabel non-MSG tetap dibedakan.
 

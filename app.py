@@ -19,10 +19,10 @@ if str(SRC) not in sys.path:
 from dapuria import RecipeService, Settings
 from dapuria.chat_history import STATE_KEYS, ChatHistoryStore
 from dapuria.ingredient_clarification import (
-    SOY_SAUCE_QUESTION,
-    expand_soy_sauce_reply,
-    refine_soy_sauce_inventory,
-    update_soy_sauce_inventory,
+    TYPE_CLARIFICATIONS,
+    expand_type_reply,
+    refine_type_inventory,
+    update_type_inventory,
 )
 from dapuria.llama_service import LlamaService
 from dapuria.pantry import update_inventory
@@ -93,15 +93,17 @@ def finish_turn() -> None:
     st.rerun()
 
 
-def clarify_soy_sauce_type() -> None:
-    if ("kecap" not in st.session_state.inventory
-            or ingredient_is_excluded("kecap", st.session_state.excluded_ingredients)):
-        return
-    st.session_state.phase = "await_confirmation"
-    st.session_state.pending = {"kind": "soy_sauce_type"}
-    st.session_state.latest_result = None
-    st.session_state.messages.append({"role": "assistant", "content": SOY_SAUCE_QUESTION})
-    finish_turn()
+def clarify_ingredient_type() -> None:
+    for item in st.session_state.inventory:
+        if ingredient_is_excluded(item, st.session_state.excluded_ingredients):
+            continue
+        for kind, clarification in TYPE_CLARIFICATIONS.items():
+            if item == clarification.ingredient:
+                st.session_state.phase = "await_confirmation"
+                st.session_state.pending = {"kind": kind}
+                st.session_state.latest_result = None
+                st.session_state.messages.append({"role": "assistant", "content": clarification.question})
+                finish_turn()
 
 
 def open_chat(conversation_id: str) -> bool:
@@ -396,12 +398,14 @@ if st.session_state.inventory:
 
 if st.session_state.phase == "await_confirmation":
     pending = st.session_state.pending or {}
-    if pending.get("kind") == "soy_sauce_type":
-        prompt_text = "Kecap manis, kecap asin, atau jenis lainnya?"
-        st.info("Pilih jenis kecapmu. Untuk jenis lain, ketik namanya, misalnya kecap ikan.", icon="🥣")
-        for column, name in zip(st.columns(2), ("Kecap manis", "Kecap asin")):
-            column.button(name, key=f"soy_sauce_{name}", use_container_width=True,
-                          disabled=busy, on_click=queue_message, args=(name.lower(),))
+    clarification = TYPE_CLARIFICATIONS.get(pending.get("kind"))
+    if clarification:
+        prompt_text = f"Jenis {clarification.ingredient}nya apa? Boleh sebutkan jenis lain"
+        st.info(f"Pilih jenis {clarification.ingredient}mu. Untuk jenis lain, ketik namanya, "
+                f"misalnya {clarification.example}.", icon="🥣")
+        for column, name in zip(st.columns(len(clarification.choices)), clarification.choices):
+            column.button(name.capitalize(), key=f"{pending['kind']}_{name}", use_container_width=True,
+                          disabled=busy, on_click=queue_message, args=(name,))
     else:
         prompt_text = "Ada bahan pelengkapnya? Boleh sebut bahan lain juga"
         st.info("Cek satu bahan pelengkap dulu, ya. Kamu juga boleh menyebut bahan lain yang tersedia.", icon="🧄")
@@ -422,9 +426,9 @@ if submission:
         st.session_state.selected_result_index = None
         user_message = submission["text"]
         st.session_state.messages.append({"role": "user", "content": user_message})
-        is_type_reply = (st.session_state.phase == "await_confirmation"
-                         and (st.session_state.pending or {}).get("kind") == "soy_sauce_type")
-        inventory_message = expand_soy_sauce_reply(user_message) if is_type_reply else user_message
+        type_kind = (st.session_state.pending or {}).get("kind")
+        is_type_reply = st.session_state.phase == "await_confirmation" and type_kind in TYPE_CLARIFICATIONS
+        inventory_message = expand_type_reply(user_message, type_kind) if is_type_reply else user_message
         preferences = update_preferences(st.session_state.excluded_ingredients, inventory_message)
         st.session_state.excluded_ingredients = preferences.excluded
         is_confirmation = (st.session_state.phase == "await_confirmation"
@@ -442,9 +446,9 @@ if submission:
             if is_type_reply:
                 if "?" in user_message:
                     inventory_text = ""
-                st.session_state.inventory = update_soy_sauce_inventory(st.session_state.inventory, inventory_text)
+                st.session_state.inventory = update_type_inventory(st.session_state.inventory, inventory_text, type_kind)
             else:
-                st.session_state.inventory = refine_soy_sauce_inventory(
+                st.session_state.inventory = refine_type_inventory(
                     update_inventory(st.session_state.inventory, inventory_text)
                 )
             st.session_state.phase = "await_query"
@@ -455,7 +459,7 @@ if submission:
                            if preferences.excluded else "Belum ada bahan yang bisa dicari. Sebutkan bahan yang kamu punya, ya.")
                 st.session_state.messages.append({"role": "assistant", "content": content})
                 finish_turn()
-            clarify_soy_sauce_type()
+            clarify_ingredient_type()
         with chat_bubble("user", "incoming"):
             st.write(user_message)
         persist_chat()
@@ -537,9 +541,9 @@ if submission:
             pending["retained_ingredients"] = retained
             st.session_state.inventory = list(dict.fromkeys(retained + additional))
             pending["additional_ingredients"] = additional
-            st.session_state.inventory = refine_soy_sauce_inventory(st.session_state.inventory)
+            st.session_state.inventory = refine_type_inventory(st.session_state.inventory)
             if confirmation.status == "unclear":
-                clarify_soy_sauce_type()
+                clarify_ingredient_type()
                 st.session_state.pending = pending
                 assistant_text = (
                     f"Aku belum bisa memastikan dari jawabanmu. Ada **{', '.join(candidates)}** juga? "
@@ -557,8 +561,8 @@ if submission:
             confirmed = confirmation.ingredients
             added = [item for item in dict.fromkeys(confirmed + additional)
                      if item not in retained]
-            st.session_state.inventory = refine_soy_sauce_inventory(list(dict.fromkeys(retained + added)))
-            clarify_soy_sauce_type()
+            st.session_state.inventory = refine_type_inventory(list(dict.fromkeys(retained + added)))
+            clarify_ingredient_type()
             combined_query = ", ".join(st.session_state.inventory)
 
             # Reuse the exact initial result when no ingredient was added.

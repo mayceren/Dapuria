@@ -170,6 +170,7 @@ class LlamaService:
             return Confirmation("unclear", [])
 
         reply_l = " ".join(reply.lower().strip().split()).strip(" .,!?:;")
+        reply_l = normalize_ingredient_name(reply_l)
         if "?" in reply or re.search(
             r"\b(?:apa|apakah|gimana|bagaimana|maksudnya|kenapa|berapa)\b|\byang mana\b",
             reply_l,
@@ -246,10 +247,10 @@ class LlamaService:
                     for pattern in candidate_patterns.values():
                         named_clause = re.sub(pattern, lambda match: re.sub(r"nya$", "", match.group()), named_clause)
                     for item in parse_user_ingredients(named_clause):
-                        # A specific variant may answer a generic candidate, but
-                        # generic inventory cannot confirm an unmentioned variant.
-                        if (ingredient_matches(candidate, item)
-                                and re.search(rf"(?<!\w){re.escape(normalize_ingredient_name(candidate))}(?!\w)", item)
+                        # Preserve the product actually named in the answer.
+                        # Ownership of a powder or another sugar type does not
+                        # establish that the fresh/default ingredient is owned.
+                        if (re.search(rf"(?<!\w){re.escape(normalize_ingredient_name(candidate))}(?!\w)", item)
                                 and item not in explicitly_confirmed
                                 and not any(ingredient_matches(item, target)
                                             for denied_clause in denied

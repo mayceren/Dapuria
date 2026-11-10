@@ -16,6 +16,7 @@ from dapuria.preprocessing import (
 from dapuria.recipe_data import normalize_recipe, recipe_title
 from dapuria.recipe_details import RecipeDetails
 from dapuria.recipe_service import RecipeService
+from dapuria.reranking import coverage_stats
 from dapuria.selection import select_recommendations
 
 QUERY = "dada ayam 250 gr, kecap, garam, saus tiram, bawang putih, bawang bombay"
@@ -52,6 +53,24 @@ def test_ingredient_names_exclude_amounts_and_preparation(raw, expected):
     ("teri", "terigu", False),
     ("bawang putih", "bawang putih bubuk", False),
     ("bawang putih bubuk", "bawang putih", False),
+    ("bawang putih", "bawang putih powder", False),
+    ("bawang putih powder", "bawang putih", False),
+    ("bawang putih", "bawang putih (bubuk)", False),
+    ("bawang putih (powder)", "bawang putih", False),
+    ("bawang putih", "garlic powder", False),
+    ("garlic powder", "bawang putih", False),
+    ("garlic powder", "bawang putih bubuk", True),
+    ("bawang putih bubuk", "bubuk bawang putih", True),
+    ("bubuk bawang putih", "bawang putih bubuk", True),
+    ("powder bawang putih", "bawang putih bubuk", True),
+    ("bawang putih bubuk", "bawang putih (bubuk desaku)", True),
+    ("bawang putih", "bawang putih dihaluskan", True),
+    ("gula", "gula", True), ("gula", "gula pasir", True),
+    ("gula pasir", "gula", True), ("gula", "gula pasir rose brand", True),
+    ("gula", "gula merah", False), ("gula merah", "gula", False),
+    ("gula", "gula aren", False), ("gula aren", "gula", False),
+    ("gula", "gula jawa", False), ("gula", "gula palem", False),
+    ("gula", "gula halus", False), ("gula", "gula bubuk", False),
 ])
 def test_matching_preserves_alias_and_product_boundaries(available, required, matches):
     assert ingredient_matches(available, required) is matches
@@ -181,6 +200,57 @@ def test_diversity_keeps_distinct_dishes_and_selection_does_not_mutate_scores():
     assert [recipe["title"] for recipe in result] == [titles[i] for i in (0, 3, 4, 5, 6)]
     assert candidates == original
     assert select_recommendations(candidates, 0) == []
+
+
+def test_sugar_and_powder_matching_preserves_inventory_and_original_recipe_labels():
+    inventory = parse_user_ingredients("ayam, bawang putih, gula")
+    recipe = normalize_recipe({"ingredient_names": [
+        "ayam", "bawang putih bubuk", "gula", "gula pasir", "gula merah", "gula aren",
+    ]})
+    stats = coverage_stats(inventory, recipe["ingredient_names"])
+    assert inventory == ["ayam", "bawang putih", "gula"]
+    assert recipe["ingredient_names"] == [
+        "ayam", "bawang putih bubuk", "gula", "gula pasir", "gula merah", "gula aren",
+    ]
+    assert stats["matched_recipe_items"] == ["ayam", "gula", "gula pasir"]
+    assert stats["missing_items"] == ["bawang putih bubuk", "gula merah", "gula aren"]
+    assert parse_user_ingredients("baking powder") == ["baking powder"]
+
+
+def test_corrected_ingredient_counts_put_the_fewest_missing_ingredients_first(monkeypatch):
+    inventory = ["ayam", "bawang putih", "gula"]
+    candidates = [{
+        "id": name, "title": title, "ingredient_names": names, "sbert_score": score,
+        "steps_text": "Masak hingga matang.",
+    } for name, title, names, score in [
+        ("powder", "Sup Ayam", ["ayam", "bawang putih bubuk", "gula pasir"], 0.7),
+        ("palm", "Semur Ayam", ["ayam", "bawang putih", "gula merah"], 0.8),
+        ("many", "Ayam Panggang", ["ayam", "bawang putih", "bawang putih bubuk", "gula aren", "garam"], 0.99),
+        ("ready", "Ayam Kukus", ["ayam", "bawang putih", "gula"], 0.1),
+    ]]
+
+    class Retriever:
+        def __init__(self, settings):
+            pass
+
+        def retrieve(self, query, ingredients):
+            assert ingredients == inventory
+            return deepcopy(candidates)
+
+    monkeypatch.setattr("dapuria.recipe_service.HybridRetriever", Retriever)
+    service = RecipeService(Settings())
+    ranked, _ = service.rerank(", ".join(inventory), top_n=4)
+    assert ranked[0]["id"] == "many"
+    result = service.handle_user_input(", ".join(inventory))
+    assert result["status"] == "ok"
+    recipes = result["results"]
+    assert recipes[0]["id"] == "ready"
+    assert [len(recipe["missing_items"]) for recipe in recipes] == [0, 1, 1, 3]
+    assert next(recipe for recipe in recipes if recipe["id"] == "powder")["missing_items"] == ["bawang putih bubuk"]
+    assert next(recipe for recipe in recipes if recipe["id"] == "palm")["missing_items"] == ["gula merah"]
+    assert all(recipe["final_score"] == pytest.approx(
+        0.9 * recipe["sbert_score_norm"] + 0.1 * recipe["ingredient_efficiency"]
+    ) for recipe in recipes)
 
 
 def test_full_steps_can_still_be_restored_after_cleaning_metadata(tmp_path):

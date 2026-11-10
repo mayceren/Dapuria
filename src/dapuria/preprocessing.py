@@ -5,6 +5,11 @@ import re
 from functools import lru_cache
 
 INGREDIENT_ALIASES = {
+    "garlic powder": "bawang putih bubuk",
+    "bawang putih powder": "bawang putih bubuk",
+    "powder bawang putih": "bawang putih bubuk",
+    "bubuk bawang putih": "bawang putih bubuk",
+    "gulapasir": "gula pasir",
     "telor": "telur",
     "baput": "bawang putih",
     "bamer": "bawang merah",
@@ -204,6 +209,8 @@ def strip_reply_particles(text: str) -> str:
 def clean_name(name: str) -> str:
     """Keep the ingredient identity, excluding amounts and preparation notes."""
     name = html.unescape(str(name))
+    # A parenthesized product form is part of the ingredient's identity.
+    name = re.sub(r"\(\s*(?:bubuk|powder)\b[^)]*(?:\)|$)", " bubuk", name, flags=re.IGNORECASE)
     name = re.sub(r"\([^)]*(?:\)|$)", "", name)
     name = PREPARATION_NOTE.split(name, maxsplit=1)[0]
     name = TRAILING_AMOUNT.sub("", name.strip())
@@ -278,6 +285,10 @@ def ingredient_matches(user_name: str, recipe_name: str) -> bool:
     recipe_name = clean_name(recipe_name)
     if not user_name or not recipe_name:
         return False
+    # Interpret unspecified sugar only for matching; retain the labels stored
+    # in the user's inventory and in the original recipe.
+    user_name = "gula pasir" if user_name == "gula" else user_name
+    recipe_name = "gula pasir" if recipe_name == "gula" else recipe_name
     if user_name == recipe_name:
         return True
     if (user_name == "msg" and NON_MSG.search(recipe_name)) or (
@@ -291,7 +302,7 @@ def ingredient_matches(user_name: str, recipe_name: str) -> bool:
     # Stock is commonly named without its form. Other powders are not assumed
     # available merely because the fresh ingredient is present (or vice versa).
     if "kaldu" not in user_products and (
-        bool(re.search(r"\bbubuk\b", user_name)) != bool(re.search(r"\bbubuk\b", recipe_name))
+        bool(re.search(r"\b(?:bubuk|powder)\b", user_name)) != bool(re.search(r"\b(?:bubuk|powder)\b", recipe_name))
     ):
         return False
     pattern_u = rf"(?<!\w){re.escape(user_name)}(?!\w)"

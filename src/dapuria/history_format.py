@@ -7,6 +7,8 @@ import re
 from copy import deepcopy
 from datetime import datetime, timezone
 
+from .ingredient_clarification import TYPE_CLARIFICATIONS
+
 STATE_KEYS = ("messages", "phase", "pending", "latest_result", "inventory", "excluded_ingredients")
 VALID_ID = re.compile(r"[A-Za-z0-9_-]{1,128}")
 
@@ -86,8 +88,11 @@ def validate_snapshot(value: dict) -> dict:
             raise ValueError("Pertanyaan dalam riwayat tidak valid.")
         _validate_result(pending.get("initial_result"))
         if snapshot["phase"] == "await_confirmation":
-            if pending.get("kind") == "soy_sauce_type":
-                if "kecap" not in snapshot["inventory"]:
+            kind = pending.get("kind")
+            if kind is not None and (not isinstance(kind, str) or kind not in TYPE_CLARIFICATIONS):
+                raise HistoryFormatError("Jenis klarifikasi pada riwayat tidak dikenali.")
+            if kind in TYPE_CLARIFICATIONS:
+                if TYPE_CLARIFICATIONS[kind].ingredient not in snapshot["inventory"]:
                     raise HistoryFormatError("Bahan yang perlu diperjelas dalam riwayat tidak ditemukan.")
             elif (
                 not pending.get("candidate_staples") or not isinstance(pending.get("initial_result"), dict)
