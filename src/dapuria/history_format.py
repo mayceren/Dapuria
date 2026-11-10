@@ -85,11 +85,15 @@ def validate_snapshot(value: dict) -> dict:
         if "original_query" in pending and not isinstance(pending["original_query"], str):
             raise ValueError("Pertanyaan dalam riwayat tidak valid.")
         _validate_result(pending.get("initial_result"))
-        if snapshot["phase"] == "await_confirmation" and (
-            not pending.get("candidate_staples") or not isinstance(pending.get("initial_result"), dict)
-            or pending["initial_result"].get("status") != "ok"
-        ):
-            raise HistoryFormatError("Data klarifikasi pada riwayat tidak lengkap.")
+        if snapshot["phase"] == "await_confirmation":
+            if pending.get("kind") == "soy_sauce_type":
+                if "kecap" not in snapshot["inventory"]:
+                    raise HistoryFormatError("Bahan yang perlu diperjelas dalam riwayat tidak ditemukan.")
+            elif (
+                not pending.get("candidate_staples") or not isinstance(pending.get("initial_result"), dict)
+                or pending["initial_result"].get("status") != "ok"
+            ):
+                raise HistoryFormatError("Data klarifikasi pada riwayat tidak lengkap.")
     # Reject non-JSON objects and non-finite numbers before either backend saves.
     json.dumps(snapshot, ensure_ascii=False, allow_nan=False)
     return {key: snapshot[key] for key in STATE_KEYS}

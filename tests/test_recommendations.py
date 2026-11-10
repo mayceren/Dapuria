@@ -219,9 +219,10 @@ def test_chat_flow_keeps_added_ingredients_and_renders_clean_recommendations(
     app.chat_input[0].set_value("dada ayam 250 gr, kecap, garam, saus tiram").run(timeout=20)
     assert not app.exception
     assert app.session_state.phase == "await_confirmation"
-    app.chat_input[0].set_value("ada bawang putih dan bawang bombay").run(timeout=20)
+    assert "jenis kecap lainnya" in app.session_state.messages[-1]["content"]
+    app.chat_input[0].set_value("kecap manis, ada bawang putih dan bawang bombay").run(timeout=20)
     assert not app.exception
-    assert app.session_state.inventory == INVENTORY
+    assert set(app.session_state.inventory) == set(INVENTORY) - {"kecap"} | {"kecap manis"}
     result = app.session_state.latest_result
     assert result["results"][0]["title"] == "Ayam Kecap Bombay"
     assert result["results"][0]["missing_items"] == ["air"]

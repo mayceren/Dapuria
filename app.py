@@ -18,6 +18,12 @@ if str(SRC) not in sys.path:
 
 from dapuria import RecipeService, Settings
 from dapuria.chat_history import STATE_KEYS, ChatHistoryStore
+from dapuria.ingredient_clarification import (
+    SOY_SAUCE_QUESTION,
+    expand_soy_sauce_reply,
+    refine_soy_sauce_inventory,
+    update_soy_sauce_inventory,
+)
 from dapuria.llama_service import LlamaService
 from dapuria.pantry import update_inventory
 from dapuria.preferences import ingredient_is_excluded, update_preferences
@@ -85,6 +91,17 @@ def finish_turn() -> None:
         messages[-1]["result"] = st.session_state.latest_result
     persist_chat()
     st.rerun()
+
+
+def clarify_soy_sauce_type() -> None:
+    if ("kecap" not in st.session_state.inventory
+            or ingredient_is_excluded("kecap", st.session_state.excluded_ingredients)):
+        return
+    st.session_state.phase = "await_confirmation"
+    st.session_state.pending = {"kind": "soy_sauce_type"}
+    st.session_state.latest_result = None
+    st.session_state.messages.append({"role": "assistant", "content": SOY_SAUCE_QUESTION})
+    finish_turn()
 
 
 def open_chat(conversation_id: str) -> bool:
@@ -374,23 +391,26 @@ if not completed and st.session_state.inventory:
     st.caption("Bahan saat ini: " + ", ".join(st.session_state.inventory))
 
 prompt_text = "Aku punya nasi sama telur..."
-if st.session_state.phase == "await_confirmation":  
-    prompt_text = "Ada bahan pelengkapnya? Boleh sebut bahan lain juga"
-elif st.session_state.inventory:
+if st.session_state.inventory:
     prompt_text = "Tambahkan bahan atau batasan, atau ketik cari resep"
 
 if st.session_state.phase == "await_confirmation":
-    prompt_text = "Ada bahan pelengkapnya? Boleh sebut bahan lain juga"
-
-if st.session_state.phase == "await_confirmation":
-    st.info("Cek satu bahan pelengkap dulu, ya. Kamu juga boleh menyebut bahan lain yang tersedia.", icon="🧄")
-    pending_candidates = (st.session_state.pending or {}).get("candidate_staples", [])
-    if len(pending_candidates) == 1:
-        yes_col, no_col = st.columns(2)
-        yes_col.button("Ada, tambahkan", use_container_width=True, type="primary",
-                       disabled=busy, on_click=queue_message, args=("iya",))
-        no_col.button("Tidak ada, lanjut saja", use_container_width=True,
-                      disabled=busy, on_click=queue_message, args=("tidak ada",))
+    pending = st.session_state.pending or {}
+    if pending.get("kind") == "soy_sauce_type":
+        prompt_text = "Kecap manis, kecap asin, atau jenis lainnya?"
+        st.info("Pilih jenis kecapmu. Untuk jenis lain, ketik namanya, misalnya kecap ikan.", icon="🥣")
+        for column, name in zip(st.columns(2), ("Kecap manis", "Kecap asin")):
+            column.button(name, key=f"soy_sauce_{name}", use_container_width=True,
+                          disabled=busy, on_click=queue_message, args=(name.lower(),))
+    else:
+        prompt_text = "Ada bahan pelengkapnya? Boleh sebut bahan lain juga"
+        st.info("Cek satu bahan pelengkap dulu, ya. Kamu juga boleh menyebut bahan lain yang tersedia.", icon="🧄")
+        if len(pending.get("candidate_staples", [])) == 1:
+            yes_col, no_col = st.columns(2)
+            yes_col.button("Ada, tambahkan", use_container_width=True, type="primary",
+                           disabled=busy, on_click=queue_message, args=("iya",))
+            no_col.button("Tidak ada, lanjut saja", use_container_width=True,
+                          disabled=busy, on_click=queue_message, args=("tidak ada",))
 
 if not completed:
     st.chat_input(prompt_text, key="chat_composer", disabled=busy,
@@ -402,9 +422,13 @@ if submission:
         st.session_state.selected_result_index = None
         user_message = submission["text"]
         st.session_state.messages.append({"role": "user", "content": user_message})
-        preferences = update_preferences(st.session_state.excluded_ingredients, user_message)
+        is_type_reply = (st.session_state.phase == "await_confirmation"
+                         and (st.session_state.pending or {}).get("kind") == "soy_sauce_type")
+        inventory_message = expand_soy_sauce_reply(user_message) if is_type_reply else user_message
+        preferences = update_preferences(st.session_state.excluded_ingredients, inventory_message)
         st.session_state.excluded_ingredients = preferences.excluded
-        is_confirmation = st.session_state.phase == "await_confirmation" and not preferences.has_directive
+        is_confirmation = (st.session_state.phase == "await_confirmation"
+                           and not is_type_reply and not preferences.has_directive)
         if not is_confirmation:
             if st.session_state.pending and preferences.has_directive:
                 candidates = st.session_state.pending.get("candidate_staples", [])
@@ -415,7 +439,14 @@ if submission:
             inventory_text = preferences.inventory_text
             if preferences.has_directive and inventory_text.strip(" ,.!?").lower() in {"iya", "ya", "oke", "ok"}:
                 inventory_text = ""
-            st.session_state.inventory = update_inventory(st.session_state.inventory, inventory_text)
+            if is_type_reply:
+                if "?" in user_message:
+                    inventory_text = ""
+                st.session_state.inventory = update_soy_sauce_inventory(st.session_state.inventory, inventory_text)
+            else:
+                st.session_state.inventory = refine_soy_sauce_inventory(
+                    update_inventory(st.session_state.inventory, inventory_text)
+                )
             st.session_state.phase = "await_query"
             st.session_state.pending = None
             st.session_state.latest_result = None
@@ -424,6 +455,7 @@ if submission:
                            if preferences.excluded else "Belum ada bahan yang bisa dicari. Sebutkan bahan yang kamu punya, ya.")
                 st.session_state.messages.append({"role": "assistant", "content": content})
                 finish_turn()
+            clarify_soy_sauce_type()
         with chat_bubble("user", "incoming"):
             st.write(user_message)
         persist_chat()
@@ -451,7 +483,8 @@ if submission:
                 )
                 st.session_state.latest_result = None
             else:
-                candidates = [] if preferences.has_directive else service.clarification_candidates(result)
+                candidates = ([] if preferences.has_directive or is_type_reply
+                              else service.clarification_candidates(result))
                 if candidates:
                     with activity("Mengecek satu bahan pelengkap…"):
                         question = llama.clarification_question(
@@ -504,7 +537,9 @@ if submission:
             pending["retained_ingredients"] = retained
             st.session_state.inventory = list(dict.fromkeys(retained + additional))
             pending["additional_ingredients"] = additional
+            st.session_state.inventory = refine_soy_sauce_inventory(st.session_state.inventory)
             if confirmation.status == "unclear":
+                clarify_soy_sauce_type()
                 st.session_state.pending = pending
                 assistant_text = (
                     f"Aku belum bisa memastikan dari jawabanmu. Ada **{', '.join(candidates)}** juga? "
@@ -522,7 +557,8 @@ if submission:
             confirmed = confirmation.ingredients
             added = [item for item in dict.fromkeys(confirmed + additional)
                      if item not in retained]
-            st.session_state.inventory = list(dict.fromkeys(retained + added))
+            st.session_state.inventory = refine_soy_sauce_inventory(list(dict.fromkeys(retained + added)))
+            clarify_soy_sauce_type()
             combined_query = ", ".join(st.session_state.inventory)
 
             # Reuse the exact initial result when no ingredient was added.
