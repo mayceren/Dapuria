@@ -880,6 +880,9 @@ a {
   border-radius: 23px;
   animation: messageIn 0.22s ease-out both;
 }
+[data-testid="stDialog"] .st-key-close_recipe {
+  margin-top: 20px;
+}
 [data-testid="stDialog"] [role="dialog"]:has([class*="st-key-chat_title_"]) h2 {
   font-size: 1.4rem;
 }
