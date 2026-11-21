@@ -31,7 +31,18 @@ NON_MSG = re.compile(r"\b(?:non[\s-]*msg|(?:tanpa|bebas)\s+msg)\b")
 # These product names describe a different pantry item from their source food.
 # Keep the same product category on both sides of a phrase match; e.g. generic
 # "kaldu" can match "kaldu ayam", while "ayam" cannot.
-PRODUCT_MARKERS = frozenset({"kaldu", "terasi", "petis", "kerupuk"})
+PRODUCT_MARKERS = frozenset({"kaldu", "terasi", "petis", "kerupuk", "telur", "saus", "tepung"})
+CONTAINER_PREFIX = re.compile(r"^(?:se\s+)?(?:toples|stoples|wadah|baskom)\s+", re.IGNORECASE)
+WATER_CONTAINER_PREFIX = re.compile(r"^panci(?:\s+(?:presto|kecil|besar|sedang))*\s+(?=air\b)", re.IGNORECASE)
+EQUIPMENT_NAME = re.compile(
+    r"^(?:toples|stoples|wadah|baskom|panci|wajan|loyang|saringan|spatula|pisau|garpu"
+    r"|talenan|kompor|blender|kukusan|rantang|arang|areng|plastik|aluminium foil)\b", re.IGNORECASE,
+)
+CONTAINER_DESCRIPTION = re.compile(r"^(?:ukuran|untuk|tahan|bersih|kaca|plastik|anti panas)\b", re.IGNORECASE)
+INGREDIENT_HEADINGS = frozenset({
+    "bahan", "bahan utama", "bahan tambahan", "bahan pelengkap", "bahan lainnya",
+    "bumbu", "bumbu halus", "bumbu ulek", "bumbu iris", "pelengkap", "taburan",
+})
 
 UNITS = [
     "sendok makan",
@@ -215,6 +226,13 @@ def clean_name(name: str) -> str:
     name = PREPARATION_NOTE.split(name, maxsplit=1)[0]
     name = TRAILING_AMOUNT.sub("", name.strip())
     name = normalize_ingredient_name(name).strip(" .:;/-()")
+    contents = CONTAINER_PREFIX.sub("", name)
+    if contents != name:
+        return "" if CONTAINER_DESCRIPTION.match(contents) else parse_ingredient(contents)["name"]
+    name = WATER_CONTAINER_PREFIX.sub("", name)
+    heading = re.sub(r"[^\w\s]", "", name).strip()
+    if EQUIPMENT_NAME.match(name) or heading in INGREDIENT_HEADINGS:
+        return ""
     if not re.search(r"[^\W\d_]", name) or name in UNITS:
         return ""
     return name

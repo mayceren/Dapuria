@@ -16,7 +16,7 @@ from dapuria.preprocessing import (
 from dapuria.recipe_data import normalize_recipe, recipe_title
 from dapuria.recipe_details import RecipeDetails
 from dapuria.recipe_service import RecipeService
-from dapuria.reranking import coverage_stats
+from dapuria.reranking import coverage_stats, harmonic_efficiency
 from dapuria.selection import select_recommendations
 
 QUERY = "dada ayam 250 gr, kecap, garam, saus tiram, bawang putih, bawang bombay"
@@ -192,8 +192,11 @@ def test_diversity_keeps_distinct_dishes_and_selection_does_not_mutate_scores():
     titles = ["Ayam Kecap Bombay", "Ayam bumbu kecap", "Ayam Kecap", "Sate Ayam Kecap",
               "Ayam Saus Tiram", "Semur Ayam", "Ayam Panggang"]
     candidates = [{
-        "id": str(i), "title": title, "missing_items": ["air"] * i,
-        "ingredient_efficiency": 0.8, "final_score": 0.95 - i * 0.01,
+        "id": str(i), "title": title, "missing_items": [f"tambahan {index}" for index in range(i)],
+        "matched_user_items": ["ayam", "kecap", "bawang putih", "garam"],
+        "coverage_user": 0.8, "coverage_recipe": 4 / (4 + i),
+        "ingredient_efficiency": harmonic_efficiency(4 / (4 + i), 0.8),
+        "final_score": 0.95 - i * 0.01,
     } for i, title in enumerate(titles)]
     original = deepcopy(candidates)
     result = select_recommendations(candidates, 5)
@@ -217,7 +220,7 @@ def test_sugar_and_powder_matching_preserves_inventory_and_original_recipe_label
     assert parse_user_ingredients("baking powder") == ["baking powder"]
 
 
-def test_corrected_ingredient_counts_put_the_fewest_missing_ingredients_first(monkeypatch):
+def test_fully_available_recipe_can_rank_first_despite_lower_semantic_score(monkeypatch):
     inventory = ["ayam", "bawang putih", "gula"]
     candidates = [{
         "id": name, "title": title, "ingredient_names": names, "sbert_score": score,

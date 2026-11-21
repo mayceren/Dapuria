@@ -244,7 +244,7 @@ def render_results(result: dict) -> None:
         )
     st.markdown(
         f"""<div class="result-intro"><div class="eyebrow">Dari bahan yang kamu punya</div>
-      <h2>Yuk, masak yang ini.</h2><p>{len(recipes)} resep ditemukan. Pilihan utama diutamakan dari bahan yang paling siap.</p></div>""",
+      <h2>Yuk, masak yang ini.</h2><p>{len(recipes)} resep ditemukan. Pilihan utama mempertimbangkan kecocokan bahanmu dan bahan tambahan yang perlu disiapkan.</p></div>""",
         unsafe_allow_html=True,
     )
     render_recipe(recipes[0], 1)

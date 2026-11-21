@@ -38,14 +38,14 @@ def _same_dish(first: set[str], second: set[str]) -> bool:
 def select_recommendations(
     candidates: list[dict[str, Any]], limit: int,
 ) -> list[dict[str, Any]]:
-    """Prefer fewer missing ingredients, using efficiency and WLC to break ties.
-
-    Callers first enforce relevance, main-ingredient availability, and exclusions.
-    WLC scores remain unchanged; this is the final recommendation selection stage.
-    """
+    """Balance inventory coverage, recipe readiness, and the unchanged WLC score."""
     if limit < 1:
         return []
     ordered = sorted(candidates, key=lambda recipe: (
+        -selection_score(recipe),
+        -recipe["coverage_user"],
+        -recipe["coverage_recipe"],
+        -len(recipe["matched_user_items"]),
         len(recipe["missing_items"]),
         -recipe["ingredient_efficiency"],
         -recipe["final_score"],
@@ -62,3 +62,7 @@ def select_recommendations(
         if len(selected) == limit:
             break
     return selected
+
+
+def selection_score(recipe: dict[str, Any]) -> float:
+    return recipe["coverage_user"] * recipe["ingredient_efficiency"] * (1 + recipe["final_score"])
