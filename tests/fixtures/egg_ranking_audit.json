@@ -1,0 +1,146 @@
+{
+  "query": "2 butir telur, kecap asin, tomat, seledri, bawang putih",
+  "inventory": [
+    "telur",
+    "kecap asin",
+    "tomat",
+    "seledri",
+    "bawang putih"
+  ],
+  "pool_size": 70,
+  "valid_count": 57,
+  "semantic_min": 0.3378298748745567,
+  "semantic_max": 0.7557590007781982,
+  "candidates": [
+    {
+      "id": "resep_135",
+      "title": "Telur Kecap",
+      "sbert_score": 0.7557590007781982,
+      "sbert_score_norm": 0.9999999976072498,
+      "coverage_user": 0.8,
+      "coverage_recipe": 0.4,
+      "ingredient_efficiency": 0.5333333333333333,
+      "final_score": 0.9533333311798582,
+      "matched_user_items": [
+        "bawang putih",
+        "kecap asin",
+        "telur",
+        "tomat"
+      ],
+      "matched_recipe_items": [
+        "telur ayam",
+        "bawang putih",
+        "kecap asin",
+        "tomat"
+      ],
+      "missing_items": [
+        "bawang merah",
+        "kecap manis",
+        "saus tiram",
+        "minyak wijen",
+        "saus tomat",
+        "air"
+      ],
+      "num_ingredients": 10,
+      "retrieval_source": "semantic",
+      "ingredient_names": [
+        "telur ayam",
+        "bawang merah",
+        "bawang putih",
+        "kecap manis",
+        "saus tiram",
+        "minyak wijen",
+        "saus tomat",
+        "kecap asin",
+        "tomat",
+        "air"
+      ],
+      "selection_score": 0.8334222213034063
+    },
+    {
+      "id": "resep_2235",
+      "title": "Telur Dadar Ala Saya",
+      "sbert_score": 0.671836256980896,
+      "sbert_score_norm": 0.7991938360002087,
+      "coverage_user": 0.8,
+      "coverage_recipe": 0.4444444444444444,
+      "ingredient_efficiency": 0.5714285714285714,
+      "final_score": 0.776417309543045,
+      "matched_user_items": [
+        "bawang putih",
+        "seledri",
+        "telur",
+        "tomat"
+      ],
+      "matched_recipe_items": [
+        "telur",
+        "bawang putih",
+        "daun seledri",
+        "tomat"
+      ],
+      "missing_items": [
+        "kelapa",
+        "bawang merah",
+        "daun bawang",
+        "lombok",
+        "garam"
+      ],
+      "num_ingredients": 9,
+      "retrieval_source": "semantic",
+      "ingredient_names": [
+        "telur",
+        "kelapa",
+        "bawang merah",
+        "bawang putih",
+        "daun seledri",
+        "daun bawang",
+        "tomat",
+        "lombok",
+        "garam"
+      ],
+      "selection_score": 0.8120764843625348
+    }
+  ],
+  "old_top5": [
+    {
+      "id": "resep_135",
+      "title": "Telur Kecap",
+      "matched": 4,
+      "missing": 6,
+      "selection_score": 0.8334222213034063
+    },
+    {
+      "id": "resep_2235",
+      "title": "Telur Dadar Ala Saya",
+      "matched": 4,
+      "missing": 5,
+      "selection_score": 0.8120764843625348
+    },
+    {
+      "id": "resep_2326",
+      "title": "Scrambled Egg with Tomatoes",
+      "matched": 4,
+      "missing": 6,
+      "selection_score": 0.7337577177736014
+    },
+    {
+      "id": "resep_2539",
+      "title": "Tomato Egg Floss",
+      "matched": 4,
+      "missing": 7,
+      "selection_score": 0.6749643022460228
+    },
+    {
+      "id": "resep_2384",
+      "title": "Sup Tofu Tomat Telur",
+      "matched": 4,
+      "missing": 8,
+      "selection_score": 0.6364781821056864
+    }
+  ],
+  "model_name": "LazarusNLP/all-indo-e5-small-v4",
+  "semantic_weight": 0.9,
+  "ingredient_weight": 0.1,
+  "corpus_sha256": "88806bc092613266d64a8ad1d577c8499f572d00b4bd5809165d401f85e547e1",
+  "index_sqlite_sha256": "9e09398528339b470e2431ae14ad3b67eeb19d4029f61371b730a8544e00fecf"
+}

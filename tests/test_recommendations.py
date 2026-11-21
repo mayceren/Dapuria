@@ -16,8 +16,8 @@ from dapuria.preprocessing import (
 from dapuria.recipe_data import normalize_recipe, recipe_title
 from dapuria.recipe_details import RecipeDetails
 from dapuria.recipe_service import RecipeService
-from dapuria.reranking import coverage_stats, harmonic_efficiency
-from dapuria.selection import select_recommendations
+from dapuria.reranking import coverage_stats, harmonic_efficiency, weighted_linear_score
+from dapuria.selection import select_recommendations, selection_score
 
 QUERY = "dada ayam 250 gr, kecap, garam, saus tiram, bawang putih, bawang bombay"
 INVENTORY = ["dada ayam", "kecap", "garam", "saus tiram", "bawang putih", "bawang bombay"]
@@ -203,6 +203,39 @@ def test_diversity_keeps_distinct_dishes_and_selection_does_not_mutate_scores():
     assert [recipe["title"] for recipe in result] == [titles[i] for i in (0, 3, 4, 5, 6)]
     assert candidates == original
     assert select_recommendations(candidates, 0) == []
+
+
+def test_audited_egg_pair_prioritizes_fewer_missing_ingredients_over_higher_wlc():
+    root = Path(__file__).resolve().parents[1]
+    audit = json.loads((root / "tests/fixtures/egg_ranking_audit.json").read_text(encoding="utf-8"))
+    candidates = audit["candidates"]
+    original = deepcopy(candidates)
+    settings = Settings()
+    assert (settings.semantic_weight, settings.ingredient_weight) == (0.9, 0.1)
+    with (root / "data/corpus/recipes.csv").open(encoding="utf-8-sig", newline="") as stream:
+        source = {f"resep_{index}": row for index, row in enumerate(csv.DictReader(stream))}
+    for recipe, total, missing in zip(candidates, (10, 9), (6, 5)):
+        row = source[recipe["id"]]
+        cleaned = normalize_recipe({"title": row["title_clean"], "ingredient_names": json.loads(row["ingredient_names"])})
+        assert cleaned["title"] == recipe["title"]
+        assert cleaned["ingredient_names"] == recipe["ingredient_names"]
+        stats = coverage_stats(audit["inventory"], cleaned["ingredient_names"])
+        assert {key: recipe[key] for key in stats} == stats
+        assert recipe["num_ingredients"] == len(cleaned["ingredient_names"]) == total
+        assert len(recipe["matched_user_items"]) == len(recipe["matched_recipe_items"]) == 4
+        assert len(recipe["missing_items"]) == missing
+        assert recipe["ingredient_efficiency"] == pytest.approx(harmonic_efficiency(stats["coverage_recipe"], stats["coverage_user"]))
+        assert recipe["sbert_score_norm"] == pytest.approx(
+            (recipe["sbert_score"] - audit["semantic_min"]) / (audit["semantic_max"] - audit["semantic_min"] + 1e-9)
+        )
+        assert recipe["final_score"] == pytest.approx(weighted_linear_score(
+            recipe["sbert_score_norm"], recipe["ingredient_efficiency"], settings.semantic_weight, settings.ingredient_weight
+        ))
+        assert selection_score(recipe) == pytest.approx(recipe["selection_score"])
+    assert candidates[0]["selection_score"] > candidates[1]["selection_score"]
+    assert candidates[0]["final_score"] > candidates[1]["final_score"]
+    assert [row["title"] for row in select_recommendations(candidates, 2)] == ["Telur Dadar Ala Saya", "Telur Kecap"]
+    assert candidates == original
 
 
 def test_sugar_and_powder_matching_preserves_inventory_and_original_recipe_labels():

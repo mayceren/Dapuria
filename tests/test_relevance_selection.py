@@ -2,7 +2,7 @@ import csv
 import json
 import random
 from copy import deepcopy
-from itertools import product
+from itertools import permutations, product
 from pathlib import Path
 
 import numpy as np
@@ -18,7 +18,7 @@ from dapuria.preprocessing import (
 )
 from dapuria.recipe_data import normalize_recipe
 from dapuria.recipe_service import RecipeService
-from dapuria.reranking import coverage_stats, harmonic_efficiency
+from dapuria.reranking import coverage_stats, harmonic_efficiency, weighted_linear_score
 from dapuria.retrieval import HybridRetriever
 from dapuria.selection import select_recommendations
 from dapuria.validation import is_relevant_enough, relevance_threshold
@@ -107,6 +107,99 @@ def test_wlc_contributes_and_identical_quality_is_deterministic():
     original = deepcopy([first, second])
     assert [recipe["id"] for recipe in select_recommendations([second, first], 2)] == ["a", "b"]
     assert [first, second] == original
+
+
+@pytest.mark.parametrize(("better_use", "better_missing", "worse_use", "worse_missing"), [
+    (4, 5, 4, 6), (4, 5, 3, 6), (4, 5, 3, 5), (4, 0, 4, 1),
+])
+@pytest.mark.parametrize("semantic_scores", list(product((0.0, 1.0), repeat=2)))
+def test_dominance_precedes_wlc_regardless_of_semantic_advantage(
+    better_use, better_missing, worse_use, worse_missing, semantic_scores,
+):
+    inventory = EGG_INVENTORY + ["bawang putih"]
+    better = scored_recipe("better", inventory[:better_use] + [f"tambahan {i}" for i in range(better_missing)], inventory)
+    worse = scored_recipe("worse", inventory[:worse_use] + [f"tambahan {i}" for i in range(worse_missing)], inventory)
+    for recipe, semantic in zip((better, worse), semantic_scores):
+        recipe["final_score"] = weighted_linear_score(semantic, recipe["ingredient_efficiency"], 0.9, 0.1)
+    assert [row["id"] for row in select_recommendations([worse, better], 2)] == ["better", "worse"]
+
+
+def test_four_matches_with_twelve_missing_do_not_automatically_beat_three_with_one_missing():
+    inventory = EGG_INVENTORY + ["bawang putih"]
+    costly = scored_recipe("costly", inventory[:4] + [f"tambahan {i}" for i in range(12)], inventory)
+    practical = scored_recipe("practical", inventory[:3] + ["garam"], inventory)
+    assert [row["id"] for row in select_recommendations([costly, practical], 2)] == ["practical", "costly"]
+    assert practical["coverage_user"] == 0.6
+    assert practical["coverage_recipe"] == 0.75
+
+
+@pytest.mark.parametrize(("semantic_scores", "expected"), [((1.0, 0.0), "practical"), ((0.0, 1.0), "more-use")])
+def test_wlc_still_influences_candidates_with_different_tradeoffs(semantic_scores, expected):
+    inventory = EGG_INVENTORY + ["bawang putih"]
+    practical = scored_recipe("practical", inventory[:3] + ["air", "garam"], inventory)
+    more_use = scored_recipe("more-use", inventory[:4] + [f"tambahan {i}" for i in range(4)], inventory)
+    for recipe, semantic in zip((practical, more_use), semantic_scores):
+        recipe["final_score"] = weighted_linear_score(semantic, recipe["ingredient_efficiency"], 0.9, 0.1)
+    assert select_recommendations([practical, more_use], 2)[0]["id"] == expected
+
+
+def test_dominance_and_balanced_score_do_not_create_a_comparison_cycle():
+    inventory = EGG_INVENTORY + ["bawang putih"]
+    better = scored_recipe("better", inventory[:4] + [f"tambahan {i}" for i in range(5)], inventory)
+    worse = scored_recipe("worse", inventory[:4] + [f"tambahan {i}" for i in range(6)], inventory)
+    practical = scored_recipe("practical", inventory[:3] + ["garam"], inventory)
+    for recipe, semantic in zip((better, worse, practical), (0.0, 1.0, 0.6)):
+        recipe["final_score"] = weighted_linear_score(semantic, recipe["ingredient_efficiency"], 0.9, 0.1)
+    for order in permutations((better, worse, practical)):
+        assert [row["id"] for row in select_recommendations(list(order), 3)] == ["practical", "better", "worse"]
+
+
+def test_diversity_removes_blockers_before_choosing_the_next_candidate():
+    inventory = EGG_INVENTORY + ["bawang putih"]
+    candidates = []
+    for identifier, title, matched, missing in [
+        ("first", "Telur Kecap Bombay", 5, 0),
+        ("duplicate", "Telur bumbu kecap", 4, 1),
+        ("balanced", "Sup Telur", 4, 2),
+        ("ready", "Telur Panggang", 3, 0),
+        ("next", "Semur Telur", 2, 0),
+        ("last", "Pepes Telur", 2, 1),
+    ]:
+        recipe = scored_recipe(identifier, inventory[:matched] + [f"tambahan {i}" for i in range(missing)], inventory)
+        recipe["title"] = title
+        candidates.append(recipe)
+    original = deepcopy(candidates)
+    for seed in range(8):
+        random.Random(seed).shuffle(candidates)
+        assert [row["id"] for row in select_recommendations(candidates, 5)] == ["first", "balanced", "ready", "next", "last"]
+    assert sorted(candidates, key=lambda row: row["id"]) == sorted(original, key=lambda row: row["id"])
+    assert select_recommendations(original[:2], 5) == [original[0]]
+
+
+@pytest.mark.parametrize("seed", [0, 7, 42])
+def test_full_order_respects_every_dominance_relation_and_is_independent_of_retrieval_order(seed):
+    inventory = EGG_INVENTORY + ["bawang putih"]
+    generator = random.Random(seed)
+    candidates = []
+    for index in range(30):
+        matched, missing = generator.randint(2, 5), generator.randint(0, 12)
+        recipe = scored_recipe(str(index), inventory[:matched] + [f"tambahan {i}" for i in range(missing)], inventory)
+        recipe["final_score"] = weighted_linear_score(generator.random(), recipe["ingredient_efficiency"], 0.9, 0.1)
+        candidates.append(recipe)
+    original = deepcopy(candidates)
+    ordered = select_recommendations(candidates, len(candidates))
+    for index, earlier in enumerate(ordered):
+        for later in ordered[index + 1:]:
+            assert not (
+                len(later["matched_user_items"]) >= len(earlier["matched_user_items"])
+                and len(later["missing_items"]) <= len(earlier["missing_items"])
+                and (len(later["matched_user_items"]) > len(earlier["matched_user_items"])
+                     or len(later["missing_items"]) < len(earlier["missing_items"]))
+            )
+    assert select_recommendations(candidates, 5) == ordered[:5]
+    generator.shuffle(candidates)
+    assert select_recommendations(candidates, len(candidates)) == ordered
+    assert sorted(candidates, key=lambda row: row["id"]) == sorted(original, key=lambda row: row["id"])
 
 
 @pytest.fixture

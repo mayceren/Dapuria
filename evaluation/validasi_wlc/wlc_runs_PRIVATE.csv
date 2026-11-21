@@ -1,0 +1,1233 @@
+query_id,query_text,semantic_weight,ingredient_weight,original_rank,recipe_id,recipe_title,final_score,sbert_score_norm,ingredient_efficiency,retrieval_source
+V001,"ati ampela ayam,kentang",0.0,1.0,1,resep_3406,"Goreng ayam, tempe balado",0.33333333333333337,0.554303030118552,0.33333333333333337,keyword
+V001,"ati ampela ayam,kentang",0.0,1.0,2,resep_2077,Sup Ayam kuah Bening padat kaldu,0.33333333333333337,0.3693668978567946,0.33333333333333337,keyword
+V001,"ati ampela ayam,kentang",0.0,1.0,3,resep_681,Kari Ayam Kentang Tahu Telur (Curry Masala),0.2666666666666667,0.7141264118281907,0.2666666666666667,semantic
+V001,"ati ampela ayam,kentang",0.0,1.0,4,resep_1962,Sup Ayam Kuning Khas Betawi,0.19999999999999998,0.3184777980033178,0.19999999999999998,keyword
+V001,"ati ampela ayam,kentang",0.0,1.0,5,resep_2752,Semur Ayam Kentang Ala Mama Kirana,0.16666666666666669,0.7139104367867201,0.16666666666666669,semantic
+V001,"ati ampela ayam,kentang",0.1,0.9,1,resep_3406,"Goreng ayam, tempe balado",0.35543030301185524,0.554303030118552,0.33333333333333337,keyword
+V001,"ati ampela ayam,kentang",0.1,0.9,2,resep_2077,Sup Ayam kuah Bening padat kaldu,0.3369366897856795,0.3693668978567946,0.33333333333333337,keyword
+V001,"ati ampela ayam,kentang",0.1,0.9,3,resep_681,Kari Ayam Kentang Tahu Telur (Curry Masala),0.31141264118281914,0.7141264118281907,0.2666666666666667,semantic
+V001,"ati ampela ayam,kentang",0.1,0.9,4,resep_2752,Semur Ayam Kentang Ala Mama Kirana,0.22139104367867202,0.7139104367867201,0.16666666666666669,semantic
+V001,"ati ampela ayam,kentang",0.1,0.9,5,resep_1962,Sup Ayam Kuning Khas Betawi,0.2118477798003318,0.3184777980033178,0.19999999999999998,keyword
+V001,"ati ampela ayam,kentang",0.2,0.8,1,resep_3406,"Goreng ayam, tempe balado",0.3775272726903771,0.554303030118552,0.33333333333333337,keyword
+V001,"ati ampela ayam,kentang",0.2,0.8,2,resep_681,Kari Ayam Kentang Tahu Telur (Curry Masala),0.35615861569897156,0.7141264118281907,0.2666666666666667,semantic
+V001,"ati ampela ayam,kentang",0.2,0.8,3,resep_2077,Sup Ayam kuah Bening padat kaldu,0.34054004623802564,0.3693668978567946,0.33333333333333337,keyword
+V001,"ati ampela ayam,kentang",0.2,0.8,4,resep_2752,Semur Ayam Kentang Ala Mama Kirana,0.2761154206906774,0.7139104367867201,0.16666666666666669,semantic
+V001,"ati ampela ayam,kentang",0.2,0.8,5,resep_1962,Sup Ayam Kuning Khas Betawi,0.22369555960066356,0.3184777980033178,0.19999999999999998,keyword
+V001,"ati ampela ayam,kentang",0.3,0.7,1,resep_681,Kari Ayam Kentang Tahu Telur (Curry Masala),0.4009045902151239,0.7141264118281907,0.2666666666666667,semantic
+V001,"ati ampela ayam,kentang",0.3,0.7,2,resep_3406,"Goreng ayam, tempe balado",0.39962424236889893,0.554303030118552,0.33333333333333337,keyword
+V001,"ati ampela ayam,kentang",0.3,0.7,3,resep_2077,Sup Ayam kuah Bening padat kaldu,0.3441434026903717,0.3693668978567946,0.33333333333333337,keyword
+V001,"ati ampela ayam,kentang",0.3,0.7,4,resep_2752,Semur Ayam Kentang Ala Mama Kirana,0.3308397977026827,0.7139104367867201,0.16666666666666669,semantic
+V001,"ati ampela ayam,kentang",0.3,0.7,5,resep_1962,Sup Ayam Kuning Khas Betawi,0.2355433394009953,0.3184777980033178,0.19999999999999998,keyword
+V001,"ati ampela ayam,kentang",0.4,0.6,1,resep_681,Kari Ayam Kentang Tahu Telur (Curry Masala),0.44565056473127634,0.7141264118281907,0.2666666666666667,semantic
+V001,"ati ampela ayam,kentang",0.4,0.6,2,resep_3406,"Goreng ayam, tempe balado",0.4217212120474208,0.554303030118552,0.33333333333333337,keyword
+V001,"ati ampela ayam,kentang",0.4,0.6,3,resep_2752,Semur Ayam Kentang Ala Mama Kirana,0.38556417471468807,0.7139104367867201,0.16666666666666669,semantic
+V001,"ati ampela ayam,kentang",0.4,0.6,4,resep_2077,Sup Ayam kuah Bening padat kaldu,0.34774675914271785,0.3693668978567946,0.33333333333333337,keyword
+V001,"ati ampela ayam,kentang",0.4,0.6,5,resep_1962,Sup Ayam Kuning Khas Betawi,0.24739111920132711,0.3184777980033178,0.19999999999999998,keyword
+V001,"ati ampela ayam,kentang",0.5,0.5,1,resep_681,Kari Ayam Kentang Tahu Telur (Curry Masala),0.4903965392474287,0.7141264118281907,0.2666666666666667,semantic
+V001,"ati ampela ayam,kentang",0.5,0.5,2,resep_3406,"Goreng ayam, tempe balado",0.4438181817259427,0.554303030118552,0.33333333333333337,keyword
+V001,"ati ampela ayam,kentang",0.5,0.5,3,resep_2752,Semur Ayam Kentang Ala Mama Kirana,0.44028855172669334,0.7139104367867201,0.16666666666666669,semantic
+V001,"ati ampela ayam,kentang",0.5,0.5,4,resep_2077,Sup Ayam kuah Bening padat kaldu,0.351350115595064,0.3693668978567946,0.33333333333333337,keyword
+V001,"ati ampela ayam,kentang",0.5,0.5,5,resep_1962,Sup Ayam Kuning Khas Betawi,0.2592388990016589,0.3184777980033178,0.19999999999999998,keyword
+V001,"ati ampela ayam,kentang",0.6,0.4,1,resep_681,Kari Ayam Kentang Tahu Telur (Curry Masala),0.535142513763581,0.7141264118281907,0.2666666666666667,semantic
+V001,"ati ampela ayam,kentang",0.6,0.4,2,resep_2752,Semur Ayam Kentang Ala Mama Kirana,0.49501292873869873,0.7139104367867201,0.16666666666666669,semantic
+V001,"ati ampela ayam,kentang",0.6,0.4,3,resep_3406,"Goreng ayam, tempe balado",0.46591515140446454,0.554303030118552,0.33333333333333337,keyword
+V001,"ati ampela ayam,kentang",0.6,0.4,4,resep_2077,Sup Ayam kuah Bening padat kaldu,0.3549534720474101,0.3693668978567946,0.33333333333333337,keyword
+V001,"ati ampela ayam,kentang",0.6,0.4,5,resep_1962,Sup Ayam Kuning Khas Betawi,0.27108667880199067,0.3184777980033178,0.19999999999999998,keyword
+V001,"ati ampela ayam,kentang",0.7,0.3,1,resep_681,Kari Ayam Kentang Tahu Telur (Curry Masala),0.5798884882797335,0.7141264118281907,0.2666666666666667,semantic
+V001,"ati ampela ayam,kentang",0.7,0.3,2,resep_2752,Semur Ayam Kentang Ala Mama Kirana,0.549737305750704,0.7139104367867201,0.16666666666666669,semantic
+V001,"ati ampela ayam,kentang",0.7,0.3,3,resep_3406,"Goreng ayam, tempe balado",0.4880121210829864,0.554303030118552,0.33333333333333337,keyword
+V001,"ati ampela ayam,kentang",0.7,0.3,4,resep_2077,Sup Ayam kuah Bening padat kaldu,0.35855682849975623,0.3693668978567946,0.33333333333333337,keyword
+V001,"ati ampela ayam,kentang",0.7,0.3,5,resep_1962,Sup Ayam Kuning Khas Betawi,0.28293445860232247,0.3184777980033178,0.19999999999999998,keyword
+V001,"ati ampela ayam,kentang",0.8,0.2,1,resep_681,Kari Ayam Kentang Tahu Telur (Curry Masala),0.624634462795886,0.7141264118281907,0.2666666666666667,semantic
+V001,"ati ampela ayam,kentang",0.8,0.2,2,resep_2752,Semur Ayam Kentang Ala Mama Kirana,0.6044616827627094,0.7139104367867201,0.16666666666666669,semantic
+V001,"ati ampela ayam,kentang",0.8,0.2,3,resep_3406,"Goreng ayam, tempe balado",0.5101090907615082,0.554303030118552,0.33333333333333337,keyword
+V001,"ati ampela ayam,kentang",0.8,0.2,4,resep_2077,Sup Ayam kuah Bening padat kaldu,0.36216018495210234,0.3693668978567946,0.33333333333333337,keyword
+V001,"ati ampela ayam,kentang",0.8,0.2,5,resep_1962,Sup Ayam Kuning Khas Betawi,0.2947822384026543,0.3184777980033178,0.19999999999999998,keyword
+V001,"ati ampela ayam,kentang",0.9,0.1,1,resep_681,Kari Ayam Kentang Tahu Telur (Curry Masala),0.6693804373120382,0.7141264118281907,0.2666666666666667,semantic
+V001,"ati ampela ayam,kentang",0.9,0.1,2,resep_2752,Semur Ayam Kentang Ala Mama Kirana,0.6591860597747148,0.7139104367867201,0.16666666666666669,semantic
+V001,"ati ampela ayam,kentang",0.9,0.1,3,resep_3406,"Goreng ayam, tempe balado",0.5322060604400302,0.554303030118552,0.33333333333333337,keyword
+V001,"ati ampela ayam,kentang",0.9,0.1,4,resep_2077,Sup Ayam kuah Bening padat kaldu,0.3657635414044485,0.3693668978567946,0.33333333333333337,keyword
+V001,"ati ampela ayam,kentang",0.9,0.1,5,resep_1962,Sup Ayam Kuning Khas Betawi,0.3066300182029861,0.3184777980033178,0.19999999999999998,keyword
+V001,"ati ampela ayam,kentang",1.0,0.0,1,resep_681,Kari Ayam Kentang Tahu Telur (Curry Masala),0.7141264118281907,0.7141264118281907,0.2666666666666667,semantic
+V001,"ati ampela ayam,kentang",1.0,0.0,2,resep_2752,Semur Ayam Kentang Ala Mama Kirana,0.7139104367867201,0.7139104367867201,0.16666666666666669,semantic
+V001,"ati ampela ayam,kentang",1.0,0.0,3,resep_3406,"Goreng ayam, tempe balado",0.554303030118552,0.554303030118552,0.33333333333333337,keyword
+V001,"ati ampela ayam,kentang",1.0,0.0,4,resep_2077,Sup Ayam kuah Bening padat kaldu,0.3693668978567946,0.3693668978567946,0.33333333333333337,keyword
+V001,"ati ampela ayam,kentang",1.0,0.0,5,resep_1962,Sup Ayam Kuning Khas Betawi,0.3184777980033178,0.3184777980033178,0.19999999999999998,keyword
+V002,"labu siam,jagung,kacang panjang",0.0,1.0,1,resep_1871,Sayur Asem Daging Sapi,0.33333333333333337,0.2932465036494904,0.33333333333333337,keyword
+V002,"labu siam,jagung,kacang panjang",0.0,1.0,2,resep_3430,Telur dadar kacang Panjang,0.3333333333333333,0.47540806655746976,0.3333333333333333,semantic
+V002,"labu siam,jagung,kacang panjang",0.0,1.0,3,resep_3591,Tumis Jagung Telur Labu Siam Simple & Enak,0.28571428571428575,0.8538685733564325,0.28571428571428575,semantic
+V002,"labu siam,jagung,kacang panjang",0.0,1.0,4,resep_4908,"Healthy Diet Food: Beef Slice, Boiled Egg, Jagung, Tomat dan Labu Siam",0.28571428571428575,0.5720455673768662,0.28571428571428575,semantic
+V002,"labu siam,jagung,kacang panjang",0.0,1.0,5,resep_4823,Sayur Asem Tetelan,0.2727272727272727,0.3468349796278621,0.2727272727272727,keyword
+V002,"labu siam,jagung,kacang panjang",0.1,0.9,1,resep_3430,Telur dadar kacang Panjang,0.34754080665574694,0.47540806655746976,0.3333333333333333,semantic
+V002,"labu siam,jagung,kacang panjang",0.1,0.9,2,resep_3591,Tumis Jagung Telur Labu Siam Simple & Enak,0.34252971447850045,0.8538685733564325,0.28571428571428575,semantic
+V002,"labu siam,jagung,kacang panjang",0.1,0.9,3,resep_2387,Tumis Labu Kacang Tahu,0.3299549430073012,0.8995494300730122,0.26666666666666666,semantic
+V002,"labu siam,jagung,kacang panjang",0.1,0.9,4,resep_1871,Sayur Asem Daging Sapi,0.32932465036494907,0.2932465036494904,0.33333333333333337,keyword
+V002,"labu siam,jagung,kacang panjang",0.1,0.9,5,resep_4908,"Healthy Diet Food: Beef Slice, Boiled Egg, Jagung, Tomat dan Labu Siam",0.31434741388054377,0.5720455673768662,0.28571428571428575,semantic
+V002,"labu siam,jagung,kacang panjang",0.2,0.8,1,resep_3591,Tumis Jagung Telur Labu Siam Simple & Enak,0.39934514324271514,0.8538685733564325,0.28571428571428575,semantic
+V002,"labu siam,jagung,kacang panjang",0.2,0.8,2,resep_2387,Tumis Labu Kacang Tahu,0.3932432193479358,0.8995494300730122,0.26666666666666666,semantic
+V002,"labu siam,jagung,kacang panjang",0.2,0.8,3,resep_3430,Telur dadar kacang Panjang,0.3617482799781606,0.47540806655746976,0.3333333333333333,semantic
+V002,"labu siam,jagung,kacang panjang",0.2,0.8,4,resep_4908,"Healthy Diet Food: Beef Slice, Boiled Egg, Jagung, Tomat dan Labu Siam",0.34298054204680184,0.5720455673768662,0.28571428571428575,semantic
+V002,"labu siam,jagung,kacang panjang",0.2,0.8,5,resep_1871,Sayur Asem Daging Sapi,0.3253159673965648,0.2932465036494904,0.33333333333333337,keyword
+V002,"labu siam,jagung,kacang panjang",0.3,0.7,1,resep_2387,Tumis Labu Kacang Tahu,0.4565314956885703,0.8995494300730122,0.26666666666666666,semantic
+V002,"labu siam,jagung,kacang panjang",0.3,0.7,2,resep_3591,Tumis Jagung Telur Labu Siam Simple & Enak,0.4561605720069298,0.8538685733564325,0.28571428571428575,semantic
+V002,"labu siam,jagung,kacang panjang",0.3,0.7,3,resep_4511,Lontong Sayur Jipang Labu Siam Kacang Panjang Tahu Telur,0.40370370303660386,0.999999997776334,0.14814814814814814,semantic
+V002,"labu siam,jagung,kacang panjang",0.3,0.7,4,resep_2107,Gule Udang Labu Siam,0.3995945069566946,0.9430928009667597,0.16666666666666666,semantic
+V002,"labu siam,jagung,kacang panjang",0.3,0.7,5,resep_3430,Telur dadar kacang Panjang,0.37595575330057424,0.47540806655746976,0.3333333333333333,semantic
+V002,"labu siam,jagung,kacang panjang",0.4,0.6,1,resep_2387,Tumis Labu Kacang Tahu,0.5198197720292049,0.8995494300730122,0.26666666666666666,semantic
+V002,"labu siam,jagung,kacang panjang",0.4,0.6,2,resep_3591,Tumis Jagung Telur Labu Siam Simple & Enak,0.5129760007711445,0.8538685733564325,0.28571428571428575,semantic
+V002,"labu siam,jagung,kacang panjang",0.4,0.6,3,resep_4511,Lontong Sayur Jipang Labu Siam Kacang Panjang Tahu Telur,0.48888888799942254,0.999999997776334,0.14814814814814814,semantic
+V002,"labu siam,jagung,kacang panjang",0.4,0.6,4,resep_2107,Gule Udang Labu Siam,0.4772371203867039,0.9430928009667597,0.16666666666666666,semantic
+V002,"labu siam,jagung,kacang panjang",0.4,0.6,5,resep_4908,"Healthy Diet Food: Beef Slice, Boiled Egg, Jagung, Tomat dan Labu Siam",0.400246798379318,0.5720455673768662,0.28571428571428575,semantic
+V002,"labu siam,jagung,kacang panjang",0.5,0.5,1,resep_2387,Tumis Labu Kacang Tahu,0.5831080483698394,0.8995494300730122,0.26666666666666666,semantic
+V002,"labu siam,jagung,kacang panjang",0.5,0.5,2,resep_4511,Lontong Sayur Jipang Labu Siam Kacang Panjang Tahu Telur,0.5740740729622411,0.999999997776334,0.14814814814814814,semantic
+V002,"labu siam,jagung,kacang panjang",0.5,0.5,3,resep_3591,Tumis Jagung Telur Labu Siam Simple & Enak,0.5697914295353591,0.8538685733564325,0.28571428571428575,semantic
+V002,"labu siam,jagung,kacang panjang",0.5,0.5,4,resep_2107,Gule Udang Labu Siam,0.5548797338167132,0.9430928009667597,0.16666666666666666,semantic
+V002,"labu siam,jagung,kacang panjang",0.5,0.5,5,resep_4908,"Healthy Diet Food: Beef Slice, Boiled Egg, Jagung, Tomat dan Labu Siam",0.42887992654557594,0.5720455673768662,0.28571428571428575,semantic
+V002,"labu siam,jagung,kacang panjang",0.6,0.4,1,resep_4511,Lontong Sayur Jipang Labu Siam Kacang Panjang Tahu Telur,0.6592592579250596,0.999999997776334,0.14814814814814814,semantic
+V002,"labu siam,jagung,kacang panjang",0.6,0.4,2,resep_2387,Tumis Labu Kacang Tahu,0.646396324710474,0.8995494300730122,0.26666666666666666,semantic
+V002,"labu siam,jagung,kacang panjang",0.6,0.4,3,resep_2107,Gule Udang Labu Siam,0.6325223472467225,0.9430928009667597,0.16666666666666666,semantic
+V002,"labu siam,jagung,kacang panjang",0.6,0.4,4,resep_3591,Tumis Jagung Telur Labu Siam Simple & Enak,0.6266068582995739,0.8538685733564325,0.28571428571428575,semantic
+V002,"labu siam,jagung,kacang panjang",0.6,0.4,5,resep_4908,"Healthy Diet Food: Beef Slice, Boiled Egg, Jagung, Tomat dan Labu Siam",0.457513054711834,0.5720455673768662,0.28571428571428575,semantic
+V002,"labu siam,jagung,kacang panjang",0.7,0.3,1,resep_4511,Lontong Sayur Jipang Labu Siam Kacang Panjang Tahu Telur,0.7444444428878781,0.999999997776334,0.14814814814814814,semantic
+V002,"labu siam,jagung,kacang panjang",0.7,0.3,2,resep_2107,Gule Udang Labu Siam,0.7101649606767318,0.9430928009667597,0.16666666666666666,semantic
+V002,"labu siam,jagung,kacang panjang",0.7,0.3,3,resep_2387,Tumis Labu Kacang Tahu,0.7096846010511085,0.8995494300730122,0.26666666666666666,semantic
+V002,"labu siam,jagung,kacang panjang",0.7,0.3,4,resep_3591,Tumis Jagung Telur Labu Siam Simple & Enak,0.6834222870637885,0.8538685733564325,0.28571428571428575,semantic
+V002,"labu siam,jagung,kacang panjang",0.7,0.3,5,resep_4908,"Healthy Diet Food: Beef Slice, Boiled Egg, Jagung, Tomat dan Labu Siam",0.486146182878092,0.5720455673768662,0.28571428571428575,semantic
+V002,"labu siam,jagung,kacang panjang",0.8,0.2,1,resep_4511,Lontong Sayur Jipang Labu Siam Kacang Panjang Tahu Telur,0.8296296278506969,0.999999997776334,0.14814814814814814,semantic
+V002,"labu siam,jagung,kacang panjang",0.8,0.2,2,resep_2107,Gule Udang Labu Siam,0.7878075741067412,0.9430928009667597,0.16666666666666666,semantic
+V002,"labu siam,jagung,kacang panjang",0.8,0.2,3,resep_2387,Tumis Labu Kacang Tahu,0.7729728773917431,0.8995494300730122,0.26666666666666666,semantic
+V002,"labu siam,jagung,kacang panjang",0.8,0.2,4,resep_3591,Tumis Jagung Telur Labu Siam Simple & Enak,0.7402377158280032,0.8538685733564325,0.28571428571428575,semantic
+V002,"labu siam,jagung,kacang panjang",0.8,0.2,5,resep_4908,"Healthy Diet Food: Beef Slice, Boiled Egg, Jagung, Tomat dan Labu Siam",0.5147793110443502,0.5720455673768662,0.28571428571428575,semantic
+V002,"labu siam,jagung,kacang panjang",0.9,0.1,1,resep_4511,Lontong Sayur Jipang Labu Siam Kacang Panjang Tahu Telur,0.9148148128135154,0.999999997776334,0.14814814814814814,semantic
+V002,"labu siam,jagung,kacang panjang",0.9,0.1,2,resep_2107,Gule Udang Labu Siam,0.8654501875367505,0.9430928009667597,0.16666666666666666,semantic
+V002,"labu siam,jagung,kacang panjang",0.9,0.1,3,resep_2387,Tumis Labu Kacang Tahu,0.8362611537323776,0.8995494300730122,0.26666666666666666,semantic
+V002,"labu siam,jagung,kacang panjang",0.9,0.1,4,resep_3591,Tumis Jagung Telur Labu Siam Simple & Enak,0.7970531445922179,0.8538685733564325,0.28571428571428575,semantic
+V002,"labu siam,jagung,kacang panjang",0.9,0.1,5,resep_4908,"Healthy Diet Food: Beef Slice, Boiled Egg, Jagung, Tomat dan Labu Siam",0.5434124392106081,0.5720455673768662,0.28571428571428575,semantic
+V002,"labu siam,jagung,kacang panjang",1.0,0.0,1,resep_4511,Lontong Sayur Jipang Labu Siam Kacang Panjang Tahu Telur,0.999999997776334,0.999999997776334,0.14814814814814814,semantic
+V002,"labu siam,jagung,kacang panjang",1.0,0.0,2,resep_2107,Gule Udang Labu Siam,0.9430928009667597,0.9430928009667597,0.16666666666666666,semantic
+V002,"labu siam,jagung,kacang panjang",1.0,0.0,3,resep_2387,Tumis Labu Kacang Tahu,0.8995494300730122,0.8995494300730122,0.26666666666666666,semantic
+V002,"labu siam,jagung,kacang panjang",1.0,0.0,4,resep_3591,Tumis Jagung Telur Labu Siam Simple & Enak,0.8538685733564325,0.8538685733564325,0.28571428571428575,semantic
+V002,"labu siam,jagung,kacang panjang",1.0,0.0,5,resep_4908,"Healthy Diet Food: Beef Slice, Boiled Egg, Jagung, Tomat dan Labu Siam",0.5720455673768662,0.5720455673768662,0.28571428571428575,semantic
+V003,"tempe,kacang panjang",0.0,1.0,1,resep_3622,Tumis tempe,0.4444444444444445,0.7486090300954118,0.4444444444444445,semantic
+V003,"tempe,kacang panjang",0.0,1.0,2,resep_3976,Tempe orek kacang panjang,0.4,0.8893842943189395,0.4,semantic
+V003,"tempe,kacang panjang",0.0,1.0,3,resep_1190,Tumis Kacang Panjang Tempe,0.3636363636363636,0.9632464406891823,0.3636363636363636,semantic
+V003,"tempe,kacang panjang",0.0,1.0,4,resep_4507,"Tempe,teri kacang",0.3636363636363636,0.7930061210832411,0.3636363636363636,semantic
+V003,"tempe,kacang panjang",0.0,1.0,5,resep_237,Tempe Kecap,0.3636363636363636,0.7085652280032,0.3636363636363636,keyword
+V003,"tempe,kacang panjang",0.1,0.9,1,resep_3622,Tumis tempe,0.4748609030095412,0.7486090300954118,0.4444444444444445,semantic
+V003,"tempe,kacang panjang",0.1,0.9,2,resep_3976,Tempe orek kacang panjang,0.448938429431894,0.8893842943189395,0.4,semantic
+V003,"tempe,kacang panjang",0.1,0.9,3,resep_1190,Tumis Kacang Panjang Tempe,0.42359737134164543,0.9632464406891823,0.3636363636363636,semantic
+V003,"tempe,kacang panjang",0.1,0.9,4,resep_4507,"Tempe,teri kacang",0.40657333938105134,0.7930061210832411,0.3636363636363636,semantic
+V003,"tempe,kacang panjang",0.1,0.9,5,resep_237,Tempe Kecap,0.3981292500730472,0.7085652280032,0.3636363636363636,keyword
+V003,"tempe,kacang panjang",0.2,0.8,1,resep_3622,Tumis tempe,0.505277361574638,0.7486090300954118,0.4444444444444445,semantic
+V003,"tempe,kacang panjang",0.2,0.8,2,resep_3976,Tempe orek kacang panjang,0.49787685886378796,0.8893842943189395,0.4,semantic
+V003,"tempe,kacang panjang",0.2,0.8,3,resep_1190,Tumis Kacang Panjang Tempe,0.48355837904692733,0.9632464406891823,0.3636363636363636,semantic
+V003,"tempe,kacang panjang",0.2,0.8,4,resep_1440,Oseng Tempe Kacang Panjang,0.4532880667857262,0.9331070005952972,0.33333333333333337,semantic
+V003,"tempe,kacang panjang",0.2,0.8,5,resep_4507,"Tempe,teri kacang",0.44951031512573913,0.7930061210832411,0.3636363636363636,semantic
+V003,"tempe,kacang panjang",0.3,0.7,1,resep_3976,Tempe orek kacang panjang,0.5468152882956818,0.8893842943189395,0.4,semantic
+V003,"tempe,kacang panjang",0.3,0.7,2,resep_1190,Tumis Kacang Panjang Tempe,0.5435193867522092,0.9632464406891823,0.3636363636363636,semantic
+V003,"tempe,kacang panjang",0.3,0.7,3,resep_3622,Tumis tempe,0.5356938201397347,0.7486090300954118,0.4444444444444445,semantic
+V003,"tempe,kacang panjang",0.3,0.7,4,resep_1440,Oseng Tempe Kacang Panjang,0.5132654335119224,0.9331070005952972,0.33333333333333337,semantic
+V003,"tempe,kacang panjang",0.3,0.7,5,resep_4751,Tumis Kacang Panjang Tempe Tahu,0.5031465044032111,0.8993772368995927,0.33333333333333337,semantic
+V003,"tempe,kacang panjang",0.4,0.6,1,resep_1190,Tumis Kacang Panjang Tempe,0.6034803944574911,0.9632464406891823,0.3636363636363636,semantic
+V003,"tempe,kacang panjang",0.4,0.6,2,resep_3976,Tempe orek kacang panjang,0.5957537177275758,0.8893842943189395,0.4,semantic
+V003,"tempe,kacang panjang",0.4,0.6,3,resep_1440,Oseng Tempe Kacang Panjang,0.5732428002381189,0.9331070005952972,0.33333333333333337,semantic
+V003,"tempe,kacang panjang",0.4,0.6,4,resep_3622,Tumis tempe,0.5661102787048313,0.7486090300954118,0.4444444444444445,semantic
+V003,"tempe,kacang panjang",0.4,0.6,5,resep_3219,Oseng tempe kacang panjang,0.5632127877646749,0.9464935078732257,0.3076923076923077,semantic
+V003,"tempe,kacang panjang",0.5,0.5,1,resep_1190,Tumis Kacang Panjang Tempe,0.6634414021627729,0.9632464406891823,0.3636363636363636,semantic
+V003,"tempe,kacang panjang",0.5,0.5,2,resep_3976,Tempe orek kacang panjang,0.6446921471594698,0.8893842943189395,0.4,semantic
+V003,"tempe,kacang panjang",0.5,0.5,3,resep_1440,Oseng Tempe Kacang Panjang,0.6332201669643153,0.9331070005952972,0.33333333333333337,semantic
+V003,"tempe,kacang panjang",0.5,0.5,4,resep_3219,Oseng tempe kacang panjang,0.6270929077827667,0.9464935078732257,0.3076923076923077,semantic
+V003,"tempe,kacang panjang",0.5,0.5,5,resep_1249,Gulai Kacang panjang tempe,0.6249999990187078,0.9999999980374158,0.25,semantic
+V003,"tempe,kacang panjang",0.6,0.4,1,resep_1190,Tumis Kacang Panjang Tempe,0.7234024098680547,0.9632464406891823,0.3636363636363636,semantic
+V003,"tempe,kacang panjang",0.6,0.4,2,resep_1249,Gulai Kacang panjang tempe,0.6999999988224495,0.9999999980374158,0.25,semantic
+V003,"tempe,kacang panjang",0.6,0.4,3,resep_3976,Tempe orek kacang panjang,0.6936305765913637,0.8893842943189395,0.4,semantic
+V003,"tempe,kacang panjang",0.6,0.4,4,resep_1440,Oseng Tempe Kacang Panjang,0.6931975336905116,0.9331070005952972,0.33333333333333337,semantic
+V003,"tempe,kacang panjang",0.6,0.4,5,resep_3219,Oseng tempe kacang panjang,0.6909730278008585,0.9464935078732257,0.3076923076923077,semantic
+V003,"tempe,kacang panjang",0.7,0.3,1,resep_1190,Tumis Kacang Panjang Tempe,0.7833634175733366,0.9632464406891823,0.3636363636363636,semantic
+V003,"tempe,kacang panjang",0.7,0.3,2,resep_1249,Gulai Kacang panjang tempe,0.774999998626191,0.9999999980374158,0.25,semantic
+V003,"tempe,kacang panjang",0.7,0.3,3,resep_3219,Oseng tempe kacang panjang,0.7548531478189503,0.9464935078732257,0.3076923076923077,semantic
+V003,"tempe,kacang panjang",0.7,0.3,4,resep_1440,Oseng Tempe Kacang Panjang,0.753174900416708,0.9331070005952972,0.33333333333333337,semantic
+V003,"tempe,kacang panjang",0.7,0.3,5,resep_1956,Tumis tempe kacang panjang special,0.7433111665803506,0.9716475312050122,0.21052631578947367,semantic
+V003,"tempe,kacang panjang",0.8,0.2,1,resep_1249,Gulai Kacang panjang tempe,0.8499999984299327,0.9999999980374158,0.25,semantic
+V003,"tempe,kacang panjang",0.8,0.2,2,resep_1190,Tumis Kacang Panjang Tempe,0.8433244252786186,0.9632464406891823,0.3636363636363636,semantic
+V003,"tempe,kacang panjang",0.8,0.2,3,resep_1956,Tumis tempe kacang panjang special,0.8194232881219046,0.9716475312050122,0.21052631578947367,semantic
+V003,"tempe,kacang panjang",0.8,0.2,4,resep_3219,Oseng tempe kacang panjang,0.8187332678370421,0.9464935078732257,0.3076923076923077,semantic
+V003,"tempe,kacang panjang",0.8,0.2,5,resep_1440,Oseng Tempe Kacang Panjang,0.8131522671429045,0.9331070005952972,0.33333333333333337,semantic
+V003,"tempe,kacang panjang",0.9,0.1,1,resep_1249,Gulai Kacang panjang tempe,0.9249999982336743,0.9999999980374158,0.25,semantic
+V003,"tempe,kacang panjang",0.9,0.1,2,resep_1190,Tumis Kacang Panjang Tempe,0.9032854329839005,0.9632464406891823,0.3636363636363636,semantic
+V003,"tempe,kacang panjang",0.9,0.1,3,resep_1956,Tumis tempe kacang panjang special,0.8955354096634583,0.9716475312050122,0.21052631578947367,semantic
+V003,"tempe,kacang panjang",0.9,0.1,4,resep_3219,Oseng tempe kacang panjang,0.882613387855134,0.9464935078732257,0.3076923076923077,semantic
+V003,"tempe,kacang panjang",0.9,0.1,5,resep_2089,Tumis kacang panjang tempe (44_GAS2025),0.8772318674772079,0.9450724453450458,0.2666666666666667,semantic
+V003,"tempe,kacang panjang",1.0,0.0,1,resep_1249,Gulai Kacang panjang tempe,0.9999999980374158,0.9999999980374158,0.25,semantic
+V003,"tempe,kacang panjang",1.0,0.0,2,resep_1956,Tumis tempe kacang panjang special,0.9716475312050122,0.9716475312050122,0.21052631578947367,semantic
+V003,"tempe,kacang panjang",1.0,0.0,3,resep_1190,Tumis Kacang Panjang Tempe,0.9632464406891823,0.9632464406891823,0.3636363636363636,semantic
+V003,"tempe,kacang panjang",1.0,0.0,4,resep_3219,Oseng tempe kacang panjang,0.9464935078732257,0.9464935078732257,0.3076923076923077,semantic
+V003,"tempe,kacang panjang",1.0,0.0,5,resep_2089,Tumis kacang panjang tempe (44_GAS2025),0.9450724453450458,0.9450724453450458,0.2666666666666667,semantic
+V005,"telur,kentang,santan",0.0,1.0,1,resep_2647,"Mpasi 6+| Snack labu kuning, kentang dan telur puyuh",0.6666666666666666,0.6151381920462702,0.6666666666666666,keyword
+V005,"telur,kentang,santan",0.0,1.0,2,resep_4680,Mie ayam bawang kuah santan,0.5714285714285715,0.8468229299115753,0.5714285714285715,semantic
+V005,"telur,kentang,santan",0.0,1.0,3,resep_2147,Macaroni telur,0.5714285714285715,0.6449246736538546,0.5714285714285715,keyword
+V005,"telur,kentang,santan",0.0,1.0,4,resep_1524,Telur balado,0.5,0.7750194890079477,0.5,semantic
+V005,"telur,kentang,santan",0.0,1.0,5,resep_380,Perkedel Kentang Ikan Tongkol,0.4800000000000001,0.43396712887827626,0.4800000000000001,keyword
+V005,"telur,kentang,santan",0.1,0.9,1,resep_2647,"Mpasi 6+| Snack labu kuning, kentang dan telur puyuh",0.661513819204627,0.6151381920462702,0.6666666666666666,keyword
+V005,"telur,kentang,santan",0.1,0.9,2,resep_4680,Mie ayam bawang kuah santan,0.5989680072768719,0.8468229299115753,0.5714285714285715,semantic
+V005,"telur,kentang,santan",0.1,0.9,3,resep_2147,Macaroni telur,0.5787781816510998,0.6449246736538546,0.5714285714285715,keyword
+V005,"telur,kentang,santan",0.1,0.9,4,resep_1524,Telur balado,0.5275019489007948,0.7750194890079477,0.5,semantic
+V005,"telur,kentang,santan",0.1,0.9,5,resep_380,Perkedel Kentang Ikan Tongkol,0.47539671288782775,0.43396712887827626,0.4800000000000001,keyword
+V005,"telur,kentang,santan",0.2,0.8,1,resep_2647,"Mpasi 6+| Snack labu kuning, kentang dan telur puyuh",0.6563609717425873,0.6151381920462702,0.6666666666666666,keyword
+V005,"telur,kentang,santan",0.2,0.8,2,resep_4680,Mie ayam bawang kuah santan,0.6265074431251723,0.8468229299115753,0.5714285714285715,semantic
+V005,"telur,kentang,santan",0.2,0.8,3,resep_2147,Macaroni telur,0.5861277918736282,0.6449246736538546,0.5714285714285715,keyword
+V005,"telur,kentang,santan",0.2,0.8,4,resep_1524,Telur balado,0.5550038978015895,0.7750194890079477,0.5,semantic
+V005,"telur,kentang,santan",0.2,0.8,5,resep_2513,Omelet kentang telur,0.48515729382646544,0.8257864691323267,0.4,semantic
+V005,"telur,kentang,santan",0.3,0.7,1,resep_4680,Mie ayam bawang kuah santan,0.6540468789734726,0.8468229299115753,0.5714285714285715,semantic
+V005,"telur,kentang,santan",0.3,0.7,2,resep_2647,"Mpasi 6+| Snack labu kuning, kentang dan telur puyuh",0.6512081242805476,0.6151381920462702,0.6666666666666666,keyword
+V005,"telur,kentang,santan",0.3,0.7,3,resep_2147,Macaroni telur,0.5934774020961564,0.6449246736538546,0.5714285714285715,keyword
+V005,"telur,kentang,santan",0.3,0.7,4,resep_1524,Telur balado,0.5825058467023843,0.7750194890079477,0.5,semantic
+V005,"telur,kentang,santan",0.3,0.7,5,resep_2513,Omelet kentang telur,0.527735940739698,0.8257864691323267,0.4,semantic
+V005,"telur,kentang,santan",0.4,0.6,1,resep_4680,Mie ayam bawang kuah santan,0.6815863148217731,0.8468229299115753,0.5714285714285715,semantic
+V005,"telur,kentang,santan",0.4,0.6,2,resep_2647,"Mpasi 6+| Snack labu kuning, kentang dan telur puyuh",0.646055276818508,0.6151381920462702,0.6666666666666666,keyword
+V005,"telur,kentang,santan",0.4,0.6,3,resep_1524,Telur balado,0.6100077956031791,0.7750194890079477,0.5,semantic
+V005,"telur,kentang,santan",0.4,0.6,4,resep_2147,Macaroni telur,0.6008270123186847,0.6449246736538546,0.5714285714285715,keyword
+V005,"telur,kentang,santan",0.4,0.6,5,resep_2029,Tahu Telur Kuah Santan,0.5846153838069708,0.9999999979789654,0.30769230769230765,semantic
+V005,"telur,kentang,santan",0.5,0.5,1,resep_4680,Mie ayam bawang kuah santan,0.7091257506700734,0.8468229299115753,0.5714285714285715,semantic
+V005,"telur,kentang,santan",0.5,0.5,2,resep_2029,Tahu Telur Kuah Santan,0.6538461528356365,0.9999999979789654,0.30769230769230765,semantic
+V005,"telur,kentang,santan",0.5,0.5,3,resep_2647,"Mpasi 6+| Snack labu kuning, kentang dan telur puyuh",0.6409024293564685,0.6151381920462702,0.6666666666666666,keyword
+V005,"telur,kentang,santan",0.5,0.5,4,resep_1524,Telur balado,0.6375097445039739,0.7750194890079477,0.5,semantic
+V005,"telur,kentang,santan",0.5,0.5,5,resep_4306,Tofu Telur Kuah Santan,0.6145359671847235,0.9363890075401787,0.29268292682926833,semantic
+V005,"telur,kentang,santan",0.6,0.4,1,resep_4680,Mie ayam bawang kuah santan,0.7366651865183738,0.8468229299115753,0.5714285714285715,semantic
+V005,"telur,kentang,santan",0.6,0.4,2,resep_2029,Tahu Telur Kuah Santan,0.7230769218643023,0.9999999979789654,0.30769230769230765,semantic
+V005,"telur,kentang,santan",0.6,0.4,3,resep_9,Tahu Telur Santan Pedas,0.680192118768015,0.9431773408038345,0.28571428571428575,semantic
+V005,"telur,kentang,santan",0.6,0.4,4,resep_4306,Tofu Telur Kuah Santan,0.6789065752558145,0.9363890075401787,0.29268292682926833,semantic
+V005,"telur,kentang,santan",0.6,0.4,5,resep_4154,Tahu Telur Kuah Santan,0.6696713341472407,0.959256145147362,0.23529411764705882,semantic
+V005,"telur,kentang,santan",0.7,0.3,1,resep_2029,Tahu Telur Kuah Santan,0.792307690892968,0.9999999979789654,0.30769230769230765,semantic
+V005,"telur,kentang,santan",0.7,0.3,2,resep_4680,Mie ayam bawang kuah santan,0.7642046223666741,0.8468229299115753,0.5714285714285715,semantic
+V005,"telur,kentang,santan",0.7,0.3,3,resep_9,Tahu Telur Santan Pedas,0.7459384242769699,0.9431773408038345,0.28571428571428575,semantic
+V005,"telur,kentang,santan",0.7,0.3,4,resep_4306,Tofu Telur Kuah Santan,0.7432771833269055,0.9363890075401787,0.29268292682926833,semantic
+V005,"telur,kentang,santan",0.7,0.3,5,resep_4154,Tahu Telur Kuah Santan,0.742067536897271,0.959256145147362,0.23529411764705882,semantic
+V005,"telur,kentang,santan",0.8,0.2,1,resep_2029,Tahu Telur Kuah Santan,0.8615384599216339,0.9999999979789654,0.30769230769230765,semantic
+V005,"telur,kentang,santan",0.8,0.2,2,resep_4154,Tahu Telur Kuah Santan,0.8144637396473013,0.959256145147362,0.23529411764705882,semantic
+V005,"telur,kentang,santan",0.8,0.2,3,resep_9,Tahu Telur Santan Pedas,0.8116847297859249,0.9431773408038345,0.28571428571428575,semantic
+V005,"telur,kentang,santan",0.8,0.2,4,resep_4306,Tofu Telur Kuah Santan,0.8076477913979967,0.9363890075401787,0.29268292682926833,semantic
+V005,"telur,kentang,santan",0.8,0.2,5,resep_4680,Mie ayam bawang kuah santan,0.7917440582149746,0.8468229299115753,0.5714285714285715,semantic
+V005,"telur,kentang,santan",0.9,0.1,1,resep_2029,Tahu Telur Kuah Santan,0.9307692289502997,0.9999999979789654,0.30769230769230765,semantic
+V005,"telur,kentang,santan",0.9,0.1,2,resep_4154,Tahu Telur Kuah Santan,0.8868599423973318,0.959256145147362,0.23529411764705882,semantic
+V005,"telur,kentang,santan",0.9,0.1,3,resep_9,Tahu Telur Santan Pedas,0.8774310352948796,0.9431773408038345,0.28571428571428575,semantic
+V005,"telur,kentang,santan",0.9,0.1,4,resep_4306,Tofu Telur Kuah Santan,0.8720183994690878,0.9363890075401787,0.29268292682926833,semantic
+V005,"telur,kentang,santan",0.9,0.1,5,resep_1689,Telur Dadar Santan Rawit,0.8468371449846341,0.9113005314644084,0.26666666666666666,semantic
+V005,"telur,kentang,santan",1.0,0.0,1,resep_2029,Tahu Telur Kuah Santan,0.9999999979789654,0.9999999979789654,0.30769230769230765,semantic
+V005,"telur,kentang,santan",1.0,0.0,2,resep_4154,Tahu Telur Kuah Santan,0.959256145147362,0.959256145147362,0.23529411764705882,semantic
+V005,"telur,kentang,santan",1.0,0.0,3,resep_9,Tahu Telur Santan Pedas,0.9431773408038345,0.9431773408038345,0.28571428571428575,semantic
+V005,"telur,kentang,santan",1.0,0.0,4,resep_4306,Tofu Telur Kuah Santan,0.9363890075401787,0.9363890075401787,0.29268292682926833,semantic
+V005,"telur,kentang,santan",1.0,0.0,5,resep_1689,Telur Dadar Santan Rawit,0.9113005314644084,0.9113005314644084,0.26666666666666666,semantic
+V006,"telur ayam,tepung terigu protein sedang",0.0,1.0,1,resep_2833,Egg Roll,0.5714285714285715,0.7466825930585537,0.5714285714285715,keyword
+V006,"telur ayam,tepung terigu protein sedang",0.0,1.0,2,resep_3580,Tempe crispy bumbu racik ayam,0.5714285714285715,0.6217301932817181,0.5714285714285715,keyword
+V006,"telur ayam,tepung terigu protein sedang",0.0,1.0,3,resep_1702,Udang goreng selimut,0.5714285714285715,0.4776330073953313,0.5714285714285715,keyword
+V006,"telur ayam,tepung terigu protein sedang",0.0,1.0,4,resep_2948,Cilok goreng telur ala ala,0.5,0.6853897557021492,0.5,keyword
+V006,"telur ayam,tepung terigu protein sedang",0.0,1.0,5,resep_4752,Tahu Tepung Goreng,0.5,0.5326448654039747,0.5,keyword
+V006,"telur ayam,tepung terigu protein sedang",0.1,0.9,1,resep_2833,Egg Roll,0.5889539735915698,0.7466825930585537,0.5714285714285715,keyword
+V006,"telur ayam,tepung terigu protein sedang",0.1,0.9,2,resep_3580,Tempe crispy bumbu racik ayam,0.5764587336138861,0.6217301932817181,0.5714285714285715,keyword
+V006,"telur ayam,tepung terigu protein sedang",0.1,0.9,3,resep_1702,Udang goreng selimut,0.5620490150252475,0.4776330073953313,0.5714285714285715,keyword
+V006,"telur ayam,tepung terigu protein sedang",0.1,0.9,4,resep_2948,Cilok goreng telur ala ala,0.5185389755702149,0.6853897557021492,0.5,keyword
+V006,"telur ayam,tepung terigu protein sedang",0.1,0.9,5,resep_4752,Tahu Tepung Goreng,0.5032644865403975,0.5326448654039747,0.5,keyword
+V006,"telur ayam,tepung terigu protein sedang",0.2,0.8,1,resep_2833,Egg Roll,0.606479375754568,0.7466825930585537,0.5714285714285715,keyword
+V006,"telur ayam,tepung terigu protein sedang",0.2,0.8,2,resep_3580,Tempe crispy bumbu racik ayam,0.5814888957992008,0.6217301932817181,0.5714285714285715,keyword
+V006,"telur ayam,tepung terigu protein sedang",0.2,0.8,3,resep_1702,Udang goreng selimut,0.5526694586219235,0.4776330073953313,0.5714285714285715,keyword
+V006,"telur ayam,tepung terigu protein sedang",0.2,0.8,4,resep_2948,Cilok goreng telur ala ala,0.5370779511404299,0.6853897557021492,0.5,keyword
+V006,"telur ayam,tepung terigu protein sedang",0.2,0.8,5,resep_425,Egg Roll ala Monde,0.5215916083972366,0.8301802642084051,0.4444444444444445,semantic
+V006,"telur ayam,tepung terigu protein sedang",0.3,0.7,1,resep_2833,Egg Roll,0.6240047779175661,0.7466825930585537,0.5714285714285715,keyword
+V006,"telur ayam,tepung terigu protein sedang",0.3,0.7,2,resep_3580,Tempe crispy bumbu racik ayam,0.5865190579845154,0.6217301932817181,0.5714285714285715,keyword
+V006,"telur ayam,tepung terigu protein sedang",0.3,0.7,3,resep_425,Egg Roll ala Monde,0.5601651903736327,0.8301802642084051,0.4444444444444445,semantic
+V006,"telur ayam,tepung terigu protein sedang",0.3,0.7,4,resep_2948,Cilok goreng telur ala ala,0.5556169267106448,0.6853897557021492,0.5,keyword
+V006,"telur ayam,tepung terigu protein sedang",0.3,0.7,5,resep_4730,Sambal Telur Tepung,0.5470324918536518,0.8901083061788393,0.4,semantic
+V006,"telur ayam,tepung terigu protein sedang",0.4,0.6,1,resep_2833,Egg Roll,0.6415301800805644,0.7466825930585537,0.5714285714285715,keyword
+V006,"telur ayam,tepung terigu protein sedang",0.4,0.6,2,resep_425,Egg Roll ala Monde,0.5987387723500287,0.8301802642084051,0.4444444444444445,semantic
+V006,"telur ayam,tepung terigu protein sedang",0.4,0.6,3,resep_4730,Sambal Telur Tepung,0.5960433224715358,0.8901083061788393,0.4,semantic
+V006,"telur ayam,tepung terigu protein sedang",0.4,0.6,4,resep_3580,Tempe crispy bumbu racik ayam,0.5915492201698301,0.6217301932817181,0.5714285714285715,keyword
+V006,"telur ayam,tepung terigu protein sedang",0.4,0.6,5,resep_2948,Cilok goreng telur ala ala,0.5741559022808597,0.6853897557021492,0.5,keyword
+V006,"telur ayam,tepung terigu protein sedang",0.5,0.5,1,resep_2833,Egg Roll,0.6590555822435626,0.7466825930585537,0.5714285714285715,keyword
+V006,"telur ayam,tepung terigu protein sedang",0.5,0.5,2,resep_4730,Sambal Telur Tepung,0.6450541530894196,0.8901083061788393,0.4,semantic
+V006,"telur ayam,tepung terigu protein sedang",0.5,0.5,3,resep_425,Egg Roll ala Monde,0.6373123543264247,0.8301802642084051,0.4444444444444445,semantic
+V006,"telur ayam,tepung terigu protein sedang",0.5,0.5,4,resep_722,Telur Saus Tiram,0.6249999986227837,0.9999999972455674,0.25,semantic
+V006,"telur ayam,tepung terigu protein sedang",0.5,0.5,5,resep_3580,Tempe crispy bumbu racik ayam,0.5965793823551448,0.6217301932817181,0.5714285714285715,keyword
+V006,"telur ayam,tepung terigu protein sedang",0.6,0.4,1,resep_722,Telur Saus Tiram,0.6999999983473404,0.9999999972455674,0.25,semantic
+V006,"telur ayam,tepung terigu protein sedang",0.6,0.4,2,resep_4730,Sambal Telur Tepung,0.6940649837073036,0.8901083061788393,0.4,semantic
+V006,"telur ayam,tepung terigu protein sedang",0.6,0.4,3,resep_2833,Egg Roll,0.6765809844065608,0.7466825930585537,0.5714285714285715,keyword
+V006,"telur ayam,tepung terigu protein sedang",0.6,0.4,4,resep_425,Egg Roll ala Monde,0.6758859363028209,0.8301802642084051,0.4444444444444445,semantic
+V006,"telur ayam,tepung terigu protein sedang",0.6,0.4,5,resep_3480,Telur Dadar Keriting Crispy,0.6170052935669282,0.732045859648584,0.4444444444444445,keyword
+V006,"telur ayam,tepung terigu protein sedang",0.7,0.3,1,resep_722,Telur Saus Tiram,0.7749999980718971,0.9999999972455674,0.25,semantic
+V006,"telur ayam,tepung terigu protein sedang",0.7,0.3,2,resep_4730,Sambal Telur Tepung,0.7430758143251874,0.8901083061788393,0.4,semantic
+V006,"telur ayam,tepung terigu protein sedang",0.7,0.3,3,resep_425,Egg Roll ala Monde,0.7144595182792168,0.8301802642084051,0.4444444444444445,semantic
+V006,"telur ayam,tepung terigu protein sedang",0.7,0.3,4,resep_2833,Egg Roll,0.694106386569559,0.7466825930585537,0.5714285714285715,keyword
+V006,"telur ayam,tepung terigu protein sedang",0.7,0.3,5,resep_3480,Telur Dadar Keriting Crispy,0.6457654350873421,0.732045859648584,0.4444444444444445,keyword
+V006,"telur ayam,tepung terigu protein sedang",0.8,0.2,1,resep_722,Telur Saus Tiram,0.8499999977964541,0.9999999972455674,0.25,semantic
+V006,"telur ayam,tepung terigu protein sedang",0.8,0.2,2,resep_4730,Sambal Telur Tepung,0.7920866449430715,0.8901083061788393,0.4,semantic
+V006,"telur ayam,tepung terigu protein sedang",0.8,0.2,3,resep_425,Egg Roll ala Monde,0.753033100255613,0.8301802642084051,0.4444444444444445,semantic
+V006,"telur ayam,tepung terigu protein sedang",0.8,0.2,4,resep_2833,Egg Roll,0.7116317887325573,0.7466825930585537,0.5714285714285715,keyword
+V006,"telur ayam,tepung terigu protein sedang",0.8,0.2,5,resep_2748,Ayam Saus Telur Asin,0.7049369427590356,0.8335521308297469,0.1904761904761905,semantic
+V006,"telur ayam,tepung terigu protein sedang",0.9,0.1,1,resep_722,Telur Saus Tiram,0.9249999975210107,0.9999999972455674,0.25,semantic
+V006,"telur ayam,tepung terigu protein sedang",0.9,0.1,2,resep_4730,Sambal Telur Tepung,0.8410974755609554,0.8901083061788393,0.4,semantic
+V006,"telur ayam,tepung terigu protein sedang",0.9,0.1,3,resep_425,Egg Roll ala Monde,0.7916066822320091,0.8301802642084051,0.4444444444444445,semantic
+V006,"telur ayam,tepung terigu protein sedang",0.9,0.1,4,resep_2748,Ayam Saus Telur Asin,0.7692445367943913,0.8335521308297469,0.1904761904761905,semantic
+V006,"telur ayam,tepung terigu protein sedang",0.9,0.1,5,resep_2833,Egg Roll,0.7291571908955555,0.7466825930585537,0.5714285714285715,keyword
+V006,"telur ayam,tepung terigu protein sedang",1.0,0.0,1,resep_722,Telur Saus Tiram,0.9999999972455674,0.9999999972455674,0.25,semantic
+V006,"telur ayam,tepung terigu protein sedang",1.0,0.0,2,resep_4730,Sambal Telur Tepung,0.8901083061788393,0.8901083061788393,0.4,semantic
+V006,"telur ayam,tepung terigu protein sedang",1.0,0.0,3,resep_2748,Ayam Saus Telur Asin,0.8335521308297469,0.8335521308297469,0.1904761904761905,semantic
+V006,"telur ayam,tepung terigu protein sedang",1.0,0.0,4,resep_425,Egg Roll ala Monde,0.8301802642084051,0.8301802642084051,0.4444444444444445,semantic
+V006,"telur ayam,tepung terigu protein sedang",1.0,0.0,5,resep_2833,Egg Roll,0.7466825930585537,0.7466825930585537,0.5714285714285715,keyword
+V007,"ikan patin,tomat,cabe rawit merah",0.0,1.0,1,resep_1443,Sambel Ikan Patin (Sambelan Tuban),0.6,0.9628136112267743,0.6,semantic
+V007,"ikan patin,tomat,cabe rawit merah",0.0,1.0,2,resep_3704,Sambel klothok lezat,0.5,0.21802839083811415,0.5,keyword
+V007,"ikan patin,tomat,cabe rawit merah",0.0,1.0,3,resep_1799,Sambal ikan Roa,0.4444444444444444,0.6841043153790934,0.4444444444444444,semantic
+V007,"ikan patin,tomat,cabe rawit merah",0.0,1.0,4,resep_1282,Nasi Telor Ceplok Sambal Kecap,0.4444444444444444,0.25913334899183715,0.4444444444444444,keyword
+V007,"ikan patin,tomat,cabe rawit merah",0.0,1.0,5,resep_2388,Sasangan Patin Khas Dayak KalTeng,0.42857142857142855,0.7159888667905395,0.42857142857142855,semantic
+V007,"ikan patin,tomat,cabe rawit merah",0.1,0.9,1,resep_1443,Sambel Ikan Patin (Sambelan Tuban),0.6362813611226774,0.9628136112267743,0.6,semantic
+V007,"ikan patin,tomat,cabe rawit merah",0.1,0.9,2,resep_3704,Sambel klothok lezat,0.47180283908381143,0.21802839083811415,0.5,keyword
+V007,"ikan patin,tomat,cabe rawit merah",0.1,0.9,3,resep_1799,Sambal ikan Roa,0.4684104315379093,0.6841043153790934,0.4444444444444444,semantic
+V007,"ikan patin,tomat,cabe rawit merah",0.1,0.9,4,resep_138,Pindang Serani Ikan Patin,0.4615693518929097,0.8262198347185709,0.4210526315789474,semantic
+V007,"ikan patin,tomat,cabe rawit merah",0.1,0.9,5,resep_2388,Sasangan Patin Khas Dayak KalTeng,0.45731317239333963,0.7159888667905395,0.42857142857142855,semantic
+V007,"ikan patin,tomat,cabe rawit merah",0.2,0.8,1,resep_1443,Sambel Ikan Patin (Sambelan Tuban),0.6725627222453548,0.9628136112267743,0.6,semantic
+V007,"ikan patin,tomat,cabe rawit merah",0.2,0.8,2,resep_138,Pindang Serani Ikan Patin,0.5020860722068721,0.8262198347185709,0.4210526315789474,semantic
+V007,"ikan patin,tomat,cabe rawit merah",0.2,0.8,3,resep_731,Pindang Ikan Patin,0.495389177259215,0.8769458862960746,0.4,semantic
+V007,"ikan patin,tomat,cabe rawit merah",0.2,0.8,4,resep_1799,Sambal ikan Roa,0.49237641863137427,0.6841043153790934,0.4444444444444444,semantic
+V007,"ikan patin,tomat,cabe rawit merah",0.2,0.8,5,resep_2388,Sasangan Patin Khas Dayak KalTeng,0.48605491621525077,0.7159888667905395,0.42857142857142855,semantic
+V007,"ikan patin,tomat,cabe rawit merah",0.3,0.7,1,resep_1443,Sambel Ikan Patin (Sambelan Tuban),0.7088440833680323,0.9628136112267743,0.6,semantic
+V007,"ikan patin,tomat,cabe rawit merah",0.3,0.7,2,resep_731,Pindang Ikan Patin,0.5430837658888223,0.8769458862960746,0.4,semantic
+V007,"ikan patin,tomat,cabe rawit merah",0.3,0.7,3,resep_138,Pindang Serani Ikan Patin,0.5426027925208344,0.8262198347185709,0.4210526315789474,semantic
+V007,"ikan patin,tomat,cabe rawit merah",0.3,0.7,4,resep_1827,Soto Ikan Patin,0.5210526306626925,0.9999999969458171,0.3157894736842105,semantic
+V007,"ikan patin,tomat,cabe rawit merah",0.3,0.7,5,resep_1799,Sambal ikan Roa,0.5163424057248391,0.6841043153790934,0.4444444444444444,semantic
+V007,"ikan patin,tomat,cabe rawit merah",0.4,0.6,1,resep_1443,Sambel Ikan Patin (Sambelan Tuban),0.7451254444907097,0.9628136112267743,0.6,semantic
+V007,"ikan patin,tomat,cabe rawit merah",0.4,0.6,2,resep_731,Pindang Ikan Patin,0.5907783545184299,0.8769458862960746,0.4,semantic
+V007,"ikan patin,tomat,cabe rawit merah",0.4,0.6,3,resep_1827,Soto Ikan Patin,0.5894736829888532,0.9999999969458171,0.3157894736842105,semantic
+V007,"ikan patin,tomat,cabe rawit merah",0.4,0.6,4,resep_138,Pindang Serani Ikan Patin,0.5831195128347968,0.8262198347185709,0.4210526315789474,semantic
+V007,"ikan patin,tomat,cabe rawit merah",0.4,0.6,5,resep_2388,Sasangan Patin Khas Dayak KalTeng,0.5435384038590729,0.7159888667905395,0.42857142857142855,semantic
+V007,"ikan patin,tomat,cabe rawit merah",0.5,0.5,1,resep_1443,Sambel Ikan Patin (Sambelan Tuban),0.7814068056133872,0.9628136112267743,0.6,semantic
+V007,"ikan patin,tomat,cabe rawit merah",0.5,0.5,2,resep_1827,Soto Ikan Patin,0.6578947353150137,0.9999999969458171,0.3157894736842105,semantic
+V007,"ikan patin,tomat,cabe rawit merah",0.5,0.5,3,resep_731,Pindang Ikan Patin,0.6384729431480374,0.8769458862960746,0.4,semantic
+V007,"ikan patin,tomat,cabe rawit merah",0.5,0.5,4,resep_138,Pindang Serani Ikan Patin,0.6236362331487592,0.8262198347185709,0.4210526315789474,semantic
+V007,"ikan patin,tomat,cabe rawit merah",0.5,0.5,5,resep_4841,Pindang patin,0.588594760461367,0.8694972132304265,0.30769230769230765,semantic
+V007,"ikan patin,tomat,cabe rawit merah",0.6,0.4,1,resep_1443,Sambel Ikan Patin (Sambelan Tuban),0.8176881667360646,0.9628136112267743,0.6,semantic
+V007,"ikan patin,tomat,cabe rawit merah",0.6,0.4,2,resep_1827,Soto Ikan Patin,0.7263157876411745,0.9999999969458171,0.3157894736842105,semantic
+V007,"ikan patin,tomat,cabe rawit merah",0.6,0.4,3,resep_731,Pindang Ikan Patin,0.6861675317776448,0.8769458862960746,0.4,semantic
+V007,"ikan patin,tomat,cabe rawit merah",0.6,0.4,4,resep_138,Pindang Serani Ikan Patin,0.6641529534627215,0.8262198347185709,0.4210526315789474,semantic
+V007,"ikan patin,tomat,cabe rawit merah",0.6,0.4,5,resep_4841,Pindang patin,0.644775251015179,0.8694972132304265,0.30769230769230765,semantic
+V007,"ikan patin,tomat,cabe rawit merah",0.7,0.3,1,resep_1443,Sambel Ikan Patin (Sambelan Tuban),0.853969527858742,0.9628136112267743,0.6,semantic
+V007,"ikan patin,tomat,cabe rawit merah",0.7,0.3,2,resep_1827,Soto Ikan Patin,0.794736839967335,0.9999999969458171,0.3157894736842105,semantic
+V007,"ikan patin,tomat,cabe rawit merah",0.7,0.3,3,resep_731,Pindang Ikan Patin,0.7338621204072522,0.8769458862960746,0.4,semantic
+V007,"ikan patin,tomat,cabe rawit merah",0.7,0.3,4,resep_262,Ikan Patin Bumbu Kuning (Part 2),0.706934667141427,0.9146685721068006,0.2222222222222222,semantic
+V007,"ikan patin,tomat,cabe rawit merah",0.7,0.3,5,resep_138,Pindang Serani Ikan Patin,0.7046696737766838,0.8262198347185709,0.4210526315789474,semantic
+V007,"ikan patin,tomat,cabe rawit merah",0.8,0.2,1,resep_1443,Sambel Ikan Patin (Sambelan Tuban),0.8902508889814195,0.9628136112267743,0.6,semantic
+V007,"ikan patin,tomat,cabe rawit merah",0.8,0.2,2,resep_1827,Soto Ikan Patin,0.8631578922934958,0.9999999969458171,0.3157894736842105,semantic
+V007,"ikan patin,tomat,cabe rawit merah",0.8,0.2,3,resep_731,Pindang Ikan Patin,0.7815567090368598,0.8769458862960746,0.4,semantic
+V007,"ikan patin,tomat,cabe rawit merah",0.8,0.2,4,resep_262,Ikan Patin Bumbu Kuning (Part 2),0.776179302129885,0.9146685721068006,0.2222222222222222,semantic
+V007,"ikan patin,tomat,cabe rawit merah",0.8,0.2,5,resep_4841,Pindang patin,0.7571362321228028,0.8694972132304265,0.30769230769230765,semantic
+V007,"ikan patin,tomat,cabe rawit merah",0.9,0.1,1,resep_1827,Soto Ikan Patin,0.9315789446196564,0.9999999969458171,0.3157894736842105,semantic
+V007,"ikan patin,tomat,cabe rawit merah",0.9,0.1,2,resep_1443,Sambel Ikan Patin (Sambelan Tuban),0.9265322501040969,0.9628136112267743,0.6,semantic
+V007,"ikan patin,tomat,cabe rawit merah",0.9,0.1,3,resep_262,Ikan Patin Bumbu Kuning (Part 2),0.8454239371183428,0.9146685721068006,0.2222222222222222,semantic
+V007,"ikan patin,tomat,cabe rawit merah",0.9,0.1,4,resep_731,Pindang Ikan Patin,0.8292512976664672,0.8769458862960746,0.4,semantic
+V007,"ikan patin,tomat,cabe rawit merah",0.9,0.1,5,resep_4841,Pindang patin,0.8133167226766146,0.8694972132304265,0.30769230769230765,semantic
+V007,"ikan patin,tomat,cabe rawit merah",1.0,0.0,1,resep_1827,Soto Ikan Patin,0.9999999969458171,0.9999999969458171,0.3157894736842105,semantic
+V007,"ikan patin,tomat,cabe rawit merah",1.0,0.0,2,resep_1443,Sambel Ikan Patin (Sambelan Tuban),0.9628136112267743,0.9628136112267743,0.6,semantic
+V007,"ikan patin,tomat,cabe rawit merah",1.0,0.0,3,resep_262,Ikan Patin Bumbu Kuning (Part 2),0.9146685721068006,0.9146685721068006,0.2222222222222222,semantic
+V007,"ikan patin,tomat,cabe rawit merah",1.0,0.0,4,resep_731,Pindang Ikan Patin,0.8769458862960746,0.8769458862960746,0.4,semantic
+V007,"ikan patin,tomat,cabe rawit merah",1.0,0.0,5,resep_4841,Pindang patin,0.8694972132304265,0.8694972132304265,0.30769230769230765,semantic
+V008,"ikan bandeng,tahu putih,kecap manis",0.0,1.0,1,resep_957,Tumis Tahu,0.4,0.29687357634376127,0.4,keyword
+V008,"ikan bandeng,tahu putih,kecap manis",0.0,1.0,2,resep_3626,Sate bawal,0.4,0.2852687246834132,0.4,keyword
+V008,"ikan bandeng,tahu putih,kecap manis",0.0,1.0,3,resep_4213,Cireng Tahu (CIHU),0.4,0.18382172549827197,0.4,keyword
+V008,"ikan bandeng,tahu putih,kecap manis",0.0,1.0,4,resep_3965,Tumis Tahu Telor Saos Tiram,0.4,0.08567678491104708,0.4,keyword
+V008,"ikan bandeng,tahu putih,kecap manis",0.0,1.0,5,resep_4687,Semur tahu telur puyuh,0.4,0.0431003952808489,0.4,keyword
+V008,"ikan bandeng,tahu putih,kecap manis",0.1,0.9,1,resep_957,Tumis Tahu,0.3896873576343762,0.29687357634376127,0.4,keyword
+V008,"ikan bandeng,tahu putih,kecap manis",0.1,0.9,2,resep_3626,Sate bawal,0.3885268724683414,0.2852687246834132,0.4,keyword
+V008,"ikan bandeng,tahu putih,kecap manis",0.1,0.9,3,resep_1970,Tumis Tahu Ikan Teri,0.38708388237067426,0.5981115509794696,0.36363636363636365,semantic
+V008,"ikan bandeng,tahu putih,kecap manis",0.1,0.9,4,resep_4213,Cireng Tahu (CIHU),0.37838217254982726,0.18382172549827197,0.4,keyword
+V008,"ikan bandeng,tahu putih,kecap manis",0.1,0.9,5,resep_3965,Tumis Tahu Telor Saos Tiram,0.3685676784911047,0.08567678491104708,0.4,keyword
+V008,"ikan bandeng,tahu putih,kecap manis",0.2,0.8,1,resep_1970,Tumis Tahu Ikan Teri,0.41053140110498487,0.5981115509794696,0.36363636363636365,semantic
+V008,"ikan bandeng,tahu putih,kecap manis",0.2,0.8,2,resep_957,Tumis Tahu,0.3793747152687523,0.29687357634376127,0.4,keyword
+V008,"ikan bandeng,tahu putih,kecap manis",0.2,0.8,3,resep_3626,Sate bawal,0.3770537449366827,0.2852687246834132,0.4,keyword
+V008,"ikan bandeng,tahu putih,kecap manis",0.2,0.8,4,resep_4213,Cireng Tahu (CIHU),0.35676434509965443,0.18382172549827197,0.4,keyword
+V008,"ikan bandeng,tahu putih,kecap manis",0.2,0.8,5,resep_3128,Ikan Bandeng Bakar,0.3420858055978551,0.9104290279892754,0.2,semantic
+V008,"ikan bandeng,tahu putih,kecap manis",0.3,0.7,1,resep_1970,Tumis Tahu Ikan Teri,0.4339789198392954,0.5981115509794696,0.36363636363636365,semantic
+V008,"ikan bandeng,tahu putih,kecap manis",0.3,0.7,2,resep_3128,Ikan Bandeng Bakar,0.4131287083967826,0.9104290279892754,0.2,semantic
+V008,"ikan bandeng,tahu putih,kecap manis",0.3,0.7,3,resep_4230,Pindang bandeng,0.3763672727807041,0.7055379680925431,0.23529411764705882,semantic
+V008,"ikan bandeng,tahu putih,kecap manis",0.3,0.7,4,resep_957,Tumis Tahu,0.36906207290312837,0.29687357634376127,0.4,keyword
+V008,"ikan bandeng,tahu putih,kecap manis",0.3,0.7,5,resep_3626,Sate bawal,0.3655806174050239,0.2852687246834132,0.4,keyword
+V008,"ikan bandeng,tahu putih,kecap manis",0.4,0.6,1,resep_3128,Ikan Bandeng Bakar,0.48417161119571017,0.9104290279892754,0.2,semantic
+V008,"ikan bandeng,tahu putih,kecap manis",0.4,0.6,2,resep_1970,Tumis Tahu Ikan Teri,0.457426438573606,0.5981115509794696,0.36363636363636365,semantic
+V008,"ikan bandeng,tahu putih,kecap manis",0.4,0.6,3,resep_4230,Pindang bandeng,0.42339165782525257,0.7055379680925431,0.23529411764705882,semantic
+V008,"ikan bandeng,tahu putih,kecap manis",0.4,0.6,4,resep_3827,Ikan bumbu Bali,0.3859551591899848,0.6490984242907515,0.21052631578947367,semantic
+V008,"ikan bandeng,tahu putih,kecap manis",0.4,0.6,5,resep_3978,Pindang Bandeng,0.37582989728599125,0.6237852695307676,0.21052631578947367,semantic
+V008,"ikan bandeng,tahu putih,kecap manis",0.5,0.5,1,resep_3128,Ikan Bandeng Bakar,0.5552145139946377,0.9104290279892754,0.2,semantic
+V008,"ikan bandeng,tahu putih,kecap manis",0.5,0.5,2,resep_1970,Tumis Tahu Ikan Teri,0.4808739573079166,0.5981115509794696,0.36363636363636365,semantic
+V008,"ikan bandeng,tahu putih,kecap manis",0.5,0.5,3,resep_4230,Pindang bandeng,0.470416042869801,0.7055379680925431,0.23529411764705882,semantic
+V008,"ikan bandeng,tahu putih,kecap manis",0.5,0.5,4,resep_3827,Ikan bumbu Bali,0.4298123700401126,0.6490984242907515,0.21052631578947367,semantic
+V008,"ikan bandeng,tahu putih,kecap manis",0.5,0.5,5,resep_3978,Pindang Bandeng,0.41715579266012065,0.6237852695307676,0.21052631578947367,semantic
+V008,"ikan bandeng,tahu putih,kecap manis",0.6,0.4,1,resep_3128,Ikan Bandeng Bakar,0.6262574167935653,0.9104290279892754,0.2,semantic
+V008,"ikan bandeng,tahu putih,kecap manis",0.6,0.4,2,resep_4230,Pindang bandeng,0.5174404279143494,0.7055379680925431,0.23529411764705882,semantic
+V008,"ikan bandeng,tahu putih,kecap manis",0.6,0.4,3,resep_1970,Tumis Tahu Ikan Teri,0.5043214760422272,0.5981115509794696,0.36363636363636365,semantic
+V008,"ikan bandeng,tahu putih,kecap manis",0.6,0.4,4,resep_3827,Ikan bumbu Bali,0.47366958089024036,0.6490984242907515,0.21052631578947367,semantic
+V008,"ikan bandeng,tahu putih,kecap manis",0.6,0.4,5,resep_3978,Pindang Bandeng,0.45848168803425005,0.6237852695307676,0.21052631578947367,semantic
+V008,"ikan bandeng,tahu putih,kecap manis",0.7,0.3,1,resep_3128,Ikan Bandeng Bakar,0.6973003195924927,0.9104290279892754,0.2,semantic
+V008,"ikan bandeng,tahu putih,kecap manis",0.7,0.3,2,resep_4230,Pindang bandeng,0.5644648129588978,0.7055379680925431,0.23529411764705882,semantic
+V008,"ikan bandeng,tahu putih,kecap manis",0.7,0.3,3,resep_1970,Tumis Tahu Ikan Teri,0.5277689947765377,0.5981115509794696,0.36363636363636365,semantic
+V008,"ikan bandeng,tahu putih,kecap manis",0.7,0.3,4,resep_3827,Ikan bumbu Bali,0.5175267917403681,0.6490984242907515,0.21052631578947367,semantic
+V008,"ikan bandeng,tahu putih,kecap manis",0.7,0.3,5,resep_3978,Pindang Bandeng,0.4998075834083794,0.6237852695307676,0.21052631578947367,semantic
+V008,"ikan bandeng,tahu putih,kecap manis",0.8,0.2,1,resep_3128,Ikan Bandeng Bakar,0.7683432223914204,0.9104290279892754,0.2,semantic
+V008,"ikan bandeng,tahu putih,kecap manis",0.8,0.2,2,resep_4230,Pindang bandeng,0.6114891980034463,0.7055379680925431,0.23529411764705882,semantic
+V008,"ikan bandeng,tahu putih,kecap manis",0.8,0.2,3,resep_3827,Ikan bumbu Bali,0.5613840025904959,0.6490984242907515,0.21052631578947367,semantic
+V008,"ikan bandeng,tahu putih,kecap manis",0.8,0.2,4,resep_1970,Tumis Tahu Ikan Teri,0.5512165135108484,0.5981115509794696,0.36363636363636365,semantic
+V008,"ikan bandeng,tahu putih,kecap manis",0.8,0.2,5,resep_3978,Pindang Bandeng,0.5411334787825088,0.6237852695307676,0.21052631578947367,semantic
+V008,"ikan bandeng,tahu putih,kecap manis",0.9,0.1,1,resep_3128,Ikan Bandeng Bakar,0.8393861251903478,0.9104290279892754,0.2,semantic
+V008,"ikan bandeng,tahu putih,kecap manis",0.9,0.1,2,resep_4230,Pindang bandeng,0.6585135830479947,0.7055379680925431,0.23529411764705882,semantic
+V008,"ikan bandeng,tahu putih,kecap manis",0.9,0.1,3,resep_3827,Ikan bumbu Bali,0.6052412134406236,0.6490984242907515,0.21052631578947367,semantic
+V008,"ikan bandeng,tahu putih,kecap manis",0.9,0.1,4,resep_3978,Pindang Bandeng,0.5824593741566382,0.6237852695307676,0.21052631578947367,semantic
+V008,"ikan bandeng,tahu putih,kecap manis",0.9,0.1,5,resep_1970,Tumis Tahu Ikan Teri,0.5746640322451589,0.5981115509794696,0.36363636363636365,semantic
+V008,"ikan bandeng,tahu putih,kecap manis",1.0,0.0,1,resep_3128,Ikan Bandeng Bakar,0.9104290279892754,0.9104290279892754,0.2,semantic
+V008,"ikan bandeng,tahu putih,kecap manis",1.0,0.0,2,resep_4230,Pindang bandeng,0.7055379680925431,0.7055379680925431,0.23529411764705882,semantic
+V008,"ikan bandeng,tahu putih,kecap manis",1.0,0.0,3,resep_3827,Ikan bumbu Bali,0.6490984242907515,0.6490984242907515,0.21052631578947367,semantic
+V008,"ikan bandeng,tahu putih,kecap manis",1.0,0.0,4,resep_3978,Pindang Bandeng,0.6237852695307676,0.6237852695307676,0.21052631578947367,semantic
+V008,"ikan bandeng,tahu putih,kecap manis",1.0,0.0,5,resep_1970,Tumis Tahu Ikan Teri,0.5981115509794696,0.5981115509794696,0.36363636363636365,semantic
+V009,"tahu putih,telur ayam,tepung tapioka",0.0,1.0,1,resep_4923,Tahu Bejek,0.6666666666666666,0.7030663448427803,0.6666666666666666,keyword
+V009,"tahu putih,telur ayam,tepung tapioka",0.0,1.0,2,resep_3484,Cireng tahu putih,0.6,0.9999999975173137,0.6,semantic
+V009,"tahu putih,telur ayam,tepung tapioka",0.0,1.0,3,resep_3804,Tahu Fantasi,0.5333333333333333,0.8025778577308204,0.5333333333333333,semantic
+V009,"tahu putih,telur ayam,tepung tapioka",0.0,1.0,4,resep_391,Martabak Telur Isi Tahu,0.5,0.6778121054483303,0.5,keyword
+V009,"tahu putih,telur ayam,tepung tapioka",0.0,1.0,5,resep_478,Frozen Food Tahu Cireng,0.5,0.6448845330296485,0.5,keyword
+V009,"tahu putih,telur ayam,tepung tapioka",0.1,0.9,1,resep_4923,Tahu Bejek,0.670306634484278,0.7030663448427803,0.6666666666666666,keyword
+V009,"tahu putih,telur ayam,tepung tapioka",0.1,0.9,2,resep_3484,Cireng tahu putih,0.6399999997517314,0.9999999975173137,0.6,semantic
+V009,"tahu putih,telur ayam,tepung tapioka",0.1,0.9,3,resep_3804,Tahu Fantasi,0.560257785773082,0.8025778577308204,0.5333333333333333,semantic
+V009,"tahu putih,telur ayam,tepung tapioka",0.1,0.9,4,resep_391,Martabak Telur Isi Tahu,0.5177812105448331,0.6778121054483303,0.5,keyword
+V009,"tahu putih,telur ayam,tepung tapioka",0.1,0.9,5,resep_478,Frozen Food Tahu Cireng,0.5144884533029649,0.6448845330296485,0.5,keyword
+V009,"tahu putih,telur ayam,tepung tapioka",0.2,0.8,1,resep_3484,Cireng tahu putih,0.6799999995034627,0.9999999975173137,0.6,semantic
+V009,"tahu putih,telur ayam,tepung tapioka",0.2,0.8,2,resep_4923,Tahu Bejek,0.6739466023018894,0.7030663448427803,0.6666666666666666,keyword
+V009,"tahu putih,telur ayam,tepung tapioka",0.2,0.8,3,resep_3804,Tahu Fantasi,0.5871822382128308,0.8025778577308204,0.5333333333333333,semantic
+V009,"tahu putih,telur ayam,tepung tapioka",0.2,0.8,4,resep_391,Martabak Telur Isi Tahu,0.5355624210896661,0.6778121054483303,0.5,keyword
+V009,"tahu putih,telur ayam,tepung tapioka",0.2,0.8,5,resep_478,Frozen Food Tahu Cireng,0.5289769066059298,0.6448845330296485,0.5,keyword
+V009,"tahu putih,telur ayam,tepung tapioka",0.3,0.7,1,resep_3484,Cireng tahu putih,0.7199999992551941,0.9999999975173137,0.6,semantic
+V009,"tahu putih,telur ayam,tepung tapioka",0.3,0.7,2,resep_4923,Tahu Bejek,0.6775865701195007,0.7030663448427803,0.6666666666666666,keyword
+V009,"tahu putih,telur ayam,tepung tapioka",0.3,0.7,3,resep_3804,Tahu Fantasi,0.6141066906525794,0.8025778577308204,0.5333333333333333,semantic
+V009,"tahu putih,telur ayam,tepung tapioka",0.3,0.7,4,resep_4752,Tahu Tepung Goreng,0.5608687704931232,0.8325255312733741,0.4444444444444444,semantic
+V009,"tahu putih,telur ayam,tepung tapioka",0.3,0.7,5,resep_3426,Perkedel Tahu,0.5585964248936492,0.8249510459417941,0.4444444444444444,semantic
+V009,"tahu putih,telur ayam,tepung tapioka",0.4,0.6,1,resep_3484,Cireng tahu putih,0.7599999990069255,0.9999999975173137,0.6,semantic
+V009,"tahu putih,telur ayam,tepung tapioka",0.4,0.6,2,resep_4923,Tahu Bejek,0.6812265379371121,0.7030663448427803,0.6666666666666666,keyword
+V009,"tahu putih,telur ayam,tepung tapioka",0.4,0.6,3,resep_3804,Tahu Fantasi,0.6410311430923281,0.8025778577308204,0.5333333333333333,semantic
+V009,"tahu putih,telur ayam,tepung tapioka",0.4,0.6,4,resep_4752,Tahu Tepung Goreng,0.5996768791760163,0.8325255312733741,0.4444444444444444,semantic
+V009,"tahu putih,telur ayam,tepung tapioka",0.4,0.6,5,resep_3426,Perkedel Tahu,0.5966470850433843,0.8249510459417941,0.4444444444444444,semantic
+V009,"tahu putih,telur ayam,tepung tapioka",0.5,0.5,1,resep_3484,Cireng tahu putih,0.7999999987586568,0.9999999975173137,0.6,semantic
+V009,"tahu putih,telur ayam,tepung tapioka",0.5,0.5,2,resep_4923,Tahu Bejek,0.6848665057547234,0.7030663448427803,0.6666666666666666,keyword
+V009,"tahu putih,telur ayam,tepung tapioka",0.5,0.5,3,resep_3804,Tahu Fantasi,0.6679555955320768,0.8025778577308204,0.5333333333333333,semantic
+V009,"tahu putih,telur ayam,tepung tapioka",0.5,0.5,4,resep_4752,Tahu Tepung Goreng,0.6384849878589093,0.8325255312733741,0.4444444444444444,semantic
+V009,"tahu putih,telur ayam,tepung tapioka",0.5,0.5,5,resep_1389,Dadar Tahu Telur,0.636655468472066,0.8733109369441319,0.4,semantic
+V009,"tahu putih,telur ayam,tepung tapioka",0.6,0.4,1,resep_3484,Cireng tahu putih,0.8399999985103882,0.9999999975173137,0.6,semantic
+V009,"tahu putih,telur ayam,tepung tapioka",0.6,0.4,2,resep_3804,Tahu Fantasi,0.6948800479718256,0.8025778577308204,0.5333333333333333,semantic
+V009,"tahu putih,telur ayam,tepung tapioka",0.6,0.4,3,resep_931,Tahu Walik,0.6905817438993646,0.9085453307413651,0.36363636363636365,semantic
+V009,"tahu putih,telur ayam,tepung tapioka",0.6,0.4,4,resep_4923,Tahu Bejek,0.6885064735723349,0.7030663448427803,0.6666666666666666,keyword
+V009,"tahu putih,telur ayam,tepung tapioka",0.6,0.4,5,resep_1389,Dadar Tahu Telur,0.6839865621664791,0.8733109369441319,0.4,semantic
+V009,"tahu putih,telur ayam,tepung tapioka",0.7,0.3,1,resep_3484,Cireng tahu putih,0.8799999982621196,0.9999999975173137,0.6,semantic
+V009,"tahu putih,telur ayam,tepung tapioka",0.7,0.3,2,resep_931,Tahu Walik,0.7450726406098647,0.9085453307413651,0.36363636363636365,semantic
+V009,"tahu putih,telur ayam,tepung tapioka",0.7,0.3,3,resep_1389,Dadar Tahu Telur,0.7313176558608923,0.8733109369441319,0.4,semantic
+V009,"tahu putih,telur ayam,tepung tapioka",0.7,0.3,4,resep_3804,Tahu Fantasi,0.7218045004115743,0.8025778577308204,0.5333333333333333,semantic
+V009,"tahu putih,telur ayam,tepung tapioka",0.7,0.3,5,resep_4752,Tahu Tepung Goreng,0.7161012052246951,0.8325255312733741,0.4444444444444444,semantic
+V009,"tahu putih,telur ayam,tepung tapioka",0.8,0.2,1,resep_3484,Cireng tahu putih,0.919999998013851,0.9999999975173137,0.6,semantic
+V009,"tahu putih,telur ayam,tepung tapioka",0.8,0.2,2,resep_931,Tahu Walik,0.7995635373203649,0.9085453307413651,0.36363636363636365,semantic
+V009,"tahu putih,telur ayam,tepung tapioka",0.8,0.2,3,resep_1389,Dadar Tahu Telur,0.7786487495553056,0.8733109369441319,0.4,semantic
+V009,"tahu putih,telur ayam,tepung tapioka",0.8,0.2,4,resep_3640,Tahu Telur Malangan,0.7605493380363866,0.8918631431337185,0.23529411764705882,semantic
+V009,"tahu putih,telur ayam,tepung tapioka",0.8,0.2,5,resep_2679,Tahu Fantasi,0.754943641699141,0.8667564752008492,0.30769230769230765,semantic
+V009,"tahu putih,telur ayam,tepung tapioka",0.9,0.1,1,resep_3484,Cireng tahu putih,0.9599999977655824,0.9999999975173137,0.6,semantic
+V009,"tahu putih,telur ayam,tepung tapioka",0.9,0.1,2,resep_931,Tahu Walik,0.854054434030865,0.9085453307413651,0.36363636363636365,semantic
+V009,"tahu putih,telur ayam,tepung tapioka",0.9,0.1,3,resep_3640,Tahu Telur Malangan,0.8262062405850525,0.8918631431337185,0.23529411764705882,semantic
+V009,"tahu putih,telur ayam,tepung tapioka",0.9,0.1,4,resep_1389,Dadar Tahu Telur,0.8259798432497187,0.8733109369441319,0.4,semantic
+V009,"tahu putih,telur ayam,tepung tapioka",0.9,0.1,5,resep_2679,Tahu Fantasi,0.810850058449995,0.8667564752008492,0.30769230769230765,semantic
+V009,"tahu putih,telur ayam,tepung tapioka",1.0,0.0,1,resep_3484,Cireng tahu putih,0.9999999975173137,0.9999999975173137,0.6,semantic
+V009,"tahu putih,telur ayam,tepung tapioka",1.0,0.0,2,resep_931,Tahu Walik,0.9085453307413651,0.9085453307413651,0.36363636363636365,semantic
+V009,"tahu putih,telur ayam,tepung tapioka",1.0,0.0,3,resep_3640,Tahu Telur Malangan,0.8918631431337185,0.8918631431337185,0.23529411764705882,semantic
+V009,"tahu putih,telur ayam,tepung tapioka",1.0,0.0,4,resep_1389,Dadar Tahu Telur,0.8733109369441319,0.8733109369441319,0.4,semantic
+V009,"tahu putih,telur ayam,tepung tapioka",1.0,0.0,5,resep_2679,Tahu Fantasi,0.8667564752008492,0.8667564752008492,0.30769230769230765,semantic
+V010,"beras,teri goreng,cabai merah keriting",0.0,1.0,1,resep_1003,Nasi Liwet Ikan Teri,0.3243243243243243,0.8658582053163503,0.3243243243243243,semantic
+V010,"beras,teri goreng,cabai merah keriting",0.0,1.0,2,resep_508,Gurame Saus Sambal Korea,0.16666666666666666,0.10998212436704137,0.16666666666666666,keyword
+V010,"beras,teri goreng,cabai merah keriting",0.0,1.0,3,resep_1652,Semar Mendem isi Ayam Krengsengan,0.16,0.4271724632892989,0.16,keyword
+V010,"beras,teri goreng,cabai merah keriting",0.0,1.0,4,resep_163,Siomay Ayam Devina Hermawan,0.1111111111111111,0.0,0.1111111111111111,keyword
+V010,"beras,teri goreng,cabai merah keriting",0.1,0.9,1,resep_1003,Nasi Liwet Ikan Teri,0.3784777124235269,0.8658582053163503,0.3243243243243243,semantic
+V010,"beras,teri goreng,cabai merah keriting",0.1,0.9,2,resep_1652,Semar Mendem isi Ayam Krengsengan,0.18671724632892991,0.4271724632892989,0.16,keyword
+V010,"beras,teri goreng,cabai merah keriting",0.1,0.9,3,resep_508,Gurame Saus Sambal Korea,0.16099821243670415,0.10998212436704137,0.16666666666666666,keyword
+V010,"beras,teri goreng,cabai merah keriting",0.1,0.9,4,resep_163,Siomay Ayam Devina Hermawan,0.09999999999999999,0.0,0.1111111111111111,keyword
+V010,"beras,teri goreng,cabai merah keriting",0.2,0.8,1,resep_1003,Nasi Liwet Ikan Teri,0.43263110052272946,0.8658582053163503,0.3243243243243243,semantic
+V010,"beras,teri goreng,cabai merah keriting",0.2,0.8,2,resep_1652,Semar Mendem isi Ayam Krengsengan,0.2134344926578598,0.4271724632892989,0.16,keyword
+V010,"beras,teri goreng,cabai merah keriting",0.2,0.8,3,resep_508,Gurame Saus Sambal Korea,0.1553297582067416,0.10998212436704137,0.16666666666666666,keyword
+V010,"beras,teri goreng,cabai merah keriting",0.2,0.8,4,resep_163,Siomay Ayam Devina Hermawan,0.08888888888888889,0.0,0.1111111111111111,keyword
+V010,"beras,teri goreng,cabai merah keriting",0.3,0.7,1,resep_1003,Nasi Liwet Ikan Teri,0.4867844886219321,0.8658582053163503,0.3243243243243243,semantic
+V010,"beras,teri goreng,cabai merah keriting",0.3,0.7,2,resep_1652,Semar Mendem isi Ayam Krengsengan,0.24015173898678965,0.4271724632892989,0.16,keyword
+V010,"beras,teri goreng,cabai merah keriting",0.3,0.7,3,resep_508,Gurame Saus Sambal Korea,0.14966130397677907,0.10998212436704137,0.16666666666666666,keyword
+V010,"beras,teri goreng,cabai merah keriting",0.3,0.7,4,resep_163,Siomay Ayam Devina Hermawan,0.07777777777777777,0.0,0.1111111111111111,keyword
+V010,"beras,teri goreng,cabai merah keriting",0.4,0.6,1,resep_1003,Nasi Liwet Ikan Teri,0.5409378767211347,0.8658582053163503,0.3243243243243243,semantic
+V010,"beras,teri goreng,cabai merah keriting",0.4,0.6,2,resep_1652,Semar Mendem isi Ayam Krengsengan,0.26686898531571956,0.4271724632892989,0.16,keyword
+V010,"beras,teri goreng,cabai merah keriting",0.4,0.6,3,resep_508,Gurame Saus Sambal Korea,0.14399284974681653,0.10998212436704137,0.16666666666666666,keyword
+V010,"beras,teri goreng,cabai merah keriting",0.4,0.6,4,resep_163,Siomay Ayam Devina Hermawan,0.06666666666666667,0.0,0.1111111111111111,keyword
+V010,"beras,teri goreng,cabai merah keriting",0.5,0.5,1,resep_1003,Nasi Liwet Ikan Teri,0.5950912648203373,0.8658582053163503,0.3243243243243243,semantic
+V010,"beras,teri goreng,cabai merah keriting",0.5,0.5,2,resep_1652,Semar Mendem isi Ayam Krengsengan,0.2935862316446495,0.4271724632892989,0.16,keyword
+V010,"beras,teri goreng,cabai merah keriting",0.5,0.5,3,resep_508,Gurame Saus Sambal Korea,0.13832439551685402,0.10998212436704137,0.16666666666666666,keyword
+V010,"beras,teri goreng,cabai merah keriting",0.5,0.5,4,resep_163,Siomay Ayam Devina Hermawan,0.05555555555555555,0.0,0.1111111111111111,keyword
+V010,"beras,teri goreng,cabai merah keriting",0.6,0.4,1,resep_1003,Nasi Liwet Ikan Teri,0.6492446529195399,0.8658582053163503,0.3243243243243243,semantic
+V010,"beras,teri goreng,cabai merah keriting",0.6,0.4,2,resep_1652,Semar Mendem isi Ayam Krengsengan,0.32030347797357933,0.4271724632892989,0.16,keyword
+V010,"beras,teri goreng,cabai merah keriting",0.6,0.4,3,resep_508,Gurame Saus Sambal Korea,0.13265594128689148,0.10998212436704137,0.16666666666666666,keyword
+V010,"beras,teri goreng,cabai merah keriting",0.6,0.4,4,resep_163,Siomay Ayam Devina Hermawan,0.044444444444444446,0.0,0.1111111111111111,keyword
+V010,"beras,teri goreng,cabai merah keriting",0.7,0.3,1,resep_1003,Nasi Liwet Ikan Teri,0.7033980410187425,0.8658582053163503,0.3243243243243243,semantic
+V010,"beras,teri goreng,cabai merah keriting",0.7,0.3,2,resep_1652,Semar Mendem isi Ayam Krengsengan,0.3470207243025092,0.4271724632892989,0.16,keyword
+V010,"beras,teri goreng,cabai merah keriting",0.7,0.3,3,resep_508,Gurame Saus Sambal Korea,0.12698748705692894,0.10998212436704137,0.16666666666666666,keyword
+V010,"beras,teri goreng,cabai merah keriting",0.7,0.3,4,resep_163,Siomay Ayam Devina Hermawan,0.03333333333333333,0.0,0.1111111111111111,keyword
+V010,"beras,teri goreng,cabai merah keriting",0.8,0.2,1,resep_1003,Nasi Liwet Ikan Teri,0.7575514291179452,0.8658582053163503,0.3243243243243243,semantic
+V010,"beras,teri goreng,cabai merah keriting",0.8,0.2,2,resep_1652,Semar Mendem isi Ayam Krengsengan,0.3737379706314392,0.4271724632892989,0.16,keyword
+V010,"beras,teri goreng,cabai merah keriting",0.8,0.2,3,resep_508,Gurame Saus Sambal Korea,0.12131903282696643,0.10998212436704137,0.16666666666666666,keyword
+V010,"beras,teri goreng,cabai merah keriting",0.8,0.2,4,resep_163,Siomay Ayam Devina Hermawan,0.022222222222222223,0.0,0.1111111111111111,keyword
+V010,"beras,teri goreng,cabai merah keriting",0.9,0.1,1,resep_1003,Nasi Liwet Ikan Teri,0.8117048172171477,0.8658582053163503,0.3243243243243243,semantic
+V010,"beras,teri goreng,cabai merah keriting",0.9,0.1,2,resep_1652,Semar Mendem isi Ayam Krengsengan,0.40045521696036906,0.4271724632892989,0.16,keyword
+V010,"beras,teri goreng,cabai merah keriting",0.9,0.1,3,resep_508,Gurame Saus Sambal Korea,0.1156505785970039,0.10998212436704137,0.16666666666666666,keyword
+V010,"beras,teri goreng,cabai merah keriting",0.9,0.1,4,resep_163,Siomay Ayam Devina Hermawan,0.011111111111111112,0.0,0.1111111111111111,keyword
+V010,"beras,teri goreng,cabai merah keriting",1.0,0.0,1,resep_1003,Nasi Liwet Ikan Teri,0.8658582053163503,0.8658582053163503,0.3243243243243243,semantic
+V010,"beras,teri goreng,cabai merah keriting",1.0,0.0,2,resep_1652,Semar Mendem isi Ayam Krengsengan,0.4271724632892989,0.4271724632892989,0.16,keyword
+V010,"beras,teri goreng,cabai merah keriting",1.0,0.0,3,resep_508,Gurame Saus Sambal Korea,0.10998212436704137,0.10998212436704137,0.16666666666666666,keyword
+V010,"beras,teri goreng,cabai merah keriting",1.0,0.0,4,resep_163,Siomay Ayam Devina Hermawan,0.0,0.0,0.1111111111111111,keyword
+V011,"telur,baby potato",0.0,1.0,1,resep_1251,"Mix Protein Steak (Tahu Tempe, Daging cincang)",0.16,0.10421572929915365,0.16,keyword
+V011,"telur,baby potato",0.1,0.9,1,resep_1251,"Mix Protein Steak (Tahu Tempe, Daging cincang)",0.15442157292991537,0.10421572929915365,0.16,keyword
+V011,"telur,baby potato",0.2,0.8,1,resep_1251,"Mix Protein Steak (Tahu Tempe, Daging cincang)",0.14884314585983074,0.10421572929915365,0.16,keyword
+V011,"telur,baby potato",0.3,0.7,1,resep_1251,"Mix Protein Steak (Tahu Tempe, Daging cincang)",0.1432647187897461,0.10421572929915365,0.16,keyword
+V011,"telur,baby potato",0.4,0.6,1,resep_1251,"Mix Protein Steak (Tahu Tempe, Daging cincang)",0.13768629171966146,0.10421572929915365,0.16,keyword
+V011,"telur,baby potato",0.5,0.5,1,resep_1251,"Mix Protein Steak (Tahu Tempe, Daging cincang)",0.13210786464957683,0.10421572929915365,0.16,keyword
+V011,"telur,baby potato",0.6,0.4,1,resep_1251,"Mix Protein Steak (Tahu Tempe, Daging cincang)",0.1265294375794922,0.10421572929915365,0.16,keyword
+V011,"telur,baby potato",0.7,0.3,1,resep_1251,"Mix Protein Steak (Tahu Tempe, Daging cincang)",0.12095101050940756,0.10421572929915365,0.16,keyword
+V011,"telur,baby potato",0.8,0.2,1,resep_1251,"Mix Protein Steak (Tahu Tempe, Daging cincang)",0.11537258343932293,0.10421572929915365,0.16,keyword
+V011,"telur,baby potato",0.9,0.1,1,resep_1251,"Mix Protein Steak (Tahu Tempe, Daging cincang)",0.1097941563692383,0.10421572929915365,0.16,keyword
+V011,"telur,baby potato",1.0,0.0,1,resep_1251,"Mix Protein Steak (Tahu Tempe, Daging cincang)",0.10421572929915365,0.10421572929915365,0.16,keyword
+V012,"ayam,tomat hijau,cabai rawit",0.0,1.0,1,resep_3674,Telur Ceplok Sambal Matah,0.5,0.5403343943137531,0.5,keyword
+V012,"ayam,tomat hijau,cabai rawit",0.0,1.0,2,resep_1046,Fire Chicken Wings,0.5,0.2545086164996295,0.5,keyword
+V012,"ayam,tomat hijau,cabai rawit",0.0,1.0,3,resep_3309,Telur Ceplok Balado,0.4615384615384615,0.45209706550477463,0.4615384615384615,keyword
+V012,"ayam,tomat hijau,cabai rawit",0.0,1.0,4,resep_737,Mie Ayam Spesial ala Mommy Juna,0.45161290322580644,0.270236615569164,0.45161290322580644,keyword
+V012,"ayam,tomat hijau,cabai rawit",0.0,1.0,5,resep_341,Telur Balado (pakai resep Desaku balado bubuk),0.42857142857142855,0.28562033722286423,0.42857142857142855,keyword
+V012,"ayam,tomat hijau,cabai rawit",0.1,0.9,1,resep_3674,Telur Ceplok Sambal Matah,0.5040334394313754,0.5403343943137531,0.5,keyword
+V012,"ayam,tomat hijau,cabai rawit",0.1,0.9,2,resep_1046,Fire Chicken Wings,0.475450861649963,0.2545086164996295,0.5,keyword
+V012,"ayam,tomat hijau,cabai rawit",0.1,0.9,3,resep_3309,Telur Ceplok Balado,0.4605943219350928,0.45209706550477463,0.4615384615384615,keyword
+V012,"ayam,tomat hijau,cabai rawit",0.1,0.9,4,resep_737,Mie Ayam Spesial ala Mommy Juna,0.43347527446014217,0.270236615569164,0.45161290322580644,keyword
+V012,"ayam,tomat hijau,cabai rawit",0.1,0.9,5,resep_4882,Telur ceplok kuah tomat,0.43229987148527566,0.722998714852756,0.4,semantic
+V012,"ayam,tomat hijau,cabai rawit",0.2,0.8,1,resep_3674,Telur Ceplok Sambal Matah,0.5080668788627507,0.5403343943137531,0.5,keyword
+V012,"ayam,tomat hijau,cabai rawit",0.2,0.8,2,resep_4882,Telur ceplok kuah tomat,0.4645997429705513,0.722998714852756,0.4,semantic
+V012,"ayam,tomat hijau,cabai rawit",0.2,0.8,3,resep_3309,Telur Ceplok Balado,0.45965018233172417,0.45209706550477463,0.4615384615384615,keyword
+V012,"ayam,tomat hijau,cabai rawit",0.2,0.8,4,resep_1046,Fire Chicken Wings,0.45090172329992595,0.2545086164996295,0.5,keyword
+V012,"ayam,tomat hijau,cabai rawit",0.2,0.8,5,resep_1326,Dadar Telur Tomat Cabe Hijau,0.44615384556705046,0.9999999970660215,0.30769230769230765,semantic
+V012,"ayam,tomat hijau,cabai rawit",0.3,0.7,1,resep_1326,Dadar Telur Tomat Cabe Hijau,0.5153846145044219,0.9999999970660215,0.30769230769230765,semantic
+V012,"ayam,tomat hijau,cabai rawit",0.3,0.7,2,resep_3674,Telur Ceplok Sambal Matah,0.512100318294126,0.5403343943137531,0.5,keyword
+V012,"ayam,tomat hijau,cabai rawit",0.3,0.7,3,resep_4882,Telur ceplok kuah tomat,0.49689961445582675,0.722998714852756,0.4,semantic
+V012,"ayam,tomat hijau,cabai rawit",0.3,0.7,4,resep_1663,Ayam Cabai Garam,0.46444542733528615,0.8302027065022362,0.30769230769230765,semantic
+V012,"ayam,tomat hijau,cabai rawit",0.3,0.7,5,resep_3309,Telur Ceplok Balado,0.4587060427283554,0.45209706550477463,0.4615384615384615,keyword
+V012,"ayam,tomat hijau,cabai rawit",0.4,0.6,1,resep_1326,Dadar Telur Tomat Cabe Hijau,0.5846153834417932,0.9999999970660215,0.30769230769230765,semantic
+V012,"ayam,tomat hijau,cabai rawit",0.4,0.6,2,resep_4882,Telur ceplok kuah tomat,0.5291994859411024,0.722998714852756,0.4,semantic
+V012,"ayam,tomat hijau,cabai rawit",0.4,0.6,3,resep_1663,Ayam Cabai Garam,0.516696467216279,0.8302027065022362,0.30769230769230765,semantic
+V012,"ayam,tomat hijau,cabai rawit",0.4,0.6,4,resep_3674,Telur Ceplok Sambal Matah,0.5161337577255012,0.5403343943137531,0.5,keyword
+V012,"ayam,tomat hijau,cabai rawit",0.4,0.6,5,resep_4737,Tumis Ayam Aromatic,0.4997317330673442,0.7493293326683604,0.3333333333333333,semantic
+V012,"ayam,tomat hijau,cabai rawit",0.5,0.5,1,resep_1326,Dadar Telur Tomat Cabe Hijau,0.6538461523791645,0.9999999970660215,0.30769230769230765,semantic
+V012,"ayam,tomat hijau,cabai rawit",0.5,0.5,2,resep_1663,Ayam Cabai Garam,0.5689475070972719,0.8302027065022362,0.30769230769230765,semantic
+V012,"ayam,tomat hijau,cabai rawit",0.5,0.5,3,resep_4882,Telur ceplok kuah tomat,0.561499357426378,0.722998714852756,0.4,semantic
+V012,"ayam,tomat hijau,cabai rawit",0.5,0.5,4,resep_4737,Tumis Ayam Aromatic,0.5413313330008469,0.7493293326683604,0.3333333333333333,semantic
+V012,"ayam,tomat hijau,cabai rawit",0.5,0.5,5,resep_649,Ayam kecap,0.5371948386728065,0.7410563440122797,0.3333333333333333,semantic
+V012,"ayam,tomat hijau,cabai rawit",0.6,0.4,1,resep_1326,Dadar Telur Tomat Cabe Hijau,0.723076921316536,0.9999999970660215,0.30769230769230765,semantic
+V012,"ayam,tomat hijau,cabai rawit",0.6,0.4,2,resep_1663,Ayam Cabai Garam,0.6211985469782647,0.8302027065022362,0.30769230769230765,semantic
+V012,"ayam,tomat hijau,cabai rawit",0.6,0.4,3,resep_4882,Telur ceplok kuah tomat,0.5937992289116536,0.722998714852756,0.4,semantic
+V012,"ayam,tomat hijau,cabai rawit",0.6,0.4,4,resep_4737,Tumis Ayam Aromatic,0.5829309329343496,0.7493293326683604,0.3333333333333333,semantic
+V012,"ayam,tomat hijau,cabai rawit",0.6,0.4,5,resep_649,Ayam kecap,0.5779671397407011,0.7410563440122797,0.3333333333333333,semantic
+V012,"ayam,tomat hijau,cabai rawit",0.7,0.3,1,resep_1326,Dadar Telur Tomat Cabe Hijau,0.7923076902539073,0.9999999970660215,0.30769230769230765,semantic
+V012,"ayam,tomat hijau,cabai rawit",0.7,0.3,2,resep_1663,Ayam Cabai Garam,0.6734495868592576,0.8302027065022362,0.30769230769230765,semantic
+V012,"ayam,tomat hijau,cabai rawit",0.7,0.3,3,resep_4882,Telur ceplok kuah tomat,0.6260991003969292,0.722998714852756,0.4,semantic
+V012,"ayam,tomat hijau,cabai rawit",0.7,0.3,4,resep_4737,Tumis Ayam Aromatic,0.6245305328678522,0.7493293326683604,0.3333333333333333,semantic
+V012,"ayam,tomat hijau,cabai rawit",0.7,0.3,5,resep_649,Ayam kecap,0.6187394408085958,0.7410563440122797,0.3333333333333333,semantic
+V012,"ayam,tomat hijau,cabai rawit",0.8,0.2,1,resep_1326,Dadar Telur Tomat Cabe Hijau,0.8615384591912788,0.9999999970660215,0.30769230769230765,semantic
+V012,"ayam,tomat hijau,cabai rawit",0.8,0.2,2,resep_1663,Ayam Cabai Garam,0.7257006267402505,0.8302027065022362,0.30769230769230765,semantic
+V012,"ayam,tomat hijau,cabai rawit",0.8,0.2,3,resep_3082,Garang ayam,0.6661794955357411,0.7702243694196762,0.25,semantic
+V012,"ayam,tomat hijau,cabai rawit",0.8,0.2,4,resep_4737,Tumis Ayam Aromatic,0.666130132801355,0.7493293326683604,0.3333333333333333,semantic
+V012,"ayam,tomat hijau,cabai rawit",0.8,0.2,5,resep_649,Ayam kecap,0.6595117418764904,0.7410563440122797,0.3333333333333333,semantic
+V012,"ayam,tomat hijau,cabai rawit",0.9,0.1,1,resep_1326,Dadar Telur Tomat Cabe Hijau,0.9307692281286502,0.9999999970660215,0.30769230769230765,semantic
+V012,"ayam,tomat hijau,cabai rawit",0.9,0.1,2,resep_1663,Ayam Cabai Garam,0.7779516666212434,0.8302027065022362,0.30769230769230765,semantic
+V012,"ayam,tomat hijau,cabai rawit",0.9,0.1,3,resep_3082,Garang ayam,0.7182019324777086,0.7702243694196762,0.25,semantic
+V012,"ayam,tomat hijau,cabai rawit",0.9,0.1,4,resep_4737,Tumis Ayam Aromatic,0.7077297327348577,0.7493293326683604,0.3333333333333333,semantic
+V012,"ayam,tomat hijau,cabai rawit",0.9,0.1,5,resep_649,Ayam kecap,0.7002840429443851,0.7410563440122797,0.3333333333333333,semantic
+V012,"ayam,tomat hijau,cabai rawit",1.0,0.0,1,resep_1326,Dadar Telur Tomat Cabe Hijau,0.9999999970660215,0.9999999970660215,0.30769230769230765,semantic
+V012,"ayam,tomat hijau,cabai rawit",1.0,0.0,2,resep_1663,Ayam Cabai Garam,0.8302027065022362,0.8302027065022362,0.30769230769230765,semantic
+V012,"ayam,tomat hijau,cabai rawit",1.0,0.0,3,resep_3082,Garang ayam,0.7702243694196762,0.7702243694196762,0.25,semantic
+V012,"ayam,tomat hijau,cabai rawit",1.0,0.0,4,resep_4759,Pepes Ayam,0.753885273659508,0.753885273659508,0.2,semantic
+V012,"ayam,tomat hijau,cabai rawit",1.0,0.0,5,resep_4737,Tumis Ayam Aromatic,0.7493293326683604,0.7493293326683604,0.3333333333333333,semantic
+V013,"makaroni,telur",0.0,1.0,1,resep_4717,Makaroni Telur,1.0,0.9999999981536888,1.0,semantic
+V013,"makaroni,telur",0.0,1.0,2,resep_795,Makaroni telur dadar,0.5,0.7005995679780961,0.5,semantic
+V013,"makaroni,telur",0.0,1.0,3,resep_3533,Maklor (makaroni telor),0.5,0.6148639083329129,0.5,semantic
+V013,"makaroni,telur",0.0,1.0,4,resep_3254,Makaroni Telur,0.4615384615384615,0.8616677612623543,0.4615384615384615,semantic
+V013,"makaroni,telur",0.0,1.0,5,resep_4800,MAKLOR (Makaroni Telor),0.4444444444444445,0.6371496553947004,0.4444444444444445,semantic
+V013,"makaroni,telur",0.1,0.9,1,resep_4717,Makaroni Telur,0.9999999998153689,0.9999999981536888,1.0,semantic
+V013,"makaroni,telur",0.1,0.9,2,resep_795,Makaroni telur dadar,0.5200599567978096,0.7005995679780961,0.5,semantic
+V013,"makaroni,telur",0.1,0.9,3,resep_3533,Maklor (makaroni telor),0.5114863908332913,0.6148639083329129,0.5,semantic
+V013,"makaroni,telur",0.1,0.9,4,resep_3254,Makaroni Telur,0.5015513915108508,0.8616677612623543,0.4615384615384615,semantic
+V013,"makaroni,telur",0.1,0.9,5,resep_4800,MAKLOR (Makaroni Telor),0.46371496553947006,0.6371496553947004,0.4444444444444445,semantic
+V013,"makaroni,telur",0.2,0.8,1,resep_4717,Makaroni Telur,0.9999999996307378,0.9999999981536888,1.0,semantic
+V013,"makaroni,telur",0.2,0.8,2,resep_3254,Makaroni Telur,0.5415643214832402,0.8616677612623543,0.4615384615384615,semantic
+V013,"makaroni,telur",0.2,0.8,3,resep_795,Makaroni telur dadar,0.5401199135956193,0.7005995679780961,0.5,semantic
+V013,"makaroni,telur",0.2,0.8,4,resep_3533,Maklor (makaroni telor),0.5229727816665826,0.6148639083329129,0.5,semantic
+V013,"makaroni,telur",0.2,0.8,5,resep_4800,MAKLOR (Makaroni Telor),0.4829854866344957,0.6371496553947004,0.4444444444444445,semantic
+V013,"makaroni,telur",0.3,0.7,1,resep_4717,Makaroni Telur,0.9999999994461066,0.9999999981536888,1.0,semantic
+V013,"makaroni,telur",0.3,0.7,2,resep_3254,Makaroni Telur,0.5815772514556293,0.8616677612623543,0.4615384615384615,semantic
+V013,"makaroni,telur",0.3,0.7,3,resep_795,Makaroni telur dadar,0.5601798703934288,0.7005995679780961,0.5,semantic
+V013,"makaroni,telur",0.3,0.7,4,resep_3533,Maklor (makaroni telor),0.5344591724998738,0.6148639083329129,0.5,semantic
+V013,"makaroni,telur",0.3,0.7,5,resep_4800,MAKLOR (Makaroni Telor),0.5022560077295213,0.6371496553947004,0.4444444444444445,semantic
+V013,"makaroni,telur",0.4,0.6,1,resep_4717,Makaroni Telur,0.9999999992614755,0.9999999981536888,1.0,semantic
+V013,"makaroni,telur",0.4,0.6,2,resep_3254,Makaroni Telur,0.6215901814280187,0.8616677612623543,0.4615384615384615,semantic
+V013,"makaroni,telur",0.4,0.6,3,resep_795,Makaroni telur dadar,0.5802398271912385,0.7005995679780961,0.5,semantic
+V013,"makaroni,telur",0.4,0.6,4,resep_3533,Maklor (makaroni telor),0.5459455633331651,0.6148639083329129,0.5,semantic
+V013,"makaroni,telur",0.4,0.6,5,resep_4800,MAKLOR (Makaroni Telor),0.5215265288245468,0.6371496553947004,0.4444444444444445,semantic
+V013,"makaroni,telur",0.5,0.5,1,resep_4717,Makaroni Telur,0.9999999990768444,0.9999999981536888,1.0,semantic
+V013,"makaroni,telur",0.5,0.5,2,resep_3254,Makaroni Telur,0.661603111400408,0.8616677612623543,0.4615384615384615,semantic
+V013,"makaroni,telur",0.5,0.5,3,resep_795,Makaroni telur dadar,0.600299783989048,0.7005995679780961,0.5,semantic
+V013,"makaroni,telur",0.5,0.5,4,resep_3533,Maklor (makaroni telor),0.5574319541664565,0.6148639083329129,0.5,semantic
+V013,"makaroni,telur",0.5,0.5,5,resep_4800,MAKLOR (Makaroni Telor),0.5407970499195724,0.6371496553947004,0.4444444444444445,semantic
+V013,"makaroni,telur",0.6,0.4,1,resep_4717,Makaroni Telur,0.9999999988922132,0.9999999981536888,1.0,semantic
+V013,"makaroni,telur",0.6,0.4,2,resep_3254,Makaroni Telur,0.7016160413727972,0.8616677612623543,0.4615384615384615,semantic
+V013,"makaroni,telur",0.6,0.4,3,resep_795,Makaroni telur dadar,0.6203597407868576,0.7005995679780961,0.5,semantic
+V013,"makaroni,telur",0.6,0.4,4,resep_3533,Maklor (makaroni telor),0.5689183449997477,0.6148639083329129,0.5,semantic
+V013,"makaroni,telur",0.6,0.4,5,resep_4800,MAKLOR (Makaroni Telor),0.560067571014598,0.6371496553947004,0.4444444444444445,semantic
+V013,"makaroni,telur",0.7,0.3,1,resep_4717,Makaroni Telur,0.999999998707582,0.9999999981536888,1.0,semantic
+V013,"makaroni,telur",0.7,0.3,2,resep_3254,Makaroni Telur,0.7416289713451865,0.8616677612623543,0.4615384615384615,semantic
+V013,"makaroni,telur",0.7,0.3,3,resep_795,Makaroni telur dadar,0.6404196975846672,0.7005995679780961,0.5,semantic
+V013,"makaroni,telur",0.7,0.3,4,resep_3533,Maklor (makaroni telor),0.580404735833039,0.6148639083329129,0.5,semantic
+V013,"makaroni,telur",0.7,0.3,5,resep_4800,MAKLOR (Makaroni Telor),0.5793380921096235,0.6371496553947004,0.4444444444444445,semantic
+V013,"makaroni,telur",0.8,0.2,1,resep_4717,Makaroni Telur,0.9999999985229511,0.9999999981536888,1.0,semantic
+V013,"makaroni,telur",0.8,0.2,2,resep_3254,Makaroni Telur,0.7816419013175758,0.8616677612623543,0.4615384615384615,semantic
+V013,"makaroni,telur",0.8,0.2,3,resep_795,Makaroni telur dadar,0.6604796543824769,0.7005995679780961,0.5,semantic
+V013,"makaroni,telur",0.8,0.2,4,resep_4800,MAKLOR (Makaroni Telor),0.5986086132046492,0.6371496553947004,0.4444444444444445,semantic
+V013,"makaroni,telur",0.8,0.2,5,resep_3533,Maklor (makaroni telor),0.5918911266663304,0.6148639083329129,0.5,semantic
+V013,"makaroni,telur",0.9,0.1,1,resep_4717,Makaroni Telur,0.9999999983383199,0.9999999981536888,1.0,semantic
+V013,"makaroni,telur",0.9,0.1,2,resep_3254,Makaroni Telur,0.821654831289965,0.8616677612623543,0.4615384615384615,semantic
+V013,"makaroni,telur",0.9,0.1,3,resep_795,Makaroni telur dadar,0.6805396111802865,0.7005995679780961,0.5,semantic
+V013,"makaroni,telur",0.9,0.1,4,resep_4800,MAKLOR (Makaroni Telor),0.6178791342996748,0.6371496553947004,0.4444444444444445,semantic
+V013,"makaroni,telur",0.9,0.1,5,resep_3533,Maklor (makaroni telor),0.6033775174996217,0.6148639083329129,0.5,semantic
+V013,"makaroni,telur",1.0,0.0,1,resep_4717,Makaroni Telur,0.9999999981536888,0.9999999981536888,1.0,semantic
+V013,"makaroni,telur",1.0,0.0,2,resep_3254,Makaroni Telur,0.8616677612623543,0.8616677612623543,0.4615384615384615,semantic
+V013,"makaroni,telur",1.0,0.0,3,resep_795,Makaroni telur dadar,0.7005995679780961,0.7005995679780961,0.5,semantic
+V013,"makaroni,telur",1.0,0.0,4,resep_4800,MAKLOR (Makaroni Telor),0.6371496553947004,0.6371496553947004,0.4444444444444445,semantic
+V013,"makaroni,telur",1.0,0.0,5,resep_3533,Maklor (makaroni telor),0.6148639083329129,0.6148639083329129,0.5,semantic
+V014,"daging ayam,jamur kuping,wortel",0.0,1.0,1,resep_337,Bubur ayam sayur (simple banget),0.4,0.6762781740728624,0.4,keyword
+V014,"daging ayam,jamur kuping,wortel",0.0,1.0,2,resep_2383,Capcay ayam jamur Ala ala,0.36363636363636365,0.9592487639904167,0.36363636363636365,semantic
+V014,"daging ayam,jamur kuping,wortel",0.0,1.0,3,resep_3727,"Sempol Ayam, Wortel dan Tahu (12 month+)",0.36363636363636365,0.7028796495572236,0.36363636363636365,keyword
+V014,"daging ayam,jamur kuping,wortel",0.0,1.0,4,resep_3997,Ayam kentang bumbu kari,0.36363636363636365,0.4410833085844999,0.36363636363636365,keyword
+V014,"daging ayam,jamur kuping,wortel",0.0,1.0,5,resep_4940,Japchae (Korean Food) ayam,0.35294117647058826,0.586847744897074,0.35294117647058826,keyword
+V014,"daging ayam,jamur kuping,wortel",0.1,0.9,1,resep_337,Bubur ayam sayur (simple banget),0.4276278174072863,0.6762781740728624,0.4,keyword
+V014,"daging ayam,jamur kuping,wortel",0.1,0.9,2,resep_2383,Capcay ayam jamur Ala ala,0.42319760367176895,0.9592487639904167,0.36363636363636365,semantic
+V014,"daging ayam,jamur kuping,wortel",0.1,0.9,3,resep_3727,"Sempol Ayam, Wortel dan Tahu (12 month+)",0.39756069222844964,0.7028796495572236,0.36363636363636365,keyword
+V014,"daging ayam,jamur kuping,wortel",0.1,0.9,4,resep_3944,Sempol Ayam Wortel,0.3905919458921324,0.9059194589213242,0.3333333333333333,semantic
+V014,"daging ayam,jamur kuping,wortel",0.1,0.9,5,resep_4940,Japchae (Korean Food) ayam,0.37633183331323683,0.586847744897074,0.35294117647058826,keyword
+V014,"daging ayam,jamur kuping,wortel",0.2,0.8,1,resep_2383,Capcay ayam jamur Ala ala,0.4827588437071743,0.9592487639904167,0.36363636363636365,semantic
+V014,"daging ayam,jamur kuping,wortel",0.2,0.8,2,resep_337,Bubur ayam sayur (simple banget),0.45525563481457254,0.6762781740728624,0.4,keyword
+V014,"daging ayam,jamur kuping,wortel",0.2,0.8,3,resep_3944,Sempol Ayam Wortel,0.4478505584509315,0.9059194589213242,0.3333333333333333,semantic
+V014,"daging ayam,jamur kuping,wortel",0.2,0.8,4,resep_3727,"Sempol Ayam, Wortel dan Tahu (12 month+)",0.43148502082053564,0.7028796495572236,0.36363636363636365,keyword
+V014,"daging ayam,jamur kuping,wortel",0.2,0.8,5,resep_2158,Nugget tahu ayam wortel,0.41697255889203166,0.9420056516030153,0.28571428571428575,semantic
+V014,"daging ayam,jamur kuping,wortel",0.3,0.7,1,resep_2383,Capcay ayam jamur Ala ala,0.5423200837425795,0.9592487639904167,0.36363636363636365,semantic
+V014,"daging ayam,jamur kuping,wortel",0.3,0.7,2,resep_3944,Sempol Ayam Wortel,0.5051091710097305,0.9059194589213242,0.3333333333333333,semantic
+V014,"daging ayam,jamur kuping,wortel",0.3,0.7,3,resep_337,Bubur ayam sayur (simple banget),0.4828834522218587,0.6762781740728624,0.4,keyword
+V014,"daging ayam,jamur kuping,wortel",0.3,0.7,4,resep_2158,Nugget tahu ayam wortel,0.4826016954809046,0.9420056516030153,0.28571428571428575,semantic
+V014,"daging ayam,jamur kuping,wortel",0.3,0.7,5,resep_578,"Tahu isi ayam, sayur dan jamur kuping (no tepung)",0.48148327611066744,0.9827220314800026,0.26666666666666666,semantic
+V014,"daging ayam,jamur kuping,wortel",0.4,0.6,1,resep_2383,Capcay ayam jamur Ala ala,0.6018813237779849,0.9592487639904167,0.36363636363636365,semantic
+V014,"daging ayam,jamur kuping,wortel",0.4,0.6,2,resep_3944,Sempol Ayam Wortel,0.5623677835685297,0.9059194589213242,0.3333333333333333,semantic
+V014,"daging ayam,jamur kuping,wortel",0.4,0.6,3,resep_578,"Tahu isi ayam, sayur dan jamur kuping (no tepung)",0.553088812592001,0.9827220314800026,0.26666666666666666,semantic
+V014,"daging ayam,jamur kuping,wortel",0.4,0.6,4,resep_2158,Nugget tahu ayam wortel,0.5482308320697776,0.9420056516030153,0.28571428571428575,semantic
+V014,"daging ayam,jamur kuping,wortel",0.4,0.6,5,resep_2411,Tumis Toge Wortel Ayam,0.5107494152730491,0.9018735381826226,0.25,semantic
+V014,"daging ayam,jamur kuping,wortel",0.5,0.5,1,resep_2383,Capcay ayam jamur Ala ala,0.6614425638133902,0.9592487639904167,0.36363636363636365,semantic
+V014,"daging ayam,jamur kuping,wortel",0.5,0.5,2,resep_578,"Tahu isi ayam, sayur dan jamur kuping (no tepung)",0.6246943490733347,0.9827220314800026,0.26666666666666666,semantic
+V014,"daging ayam,jamur kuping,wortel",0.5,0.5,3,resep_3944,Sempol Ayam Wortel,0.6196263961273287,0.9059194589213242,0.3333333333333333,semantic
+V014,"daging ayam,jamur kuping,wortel",0.5,0.5,4,resep_2158,Nugget tahu ayam wortel,0.6138599686586506,0.9420056516030153,0.28571428571428575,semantic
+V014,"daging ayam,jamur kuping,wortel",0.5,0.5,5,resep_2411,Tumis Toge Wortel Ayam,0.5759367690913113,0.9018735381826226,0.25,semantic
+V014,"daging ayam,jamur kuping,wortel",0.6,0.4,1,resep_2383,Capcay ayam jamur Ala ala,0.7210038038487955,0.9592487639904167,0.36363636363636365,semantic
+V014,"daging ayam,jamur kuping,wortel",0.6,0.4,2,resep_578,"Tahu isi ayam, sayur dan jamur kuping (no tepung)",0.6962998855546683,0.9827220314800026,0.26666666666666666,semantic
+V014,"daging ayam,jamur kuping,wortel",0.6,0.4,3,resep_2158,Nugget tahu ayam wortel,0.6794891052475235,0.9420056516030153,0.28571428571428575,semantic
+V014,"daging ayam,jamur kuping,wortel",0.6,0.4,4,resep_3944,Sempol Ayam Wortel,0.6768850086861278,0.9059194589213242,0.3333333333333333,semantic
+V014,"daging ayam,jamur kuping,wortel",0.6,0.4,5,resep_2411,Tumis Toge Wortel Ayam,0.6411241229095735,0.9018735381826226,0.25,semantic
+V014,"daging ayam,jamur kuping,wortel",0.7,0.3,1,resep_2383,Capcay ayam jamur Ala ala,0.7805650438842008,0.9592487639904167,0.36363636363636365,semantic
+V014,"daging ayam,jamur kuping,wortel",0.7,0.3,2,resep_578,"Tahu isi ayam, sayur dan jamur kuping (no tepung)",0.7679054220360018,0.9827220314800026,0.26666666666666666,semantic
+V014,"daging ayam,jamur kuping,wortel",0.7,0.3,3,resep_2158,Nugget tahu ayam wortel,0.7451182418363964,0.9420056516030153,0.28571428571428575,semantic
+V014,"daging ayam,jamur kuping,wortel",0.7,0.3,4,resep_3944,Sempol Ayam Wortel,0.7341436212449268,0.9059194589213242,0.3333333333333333,semantic
+V014,"daging ayam,jamur kuping,wortel",0.7,0.3,5,resep_2411,Tumis Toge Wortel Ayam,0.7063114767278358,0.9018735381826226,0.25,semantic
+V014,"daging ayam,jamur kuping,wortel",0.8,0.2,1,resep_2383,Capcay ayam jamur Ala ala,0.8401262839196062,0.9592487639904167,0.36363636363636365,semantic
+V014,"daging ayam,jamur kuping,wortel",0.8,0.2,2,resep_578,"Tahu isi ayam, sayur dan jamur kuping (no tepung)",0.8395109585173355,0.9827220314800026,0.26666666666666666,semantic
+V014,"daging ayam,jamur kuping,wortel",0.8,0.2,3,resep_2158,Nugget tahu ayam wortel,0.8107473784252694,0.9420056516030153,0.28571428571428575,semantic
+V014,"daging ayam,jamur kuping,wortel",0.8,0.2,4,resep_3944,Sempol Ayam Wortel,0.7914022338037261,0.9059194589213242,0.3333333333333333,semantic
+V014,"daging ayam,jamur kuping,wortel",0.8,0.2,5,resep_2411,Tumis Toge Wortel Ayam,0.7714988305460981,0.9018735381826226,0.25,semantic
+V014,"daging ayam,jamur kuping,wortel",0.9,0.1,1,resep_578,"Tahu isi ayam, sayur dan jamur kuping (no tepung)",0.911116494998669,0.9827220314800026,0.26666666666666666,semantic
+V014,"daging ayam,jamur kuping,wortel",0.9,0.1,2,resep_2383,Capcay ayam jamur Ala ala,0.8996875239550114,0.9592487639904167,0.36363636363636365,semantic
+V014,"daging ayam,jamur kuping,wortel",0.9,0.1,3,resep_2158,Nugget tahu ayam wortel,0.8763765150141424,0.9420056516030153,0.28571428571428575,semantic
+V014,"daging ayam,jamur kuping,wortel",0.9,0.1,4,resep_3944,Sempol Ayam Wortel,0.8486608463625251,0.9059194589213242,0.3333333333333333,semantic
+V014,"daging ayam,jamur kuping,wortel",0.9,0.1,5,resep_2411,Tumis Toge Wortel Ayam,0.8366861843643604,0.9018735381826226,0.25,semantic
+V014,"daging ayam,jamur kuping,wortel",1.0,0.0,1,resep_578,"Tahu isi ayam, sayur dan jamur kuping (no tepung)",0.9827220314800026,0.9827220314800026,0.26666666666666666,semantic
+V014,"daging ayam,jamur kuping,wortel",1.0,0.0,2,resep_2383,Capcay ayam jamur Ala ala,0.9592487639904167,0.9592487639904167,0.36363636363636365,semantic
+V014,"daging ayam,jamur kuping,wortel",1.0,0.0,3,resep_2158,Nugget tahu ayam wortel,0.9420056516030153,0.9420056516030153,0.28571428571428575,semantic
+V014,"daging ayam,jamur kuping,wortel",1.0,0.0,4,resep_3944,Sempol Ayam Wortel,0.9059194589213242,0.9059194589213242,0.3333333333333333,semantic
+V014,"daging ayam,jamur kuping,wortel",1.0,0.0,5,resep_2411,Tumis Toge Wortel Ayam,0.9018735381826226,0.9018735381826226,0.25,semantic
+V015,"ubi jalar,jahe",0.0,1.0,1,resep_4742,Goreng goreng daging sapi khas bugis,0.25,0.42254886557430754,0.25,keyword
+V015,"ubi jalar,jahe",0.1,0.9,1,resep_4742,Goreng goreng daging sapi khas bugis,0.2672548865574308,0.42254886557430754,0.25,keyword
+V015,"ubi jalar,jahe",0.2,0.8,1,resep_4742,Goreng goreng daging sapi khas bugis,0.28450977311486153,0.42254886557430754,0.25,keyword
+V015,"ubi jalar,jahe",0.3,0.7,1,resep_4742,Goreng goreng daging sapi khas bugis,0.30176465967229227,0.42254886557430754,0.25,keyword
+V015,"ubi jalar,jahe",0.4,0.6,1,resep_4742,Goreng goreng daging sapi khas bugis,0.31901954622972306,0.42254886557430754,0.25,keyword
+V015,"ubi jalar,jahe",0.5,0.5,1,resep_4742,Goreng goreng daging sapi khas bugis,0.33627443278715374,0.42254886557430754,0.25,keyword
+V015,"ubi jalar,jahe",0.6,0.4,1,resep_4742,Goreng goreng daging sapi khas bugis,0.35352931934458454,0.42254886557430754,0.25,keyword
+V015,"ubi jalar,jahe",0.7,0.3,1,resep_4742,Goreng goreng daging sapi khas bugis,0.3707842059020153,0.42254886557430754,0.25,keyword
+V015,"ubi jalar,jahe",0.8,0.2,1,resep_4742,Goreng goreng daging sapi khas bugis,0.38803909245944607,0.42254886557430754,0.25,keyword
+V015,"ubi jalar,jahe",0.9,0.1,1,resep_4742,Goreng goreng daging sapi khas bugis,0.4052939790168768,0.42254886557430754,0.25,keyword
+V015,"ubi jalar,jahe",1.0,0.0,1,resep_4742,Goreng goreng daging sapi khas bugis,0.42254886557430754,0.42254886557430754,0.25,keyword
+V016,"tempe,labu air,santan kental",0.0,1.0,1,resep_377,Tempe Goreng Kriuk,0.6666666666666666,0.6053469214437815,0.6666666666666666,keyword
+V016,"tempe,labu air,santan kental",0.0,1.0,2,resep_4513,[279] Tempe Goreng Ketumbar,0.631578947368421,0.7612111230552241,0.631578947368421,semantic
+V016,"tempe,labu air,santan kental",0.0,1.0,3,resep_463,Tempe + tahu Crispy,0.631578947368421,0.6701647377722578,0.631578947368421,keyword
+V016,"tempe,labu air,santan kental",0.0,1.0,4,resep_3473,Tempe Kriuk,0.631578947368421,0.5514217119864583,0.631578947368421,keyword
+V016,"tempe,labu air,santan kental",0.0,1.0,5,resep_580,Resep Tempe Kriuk,0.631578947368421,0.4228032001711583,0.631578947368421,keyword
+V016,"tempe,labu air,santan kental",0.1,0.9,1,resep_377,Tempe Goreng Kriuk,0.6605346921443781,0.6053469214437815,0.6666666666666666,keyword
+V016,"tempe,labu air,santan kental",0.1,0.9,2,resep_4513,[279] Tempe Goreng Ketumbar,0.6445421649371014,0.7612111230552241,0.631578947368421,semantic
+V016,"tempe,labu air,santan kental",0.1,0.9,3,resep_463,Tempe + tahu Crispy,0.6354375264088047,0.6701647377722578,0.631578947368421,keyword
+V016,"tempe,labu air,santan kental",0.1,0.9,4,resep_3473,Tempe Kriuk,0.6235632238302248,0.5514217119864583,0.631578947368421,keyword
+V016,"tempe,labu air,santan kental",0.1,0.9,5,resep_580,Resep Tempe Kriuk,0.6107013726486947,0.4228032001711583,0.631578947368421,keyword
+V016,"tempe,labu air,santan kental",0.2,0.8,1,resep_4513,[279] Tempe Goreng Ketumbar,0.6575053825057817,0.7612111230552241,0.631578947368421,semantic
+V016,"tempe,labu air,santan kental",0.2,0.8,2,resep_377,Tempe Goreng Kriuk,0.6544027176220897,0.6053469214437815,0.6666666666666666,keyword
+V016,"tempe,labu air,santan kental",0.2,0.8,3,resep_463,Tempe + tahu Crispy,0.6392961054491885,0.6701647377722578,0.631578947368421,keyword
+V016,"tempe,labu air,santan kental",0.2,0.8,4,resep_3473,Tempe Kriuk,0.6155475002920285,0.5514217119864583,0.631578947368421,keyword
+V016,"tempe,labu air,santan kental",0.2,0.8,5,resep_580,Resep Tempe Kriuk,0.5898237979289686,0.4228032001711583,0.631578947368421,keyword
+V016,"tempe,labu air,santan kental",0.3,0.7,1,resep_4513,[279] Tempe Goreng Ketumbar,0.6704686000744619,0.7612111230552241,0.631578947368421,semantic
+V016,"tempe,labu air,santan kental",0.3,0.7,2,resep_377,Tempe Goreng Kriuk,0.648270743099801,0.6053469214437815,0.6666666666666666,keyword
+V016,"tempe,labu air,santan kental",0.3,0.7,3,resep_463,Tempe + tahu Crispy,0.643154684489572,0.6701647377722578,0.631578947368421,keyword
+V016,"tempe,labu air,santan kental",0.3,0.7,4,resep_3473,Tempe Kriuk,0.6075317767538322,0.5514217119864583,0.631578947368421,keyword
+V016,"tempe,labu air,santan kental",0.3,0.7,5,resep_3009,Tahu Tempe Bakar Bumbu Rujak,0.5919342150894825,0.8064473836316084,0.5,semantic
+V016,"tempe,labu air,santan kental",0.4,0.6,1,resep_4513,[279] Tempe Goreng Ketumbar,0.6834318176431422,0.7612111230552241,0.631578947368421,semantic
+V016,"tempe,labu air,santan kental",0.4,0.6,2,resep_463,Tempe + tahu Crispy,0.6470132635299557,0.6701647377722578,0.631578947368421,keyword
+V016,"tempe,labu air,santan kental",0.4,0.6,3,resep_377,Tempe Goreng Kriuk,0.6421387685775126,0.6053469214437815,0.6666666666666666,keyword
+V016,"tempe,labu air,santan kental",0.4,0.6,4,resep_3009,Tahu Tempe Bakar Bumbu Rujak,0.6225789534526434,0.8064473836316084,0.5,semantic
+V016,"tempe,labu air,santan kental",0.4,0.6,5,resep_3473,Tempe Kriuk,0.599516053215636,0.5514217119864583,0.631578947368421,keyword
+V016,"tempe,labu air,santan kental",0.5,0.5,1,resep_4513,[279] Tempe Goreng Ketumbar,0.6963950352118226,0.7612111230552241,0.631578947368421,semantic
+V016,"tempe,labu air,santan kental",0.5,0.5,2,resep_3009,Tahu Tempe Bakar Bumbu Rujak,0.6532236918158042,0.8064473836316084,0.5,semantic
+V016,"tempe,labu air,santan kental",0.5,0.5,3,resep_463,Tempe + tahu Crispy,0.6508718425703395,0.6701647377722578,0.631578947368421,keyword
+V016,"tempe,labu air,santan kental",0.5,0.5,4,resep_377,Tempe Goreng Kriuk,0.6360067940552241,0.6053469214437815,0.6666666666666666,keyword
+V016,"tempe,labu air,santan kental",0.5,0.5,5,resep_2093,Sayur santan labusiam tempe by icha,0.6249999987783017,0.9999999975566034,0.25,semantic
+V016,"tempe,labu air,santan kental",0.6,0.4,1,resep_4513,[279] Tempe Goreng Ketumbar,0.7093582527805029,0.7612111230552241,0.631578947368421,semantic
+V016,"tempe,labu air,santan kental",0.6,0.4,2,resep_2093,Sayur santan labusiam tempe by icha,0.699999998533962,0.9999999975566034,0.25,semantic
+V016,"tempe,labu air,santan kental",0.6,0.4,3,resep_3009,Tahu Tempe Bakar Bumbu Rujak,0.683868430178965,0.8064473836316084,0.5,semantic
+V016,"tempe,labu air,santan kental",0.6,0.4,4,resep_463,Tempe + tahu Crispy,0.654730421610723,0.6701647377722578,0.631578947368421,keyword
+V016,"tempe,labu air,santan kental",0.6,0.4,5,resep_377,Tempe Goreng Kriuk,0.6298748195329356,0.6053469214437815,0.6666666666666666,keyword
+V016,"tempe,labu air,santan kental",0.7,0.3,1,resep_2093,Sayur santan labusiam tempe by icha,0.7749999982896223,0.9999999975566034,0.25,semantic
+V016,"tempe,labu air,santan kental",0.7,0.3,2,resep_4513,[279] Tempe Goreng Ketumbar,0.7223214703491831,0.7612111230552241,0.631578947368421,semantic
+V016,"tempe,labu air,santan kental",0.7,0.3,3,resep_3009,Tahu Tempe Bakar Bumbu Rujak,0.7145131685421259,0.8064473836316084,0.5,semantic
+V016,"tempe,labu air,santan kental",0.7,0.3,4,resep_4001,Sayur Santan Tempe Telur Labu Siam,0.6821709282069631,0.908595831504453,0.15384615384615383,semantic
+V016,"tempe,labu air,santan kental",0.7,0.3,5,resep_2332,Tahu Tempe Santan Sederhana,0.6751881850331114,0.8216974071901593,0.33333333333333337,semantic
+V016,"tempe,labu air,santan kental",0.8,0.2,1,resep_2093,Sayur santan labusiam tempe by icha,0.8499999980452828,0.9999999975566034,0.25,semantic
+V016,"tempe,labu air,santan kental",0.8,0.2,2,resep_4001,Sayur Santan Tempe Telur Labu Siam,0.7576458959727932,0.908595831504453,0.15384615384615383,semantic
+V016,"tempe,labu air,santan kental",0.8,0.2,3,resep_3009,Tahu Tempe Bakar Bumbu Rujak,0.7451579069052867,0.8064473836316084,0.5,semantic
+V016,"tempe,labu air,santan kental",0.8,0.2,4,resep_4513,[279] Tempe Goreng Ketumbar,0.7352846879178636,0.7612111230552241,0.631578947368421,semantic
+V016,"tempe,labu air,santan kental",0.8,0.2,5,resep_2332,Tahu Tempe Santan Sederhana,0.7240245924187941,0.8216974071901593,0.33333333333333337,semantic
+V016,"tempe,labu air,santan kental",0.9,0.1,1,resep_2093,Sayur santan labusiam tempe by icha,0.9249999978009431,0.9999999975566034,0.25,semantic
+V016,"tempe,labu air,santan kental",0.9,0.1,2,resep_4001,Sayur Santan Tempe Telur Labu Siam,0.833120863738623,0.908595831504453,0.15384615384615383,semantic
+V016,"tempe,labu air,santan kental",0.9,0.1,3,resep_3009,Tahu Tempe Bakar Bumbu Rujak,0.7758026452684477,0.8064473836316084,0.5,semantic
+V016,"tempe,labu air,santan kental",0.9,0.1,4,resep_2332,Tahu Tempe Santan Sederhana,0.7728609998044766,0.8216974071901593,0.33333333333333337,semantic
+V016,"tempe,labu air,santan kental",0.9,0.1,5,resep_4513,[279] Tempe Goreng Ketumbar,0.7482479054865437,0.7612111230552241,0.631578947368421,semantic
+V016,"tempe,labu air,santan kental",1.0,0.0,1,resep_2093,Sayur santan labusiam tempe by icha,0.9999999975566034,0.9999999975566034,0.25,semantic
+V016,"tempe,labu air,santan kental",1.0,0.0,2,resep_4001,Sayur Santan Tempe Telur Labu Siam,0.908595831504453,0.908595831504453,0.15384615384615383,semantic
+V016,"tempe,labu air,santan kental",1.0,0.0,3,resep_2332,Tahu Tempe Santan Sederhana,0.8216974071901593,0.8216974071901593,0.33333333333333337,semantic
+V016,"tempe,labu air,santan kental",1.0,0.0,4,resep_3009,Tahu Tempe Bakar Bumbu Rujak,0.8064473836316084,0.8064473836316084,0.5,semantic
+V016,"tempe,labu air,santan kental",1.0,0.0,5,resep_407,Kering Tempe Kentang,0.7957983489211528,0.7957983489211528,0.25,semantic
+V017,"tahu putih,kacang tanah",0.0,1.0,1,resep_564,Tahu campur rumahan,0.4,0.5214643022090084,0.4,keyword
+V017,"tahu putih,kacang tanah",0.0,1.0,2,resep_3402,Sego Tahu Blitar,0.35294117647058826,0.5649383116892168,0.35294117647058826,keyword
+V017,"tahu putih,kacang tanah",0.0,1.0,3,resep_253,Tahu Telur Kudus,0.33333333333333337,0.6248805772688227,0.33333333333333337,keyword
+V017,"tahu putih,kacang tanah",0.0,1.0,4,resep_2585,Sego Tahu Blitar,0.33333333333333337,0.5548551458115267,0.33333333333333337,keyword
+V017,"tahu putih,kacang tanah",0.0,1.0,5,resep_4566,Tahu Telur Khas Jawa Timur,0.2857142857142857,0.5141771281702808,0.2857142857142857,keyword
+V017,"tahu putih,kacang tanah",0.1,0.9,1,resep_564,Tahu campur rumahan,0.4121464302209009,0.5214643022090084,0.4,keyword
+V017,"tahu putih,kacang tanah",0.1,0.9,2,resep_3402,Sego Tahu Blitar,0.37414088999245115,0.5649383116892168,0.35294117647058826,keyword
+V017,"tahu putih,kacang tanah",0.1,0.9,3,resep_253,Tahu Telur Kudus,0.3624880577268823,0.6248805772688227,0.33333333333333337,keyword
+V017,"tahu putih,kacang tanah",0.1,0.9,4,resep_2585,Sego Tahu Blitar,0.35548551458115274,0.5548551458115267,0.33333333333333337,keyword
+V017,"tahu putih,kacang tanah",0.1,0.9,5,resep_4566,Tahu Telur Khas Jawa Timur,0.30856056995988523,0.5141771281702808,0.2857142857142857,keyword
+V017,"tahu putih,kacang tanah",0.2,0.8,1,resep_564,Tahu campur rumahan,0.42429286044180176,0.5214643022090084,0.4,keyword
+V017,"tahu putih,kacang tanah",0.2,0.8,2,resep_3402,Sego Tahu Blitar,0.395340603514314,0.5649383116892168,0.35294117647058826,keyword
+V017,"tahu putih,kacang tanah",0.2,0.8,3,resep_253,Tahu Telur Kudus,0.39164278212043124,0.6248805772688227,0.33333333333333337,keyword
+V017,"tahu putih,kacang tanah",0.2,0.8,4,resep_2585,Sego Tahu Blitar,0.37763769582897205,0.5548551458115267,0.33333333333333337,keyword
+V017,"tahu putih,kacang tanah",0.2,0.8,5,resep_1051,Tahu telor bumbu kacang,0.35653466365967,0.78267331829835,0.25,semantic
+V017,"tahu putih,kacang tanah",0.3,0.7,1,resep_564,Tahu campur rumahan,0.4364392906627025,0.5214643022090084,0.4,keyword
+V017,"tahu putih,kacang tanah",0.3,0.7,2,resep_253,Tahu Telur Kudus,0.4207975065139802,0.6248805772688227,0.33333333333333337,keyword
+V017,"tahu putih,kacang tanah",0.3,0.7,3,resep_3402,Sego Tahu Blitar,0.4165403170361768,0.5649383116892168,0.35294117647058826,keyword
+V017,"tahu putih,kacang tanah",0.3,0.7,4,resep_1051,Tahu telor bumbu kacang,0.40980199548950497,0.78267331829835,0.25,semantic
+V017,"tahu putih,kacang tanah",0.3,0.7,5,resep_2585,Sego Tahu Blitar,0.39978987707679137,0.5548551458115267,0.33333333333333337,keyword
+V017,"tahu putih,kacang tanah",0.4,0.6,1,resep_1051,Tahu telor bumbu kacang,0.46306932731934003,0.78267331829835,0.25,semantic
+V017,"tahu putih,kacang tanah",0.4,0.6,2,resep_253,Tahu Telur Kudus,0.4499522309075291,0.6248805772688227,0.33333333333333337,keyword
+V017,"tahu putih,kacang tanah",0.4,0.6,3,resep_564,Tahu campur rumahan,0.4485857208836034,0.5214643022090084,0.4,keyword
+V017,"tahu putih,kacang tanah",0.4,0.6,4,resep_3402,Sego Tahu Blitar,0.43774003055803967,0.5649383116892168,0.35294117647058826,keyword
+V017,"tahu putih,kacang tanah",0.4,0.6,5,resep_2585,Sego Tahu Blitar,0.42194205832461074,0.5548551458115267,0.33333333333333337,keyword
+V017,"tahu putih,kacang tanah",0.5,0.5,1,resep_1051,Tahu telor bumbu kacang,0.5163366591491749,0.78267331829835,0.25,semantic
+V017,"tahu putih,kacang tanah",0.5,0.5,2,resep_253,Tahu Telur Kudus,0.47910695530107805,0.6248805772688227,0.33333333333333337,keyword
+V017,"tahu putih,kacang tanah",0.5,0.5,3,resep_564,Tahu campur rumahan,0.4607321511045042,0.5214643022090084,0.4,keyword
+V017,"tahu putih,kacang tanah",0.5,0.5,4,resep_3402,Sego Tahu Blitar,0.45893974407990257,0.5649383116892168,0.35294117647058826,keyword
+V017,"tahu putih,kacang tanah",0.5,0.5,5,resep_2585,Sego Tahu Blitar,0.44409423957243005,0.5548551458115267,0.33333333333333337,keyword
+V017,"tahu putih,kacang tanah",0.6,0.4,1,resep_1051,Tahu telor bumbu kacang,0.5696039909790099,0.78267331829835,0.25,semantic
+V017,"tahu putih,kacang tanah",0.6,0.4,2,resep_253,Tahu Telur Kudus,0.508261679694627,0.6248805772688227,0.33333333333333337,keyword
+V017,"tahu putih,kacang tanah",0.6,0.4,3,resep_3402,Sego Tahu Blitar,0.48013945760176535,0.5649383116892168,0.35294117647058826,keyword
+V017,"tahu putih,kacang tanah",0.6,0.4,4,resep_564,Tahu campur rumahan,0.47287858132540506,0.5214643022090084,0.4,keyword
+V017,"tahu putih,kacang tanah",0.6,0.4,5,resep_2585,Sego Tahu Blitar,0.46624642082024936,0.5548551458115267,0.33333333333333337,keyword
+V017,"tahu putih,kacang tanah",0.7,0.3,1,resep_1051,Tahu telor bumbu kacang,0.6228713228088449,0.78267331829835,0.25,semantic
+V017,"tahu putih,kacang tanah",0.7,0.3,2,resep_253,Tahu Telur Kudus,0.5374164040881759,0.6248805772688227,0.33333333333333337,keyword
+V017,"tahu putih,kacang tanah",0.7,0.3,3,resep_3402,Sego Tahu Blitar,0.5013391711236282,0.5649383116892168,0.35294117647058826,keyword
+V017,"tahu putih,kacang tanah",0.7,0.3,4,resep_3909,Tahu tek,0.4884435550973669,0.596936171147499,0.23529411764705882,keyword
+V017,"tahu putih,kacang tanah",0.7,0.3,5,resep_2585,Sego Tahu Blitar,0.48839860206806873,0.5548551458115267,0.33333333333333337,keyword
+V017,"tahu putih,kacang tanah",0.8,0.2,1,resep_1051,Tahu telor bumbu kacang,0.6761386546386801,0.78267331829835,0.25,semantic
+V017,"tahu putih,kacang tanah",0.8,0.2,2,resep_253,Tahu Telur Kudus,0.5665711284817249,0.6248805772688227,0.33333333333333337,keyword
+V017,"tahu putih,kacang tanah",0.8,0.2,3,resep_3909,Tahu tek,0.524607760447411,0.596936171147499,0.23529411764705882,keyword
+V017,"tahu putih,kacang tanah",0.8,0.2,4,resep_3402,Sego Tahu Blitar,0.5225388846454911,0.5649383116892168,0.35294117647058826,keyword
+V017,"tahu putih,kacang tanah",0.8,0.2,5,resep_2585,Sego Tahu Blitar,0.5105507833158881,0.5548551458115267,0.33333333333333337,keyword
+V017,"tahu putih,kacang tanah",0.9,0.1,1,resep_1051,Tahu telor bumbu kacang,0.729405986468515,0.78267331829835,0.25,semantic
+V017,"tahu putih,kacang tanah",0.9,0.1,2,resep_253,Tahu Telur Kudus,0.5957258528752738,0.6248805772688227,0.33333333333333337,keyword
+V017,"tahu putih,kacang tanah",0.9,0.1,3,resep_3909,Tahu tek,0.560771965797455,0.596936171147499,0.23529411764705882,keyword
+V017,"tahu putih,kacang tanah",0.9,0.1,4,resep_3402,Sego Tahu Blitar,0.5437385981673539,0.5649383116892168,0.35294117647058826,keyword
+V017,"tahu putih,kacang tanah",0.9,0.1,5,resep_2585,Sego Tahu Blitar,0.5327029645637075,0.5548551458115267,0.33333333333333337,keyword
+V017,"tahu putih,kacang tanah",1.0,0.0,1,resep_1051,Tahu telor bumbu kacang,0.78267331829835,0.78267331829835,0.25,semantic
+V017,"tahu putih,kacang tanah",1.0,0.0,2,resep_253,Tahu Telur Kudus,0.6248805772688227,0.6248805772688227,0.33333333333333337,keyword
+V017,"tahu putih,kacang tanah",1.0,0.0,3,resep_3909,Tahu tek,0.596936171147499,0.596936171147499,0.23529411764705882,keyword
+V017,"tahu putih,kacang tanah",1.0,0.0,4,resep_3402,Sego Tahu Blitar,0.5649383116892168,0.5649383116892168,0.35294117647058826,keyword
+V017,"tahu putih,kacang tanah",1.0,0.0,5,resep_1604,Tahu Telur Malangan,0.562813414168923,0.562813414168923,0.23529411764705882,keyword
+V019,"ikan tuna,tomat,cabai rawit",0.0,1.0,1,resep_3270,Tuna Balado,0.5,0.8727108319582225,0.5,semantic
+V019,"ikan tuna,tomat,cabai rawit",0.0,1.0,2,resep_4324,Sarden homemade mpasi friendly,0.4444444444444444,0.3495463488540055,0.4444444444444444,keyword
+V019,"ikan tuna,tomat,cabai rawit",0.0,1.0,3,resep_1946,Mie Gelas Kuah Isi Sayuran Telur Sosis #PR_AnekaMieKuah,0.4444444444444444,0.14662324018589828,0.4444444444444444,keyword
+V019,"ikan tuna,tomat,cabai rawit",0.0,1.0,4,resep_2459,Tuna Cilantro,0.4,0.9824598260903183,0.4,semantic
+V019,"ikan tuna,tomat,cabai rawit",0.0,1.0,5,resep_2476,Ikan Tuna dan Bakso Saus Lada Hitam,0.4,0.7269002078379163,0.4,semantic
+V019,"ikan tuna,tomat,cabai rawit",0.1,0.9,1,resep_3270,Tuna Balado,0.5372710831958223,0.8727108319582225,0.5,semantic
+V019,"ikan tuna,tomat,cabai rawit",0.1,0.9,2,resep_2459,Tuna Cilantro,0.4582459826090319,0.9824598260903183,0.4,semantic
+V019,"ikan tuna,tomat,cabai rawit",0.1,0.9,3,resep_4324,Sarden homemade mpasi friendly,0.43495463488540054,0.3495463488540055,0.4444444444444444,keyword
+V019,"ikan tuna,tomat,cabai rawit",0.1,0.9,4,resep_2476,Ikan Tuna dan Bakso Saus Lada Hitam,0.4326900207837917,0.7269002078379163,0.4,semantic
+V019,"ikan tuna,tomat,cabai rawit",0.1,0.9,5,resep_1946,Mie Gelas Kuah Isi Sayuran Telur Sosis #PR_AnekaMieKuah,0.4146623240185898,0.14662324018589828,0.4444444444444444,keyword
+V019,"ikan tuna,tomat,cabai rawit",0.2,0.8,1,resep_3270,Tuna Balado,0.5745421663916446,0.8727108319582225,0.5,semantic
+V019,"ikan tuna,tomat,cabai rawit",0.2,0.8,2,resep_2459,Tuna Cilantro,0.5164919652180637,0.9824598260903183,0.4,semantic
+V019,"ikan tuna,tomat,cabai rawit",0.2,0.8,3,resep_2476,Ikan Tuna dan Bakso Saus Lada Hitam,0.46538004156758334,0.7269002078379163,0.4,semantic
+V019,"ikan tuna,tomat,cabai rawit",0.2,0.8,4,resep_4861,Lempah Ikan Tuna,0.4314059885574598,0.7856013713587273,0.3428571428571429,semantic
+V019,"ikan tuna,tomat,cabai rawit",0.2,0.8,5,resep_4324,Sarden homemade mpasi friendly,0.42546482532635665,0.3495463488540055,0.4444444444444444,keyword
+V019,"ikan tuna,tomat,cabai rawit",0.3,0.7,1,resep_3270,Tuna Balado,0.6118132495874667,0.8727108319582225,0.5,semantic
+V019,"ikan tuna,tomat,cabai rawit",0.3,0.7,2,resep_2459,Tuna Cilantro,0.5747379478270955,0.9824598260903183,0.4,semantic
+V019,"ikan tuna,tomat,cabai rawit",0.3,0.7,3,resep_2476,Ikan Tuna dan Bakso Saus Lada Hitam,0.49807006235137485,0.7269002078379163,0.4,semantic
+V019,"ikan tuna,tomat,cabai rawit",0.3,0.7,4,resep_4861,Lempah Ikan Tuna,0.4756804114076182,0.7856013713587273,0.3428571428571429,semantic
+V019,"ikan tuna,tomat,cabai rawit",0.3,0.7,5,resep_4502,Tuna asam manis,0.45708436861126156,0.7236145620375384,0.3428571428571429,semantic
+V019,"ikan tuna,tomat,cabai rawit",0.4,0.6,1,resep_3270,Tuna Balado,0.649084332783289,0.8727108319582225,0.5,semantic
+V019,"ikan tuna,tomat,cabai rawit",0.4,0.6,2,resep_2459,Tuna Cilantro,0.6329839304361273,0.9824598260903183,0.4,semantic
+V019,"ikan tuna,tomat,cabai rawit",0.4,0.6,3,resep_2476,Ikan Tuna dan Bakso Saus Lada Hitam,0.5307600831351665,0.7269002078379163,0.4,semantic
+V019,"ikan tuna,tomat,cabai rawit",0.4,0.6,4,resep_4861,Lempah Ikan Tuna,0.5199548342577767,0.7856013713587273,0.3428571428571429,semantic
+V019,"ikan tuna,tomat,cabai rawit",0.4,0.6,5,resep_4502,Tuna asam manis,0.4951601105293011,0.7236145620375384,0.3428571428571429,semantic
+V019,"ikan tuna,tomat,cabai rawit",0.5,0.5,1,resep_2459,Tuna Cilantro,0.6912299130451591,0.9824598260903183,0.4,semantic
+V019,"ikan tuna,tomat,cabai rawit",0.5,0.5,2,resep_3270,Tuna Balado,0.6863554159791112,0.8727108319582225,0.5,semantic
+V019,"ikan tuna,tomat,cabai rawit",0.5,0.5,3,resep_4861,Lempah Ikan Tuna,0.5642292571079351,0.7856013713587273,0.3428571428571429,semantic
+V019,"ikan tuna,tomat,cabai rawit",0.5,0.5,4,resep_2476,Ikan Tuna dan Bakso Saus Lada Hitam,0.5634501039189581,0.7269002078379163,0.4,semantic
+V019,"ikan tuna,tomat,cabai rawit",0.5,0.5,5,resep_4502,Tuna asam manis,0.5332358524473406,0.7236145620375384,0.3428571428571429,semantic
+V019,"ikan tuna,tomat,cabai rawit",0.6,0.4,1,resep_2459,Tuna Cilantro,0.749475895654191,0.9824598260903183,0.4,semantic
+V019,"ikan tuna,tomat,cabai rawit",0.6,0.4,2,resep_3270,Tuna Balado,0.7236264991749335,0.8727108319582225,0.5,semantic
+V019,"ikan tuna,tomat,cabai rawit",0.6,0.4,3,resep_4861,Lempah Ikan Tuna,0.6085036799580936,0.7856013713587273,0.3428571428571429,semantic
+V019,"ikan tuna,tomat,cabai rawit",0.6,0.4,4,resep_2476,Ikan Tuna dan Bakso Saus Lada Hitam,0.5961401247027498,0.7269002078379163,0.4,semantic
+V019,"ikan tuna,tomat,cabai rawit",0.6,0.4,5,resep_4502,Tuna asam manis,0.5713115943653801,0.7236145620375384,0.3428571428571429,semantic
+V019,"ikan tuna,tomat,cabai rawit",0.7,0.3,1,resep_2459,Tuna Cilantro,0.8077218782632228,0.9824598260903183,0.4,semantic
+V019,"ikan tuna,tomat,cabai rawit",0.7,0.3,2,resep_3270,Tuna Balado,0.7608975823707558,0.8727108319582225,0.5,semantic
+V019,"ikan tuna,tomat,cabai rawit",0.7,0.3,3,resep_4861,Lempah Ikan Tuna,0.652778102808252,0.7856013713587273,0.3428571428571429,semantic
+V019,"ikan tuna,tomat,cabai rawit",0.7,0.3,4,resep_2476,Ikan Tuna dan Bakso Saus Lada Hitam,0.6288301454865414,0.7269002078379163,0.4,semantic
+V019,"ikan tuna,tomat,cabai rawit",0.7,0.3,5,resep_4502,Tuna asam manis,0.6093873362834197,0.7236145620375384,0.3428571428571429,semantic
+V019,"ikan tuna,tomat,cabai rawit",0.8,0.2,1,resep_2459,Tuna Cilantro,0.8659678608722547,0.9824598260903183,0.4,semantic
+V019,"ikan tuna,tomat,cabai rawit",0.8,0.2,2,resep_3270,Tuna Balado,0.7981686655665781,0.8727108319582225,0.5,semantic
+V019,"ikan tuna,tomat,cabai rawit",0.8,0.2,3,resep_4861,Lempah Ikan Tuna,0.6970525256584105,0.7856013713587273,0.3428571428571429,semantic
+V019,"ikan tuna,tomat,cabai rawit",0.8,0.2,4,resep_2476,Ikan Tuna dan Bakso Saus Lada Hitam,0.6615201662703332,0.7269002078379163,0.4,semantic
+V019,"ikan tuna,tomat,cabai rawit",0.8,0.2,5,resep_923,Tuna Suwir Kemangi,0.6583517464640022,0.7673841275244472,0.2222222222222222,semantic
+V019,"ikan tuna,tomat,cabai rawit",0.9,0.1,1,resep_2459,Tuna Cilantro,0.9242138434812865,0.9824598260903183,0.4,semantic
+V019,"ikan tuna,tomat,cabai rawit",0.9,0.1,2,resep_3270,Tuna Balado,0.8354397487624003,0.8727108319582225,0.5,semantic
+V019,"ikan tuna,tomat,cabai rawit",0.9,0.1,3,resep_4861,Lempah Ikan Tuna,0.7413269485085688,0.7856013713587273,0.3428571428571429,semantic
+V019,"ikan tuna,tomat,cabai rawit",0.9,0.1,4,resep_923,Tuna Suwir Kemangi,0.7128679369942247,0.7673841275244472,0.2222222222222222,semantic
+V019,"ikan tuna,tomat,cabai rawit",0.9,0.1,5,resep_3004,Tuna bumbu kemangi,0.7059077485100873,0.7581981519393126,0.23529411764705882,semantic
+V019,"ikan tuna,tomat,cabai rawit",1.0,0.0,1,resep_2459,Tuna Cilantro,0.9824598260903183,0.9824598260903183,0.4,semantic
+V019,"ikan tuna,tomat,cabai rawit",1.0,0.0,2,resep_3270,Tuna Balado,0.8727108319582225,0.8727108319582225,0.5,semantic
+V019,"ikan tuna,tomat,cabai rawit",1.0,0.0,3,resep_4861,Lempah Ikan Tuna,0.7856013713587273,0.7856013713587273,0.3428571428571429,semantic
+V019,"ikan tuna,tomat,cabai rawit",1.0,0.0,4,resep_923,Tuna Suwir Kemangi,0.7673841275244472,0.7673841275244472,0.2222222222222222,semantic
+V019,"ikan tuna,tomat,cabai rawit",1.0,0.0,5,resep_3004,Tuna bumbu kemangi,0.7581981519393126,0.7581981519393126,0.23529411764705882,semantic
+V022,"mie,ebi kering",0.0,1.0,1,resep_1613,Rujak Mie Tahu,0.4,0.8676623307492447,0.4,semantic
+V022,"mie,ebi kering",0.0,1.0,2,resep_4644,Lomie Ayam Kangkung,0.14814814814814814,0.5174549380703258,0.14814814814814814,keyword
+V022,"mie,ebi kering",0.1,0.9,1,resep_1613,Rujak Mie Tahu,0.4467662330749245,0.8676623307492447,0.4,semantic
+V022,"mie,ebi kering",0.1,0.9,2,resep_4644,Lomie Ayam Kangkung,0.18507882714036591,0.5174549380703258,0.14814814814814814,keyword
+V022,"mie,ebi kering",0.2,0.8,1,resep_1613,Rujak Mie Tahu,0.493532466149849,0.8676623307492447,0.4,semantic
+V022,"mie,ebi kering",0.2,0.8,2,resep_4644,Lomie Ayam Kangkung,0.2220095061325837,0.5174549380703258,0.14814814814814814,keyword
+V022,"mie,ebi kering",0.3,0.7,1,resep_1613,Rujak Mie Tahu,0.5402986992247734,0.8676623307492447,0.4,semantic
+V022,"mie,ebi kering",0.3,0.7,2,resep_4644,Lomie Ayam Kangkung,0.25894018512480144,0.5174549380703258,0.14814814814814814,keyword
+V022,"mie,ebi kering",0.4,0.6,1,resep_1613,Rujak Mie Tahu,0.5870649322996979,0.8676623307492447,0.4,semantic
+V022,"mie,ebi kering",0.4,0.6,2,resep_4644,Lomie Ayam Kangkung,0.29587086411701924,0.5174549380703258,0.14814814814814814,keyword
+V022,"mie,ebi kering",0.5,0.5,1,resep_1613,Rujak Mie Tahu,0.6338311653746224,0.8676623307492447,0.4,semantic
+V022,"mie,ebi kering",0.5,0.5,2,resep_4644,Lomie Ayam Kangkung,0.332801543109237,0.5174549380703258,0.14814814814814814,keyword
+V022,"mie,ebi kering",0.6,0.4,1,resep_1613,Rujak Mie Tahu,0.6805973984495468,0.8676623307492447,0.4,semantic
+V022,"mie,ebi kering",0.6,0.4,2,resep_4644,Lomie Ayam Kangkung,0.36973222210145473,0.5174549380703258,0.14814814814814814,keyword
+V022,"mie,ebi kering",0.7,0.3,1,resep_1613,Rujak Mie Tahu,0.7273636315244713,0.8676623307492447,0.4,semantic
+V022,"mie,ebi kering",0.7,0.3,2,resep_4644,Lomie Ayam Kangkung,0.40666290109367254,0.5174549380703258,0.14814814814814814,keyword
+V022,"mie,ebi kering",0.8,0.2,1,resep_1613,Rujak Mie Tahu,0.7741298645993959,0.8676623307492447,0.4,semantic
+V022,"mie,ebi kering",0.8,0.2,2,resep_4644,Lomie Ayam Kangkung,0.4435935800858903,0.5174549380703258,0.14814814814814814,keyword
+V022,"mie,ebi kering",0.9,0.1,1,resep_1613,Rujak Mie Tahu,0.8208960976743203,0.8676623307492447,0.4,semantic
+V022,"mie,ebi kering",0.9,0.1,2,resep_4644,Lomie Ayam Kangkung,0.4805242590781081,0.5174549380703258,0.14814814814814814,keyword
+V022,"mie,ebi kering",1.0,0.0,1,resep_1613,Rujak Mie Tahu,0.8676623307492447,0.8676623307492447,0.4,semantic
+V022,"mie,ebi kering",1.0,0.0,2,resep_4644,Lomie Ayam Kangkung,0.5174549380703258,0.5174549380703258,0.14814814814814814,keyword
+V023,"tepung terigu,tepung tapioka,ragout ayam sayur",0.0,1.0,1,resep_4874,Stik Telur Gabus (tanpa keju),0.5,0.5049165346203845,0.5,keyword
+V023,"tepung terigu,tepung tapioka,ragout ayam sayur",0.0,1.0,2,resep_2569,Ayam crispy,0.5,0.49142207143234584,0.5,keyword
+V023,"tepung terigu,tepung tapioka,ragout ayam sayur",0.0,1.0,3,resep_2221,Risol Rogut Ayam,0.4444444444444444,0.6256692306613593,0.4444444444444444,keyword
+V023,"tepung terigu,tepung tapioka,ragout ayam sayur",0.0,1.0,4,resep_3786,Tahu Goreng Kriuk,0.4444444444444444,0.0,0.4444444444444444,keyword
+V023,"tepung terigu,tepung tapioka,ragout ayam sayur",0.0,1.0,5,resep_238,Ayam tepung,0.42857142857142855,0.977344803196767,0.42857142857142855,semantic
+V023,"tepung terigu,tepung tapioka,ragout ayam sayur",0.1,0.9,1,resep_4874,Stik Telur Gabus (tanpa keju),0.5004916534620385,0.5049165346203845,0.5,keyword
+V023,"tepung terigu,tepung tapioka,ragout ayam sayur",0.1,0.9,2,resep_2569,Ayam crispy,0.4991422071432346,0.49142207143234584,0.5,keyword
+V023,"tepung terigu,tepung tapioka,ragout ayam sayur",0.1,0.9,3,resep_238,Ayam tepung,0.48344876603396236,0.977344803196767,0.42857142857142855,semantic
+V023,"tepung terigu,tepung tapioka,ragout ayam sayur",0.1,0.9,4,resep_2221,Risol Rogut Ayam,0.4625669230661359,0.6256692306613593,0.4444444444444444,keyword
+V023,"tepung terigu,tepung tapioka,ragout ayam sayur",0.1,0.9,5,resep_2319,Sosis Ayam Suwir,0.4413198628828724,0.8131986288287233,0.4,semantic
+V023,"tepung terigu,tepung tapioka,ragout ayam sayur",0.2,0.8,1,resep_238,Ayam tepung,0.5383261034964962,0.977344803196767,0.42857142857142855,semantic
+V023,"tepung terigu,tepung tapioka,ragout ayam sayur",0.2,0.8,2,resep_4874,Stik Telur Gabus (tanpa keju),0.500983306924077,0.5049165346203845,0.5,keyword
+V023,"tepung terigu,tepung tapioka,ragout ayam sayur",0.2,0.8,3,resep_2569,Ayam crispy,0.4982844142864692,0.49142207143234584,0.5,keyword
+V023,"tepung terigu,tepung tapioka,ragout ayam sayur",0.2,0.8,4,resep_2319,Sosis Ayam Suwir,0.48263972576574476,0.8131986288287233,0.4,semantic
+V023,"tepung terigu,tepung tapioka,ragout ayam sayur",0.2,0.8,5,resep_2221,Risol Rogut Ayam,0.4806894016878274,0.6256692306613593,0.4444444444444444,keyword
+V023,"tepung terigu,tepung tapioka,ragout ayam sayur",0.3,0.7,1,resep_238,Ayam tepung,0.5932034409590301,0.977344803196767,0.42857142857142855,semantic
+V023,"tepung terigu,tepung tapioka,ragout ayam sayur",0.3,0.7,2,resep_2319,Sosis Ayam Suwir,0.5239595886486169,0.8131986288287233,0.4,semantic
+V023,"tepung terigu,tepung tapioka,ragout ayam sayur",0.3,0.7,3,resep_2063,Seluang goreng tepung,0.5102160020242714,0.8522351582627232,0.36363636363636365,semantic
+V023,"tepung terigu,tepung tapioka,ragout ayam sayur",0.3,0.7,4,resep_4874,Stik Telur Gabus (tanpa keju),0.5014749603861153,0.5049165346203845,0.5,keyword
+V023,"tepung terigu,tepung tapioka,ragout ayam sayur",0.3,0.7,5,resep_2166,Nugget ayam tahu,0.5003668203092018,0.8678894010306724,0.3428571428571429,semantic
+V023,"tepung terigu,tepung tapioka,ragout ayam sayur",0.4,0.6,1,resep_238,Ayam tepung,0.6480807784215639,0.977344803196767,0.42857142857142855,semantic
+V023,"tepung terigu,tepung tapioka,ragout ayam sayur",0.4,0.6,2,resep_2319,Sosis Ayam Suwir,0.5652794515314894,0.8131986288287233,0.4,semantic
+V023,"tepung terigu,tepung tapioka,ragout ayam sayur",0.4,0.6,3,resep_2063,Seluang goreng tepung,0.5590758814869075,0.8522351582627232,0.36363636363636365,semantic
+V023,"tepung terigu,tepung tapioka,ragout ayam sayur",0.4,0.6,4,resep_2166,Nugget ayam tahu,0.5528700461265548,0.8678894010306724,0.3428571428571429,semantic
+V023,"tepung terigu,tepung tapioka,ragout ayam sayur",0.4,0.6,5,resep_1252,Ayam Goreng Tepung,0.5457372346943996,0.989343086735999,0.25,semantic
+V023,"tepung terigu,tepung tapioka,ragout ayam sayur",0.5,0.5,1,resep_238,Ayam tepung,0.7029581158840977,0.977344803196767,0.42857142857142855,semantic
+V023,"tepung terigu,tepung tapioka,ragout ayam sayur",0.5,0.5,2,resep_1252,Ayam Goreng Tepung,0.6196715433679996,0.989343086735999,0.25,semantic
+V023,"tepung terigu,tepung tapioka,ragout ayam sayur",0.5,0.5,3,resep_3421,Risoles Rogout Luncheon Ayam,0.6132075452808972,0.9999999962221717,0.22641509433962262,semantic
+V023,"tepung terigu,tepung tapioka,ragout ayam sayur",0.5,0.5,4,resep_2063,Seluang goreng tepung,0.6079357609495435,0.8522351582627232,0.36363636363636365,semantic
+V023,"tepung terigu,tepung tapioka,ragout ayam sayur",0.5,0.5,5,resep_2319,Sosis Ayam Suwir,0.6065993144143617,0.8131986288287233,0.4,semantic
+V023,"tepung terigu,tepung tapioka,ragout ayam sayur",0.6,0.4,1,resep_238,Ayam tepung,0.7578354533466316,0.977344803196767,0.42857142857142855,semantic
+V023,"tepung terigu,tepung tapioka,ragout ayam sayur",0.6,0.4,2,resep_1252,Ayam Goreng Tepung,0.6936058520415994,0.989343086735999,0.25,semantic
+V023,"tepung terigu,tepung tapioka,ragout ayam sayur",0.6,0.4,3,resep_3421,Risoles Rogout Luncheon Ayam,0.6905660354691521,0.9999999962221717,0.22641509433962262,semantic
+V023,"tepung terigu,tepung tapioka,ragout ayam sayur",0.6,0.4,4,resep_2166,Nugget ayam tahu,0.6578764977612606,0.8678894010306724,0.3428571428571429,semantic
+V023,"tepung terigu,tepung tapioka,ragout ayam sayur",0.6,0.4,5,resep_2063,Seluang goreng tepung,0.6567956404121794,0.8522351582627232,0.36363636363636365,semantic
+V023,"tepung terigu,tepung tapioka,ragout ayam sayur",0.7,0.3,1,resep_238,Ayam tepung,0.8127127908091654,0.977344803196767,0.42857142857142855,semantic
+V023,"tepung terigu,tepung tapioka,ragout ayam sayur",0.7,0.3,2,resep_3421,Risoles Rogout Luncheon Ayam,0.767924525657407,0.9999999962221717,0.22641509433962262,semantic
+V023,"tepung terigu,tepung tapioka,ragout ayam sayur",0.7,0.3,3,resep_1252,Ayam Goreng Tepung,0.7675401607151993,0.989343086735999,0.25,semantic
+V023,"tepung terigu,tepung tapioka,ragout ayam sayur",0.7,0.3,4,resep_2166,Nugget ayam tahu,0.7103797235786135,0.8678894010306724,0.3428571428571429,semantic
+V023,"tepung terigu,tepung tapioka,ragout ayam sayur",0.7,0.3,5,resep_2063,Seluang goreng tepung,0.7056555198748153,0.8522351582627232,0.36363636363636365,semantic
+V023,"tepung terigu,tepung tapioka,ragout ayam sayur",0.8,0.2,1,resep_238,Ayam tepung,0.8675901282716993,0.977344803196767,0.42857142857142855,semantic
+V023,"tepung terigu,tepung tapioka,ragout ayam sayur",0.8,0.2,2,resep_3421,Risoles Rogout Luncheon Ayam,0.8452830158456619,0.9999999962221717,0.22641509433962262,semantic
+V023,"tepung terigu,tepung tapioka,ragout ayam sayur",0.8,0.2,3,resep_1252,Ayam Goreng Tepung,0.8414744693887993,0.989343086735999,0.25,semantic
+V023,"tepung terigu,tepung tapioka,ragout ayam sayur",0.8,0.2,4,resep_2166,Nugget ayam tahu,0.7628829493959666,0.8678894010306724,0.3428571428571429,semantic
+V023,"tepung terigu,tepung tapioka,ragout ayam sayur",0.8,0.2,5,resep_2063,Seluang goreng tepung,0.7545153993374514,0.8522351582627232,0.36363636363636365,semantic
+V023,"tepung terigu,tepung tapioka,ragout ayam sayur",0.9,0.1,1,resep_3421,Risoles Rogout Luncheon Ayam,0.9226415060339168,0.9999999962221717,0.22641509433962262,semantic
+V023,"tepung terigu,tepung tapioka,ragout ayam sayur",0.9,0.1,2,resep_238,Ayam tepung,0.9224674657342331,0.977344803196767,0.42857142857142855,semantic
+V023,"tepung terigu,tepung tapioka,ragout ayam sayur",0.9,0.1,3,resep_1252,Ayam Goreng Tepung,0.9154087780623992,0.989343086735999,0.25,semantic
+V023,"tepung terigu,tepung tapioka,ragout ayam sayur",0.9,0.1,4,resep_2166,Nugget ayam tahu,0.8153861752133194,0.8678894010306724,0.3428571428571429,semantic
+V023,"tepung terigu,tepung tapioka,ragout ayam sayur",0.9,0.1,5,resep_2063,Seluang goreng tepung,0.8033752788000873,0.8522351582627232,0.36363636363636365,semantic
+V023,"tepung terigu,tepung tapioka,ragout ayam sayur",1.0,0.0,1,resep_3421,Risoles Rogout Luncheon Ayam,0.9999999962221717,0.9999999962221717,0.22641509433962262,semantic
+V023,"tepung terigu,tepung tapioka,ragout ayam sayur",1.0,0.0,2,resep_1252,Ayam Goreng Tepung,0.989343086735999,0.989343086735999,0.25,semantic
+V023,"tepung terigu,tepung tapioka,ragout ayam sayur",1.0,0.0,3,resep_238,Ayam tepung,0.977344803196767,0.977344803196767,0.42857142857142855,semantic
+V023,"tepung terigu,tepung tapioka,ragout ayam sayur",1.0,0.0,4,resep_2166,Nugget ayam tahu,0.8678894010306724,0.8678894010306724,0.3428571428571429,semantic
+V023,"tepung terigu,tepung tapioka,ragout ayam sayur",1.0,0.0,5,resep_2063,Seluang goreng tepung,0.8522351582627232,0.8522351582627232,0.36363636363636365,semantic
+V024,"paha atas ayam,mie soun",0.0,1.0,1,resep_4515,Soto ayam bumbu instan,0.21052631578947367,0.551303714256258,0.21052631578947367,keyword
+V024,"paha atas ayam,mie soun",0.0,1.0,2,resep_1273,Mie ayam enak simpel,0.16666666666666669,0.6957547645984605,0.16666666666666669,keyword
+V024,"paha atas ayam,mie soun",0.1,0.9,1,resep_4515,Soto ayam bumbu instan,0.24460405563615212,0.551303714256258,0.21052631578947367,keyword
+V024,"paha atas ayam,mie soun",0.1,0.9,2,resep_1273,Mie ayam enak simpel,0.2195754764598461,0.6957547645984605,0.16666666666666669,keyword
+V024,"paha atas ayam,mie soun",0.2,0.8,1,resep_4515,Soto ayam bumbu instan,0.27868179548283056,0.551303714256258,0.21052631578947367,keyword
+V024,"paha atas ayam,mie soun",0.2,0.8,2,resep_1273,Mie ayam enak simpel,0.27248428625302545,0.6957547645984605,0.16666666666666669,keyword
+V024,"paha atas ayam,mie soun",0.3,0.7,1,resep_1273,Mie ayam enak simpel,0.3253930960462048,0.6957547645984605,0.16666666666666669,keyword
+V024,"paha atas ayam,mie soun",0.3,0.7,2,resep_4515,Soto ayam bumbu instan,0.31275953532950895,0.551303714256258,0.21052631578947367,keyword
+V024,"paha atas ayam,mie soun",0.4,0.6,1,resep_1273,Mie ayam enak simpel,0.3783019058393843,0.6957547645984605,0.16666666666666669,keyword
+V024,"paha atas ayam,mie soun",0.4,0.6,2,resep_4515,Soto ayam bumbu instan,0.3468372751761874,0.551303714256258,0.21052631578947367,keyword
+V024,"paha atas ayam,mie soun",0.5,0.5,1,resep_1273,Mie ayam enak simpel,0.43121071563256363,0.6957547645984605,0.16666666666666669,keyword
+V024,"paha atas ayam,mie soun",0.5,0.5,2,resep_4515,Soto ayam bumbu instan,0.38091501502286584,0.551303714256258,0.21052631578947367,keyword
+V024,"paha atas ayam,mie soun",0.6,0.4,1,resep_1273,Mie ayam enak simpel,0.484119525425743,0.6957547645984605,0.16666666666666669,keyword
+V024,"paha atas ayam,mie soun",0.6,0.4,2,resep_4515,Soto ayam bumbu instan,0.41499275486954423,0.551303714256258,0.21052631578947367,keyword
+V024,"paha atas ayam,mie soun",0.7,0.3,1,resep_1273,Mie ayam enak simpel,0.5370283352189223,0.6957547645984605,0.16666666666666669,keyword
+V024,"paha atas ayam,mie soun",0.7,0.3,2,resep_4515,Soto ayam bumbu instan,0.4490704947162227,0.551303714256258,0.21052631578947367,keyword
+V024,"paha atas ayam,mie soun",0.8,0.2,1,resep_1273,Mie ayam enak simpel,0.5899371450121018,0.6957547645984605,0.16666666666666669,keyword
+V024,"paha atas ayam,mie soun",0.8,0.2,2,resep_4515,Soto ayam bumbu instan,0.4831482345629012,0.551303714256258,0.21052631578947367,keyword
+V024,"paha atas ayam,mie soun",0.9,0.1,1,resep_1273,Mie ayam enak simpel,0.6428459548052812,0.6957547645984605,0.16666666666666669,keyword
+V024,"paha atas ayam,mie soun",0.9,0.1,2,resep_4515,Soto ayam bumbu instan,0.5172259744095796,0.551303714256258,0.21052631578947367,keyword
+V024,"paha atas ayam,mie soun",1.0,0.0,1,resep_1273,Mie ayam enak simpel,0.6957547645984605,0.6957547645984605,0.16666666666666669,keyword
+V024,"paha atas ayam,mie soun",1.0,0.0,2,resep_4515,Soto ayam bumbu instan,0.551303714256258,0.551303714256258,0.21052631578947367,keyword
+V025,"singkong,bawang putih,kunyit",0.0,1.0,1,resep_1317,Ikan Selar Goreng Kunyit,0.5,0.8522895605616521,0.5,semantic
+V025,"singkong,bawang putih,kunyit",0.0,1.0,2,resep_3790,Gulai daun ubi + ikan patin sale,0.5,0.4925479295253362,0.5,keyword
+V025,"singkong,bawang putih,kunyit",0.0,1.0,3,resep_3465,Gulai ikan ala Minang,0.47058823529411764,0.48012863266619416,0.47058823529411764,keyword
+V025,"singkong,bawang putih,kunyit",0.0,1.0,4,resep_1525,Sapi bumbu kuning,0.4444444444444444,0.6955794148741894,0.4444444444444444,semantic
+V025,"singkong,bawang putih,kunyit",0.0,1.0,5,resep_976,Sate sapi sederhana,0.4444444444444444,0.3585230003655643,0.4444444444444444,keyword
+V025,"singkong,bawang putih,kunyit",0.1,0.9,1,resep_1317,Ikan Selar Goreng Kunyit,0.5352289560561652,0.8522895605616521,0.5,semantic
+V025,"singkong,bawang putih,kunyit",0.1,0.9,2,resep_3790,Gulai daun ubi + ikan patin sale,0.4992547929525336,0.4925479295253362,0.5,keyword
+V025,"singkong,bawang putih,kunyit",0.1,0.9,3,resep_3465,Gulai ikan ala Minang,0.4715422750313253,0.48012863266619416,0.47058823529411764,keyword
+V025,"singkong,bawang putih,kunyit",0.1,0.9,4,resep_1525,Sapi bumbu kuning,0.4695579414874189,0.6955794148741894,0.4444444444444444,semantic
+V025,"singkong,bawang putih,kunyit",0.1,0.9,5,resep_487,Suwir tongkol daun kunyit,0.4401890952660793,0.6777530216263098,0.41379310344827586,semantic
+V025,"singkong,bawang putih,kunyit",0.2,0.8,1,resep_1317,Ikan Selar Goreng Kunyit,0.5704579121123304,0.8522895605616521,0.5,semantic
+V025,"singkong,bawang putih,kunyit",0.2,0.8,2,resep_3790,Gulai daun ubi + ikan patin sale,0.4985095859050673,0.4925479295253362,0.5,keyword
+V025,"singkong,bawang putih,kunyit",0.2,0.8,3,resep_1525,Sapi bumbu kuning,0.4946714385303934,0.6955794148741894,0.4444444444444444,semantic
+V025,"singkong,bawang putih,kunyit",0.2,0.8,4,resep_3728,Gule kambing daun singkong,0.4823529405601469,0.9999999969183813,0.35294117647058826,semantic
+V025,"singkong,bawang putih,kunyit",0.2,0.8,5,resep_2364,Sayur Tahu Kuning,0.4789938843752045,0.9404239673305677,0.36363636363636365,semantic
+V025,"singkong,bawang putih,kunyit",0.3,0.7,1,resep_1317,Ikan Selar Goreng Kunyit,0.6056868681684956,0.8522895605616521,0.5,semantic
+V025,"singkong,bawang putih,kunyit",0.3,0.7,2,resep_3728,Gule kambing daun singkong,0.5470588226049262,0.9999999969183813,0.35294117647058826,semantic
+V025,"singkong,bawang putih,kunyit",0.3,0.7,3,resep_2364,Sayur Tahu Kuning,0.5366726447446248,0.9404239673305677,0.36363636363636365,semantic
+V025,"singkong,bawang putih,kunyit",0.3,0.7,4,resep_1525,Sapi bumbu kuning,0.5197849355733679,0.6955794148741894,0.4444444444444444,semantic
+V025,"singkong,bawang putih,kunyit",0.3,0.7,5,resep_2572,Ayam betutu daun singkong,0.5159408796471707,0.9082087292586851,0.34782608695652173,semantic
+V025,"singkong,bawang putih,kunyit",0.4,0.6,1,resep_1317,Ikan Selar Goreng Kunyit,0.6409158242246609,0.8522895605616521,0.5,semantic
+V025,"singkong,bawang putih,kunyit",0.4,0.6,2,resep_3728,Gule kambing daun singkong,0.6117647046497054,0.9999999969183813,0.35294117647058826,semantic
+V025,"singkong,bawang putih,kunyit",0.4,0.6,3,resep_2364,Sayur Tahu Kuning,0.5943514051140453,0.9404239673305677,0.36363636363636365,semantic
+V025,"singkong,bawang putih,kunyit",0.4,0.6,4,resep_2572,Ayam betutu daun singkong,0.5719791438773871,0.9082087292586851,0.34782608695652173,semantic
+V025,"singkong,bawang putih,kunyit",0.4,0.6,5,resep_118,GULAI DAUN SINGKONG + TELUR,0.5559428122361502,0.8604452658844929,0.35294117647058826,semantic
+V025,"singkong,bawang putih,kunyit",0.5,0.5,1,resep_3728,Gule kambing daun singkong,0.6764705866944848,0.9999999969183813,0.35294117647058826,semantic
+V025,"singkong,bawang putih,kunyit",0.5,0.5,2,resep_1317,Ikan Selar Goreng Kunyit,0.676144780280826,0.8522895605616521,0.5,semantic
+V025,"singkong,bawang putih,kunyit",0.5,0.5,3,resep_2364,Sayur Tahu Kuning,0.6520301654834657,0.9404239673305677,0.36363636363636365,semantic
+V025,"singkong,bawang putih,kunyit",0.5,0.5,4,resep_2572,Ayam betutu daun singkong,0.6280174081076034,0.9082087292586851,0.34782608695652173,semantic
+V025,"singkong,bawang putih,kunyit",0.5,0.5,5,resep_118,GULAI DAUN SINGKONG + TELUR,0.6066932211775405,0.8604452658844929,0.35294117647058826,semantic
+V025,"singkong,bawang putih,kunyit",0.6,0.4,1,resep_3728,Gule kambing daun singkong,0.7411764687392641,0.9999999969183813,0.35294117647058826,semantic
+V025,"singkong,bawang putih,kunyit",0.6,0.4,2,resep_1317,Ikan Selar Goreng Kunyit,0.7113737363369912,0.8522895605616521,0.5,semantic
+V025,"singkong,bawang putih,kunyit",0.6,0.4,3,resep_2364,Sayur Tahu Kuning,0.709708925852886,0.9404239673305677,0.36363636363636365,semantic
+V025,"singkong,bawang putih,kunyit",0.6,0.4,4,resep_2572,Ayam betutu daun singkong,0.6840556723378197,0.9082087292586851,0.34782608695652173,semantic
+V025,"singkong,bawang putih,kunyit",0.6,0.4,5,resep_118,GULAI DAUN SINGKONG + TELUR,0.657443630118931,0.8604452658844929,0.35294117647058826,semantic
+V025,"singkong,bawang putih,kunyit",0.7,0.3,1,resep_3728,Gule kambing daun singkong,0.8058823507840432,0.9999999969183813,0.35294117647058826,semantic
+V025,"singkong,bawang putih,kunyit",0.7,0.3,2,resep_2364,Sayur Tahu Kuning,0.7673876862223065,0.9404239673305677,0.36363636363636365,semantic
+V025,"singkong,bawang putih,kunyit",0.7,0.3,3,resep_1317,Ikan Selar Goreng Kunyit,0.7466026923931565,0.8522895605616521,0.5,semantic
+V025,"singkong,bawang putih,kunyit",0.7,0.3,4,resep_2572,Ayam betutu daun singkong,0.740093936568036,0.9082087292586851,0.34782608695652173,semantic
+V025,"singkong,bawang putih,kunyit",0.7,0.3,5,resep_118,GULAI DAUN SINGKONG + TELUR,0.7081940390603214,0.8604452658844929,0.35294117647058826,semantic
+V025,"singkong,bawang putih,kunyit",0.8,0.2,1,resep_3728,Gule kambing daun singkong,0.8705882328288227,0.9999999969183813,0.35294117647058826,semantic
+V025,"singkong,bawang putih,kunyit",0.8,0.2,2,resep_2364,Sayur Tahu Kuning,0.8250664465917269,0.9404239673305677,0.36363636363636365,semantic
+V025,"singkong,bawang putih,kunyit",0.8,0.2,3,resep_2572,Ayam betutu daun singkong,0.7961322007982525,0.9082087292586851,0.34782608695652173,semantic
+V025,"singkong,bawang putih,kunyit",0.8,0.2,4,resep_1317,Ikan Selar Goreng Kunyit,0.7818316484493216,0.8522895605616521,0.5,semantic
+V025,"singkong,bawang putih,kunyit",0.8,0.2,5,resep_2462,Gulai daun singkong dan telur,0.7615177375523877,0.8992655929931161,0.21052631578947367,semantic
+V025,"singkong,bawang putih,kunyit",0.9,0.1,1,resep_3728,Gule kambing daun singkong,0.9352941148736019,0.9999999969183813,0.35294117647058826,semantic
+V025,"singkong,bawang putih,kunyit",0.9,0.1,2,resep_2364,Sayur Tahu Kuning,0.8827452069611473,0.9404239673305677,0.36363636363636365,semantic
+V025,"singkong,bawang putih,kunyit",0.9,0.1,3,resep_2572,Ayam betutu daun singkong,0.8521704650284688,0.9082087292586851,0.34782608695652173,semantic
+V025,"singkong,bawang putih,kunyit",0.9,0.1,4,resep_2462,Gulai daun singkong dan telur,0.8303916652727519,0.8992655929931161,0.21052631578947367,semantic
+V025,"singkong,bawang putih,kunyit",0.9,0.1,5,resep_1317,Ikan Selar Goreng Kunyit,0.8170606045054869,0.8522895605616521,0.5,semantic
+V025,"singkong,bawang putih,kunyit",1.0,0.0,1,resep_3728,Gule kambing daun singkong,0.9999999969183813,0.9999999969183813,0.35294117647058826,semantic
+V025,"singkong,bawang putih,kunyit",1.0,0.0,2,resep_2364,Sayur Tahu Kuning,0.9404239673305677,0.9404239673305677,0.36363636363636365,semantic
+V025,"singkong,bawang putih,kunyit",1.0,0.0,3,resep_2572,Ayam betutu daun singkong,0.9082087292586851,0.9082087292586851,0.34782608695652173,semantic
+V025,"singkong,bawang putih,kunyit",1.0,0.0,4,resep_2462,Gulai daun singkong dan telur,0.8992655929931161,0.8992655929931161,0.21052631578947367,semantic
+V025,"singkong,bawang putih,kunyit",1.0,0.0,5,resep_118,GULAI DAUN SINGKONG + TELUR,0.8604452658844929,0.8604452658844929,0.35294117647058826,semantic
+V026,"ubi madu,tepung terigu serbaguna",0.0,1.0,1,resep_39,Honey butter garlic chicken,0.25,0.47418275584819936,0.25,keyword
+V026,"ubi madu,tepung terigu serbaguna",0.0,1.0,2,resep_3915,Ayam madu saos sriracha,0.23529411764705882,0.5915085311837945,0.23529411764705882,keyword
+V026,"ubi madu,tepung terigu serbaguna",0.1,0.9,1,resep_39,Honey butter garlic chicken,0.27241827558481996,0.47418275584819936,0.25,keyword
+V026,"ubi madu,tepung terigu serbaguna",0.1,0.9,2,resep_3915,Ayam madu saos sriracha,0.2709155590007324,0.5915085311837945,0.23529411764705882,keyword
+V026,"ubi madu,tepung terigu serbaguna",0.2,0.8,1,resep_3915,Ayam madu saos sriracha,0.30653700035440595,0.5915085311837945,0.23529411764705882,keyword
+V026,"ubi madu,tepung terigu serbaguna",0.2,0.8,2,resep_39,Honey butter garlic chicken,0.2948365511696399,0.47418275584819936,0.25,keyword
+V026,"ubi madu,tepung terigu serbaguna",0.3,0.7,1,resep_3915,Ayam madu saos sriracha,0.3421584417080795,0.5915085311837945,0.23529411764705882,keyword
+V026,"ubi madu,tepung terigu serbaguna",0.3,0.7,2,resep_39,Honey butter garlic chicken,0.3172548267544598,0.47418275584819936,0.25,keyword
+V026,"ubi madu,tepung terigu serbaguna",0.4,0.6,1,resep_3915,Ayam madu saos sriracha,0.37777988306175314,0.5915085311837945,0.23529411764705882,keyword
+V026,"ubi madu,tepung terigu serbaguna",0.4,0.6,2,resep_39,Honey butter garlic chicken,0.3396731023392797,0.47418275584819936,0.25,keyword
+V026,"ubi madu,tepung terigu serbaguna",0.5,0.5,1,resep_3915,Ayam madu saos sriracha,0.41340132441542665,0.5915085311837945,0.23529411764705882,keyword
+V026,"ubi madu,tepung terigu serbaguna",0.5,0.5,2,resep_39,Honey butter garlic chicken,0.3620913779240997,0.47418275584819936,0.25,keyword
+V026,"ubi madu,tepung terigu serbaguna",0.6,0.4,1,resep_3915,Ayam madu saos sriracha,0.4490227657691002,0.5915085311837945,0.23529411764705882,keyword
+V026,"ubi madu,tepung terigu serbaguna",0.6,0.4,2,resep_39,Honey butter garlic chicken,0.38450965350891964,0.47418275584819936,0.25,keyword
+V026,"ubi madu,tepung terigu serbaguna",0.7,0.3,1,resep_3915,Ayam madu saos sriracha,0.4846442071227738,0.5915085311837945,0.23529411764705882,keyword
+V026,"ubi madu,tepung terigu serbaguna",0.7,0.3,2,resep_39,Honey butter garlic chicken,0.40692792909373954,0.47418275584819936,0.25,keyword
+V026,"ubi madu,tepung terigu serbaguna",0.8,0.2,1,resep_3915,Ayam madu saos sriracha,0.5202656484764474,0.5915085311837945,0.23529411764705882,keyword
+V026,"ubi madu,tepung terigu serbaguna",0.8,0.2,2,resep_39,Honey butter garlic chicken,0.4293462046785595,0.47418275584819936,0.25,keyword
+V026,"ubi madu,tepung terigu serbaguna",0.9,0.1,1,resep_3915,Ayam madu saos sriracha,0.555887089830121,0.5915085311837945,0.23529411764705882,keyword
+V026,"ubi madu,tepung terigu serbaguna",0.9,0.1,2,resep_39,Honey butter garlic chicken,0.45176448026337945,0.47418275584819936,0.25,keyword
+V026,"ubi madu,tepung terigu serbaguna",1.0,0.0,1,resep_3915,Ayam madu saos sriracha,0.5915085311837945,0.5915085311837945,0.23529411764705882,keyword
+V026,"ubi madu,tepung terigu serbaguna",1.0,0.0,2,resep_39,Honey butter garlic chicken,0.47418275584819936,0.47418275584819936,0.25,keyword
+V027,"nangka muda,santan,cabai keriting",0.0,1.0,1,resep_3729,Lodeh Kentang Tempe Lombok Ijo,0.3333333333333333,0.3999336555018995,0.3333333333333333,keyword
+V027,"nangka muda,santan,cabai keriting",0.0,1.0,2,resep_55,Rendang daging,0.30769230769230765,0.4612061410840283,0.30769230769230765,keyword
+V027,"nangka muda,santan,cabai keriting",0.0,1.0,3,resep_3592,Gudeg dan Pindang Telur (74),0.30769230769230765,0.39953431765294,0.30769230769230765,keyword
+V027,"nangka muda,santan,cabai keriting",0.0,1.0,4,resep_1075,Gulai kambing segar,0.30769230769230765,0.3809894618476038,0.30769230769230765,keyword
+V027,"nangka muda,santan,cabai keriting",0.0,1.0,5,resep_4166,Kue Lumpur Nasi Topping Abon Ikan,0.30769230769230765,0.1316678621774631,0.30769230769230765,keyword
+V027,"nangka muda,santan,cabai keriting",0.1,0.9,1,resep_3729,Lodeh Kentang Tempe Lombok Ijo,0.33999336555018994,0.3999336555018995,0.3333333333333333,keyword
+V027,"nangka muda,santan,cabai keriting",0.1,0.9,2,resep_55,Rendang daging,0.32304369103147973,0.4612061410840283,0.30769230769230765,keyword
+V027,"nangka muda,santan,cabai keriting",0.1,0.9,3,resep_3592,Gudeg dan Pindang Telur (74),0.3168765086883709,0.39953431765294,0.30769230769230765,keyword
+V027,"nangka muda,santan,cabai keriting",0.1,0.9,4,resep_1075,Gulai kambing segar,0.3150220231078373,0.3809894618476038,0.30769230769230765,keyword
+V027,"nangka muda,santan,cabai keriting",0.1,0.9,5,resep_275,Gudeg Nangka Telor,0.29025936719490175,0.5025936719490175,0.26666666666666666,keyword
+V027,"nangka muda,santan,cabai keriting",0.2,0.8,1,resep_3729,Lodeh Kentang Tempe Lombok Ijo,0.34665339776704657,0.3999336555018995,0.3333333333333333,keyword
+V027,"nangka muda,santan,cabai keriting",0.2,0.8,2,resep_963,Sayur santan nangka tetelan,0.3391304342305335,0.9999999972396239,0.1739130434782609,semantic
+V027,"nangka muda,santan,cabai keriting",0.2,0.8,3,resep_55,Rendang daging,0.3383950743706518,0.4612061410840283,0.30769230769230765,keyword
+V027,"nangka muda,santan,cabai keriting",0.2,0.8,4,resep_3592,Gudeg dan Pindang Telur (74),0.3260607096844341,0.39953431765294,0.30769230769230765,keyword
+V027,"nangka muda,santan,cabai keriting",0.2,0.8,5,resep_892,Jangan Kates Tahu (Lodeh Pepaya Muda),0.32565671827362846,0.7861783282102476,0.21052631578947367,semantic
+V027,"nangka muda,santan,cabai keriting",0.3,0.7,1,resep_963,Sayur santan nangka tetelan,0.42173912960666976,0.9999999972396239,0.1739130434782609,semantic
+V027,"nangka muda,santan,cabai keriting",0.3,0.7,2,resep_892,Jangan Kates Tahu (Lodeh Pepaya Muda),0.38322191951570583,0.7861783282102476,0.21052631578947367,semantic
+V027,"nangka muda,santan,cabai keriting",0.3,0.7,3,resep_55,Rendang daging,0.3537464577098238,0.4612061410840283,0.30769230769230765,keyword
+V027,"nangka muda,santan,cabai keriting",0.3,0.7,4,resep_3729,Lodeh Kentang Tempe Lombok Ijo,0.35331342998390314,0.3999336555018995,0.3333333333333333,keyword
+V027,"nangka muda,santan,cabai keriting",0.3,0.7,5,resep_275,Gudeg Nangka Telor,0.33744476825137193,0.5025936719490175,0.26666666666666666,keyword
+V027,"nangka muda,santan,cabai keriting",0.4,0.6,1,resep_963,Sayur santan nangka tetelan,0.5043478249828062,0.9999999972396239,0.1739130434782609,semantic
+V027,"nangka muda,santan,cabai keriting",0.4,0.6,2,resep_892,Jangan Kates Tahu (Lodeh Pepaya Muda),0.44078712075778326,0.7861783282102476,0.21052631578947367,semantic
+V027,"nangka muda,santan,cabai keriting",0.4,0.6,3,resep_55,Rendang daging,0.3690978410489959,0.4612061410840283,0.30769230769230765,keyword
+V027,"nangka muda,santan,cabai keriting",0.4,0.6,4,resep_275,Gudeg Nangka Telor,0.361037468779607,0.5025936719490175,0.26666666666666666,keyword
+V027,"nangka muda,santan,cabai keriting",0.4,0.6,5,resep_3729,Lodeh Kentang Tempe Lombok Ijo,0.35997346220075976,0.3999336555018995,0.3333333333333333,keyword
+V027,"nangka muda,santan,cabai keriting",0.5,0.5,1,resep_963,Sayur santan nangka tetelan,0.5869565203589424,0.9999999972396239,0.1739130434782609,semantic
+V027,"nangka muda,santan,cabai keriting",0.5,0.5,2,resep_892,Jangan Kates Tahu (Lodeh Pepaya Muda),0.4983523219998606,0.7861783282102476,0.21052631578947367,semantic
+V027,"nangka muda,santan,cabai keriting",0.5,0.5,3,resep_275,Gudeg Nangka Telor,0.3846301693078421,0.5025936719490175,0.26666666666666666,keyword
+V027,"nangka muda,santan,cabai keriting",0.5,0.5,4,resep_55,Rendang daging,0.384449224388168,0.4612061410840283,0.30769230769230765,keyword
+V027,"nangka muda,santan,cabai keriting",0.5,0.5,5,resep_3729,Lodeh Kentang Tempe Lombok Ijo,0.3666334944176164,0.3999336555018995,0.3333333333333333,keyword
+V027,"nangka muda,santan,cabai keriting",0.6,0.4,1,resep_963,Sayur santan nangka tetelan,0.6695652157350787,0.9999999972396239,0.1739130434782609,semantic
+V027,"nangka muda,santan,cabai keriting",0.6,0.4,2,resep_892,Jangan Kates Tahu (Lodeh Pepaya Muda),0.555917523241938,0.7861783282102476,0.21052631578947367,semantic
+V027,"nangka muda,santan,cabai keriting",0.6,0.4,3,resep_275,Gudeg Nangka Telor,0.4082228698360772,0.5025936719490175,0.26666666666666666,keyword
+V027,"nangka muda,santan,cabai keriting",0.6,0.4,4,resep_55,Rendang daging,0.39980060772734005,0.4612061410840283,0.30769230769230765,keyword
+V027,"nangka muda,santan,cabai keriting",0.6,0.4,5,resep_3729,Lodeh Kentang Tempe Lombok Ijo,0.373293526634473,0.3999336555018995,0.3333333333333333,keyword
+V027,"nangka muda,santan,cabai keriting",0.7,0.3,1,resep_963,Sayur santan nangka tetelan,0.7521739111112149,0.9999999972396239,0.1739130434782609,semantic
+V027,"nangka muda,santan,cabai keriting",0.7,0.3,2,resep_892,Jangan Kates Tahu (Lodeh Pepaya Muda),0.6134827244840153,0.7861783282102476,0.21052631578947367,semantic
+V027,"nangka muda,santan,cabai keriting",0.7,0.3,3,resep_275,Gudeg Nangka Telor,0.43181557036431223,0.5025936719490175,0.26666666666666666,keyword
+V027,"nangka muda,santan,cabai keriting",0.7,0.3,4,resep_55,Rendang daging,0.4151519910665121,0.4612061410840283,0.30769230769230765,keyword
+V027,"nangka muda,santan,cabai keriting",0.7,0.3,5,resep_3729,Lodeh Kentang Tempe Lombok Ijo,0.37995355885132964,0.3999336555018995,0.3333333333333333,keyword
+V027,"nangka muda,santan,cabai keriting",0.8,0.2,1,resep_963,Sayur santan nangka tetelan,0.8347826064873514,0.9999999972396239,0.1739130434782609,semantic
+V027,"nangka muda,santan,cabai keriting",0.8,0.2,2,resep_892,Jangan Kates Tahu (Lodeh Pepaya Muda),0.6710479257260928,0.7861783282102476,0.21052631578947367,semantic
+V027,"nangka muda,santan,cabai keriting",0.8,0.2,3,resep_275,Gudeg Nangka Telor,0.4554082708925474,0.5025936719490175,0.26666666666666666,keyword
+V027,"nangka muda,santan,cabai keriting",0.8,0.2,4,resep_55,Rendang daging,0.4305033744056842,0.4612061410840283,0.30769230769230765,keyword
+V027,"nangka muda,santan,cabai keriting",0.8,0.2,5,resep_1007,Rendang Kentang Tempe,0.39632468015455846,0.4596915644789123,0.14285714285714285,keyword
+V027,"nangka muda,santan,cabai keriting",0.9,0.1,1,resep_963,Sayur santan nangka tetelan,0.9173913018634876,0.9999999972396239,0.1739130434782609,semantic
+V027,"nangka muda,santan,cabai keriting",0.9,0.1,2,resep_892,Jangan Kates Tahu (Lodeh Pepaya Muda),0.7286131269681702,0.7861783282102476,0.21052631578947367,semantic
+V027,"nangka muda,santan,cabai keriting",0.9,0.1,3,resep_275,Gudeg Nangka Telor,0.4790009714207824,0.5025936719490175,0.26666666666666666,keyword
+V027,"nangka muda,santan,cabai keriting",0.9,0.1,4,resep_55,Rendang daging,0.4458547577448562,0.4612061410840283,0.30769230769230765,keyword
+V027,"nangka muda,santan,cabai keriting",0.9,0.1,5,resep_1007,Rendang Kentang Tempe,0.42800812231673535,0.4596915644789123,0.14285714285714285,keyword
+V027,"nangka muda,santan,cabai keriting",1.0,0.0,1,resep_963,Sayur santan nangka tetelan,0.9999999972396239,0.9999999972396239,0.1739130434782609,semantic
+V027,"nangka muda,santan,cabai keriting",1.0,0.0,2,resep_892,Jangan Kates Tahu (Lodeh Pepaya Muda),0.7861783282102476,0.7861783282102476,0.21052631578947367,semantic
+V027,"nangka muda,santan,cabai keriting",1.0,0.0,3,resep_275,Gudeg Nangka Telor,0.5025936719490175,0.5025936719490175,0.26666666666666666,keyword
+V027,"nangka muda,santan,cabai keriting",1.0,0.0,4,resep_55,Rendang daging,0.4612061410840283,0.4612061410840283,0.30769230769230765,keyword
+V027,"nangka muda,santan,cabai keriting",1.0,0.0,5,resep_1007,Rendang Kentang Tempe,0.4596915644789123,0.4596915644789123,0.14285714285714285,keyword
+V028,"telur,sosis,bawang merah",0.0,1.0,1,resep_4095,Telur Gulung Sosis,0.7499999999999999,0.9995045177857454,0.7499999999999999,semantic
+V028,"telur,sosis,bawang merah",0.0,1.0,2,resep_3815,Sayur sawi telur sosis,0.6,0.8393059590961723,0.6,semantic
+V028,"telur,sosis,bawang merah",0.0,1.0,3,resep_1675,Orak-arik Tahu Telor Sosis,0.6,0.7574804229918735,0.6,semantic
+V028,"telur,sosis,bawang merah",0.0,1.0,4,resep_4791,Telur Dadar Daun Kelor,0.5714285714285715,0.5916916810461138,0.5714285714285715,keyword
+V028,"telur,sosis,bawang merah",0.0,1.0,5,resep_736,Roll Egg aka Dadar telur gulung,0.5454545454545454,0.666169946032218,0.5454545454545454,semantic
+V028,"telur,sosis,bawang merah",0.1,0.9,1,resep_4095,Telur Gulung Sosis,0.7749504517785745,0.9995045177857454,0.7499999999999999,semantic
+V028,"telur,sosis,bawang merah",0.1,0.9,2,resep_3815,Sayur sawi telur sosis,0.6239305959096173,0.8393059590961723,0.6,semantic
+V028,"telur,sosis,bawang merah",0.1,0.9,3,resep_1675,Orak-arik Tahu Telor Sosis,0.6157480422991874,0.7574804229918735,0.6,semantic
+V028,"telur,sosis,bawang merah",0.1,0.9,4,resep_4791,Telur Dadar Daun Kelor,0.5734548823903257,0.5916916810461138,0.5714285714285715,keyword
+V028,"telur,sosis,bawang merah",0.1,0.9,5,resep_736,Roll Egg aka Dadar telur gulung,0.5575260855123128,0.666169946032218,0.5454545454545454,semantic
+V028,"telur,sosis,bawang merah",0.2,0.8,1,resep_4095,Telur Gulung Sosis,0.799900903557149,0.9995045177857454,0.7499999999999999,semantic
+V028,"telur,sosis,bawang merah",0.2,0.8,2,resep_3815,Sayur sawi telur sosis,0.6478611918192345,0.8393059590961723,0.6,semantic
+V028,"telur,sosis,bawang merah",0.2,0.8,3,resep_1675,Orak-arik Tahu Telor Sosis,0.6314960845983747,0.7574804229918735,0.6,semantic
+V028,"telur,sosis,bawang merah",0.2,0.8,4,resep_2216,Dadar Telur Sosis Bunga Bawang,0.5999999995845688,0.9999999979228442,0.5,semantic
+V028,"telur,sosis,bawang merah",0.2,0.8,5,resep_4791,Telur Dadar Daun Kelor,0.57548119335208,0.5916916810461138,0.5714285714285715,keyword
+V028,"telur,sosis,bawang merah",0.3,0.7,1,resep_4095,Telur Gulung Sosis,0.8248513553357235,0.9995045177857454,0.7499999999999999,semantic
+V028,"telur,sosis,bawang merah",0.3,0.7,2,resep_3815,Sayur sawi telur sosis,0.6717917877288517,0.8393059590961723,0.6,semantic
+V028,"telur,sosis,bawang merah",0.3,0.7,3,resep_2216,Dadar Telur Sosis Bunga Bawang,0.6499999993768533,0.9999999979228442,0.5,semantic
+V028,"telur,sosis,bawang merah",0.3,0.7,4,resep_1675,Orak-arik Tahu Telor Sosis,0.6472441268975619,0.7574804229918735,0.6,semantic
+V028,"telur,sosis,bawang merah",0.3,0.7,5,resep_2582,Telur Dadar Daun Bawang,0.590492129204948,0.80164043068316,0.5,semantic
+V028,"telur,sosis,bawang merah",0.4,0.6,1,resep_4095,Telur Gulung Sosis,0.8498018071142981,0.9995045177857454,0.7499999999999999,semantic
+V028,"telur,sosis,bawang merah",0.4,0.6,2,resep_2216,Dadar Telur Sosis Bunga Bawang,0.6999999991691377,0.9999999979228442,0.5,semantic
+V028,"telur,sosis,bawang merah",0.4,0.6,3,resep_3815,Sayur sawi telur sosis,0.6957223836384689,0.8393059590961723,0.6,semantic
+V028,"telur,sosis,bawang merah",0.4,0.6,4,resep_1675,Orak-arik Tahu Telor Sosis,0.6629921691967494,0.7574804229918735,0.6,semantic
+V028,"telur,sosis,bawang merah",0.4,0.6,5,resep_2582,Telur Dadar Daun Bawang,0.620656172273264,0.80164043068316,0.5,semantic
+V028,"telur,sosis,bawang merah",0.5,0.5,1,resep_4095,Telur Gulung Sosis,0.8747522588928727,0.9995045177857454,0.7499999999999999,semantic
+V028,"telur,sosis,bawang merah",0.5,0.5,2,resep_2216,Dadar Telur Sosis Bunga Bawang,0.7499999989614221,0.9999999979228442,0.5,semantic
+V028,"telur,sosis,bawang merah",0.5,0.5,3,resep_3815,Sayur sawi telur sosis,0.7196529795480862,0.8393059590961723,0.6,semantic
+V028,"telur,sosis,bawang merah",0.5,0.5,4,resep_1675,Orak-arik Tahu Telor Sosis,0.6787402114959367,0.7574804229918735,0.6,semantic
+V028,"telur,sosis,bawang merah",0.5,0.5,5,resep_2582,Telur Dadar Daun Bawang,0.6508202153415801,0.80164043068316,0.5,semantic
+V028,"telur,sosis,bawang merah",0.6,0.4,1,resep_4095,Telur Gulung Sosis,0.8997027106714472,0.9995045177857454,0.7499999999999999,semantic
+V028,"telur,sosis,bawang merah",0.6,0.4,2,resep_2216,Dadar Telur Sosis Bunga Bawang,0.7999999987537065,0.9999999979228442,0.5,semantic
+V028,"telur,sosis,bawang merah",0.6,0.4,3,resep_3815,Sayur sawi telur sosis,0.7435835754577034,0.8393059590961723,0.6,semantic
+V028,"telur,sosis,bawang merah",0.6,0.4,4,resep_1675,Orak-arik Tahu Telor Sosis,0.694488253795124,0.7574804229918735,0.6,semantic
+V028,"telur,sosis,bawang merah",0.6,0.4,5,resep_4420,"Dadar Telur, Tahu dan Sosis",0.6938637260490794,0.8897728767484656,0.4,semantic
+V028,"telur,sosis,bawang merah",0.7,0.3,1,resep_4095,Telur Gulung Sosis,0.9246531624500217,0.9995045177857454,0.7499999999999999,semantic
+V028,"telur,sosis,bawang merah",0.7,0.3,2,resep_2216,Dadar Telur Sosis Bunga Bawang,0.849999998545991,0.9999999979228442,0.5,semantic
+V028,"telur,sosis,bawang merah",0.7,0.3,3,resep_3815,Sayur sawi telur sosis,0.7675141713673206,0.8393059590961723,0.6,semantic
+V028,"telur,sosis,bawang merah",0.7,0.3,4,resep_4420,"Dadar Telur, Tahu dan Sosis",0.7428410137239259,0.8897728767484656,0.4,semantic
+V028,"telur,sosis,bawang merah",0.7,0.3,5,resep_2582,Telur Dadar Daun Bawang,0.7111483014782121,0.80164043068316,0.5,semantic
+V028,"telur,sosis,bawang merah",0.8,0.2,1,resep_4095,Telur Gulung Sosis,0.9496036142285964,0.9995045177857454,0.7499999999999999,semantic
+V028,"telur,sosis,bawang merah",0.8,0.2,2,resep_2216,Dadar Telur Sosis Bunga Bawang,0.8999999983382754,0.9999999979228442,0.5,semantic
+V028,"telur,sosis,bawang merah",0.8,0.2,3,resep_4420,"Dadar Telur, Tahu dan Sosis",0.7918183013987725,0.8897728767484656,0.4,semantic
+V028,"telur,sosis,bawang merah",0.8,0.2,4,resep_3815,Sayur sawi telur sosis,0.7914447672769379,0.8393059590961723,0.6,semantic
+V028,"telur,sosis,bawang merah",0.8,0.2,5,resep_2481,Telur gulung isi sosis,0.7469554448643305,0.8427852151713222,0.36363636363636365,semantic
+V028,"telur,sosis,bawang merah",0.9,0.1,1,resep_4095,Telur Gulung Sosis,0.9745540660071709,0.9995045177857454,0.7499999999999999,semantic
+V028,"telur,sosis,bawang merah",0.9,0.1,2,resep_2216,Dadar Telur Sosis Bunga Bawang,0.9499999981305599,0.9999999979228442,0.5,semantic
+V028,"telur,sosis,bawang merah",0.9,0.1,3,resep_4420,"Dadar Telur, Tahu dan Sosis",0.8407955890736191,0.8897728767484656,0.4,semantic
+V028,"telur,sosis,bawang merah",0.9,0.1,4,resep_3815,Sayur sawi telur sosis,0.815375363186555,0.8393059590961723,0.6,semantic
+V028,"telur,sosis,bawang merah",0.9,0.1,5,resep_2481,Telur gulung isi sosis,0.7948703300178264,0.8427852151713222,0.36363636363636365,semantic
+V028,"telur,sosis,bawang merah",1.0,0.0,1,resep_2216,Dadar Telur Sosis Bunga Bawang,0.9999999979228442,0.9999999979228442,0.5,semantic
+V028,"telur,sosis,bawang merah",1.0,0.0,2,resep_4095,Telur Gulung Sosis,0.9995045177857454,0.9995045177857454,0.7499999999999999,semantic
+V028,"telur,sosis,bawang merah",1.0,0.0,3,resep_4420,"Dadar Telur, Tahu dan Sosis",0.8897728767484656,0.8897728767484656,0.4,semantic
+V028,"telur,sosis,bawang merah",1.0,0.0,4,resep_2481,Telur gulung isi sosis,0.8427852151713222,0.8427852151713222,0.36363636363636365,semantic
+V028,"telur,sosis,bawang merah",1.0,0.0,5,resep_3815,Sayur sawi telur sosis,0.8393059590961723,0.8393059590961723,0.6,semantic
+V029,"kentang,telur rebus",0.0,1.0,1,resep_2147,Macaroni telur,0.5,0.4813748886466876,0.5,keyword
+V029,"kentang,telur rebus",0.0,1.0,2,resep_4933,Semur Kentang Telur,0.4444444444444445,0.8559619848064178,0.4444444444444445,semantic
+V029,"kentang,telur rebus",0.0,1.0,3,resep_1005,Puff Pastry Isi Salad Telur Kentang Keju,0.375,0.39942714817909036,0.375,keyword
+V029,"kentang,telur rebus",0.0,1.0,4,resep_4472,Balado Hijau Kentang Telur,0.3636363636363636,0.6740797849072746,0.3636363636363636,semantic
+V029,"kentang,telur rebus",0.0,1.0,5,resep_455,Sambal kentang dan telur goreng simpel,0.33333333333333337,0.8460388910415011,0.33333333333333337,semantic
+V029,"kentang,telur rebus",0.1,0.9,1,resep_2147,Macaroni telur,0.4981374888646688,0.4813748886466876,0.5,keyword
+V029,"kentang,telur rebus",0.1,0.9,2,resep_4933,Semur Kentang Telur,0.48559619848064184,0.8559619848064178,0.4444444444444445,semantic
+V029,"kentang,telur rebus",0.1,0.9,3,resep_4472,Balado Hijau Kentang Telur,0.3946807057634547,0.6740797849072746,0.3636363636363636,semantic
+V029,"kentang,telur rebus",0.1,0.9,4,resep_455,Sambal kentang dan telur goreng simpel,0.38460388910415017,0.8460388910415011,0.33333333333333337,semantic
+V029,"kentang,telur rebus",0.1,0.9,5,resep_1005,Puff Pastry Isi Salad Telur Kentang Keju,0.37744271481790903,0.39942714817909036,0.375,keyword
+V029,"kentang,telur rebus",0.2,0.8,1,resep_4933,Semur Kentang Telur,0.5267479525168393,0.8559619848064178,0.4444444444444445,semantic
+V029,"kentang,telur rebus",0.2,0.8,2,resep_2147,Macaroni telur,0.49627497772933754,0.4813748886466876,0.5,keyword
+V029,"kentang,telur rebus",0.2,0.8,3,resep_3865,Gulai Kentang Telur,0.4400615592766435,0.9695385656139864,0.3076923076923077,semantic
+V029,"kentang,telur rebus",0.2,0.8,4,resep_455,Sambal kentang dan telur goreng simpel,0.43587444487496696,0.8460388910415011,0.33333333333333337,semantic
+V029,"kentang,telur rebus",0.2,0.8,5,resep_4918,Sambal Kentang Telur Rebus,0.42857142818576366,0.9999999980716756,0.2857142857142857,semantic
+V029,"kentang,telur rebus",0.3,0.7,1,resep_4933,Semur Kentang Telur,0.5678997065530365,0.8559619848064178,0.4444444444444445,semantic
+V029,"kentang,telur rebus",0.3,0.7,2,resep_3865,Gulai Kentang Telur,0.5062461850688114,0.9695385656139864,0.3076923076923077,semantic
+V029,"kentang,telur rebus",0.3,0.7,3,resep_4918,Sambal Kentang Telur Rebus,0.49999999942150264,0.9999999980716756,0.2857142857142857,semantic
+V029,"kentang,telur rebus",0.3,0.7,4,resep_2147,Macaroni telur,0.4944124665940063,0.4813748886466876,0.5,keyword
+V029,"kentang,telur rebus",0.3,0.7,5,resep_455,Sambal kentang dan telur goreng simpel,0.48714500064578364,0.8460388910415011,0.33333333333333337,semantic
+V029,"kentang,telur rebus",0.4,0.6,1,resep_4933,Semur Kentang Telur,0.6090514605892339,0.8559619848064178,0.4444444444444445,semantic
+V029,"kentang,telur rebus",0.4,0.6,2,resep_3865,Gulai Kentang Telur,0.5724308108609792,0.9695385656139864,0.3076923076923077,semantic
+V029,"kentang,telur rebus",0.4,0.6,3,resep_4918,Sambal Kentang Telur Rebus,0.5714285706572416,0.9999999980716756,0.2857142857142857,semantic
+V029,"kentang,telur rebus",0.4,0.6,4,resep_455,Sambal kentang dan telur goreng simpel,0.5384155564166004,0.8460388910415011,0.33333333333333337,semantic
+V029,"kentang,telur rebus",0.4,0.6,5,resep_2147,Macaroni telur,0.492549955458675,0.4813748886466876,0.5,keyword
+V029,"kentang,telur rebus",0.5,0.5,1,resep_4933,Semur Kentang Telur,0.6502032146254312,0.8559619848064178,0.4444444444444445,semantic
+V029,"kentang,telur rebus",0.5,0.5,2,resep_4918,Sambal Kentang Telur Rebus,0.6428571418929807,0.9999999980716756,0.2857142857142857,semantic
+V029,"kentang,telur rebus",0.5,0.5,3,resep_3865,Gulai Kentang Telur,0.6386154366531471,0.9695385656139864,0.3076923076923077,semantic
+V029,"kentang,telur rebus",0.5,0.5,4,resep_455,Sambal kentang dan telur goreng simpel,0.5896861121874173,0.8460388910415011,0.33333333333333337,semantic
+V029,"kentang,telur rebus",0.5,0.5,5,resep_4472,Balado Hijau Kentang Telur,0.5188580742718191,0.6740797849072746,0.3636363636363636,semantic
+V029,"kentang,telur rebus",0.6,0.4,1,resep_4918,Sambal Kentang Telur Rebus,0.7142857131287197,0.9999999980716756,0.2857142857142857,semantic
+V029,"kentang,telur rebus",0.6,0.4,2,resep_3865,Gulai Kentang Telur,0.7048000624453149,0.9695385656139864,0.3076923076923077,semantic
+V029,"kentang,telur rebus",0.6,0.4,3,resep_4933,Semur Kentang Telur,0.6913549686616285,0.8559619848064178,0.4444444444444445,semantic
+V029,"kentang,telur rebus",0.6,0.4,4,resep_455,Sambal kentang dan telur goreng simpel,0.6409566679582339,0.8460388910415011,0.33333333333333337,semantic
+V029,"kentang,telur rebus",0.6,0.4,5,resep_4472,Balado Hijau Kentang Telur,0.5499024163989101,0.6740797849072746,0.3636363636363636,semantic
+V029,"kentang,telur rebus",0.7,0.3,1,resep_4918,Sambal Kentang Telur Rebus,0.7857142843644587,0.9999999980716756,0.2857142857142857,semantic
+V029,"kentang,telur rebus",0.7,0.3,2,resep_3865,Gulai Kentang Telur,0.7709846882374828,0.9695385656139864,0.3076923076923077,semantic
+V029,"kentang,telur rebus",0.7,0.3,3,resep_4933,Semur Kentang Telur,0.7325067226978258,0.8559619848064178,0.4444444444444445,semantic
+V029,"kentang,telur rebus",0.7,0.3,4,resep_455,Sambal kentang dan telur goreng simpel,0.6922272237290507,0.8460388910415011,0.33333333333333337,semantic
+V029,"kentang,telur rebus",0.7,0.3,5,resep_4472,Balado Hijau Kentang Telur,0.5809467585260013,0.6740797849072746,0.3636363636363636,semantic
+V029,"kentang,telur rebus",0.8,0.2,1,resep_4918,Sambal Kentang Telur Rebus,0.8571428556001977,0.9999999980716756,0.2857142857142857,semantic
+V029,"kentang,telur rebus",0.8,0.2,2,resep_3865,Gulai Kentang Telur,0.8371693140296508,0.9695385656139864,0.3076923076923077,semantic
+V029,"kentang,telur rebus",0.8,0.2,3,resep_4933,Semur Kentang Telur,0.7736584767340232,0.8559619848064178,0.4444444444444445,semantic
+V029,"kentang,telur rebus",0.8,0.2,4,resep_455,Sambal kentang dan telur goreng simpel,0.7434977794998676,0.8460388910415011,0.33333333333333337,semantic
+V029,"kentang,telur rebus",0.8,0.2,5,resep_4472,Balado Hijau Kentang Telur,0.6119911006530925,0.6740797849072746,0.3636363636363636,semantic
+V029,"kentang,telur rebus",0.9,0.1,1,resep_4918,Sambal Kentang Telur Rebus,0.9285714268359366,0.9999999980716756,0.2857142857142857,semantic
+V029,"kentang,telur rebus",0.9,0.1,2,resep_3865,Gulai Kentang Telur,0.9033539398218186,0.9695385656139864,0.3076923076923077,semantic
+V029,"kentang,telur rebus",0.9,0.1,3,resep_4933,Semur Kentang Telur,0.8148102307702205,0.8559619848064178,0.4444444444444445,semantic
+V029,"kentang,telur rebus",0.9,0.1,4,resep_455,Sambal kentang dan telur goreng simpel,0.7947683352706844,0.8460388910415011,0.33333333333333337,semantic
+V029,"kentang,telur rebus",0.9,0.1,5,resep_930,Sambel Pete kentang telur ceplok simple,0.6532976798658336,0.6981085331842596,0.25,semantic
+V029,"kentang,telur rebus",1.0,0.0,1,resep_4918,Sambal Kentang Telur Rebus,0.9999999980716756,0.9999999980716756,0.2857142857142857,semantic
+V029,"kentang,telur rebus",1.0,0.0,2,resep_3865,Gulai Kentang Telur,0.9695385656139864,0.9695385656139864,0.3076923076923077,semantic
+V029,"kentang,telur rebus",1.0,0.0,3,resep_4933,Semur Kentang Telur,0.8559619848064178,0.8559619848064178,0.4444444444444445,semantic
+V029,"kentang,telur rebus",1.0,0.0,4,resep_455,Sambal kentang dan telur goreng simpel,0.8460388910415011,0.8460388910415011,0.33333333333333337,semantic
+V029,"kentang,telur rebus",1.0,0.0,5,resep_930,Sambel Pete kentang telur ceplok simple,0.6981085331842596,0.6981085331842596,0.25,semantic
+V030,"singkong parut,kelapa parut,gula merah",0.0,1.0,1,resep_2181,Serundeng daging ayam,0.36363636363636365,0.3488123201948597,0.36363636363636365,keyword
+V030,"singkong parut,kelapa parut,gula merah",0.0,1.0,2,resep_710,Gecok Ayam,0.28571428571428575,0.18483443700644422,0.28571428571428575,keyword
+V030,"singkong parut,kelapa parut,gula merah",0.0,1.0,3,resep_3520,Serundeng Daging Manis,0.26666666666666666,0.44117815147381045,0.26666666666666666,keyword
+V030,"singkong parut,kelapa parut,gula merah",0.0,1.0,4,resep_338,Dendeng Ragi Daging Sapi,0.26666666666666666,0.03680763675886001,0.26666666666666666,keyword
+V030,"singkong parut,kelapa parut,gula merah",0.0,1.0,5,resep_282,Empal gepuk daging sapi,0.26666666666666666,0.007292401807105814,0.26666666666666666,keyword
+V030,"singkong parut,kelapa parut,gula merah",0.1,0.9,1,resep_2181,Serundeng daging ayam,0.3621539592922132,0.3488123201948597,0.36363636363636365,keyword
+V030,"singkong parut,kelapa parut,gula merah",0.1,0.9,2,resep_3520,Serundeng Daging Manis,0.28411781514738105,0.44117815147381045,0.26666666666666666,keyword
+V030,"singkong parut,kelapa parut,gula merah",0.1,0.9,3,resep_710,Gecok Ayam,0.2756263008435016,0.18483443700644422,0.28571428571428575,keyword
+V030,"singkong parut,kelapa parut,gula merah",0.1,0.9,4,resep_4250,Pepes Ikan Kelapa,0.2457607463604095,0.33996040478056566,0.23529411764705882,keyword
+V030,"singkong parut,kelapa parut,gula merah",0.1,0.9,5,resep_338,Dendeng Ragi Daging Sapi,0.24368076367588598,0.03680763675886001,0.26666666666666666,keyword
+V030,"singkong parut,kelapa parut,gula merah",0.2,0.8,1,resep_2181,Serundeng daging ayam,0.3606715549480629,0.3488123201948597,0.36363636363636365,keyword
+V030,"singkong parut,kelapa parut,gula merah",0.2,0.8,2,resep_3520,Serundeng Daging Manis,0.30156896362809543,0.44117815147381045,0.26666666666666666,keyword
+V030,"singkong parut,kelapa parut,gula merah",0.2,0.8,3,resep_710,Gecok Ayam,0.2655383159727175,0.18483443700644422,0.28571428571428575,keyword
+V030,"singkong parut,kelapa parut,gula merah",0.2,0.8,4,resep_4250,Pepes Ikan Kelapa,0.2562273750737602,0.33996040478056566,0.23529411764705882,keyword
+V030,"singkong parut,kelapa parut,gula merah",0.2,0.8,5,resep_3326,Empal Gepuk (Sapi),0.22146328883962657,0.218427555309244,0.2222222222222222,keyword
+V030,"singkong parut,kelapa parut,gula merah",0.3,0.7,1,resep_2181,Serundeng daging ayam,0.35918915060391243,0.3488123201948597,0.36363636363636365,keyword
+V030,"singkong parut,kelapa parut,gula merah",0.3,0.7,2,resep_3520,Serundeng Daging Manis,0.31902011210880976,0.44117815147381045,0.26666666666666666,keyword
+V030,"singkong parut,kelapa parut,gula merah",0.3,0.7,3,resep_4250,Pepes Ikan Kelapa,0.2666940037871109,0.33996040478056566,0.23529411764705882,keyword
+V030,"singkong parut,kelapa parut,gula merah",0.3,0.7,4,resep_710,Gecok Ayam,0.25545033110193327,0.18483443700644422,0.28571428571428575,keyword
+V030,"singkong parut,kelapa parut,gula merah",0.3,0.7,5,resep_1195,Tahu Campur,0.24462195724261593,0.493567443682283,0.13793103448275862,keyword
+V030,"singkong parut,kelapa parut,gula merah",0.4,0.6,1,resep_2181,Serundeng daging ayam,0.35770674625976207,0.3488123201948597,0.36363636363636365,keyword
+V030,"singkong parut,kelapa parut,gula merah",0.4,0.6,2,resep_3520,Serundeng Daging Manis,0.3364712605895242,0.44117815147381045,0.26666666666666666,keyword
+V030,"singkong parut,kelapa parut,gula merah",0.4,0.6,3,resep_1195,Tahu Campur,0.2801855981625684,0.493567443682283,0.13793103448275862,keyword
+V030,"singkong parut,kelapa parut,gula merah",0.4,0.6,4,resep_4250,Pepes Ikan Kelapa,0.2771606325004615,0.33996040478056566,0.23529411764705882,keyword
+V030,"singkong parut,kelapa parut,gula merah",0.4,0.6,5,resep_2877,Ayam Serundeng,0.2668655836760303,0.40629439397268446,0.1739130434782609,keyword
+V030,"singkong parut,kelapa parut,gula merah",0.5,0.5,1,resep_2181,Serundeng daging ayam,0.3562243419156117,0.3488123201948597,0.36363636363636365,keyword
+V030,"singkong parut,kelapa parut,gula merah",0.5,0.5,2,resep_3520,Serundeng Daging Manis,0.35392240907023853,0.44117815147381045,0.26666666666666666,keyword
+V030,"singkong parut,kelapa parut,gula merah",0.5,0.5,3,resep_1195,Tahu Campur,0.31574923908252084,0.493567443682283,0.13793103448275862,keyword
+V030,"singkong parut,kelapa parut,gula merah",0.5,0.5,4,resep_2877,Ayam Serundeng,0.2901037187254727,0.40629439397268446,0.1739130434782609,keyword
+V030,"singkong parut,kelapa parut,gula merah",0.5,0.5,5,resep_4250,Pepes Ikan Kelapa,0.2876272612138122,0.33996040478056566,0.23529411764705882,keyword
+V030,"singkong parut,kelapa parut,gula merah",0.6,0.4,1,resep_3520,Serundeng Daging Manis,0.37137355755095297,0.44117815147381045,0.26666666666666666,keyword
+V030,"singkong parut,kelapa parut,gula merah",0.6,0.4,2,resep_2181,Serundeng daging ayam,0.3547419375714613,0.3488123201948597,0.36363636363636365,keyword
+V030,"singkong parut,kelapa parut,gula merah",0.6,0.4,3,resep_1195,Tahu Campur,0.35131288000247324,0.493567443682283,0.13793103448275862,keyword
+V030,"singkong parut,kelapa parut,gula merah",0.6,0.4,4,resep_2877,Ayam Serundeng,0.313341853774915,0.40629439397268446,0.1739130434782609,keyword
+V030,"singkong parut,kelapa parut,gula merah",0.6,0.4,5,resep_4250,Pepes Ikan Kelapa,0.2980938899271629,0.33996040478056566,0.23529411764705882,keyword
+V030,"singkong parut,kelapa parut,gula merah",0.7,0.3,1,resep_3520,Serundeng Daging Manis,0.3888247060316673,0.44117815147381045,0.26666666666666666,keyword
+V030,"singkong parut,kelapa parut,gula merah",0.7,0.3,2,resep_1195,Tahu Campur,0.38687652092242564,0.493567443682283,0.13793103448275862,keyword
+V030,"singkong parut,kelapa parut,gula merah",0.7,0.3,3,resep_2181,Serundeng daging ayam,0.35325953322731085,0.3488123201948597,0.36363636363636365,keyword
+V030,"singkong parut,kelapa parut,gula merah",0.7,0.3,4,resep_2877,Ayam Serundeng,0.33657998882435736,0.40629439397268446,0.1739130434782609,keyword
+V030,"singkong parut,kelapa parut,gula merah",0.7,0.3,5,resep_4250,Pepes Ikan Kelapa,0.3085605186405136,0.33996040478056566,0.23529411764705882,keyword
+V030,"singkong parut,kelapa parut,gula merah",0.8,0.2,1,resep_1195,Tahu Campur,0.42244016184237815,0.493567443682283,0.13793103448275862,keyword
+V030,"singkong parut,kelapa parut,gula merah",0.8,0.2,2,resep_3520,Serundeng Daging Manis,0.40627585451238174,0.44117815147381045,0.26666666666666666,keyword
+V030,"singkong parut,kelapa parut,gula merah",0.8,0.2,3,resep_2877,Ayam Serundeng,0.3598181238737998,0.40629439397268446,0.1739130434782609,keyword
+V030,"singkong parut,kelapa parut,gula merah",0.8,0.2,4,resep_2181,Serundeng daging ayam,0.35177712888316054,0.3488123201948597,0.36363636363636365,keyword
+V030,"singkong parut,kelapa parut,gula merah",0.8,0.2,5,resep_4250,Pepes Ikan Kelapa,0.3190271473538643,0.33996040478056566,0.23529411764705882,keyword
+V030,"singkong parut,kelapa parut,gula merah",0.9,0.1,1,resep_1195,Tahu Campur,0.45800380276233055,0.493567443682283,0.13793103448275862,keyword
+V030,"singkong parut,kelapa parut,gula merah",0.9,0.1,2,resep_3520,Serundeng Daging Manis,0.42372700299309607,0.44117815147381045,0.26666666666666666,keyword
+V030,"singkong parut,kelapa parut,gula merah",0.9,0.1,3,resep_2877,Ayam Serundeng,0.38305625892324213,0.40629439397268446,0.1739130434782609,keyword
+V030,"singkong parut,kelapa parut,gula merah",0.9,0.1,4,resep_2181,Serundeng daging ayam,0.3502947245390101,0.3488123201948597,0.36363636363636365,keyword
+V030,"singkong parut,kelapa parut,gula merah",0.9,0.1,5,resep_4250,Pepes Ikan Kelapa,0.32949377606721497,0.33996040478056566,0.23529411764705882,keyword
+V030,"singkong parut,kelapa parut,gula merah",1.0,0.0,1,resep_1195,Tahu Campur,0.493567443682283,0.493567443682283,0.13793103448275862,keyword
+V030,"singkong parut,kelapa parut,gula merah",1.0,0.0,2,resep_3520,Serundeng Daging Manis,0.44117815147381045,0.44117815147381045,0.26666666666666666,keyword
+V030,"singkong parut,kelapa parut,gula merah",1.0,0.0,3,resep_2877,Ayam Serundeng,0.40629439397268446,0.40629439397268446,0.1739130434782609,keyword
+V030,"singkong parut,kelapa parut,gula merah",1.0,0.0,4,resep_2181,Serundeng daging ayam,0.3488123201948597,0.3488123201948597,0.36363636363636365,keyword
+V030,"singkong parut,kelapa parut,gula merah",1.0,0.0,5,resep_4250,Pepes Ikan Kelapa,0.33996040478056566,0.33996040478056566,0.23529411764705882,keyword

@@ -1,0 +1,395 @@
+pass,query_id,query_text,blind_code,recipe_id,recipe_title
+pass1,V001,"ati ampela ayam,kentang",48342869C2,resep_2077,Sup Ayam kuah Bening padat kaldu
+pass1,V001,"ati ampela ayam,kentang",3C41967EAB,resep_1962,Sup Ayam Kuning Khas Betawi
+pass1,V001,"ati ampela ayam,kentang",4723972218,resep_3406,"Goreng ayam, tempe balado"
+pass1,V001,"ati ampela ayam,kentang",E0E5475FB4,resep_2752,Semur Ayam Kentang Ala Mama Kirana
+pass1,V001,"ati ampela ayam,kentang",3D8699163E,resep_681,Kari Ayam Kentang Tahu Telur (Curry Masala)
+pass1,V002,"labu siam,jagung,kacang panjang",835CAEDC3C,resep_2107,Gule Udang Labu Siam
+pass1,V002,"labu siam,jagung,kacang panjang",CB525404F1,resep_3591,Tumis Jagung Telur Labu Siam Simple & Enak
+pass1,V002,"labu siam,jagung,kacang panjang",4DFB94C934,resep_4823,Sayur Asem Tetelan
+pass1,V002,"labu siam,jagung,kacang panjang",A2AA9389C7,resep_2387,Tumis Labu Kacang Tahu
+pass1,V002,"labu siam,jagung,kacang panjang",AF9490A0DD,resep_1871,Sayur Asem Daging Sapi
+pass1,V002,"labu siam,jagung,kacang panjang",1315C50F55,resep_4511,Lontong Sayur Jipang Labu Siam Kacang Panjang Tahu Telur
+pass1,V002,"labu siam,jagung,kacang panjang",48122CF68F,resep_3430,Telur dadar kacang Panjang
+pass1,V002,"labu siam,jagung,kacang panjang",39D3BC85B1,resep_4908,"Healthy Diet Food: Beef Slice, Boiled Egg, Jagung, Tomat dan Labu Siam"
+pass1,V003,"tempe,kacang panjang",8CD2728186,resep_1190,Tumis Kacang Panjang Tempe
+pass1,V003,"tempe,kacang panjang",E64916B768,resep_1440,Oseng Tempe Kacang Panjang
+pass1,V003,"tempe,kacang panjang",588183AFD6,resep_3219,Oseng tempe kacang panjang
+pass1,V003,"tempe,kacang panjang",E3C71B32B9,resep_3622,Tumis tempe
+pass1,V003,"tempe,kacang panjang",5332DCDF00,resep_1956,Tumis tempe kacang panjang special
+pass1,V003,"tempe,kacang panjang",2D123DC603,resep_1249,Gulai Kacang panjang tempe
+pass1,V003,"tempe,kacang panjang",BFCA40C61A,resep_4751,Tumis Kacang Panjang Tempe Tahu
+pass1,V003,"tempe,kacang panjang",9623FB9A8B,resep_2089,Tumis kacang panjang tempe (44_GAS2025)
+pass1,V003,"tempe,kacang panjang",87582D8B2B,resep_3976,Tempe orek kacang panjang
+pass1,V003,"tempe,kacang panjang",8ABE330CF2,resep_237,Tempe Kecap
+pass1,V003,"tempe,kacang panjang",20498E4582,resep_4507,"Tempe,teri kacang"
+pass1,V005,"telur,kentang,santan",A29F84A8CD,resep_2029,Tahu Telur Kuah Santan
+pass1,V005,"telur,kentang,santan",EC6D138893,resep_4306,Tofu Telur Kuah Santan
+pass1,V005,"telur,kentang,santan",B63ADF6DA1,resep_1689,Telur Dadar Santan Rawit
+pass1,V005,"telur,kentang,santan",683A853B17,resep_1524,Telur balado
+pass1,V005,"telur,kentang,santan",8C22E1BA04,resep_2147,Macaroni telur
+pass1,V005,"telur,kentang,santan",3D3AF7326B,resep_380,Perkedel Kentang Ikan Tongkol
+pass1,V005,"telur,kentang,santan",862765DCC0,resep_9,Tahu Telur Santan Pedas
+pass1,V005,"telur,kentang,santan",78354F7EED,resep_2513,Omelet kentang telur
+pass1,V005,"telur,kentang,santan",2DEC481236,resep_4680,Mie ayam bawang kuah santan
+pass1,V005,"telur,kentang,santan",01979DD5B9,resep_4154,Tahu Telur Kuah Santan
+pass1,V005,"telur,kentang,santan",503CD97E96,resep_2647,"Mpasi 6+| Snack labu kuning, kentang dan telur puyuh"
+pass1,V006,"telur ayam,tepung terigu protein sedang",7E916878F0,resep_425,Egg Roll ala Monde
+pass1,V006,"telur ayam,tepung terigu protein sedang",742BD714D5,resep_2948,Cilok goreng telur ala ala
+pass1,V006,"telur ayam,tepung terigu protein sedang",62658099B8,resep_3480,Telur Dadar Keriting Crispy
+pass1,V006,"telur ayam,tepung terigu protein sedang",8F71FABE25,resep_3580,Tempe crispy bumbu racik ayam
+pass1,V006,"telur ayam,tepung terigu protein sedang",6DBF6BAFF3,resep_4752,Tahu Tepung Goreng
+pass1,V006,"telur ayam,tepung terigu protein sedang",08DE9D2FC3,resep_4730,Sambal Telur Tepung
+pass1,V006,"telur ayam,tepung terigu protein sedang",6F64221AC6,resep_2833,Egg Roll
+pass1,V006,"telur ayam,tepung terigu protein sedang",AD545D56B8,resep_722,Telur Saus Tiram
+pass1,V006,"telur ayam,tepung terigu protein sedang",9D093D7A6D,resep_2748,Ayam Saus Telur Asin
+pass1,V006,"telur ayam,tepung terigu protein sedang",22219A6FB9,resep_1702,Udang goreng selimut
+pass1,V007,"ikan patin,tomat,cabe rawit merah",95D3662091,resep_4841,Pindang patin
+pass1,V007,"ikan patin,tomat,cabe rawit merah",D25858CE96,resep_1827,Soto Ikan Patin
+pass1,V007,"ikan patin,tomat,cabe rawit merah",64D27E25E5,resep_262,Ikan Patin Bumbu Kuning (Part 2)
+pass1,V007,"ikan patin,tomat,cabe rawit merah",566F6EBF4F,resep_138,Pindang Serani Ikan Patin
+pass1,V007,"ikan patin,tomat,cabe rawit merah",4CD9CCB66E,resep_1443,Sambel Ikan Patin (Sambelan Tuban)
+pass1,V007,"ikan patin,tomat,cabe rawit merah",6DBE59EFF7,resep_1282,Nasi Telor Ceplok Sambal Kecap
+pass1,V007,"ikan patin,tomat,cabe rawit merah",16549CC0B9,resep_2388,Sasangan Patin Khas Dayak KalTeng
+pass1,V007,"ikan patin,tomat,cabe rawit merah",9A8EE487D2,resep_731,Pindang Ikan Patin
+pass1,V007,"ikan patin,tomat,cabe rawit merah",D00D3384B8,resep_1799,Sambal ikan Roa
+pass1,V007,"ikan patin,tomat,cabe rawit merah",B252656F15,resep_3704,Sambel klothok lezat
+pass1,V008,"ikan bandeng,tahu putih,kecap manis",49FB6809B7,resep_4230,Pindang bandeng
+pass1,V008,"ikan bandeng,tahu putih,kecap manis",A5BCACEA50,resep_3626,Sate bawal
+pass1,V008,"ikan bandeng,tahu putih,kecap manis",BEE7C1BFB1,resep_4687,Semur tahu telur puyuh
+pass1,V008,"ikan bandeng,tahu putih,kecap manis",9777BF87E0,resep_3978,Pindang Bandeng
+pass1,V008,"ikan bandeng,tahu putih,kecap manis",04628C2A90,resep_1970,Tumis Tahu Ikan Teri
+pass1,V008,"ikan bandeng,tahu putih,kecap manis",DF12AE37BE,resep_957,Tumis Tahu
+pass1,V008,"ikan bandeng,tahu putih,kecap manis",5469438AE4,resep_3827,Ikan bumbu Bali
+pass1,V008,"ikan bandeng,tahu putih,kecap manis",87BDB84C71,resep_3965,Tumis Tahu Telor Saos Tiram
+pass1,V008,"ikan bandeng,tahu putih,kecap manis",0C8ECE15D9,resep_3128,Ikan Bandeng Bakar
+pass1,V008,"ikan bandeng,tahu putih,kecap manis",9BA5FF1090,resep_4213,Cireng Tahu (CIHU)
+pass1,V009,"tahu putih,telur ayam,tepung tapioka",32E3E46218,resep_3804,Tahu Fantasi
+pass1,V009,"tahu putih,telur ayam,tepung tapioka",BE49C2C86C,resep_3426,Perkedel Tahu
+pass1,V009,"tahu putih,telur ayam,tepung tapioka",D2F54D6D38,resep_478,Frozen Food Tahu Cireng
+pass1,V009,"tahu putih,telur ayam,tepung tapioka",60081B85E2,resep_4752,Tahu Tepung Goreng
+pass1,V009,"tahu putih,telur ayam,tepung tapioka",6E51ADB6EC,resep_1389,Dadar Tahu Telur
+pass1,V009,"tahu putih,telur ayam,tepung tapioka",7958937569,resep_3640,Tahu Telur Malangan
+pass1,V009,"tahu putih,telur ayam,tepung tapioka",95FF38AEBA,resep_2679,Tahu Fantasi
+pass1,V009,"tahu putih,telur ayam,tepung tapioka",C3BE420497,resep_3484,Cireng tahu putih
+pass1,V009,"tahu putih,telur ayam,tepung tapioka",61E51185B3,resep_4923,Tahu Bejek
+pass1,V009,"tahu putih,telur ayam,tepung tapioka",554B257C10,resep_391,Martabak Telur Isi Tahu
+pass1,V009,"tahu putih,telur ayam,tepung tapioka",3920A2C6C3,resep_931,Tahu Walik
+pass1,V010,"beras,teri goreng,cabai merah keriting",87E593B3B6,resep_1652,Semar Mendem isi Ayam Krengsengan
+pass1,V010,"beras,teri goreng,cabai merah keriting",C456A2C7CE,resep_163,Siomay Ayam Devina Hermawan
+pass1,V010,"beras,teri goreng,cabai merah keriting",024D3ED631,resep_508,Gurame Saus Sambal Korea
+pass1,V010,"beras,teri goreng,cabai merah keriting",87B9BFABDA,resep_1003,Nasi Liwet Ikan Teri
+pass1,V011,"telur,baby potato",835D0F5AE2,resep_1251,"Mix Protein Steak (Tahu Tempe, Daging cincang)"
+pass1,V012,"ayam,tomat hijau,cabai rawit",23AC0EDF07,resep_4882,Telur ceplok kuah tomat
+pass1,V012,"ayam,tomat hijau,cabai rawit",0EE46635D3,resep_341,Telur Balado (pakai resep Desaku balado bubuk)
+pass1,V012,"ayam,tomat hijau,cabai rawit",F599A2ED53,resep_737,Mie Ayam Spesial ala Mommy Juna
+pass1,V012,"ayam,tomat hijau,cabai rawit",061583D33D,resep_3309,Telur Ceplok Balado
+pass1,V012,"ayam,tomat hijau,cabai rawit",A27A1DD799,resep_3082,Garang ayam
+pass1,V012,"ayam,tomat hijau,cabai rawit",C98CD1CECB,resep_4737,Tumis Ayam Aromatic
+pass1,V012,"ayam,tomat hijau,cabai rawit",2321B98C26,resep_1046,Fire Chicken Wings
+pass1,V012,"ayam,tomat hijau,cabai rawit",F3085D5AC5,resep_4759,Pepes Ayam
+pass1,V012,"ayam,tomat hijau,cabai rawit",F710F56B53,resep_1663,Ayam Cabai Garam
+pass1,V012,"ayam,tomat hijau,cabai rawit",0F244F1F2F,resep_3674,Telur Ceplok Sambal Matah
+pass1,V012,"ayam,tomat hijau,cabai rawit",1C1BE62ED7,resep_1326,Dadar Telur Tomat Cabe Hijau
+pass1,V012,"ayam,tomat hijau,cabai rawit",941464EB9D,resep_649,Ayam kecap
+pass1,V013,"makaroni,telur",7C39D68F26,resep_3254,Makaroni Telur
+pass1,V013,"makaroni,telur",262C272C03,resep_4800,MAKLOR (Makaroni Telor)
+pass1,V013,"makaroni,telur",B81F06D3A8,resep_795,Makaroni telur dadar
+pass1,V013,"makaroni,telur",EEBA1C3B14,resep_3533,Maklor (makaroni telor)
+pass1,V013,"makaroni,telur",6EF3A9CDE3,resep_4717,Makaroni Telur
+pass1,V014,"daging ayam,jamur kuping,wortel",DD96B08AC3,resep_2411,Tumis Toge Wortel Ayam
+pass1,V014,"daging ayam,jamur kuping,wortel",2B68EB9226,resep_2158,Nugget tahu ayam wortel
+pass1,V014,"daging ayam,jamur kuping,wortel",A64E40C022,resep_3997,Ayam kentang bumbu kari
+pass1,V014,"daging ayam,jamur kuping,wortel",68A160F600,resep_578,"Tahu isi ayam, sayur dan jamur kuping (no tepung)"
+pass1,V014,"daging ayam,jamur kuping,wortel",427C433048,resep_3944,Sempol Ayam Wortel
+pass1,V014,"daging ayam,jamur kuping,wortel",5353930D4A,resep_4940,Japchae (Korean Food) ayam
+pass1,V014,"daging ayam,jamur kuping,wortel",9C158C292B,resep_3727,"Sempol Ayam, Wortel dan Tahu (12 month+)"
+pass1,V014,"daging ayam,jamur kuping,wortel",70DA921468,resep_337,Bubur ayam sayur (simple banget)
+pass1,V014,"daging ayam,jamur kuping,wortel",45EA022144,resep_2383,Capcay ayam jamur Ala ala
+pass1,V015,"ubi jalar,jahe",954E85B34C,resep_4742,Goreng goreng daging sapi khas bugis
+pass1,V016,"tempe,labu air,santan kental",FE7C24616D,resep_4513,[279] Tempe Goreng Ketumbar
+pass1,V016,"tempe,labu air,santan kental",903D2925AA,resep_3009,Tahu Tempe Bakar Bumbu Rujak
+pass1,V016,"tempe,labu air,santan kental",7583F3A756,resep_4001,Sayur Santan Tempe Telur Labu Siam
+pass1,V016,"tempe,labu air,santan kental",586F6B2FDB,resep_463,Tempe + tahu Crispy
+pass1,V016,"tempe,labu air,santan kental",05DCC5E372,resep_407,Kering Tempe Kentang
+pass1,V016,"tempe,labu air,santan kental",85FC1F9032,resep_377,Tempe Goreng Kriuk
+pass1,V016,"tempe,labu air,santan kental",4E55136BCC,resep_3473,Tempe Kriuk
+pass1,V016,"tempe,labu air,santan kental",39289217D2,resep_580,Resep Tempe Kriuk
+pass1,V016,"tempe,labu air,santan kental",C90CBF7AA3,resep_2332,Tahu Tempe Santan Sederhana
+pass1,V016,"tempe,labu air,santan kental",833C60AB6B,resep_2093,Sayur santan labusiam tempe by icha
+pass1,V017,"tahu putih,kacang tanah",DB2332191E,resep_564,Tahu campur rumahan
+pass1,V017,"tahu putih,kacang tanah",B6CFEFDFED,resep_253,Tahu Telur Kudus
+pass1,V017,"tahu putih,kacang tanah",5BBDACB752,resep_3402,Sego Tahu Blitar
+pass1,V017,"tahu putih,kacang tanah",E055C7CA82,resep_2585,Sego Tahu Blitar
+pass1,V017,"tahu putih,kacang tanah",3C6B2808DB,resep_3909,Tahu tek
+pass1,V017,"tahu putih,kacang tanah",7794411D5E,resep_4566,Tahu Telur Khas Jawa Timur
+pass1,V017,"tahu putih,kacang tanah",754BEC71AD,resep_1604,Tahu Telur Malangan
+pass1,V017,"tahu putih,kacang tanah",DE0D974CF3,resep_1051,Tahu telor bumbu kacang
+pass1,V019,"ikan tuna,tomat,cabai rawit",3A20511A71,resep_3270,Tuna Balado
+pass1,V019,"ikan tuna,tomat,cabai rawit",B3F9085BC4,resep_4324,Sarden homemade mpasi friendly
+pass1,V019,"ikan tuna,tomat,cabai rawit",856A6F05E4,resep_2459,Tuna Cilantro
+pass1,V019,"ikan tuna,tomat,cabai rawit",0EB6C7986F,resep_1946,Mie Gelas Kuah Isi Sayuran Telur Sosis #PR_AnekaMieKuah
+pass1,V019,"ikan tuna,tomat,cabai rawit",9FA8BC3F85,resep_3004,Tuna bumbu kemangi
+pass1,V019,"ikan tuna,tomat,cabai rawit",3BC693237E,resep_2476,Ikan Tuna dan Bakso Saus Lada Hitam
+pass1,V019,"ikan tuna,tomat,cabai rawit",769A32672A,resep_923,Tuna Suwir Kemangi
+pass1,V019,"ikan tuna,tomat,cabai rawit",E8F958CD65,resep_4502,Tuna asam manis
+pass1,V019,"ikan tuna,tomat,cabai rawit",0D3F71B4B1,resep_4861,Lempah Ikan Tuna
+pass1,V022,"mie,ebi kering",3F7661C5BC,resep_4644,Lomie Ayam Kangkung
+pass1,V022,"mie,ebi kering",E5E9B33D5A,resep_1613,Rujak Mie Tahu
+pass1,V023,"tepung terigu,tepung tapioka,ragout ayam sayur",AB2A04D5EE,resep_2569,Ayam crispy
+pass1,V023,"tepung terigu,tepung tapioka,ragout ayam sayur",4A0C3A6D49,resep_2319,Sosis Ayam Suwir
+pass1,V023,"tepung terigu,tepung tapioka,ragout ayam sayur",000411B1C3,resep_4874,Stik Telur Gabus (tanpa keju)
+pass1,V023,"tepung terigu,tepung tapioka,ragout ayam sayur",4ED3A56BF2,resep_2063,Seluang goreng tepung
+pass1,V023,"tepung terigu,tepung tapioka,ragout ayam sayur",3B5788ACDE,resep_2166,Nugget ayam tahu
+pass1,V023,"tepung terigu,tepung tapioka,ragout ayam sayur",71EC2017B0,resep_238,Ayam tepung
+pass1,V023,"tepung terigu,tepung tapioka,ragout ayam sayur",5868C040A1,resep_3786,Tahu Goreng Kriuk
+pass1,V023,"tepung terigu,tepung tapioka,ragout ayam sayur",9242B16EAA,resep_3421,Risoles Rogout Luncheon Ayam
+pass1,V023,"tepung terigu,tepung tapioka,ragout ayam sayur",0630ADB48C,resep_1252,Ayam Goreng Tepung
+pass1,V023,"tepung terigu,tepung tapioka,ragout ayam sayur",C621BAF018,resep_2221,Risol Rogut Ayam
+pass1,V024,"paha atas ayam,mie soun",80E31B058A,resep_1273,Mie ayam enak simpel
+pass1,V024,"paha atas ayam,mie soun",DF004E7233,resep_4515,Soto ayam bumbu instan
+pass1,V025,"singkong,bawang putih,kunyit",7139165195,resep_3465,Gulai ikan ala Minang
+pass1,V025,"singkong,bawang putih,kunyit",986F021BA1,resep_2572,Ayam betutu daun singkong
+pass1,V025,"singkong,bawang putih,kunyit",308E485EBA,resep_3790,Gulai daun ubi + ikan patin sale
+pass1,V025,"singkong,bawang putih,kunyit",E21D15C676,resep_118,GULAI DAUN SINGKONG + TELUR
+pass1,V025,"singkong,bawang putih,kunyit",9ACFA61514,resep_1317,Ikan Selar Goreng Kunyit
+pass1,V025,"singkong,bawang putih,kunyit",05D304ECDF,resep_487,Suwir tongkol daun kunyit
+pass1,V025,"singkong,bawang putih,kunyit",6457A6ADD5,resep_3728,Gule kambing daun singkong
+pass1,V025,"singkong,bawang putih,kunyit",DBCEF70553,resep_1525,Sapi bumbu kuning
+pass1,V025,"singkong,bawang putih,kunyit",26B7702F0D,resep_976,Sate sapi sederhana
+pass1,V025,"singkong,bawang putih,kunyit",EBD139BFA3,resep_2364,Sayur Tahu Kuning
+pass1,V025,"singkong,bawang putih,kunyit",D7A4191F6E,resep_2462,Gulai daun singkong dan telur
+pass1,V026,"ubi madu,tepung terigu serbaguna",6EA554438E,resep_3915,Ayam madu saos sriracha
+pass1,V026,"ubi madu,tepung terigu serbaguna",A7AF239AA8,resep_39,Honey butter garlic chicken
+pass1,V027,"nangka muda,santan,cabai keriting",4730DD70DC,resep_963,Sayur santan nangka tetelan
+pass1,V027,"nangka muda,santan,cabai keriting",CBB2A2677F,resep_55,Rendang daging
+pass1,V027,"nangka muda,santan,cabai keriting",C944C62741,resep_3592,Gudeg dan Pindang Telur (74)
+pass1,V027,"nangka muda,santan,cabai keriting",3220290F8E,resep_1007,Rendang Kentang Tempe
+pass1,V027,"nangka muda,santan,cabai keriting",1B5ACE17AB,resep_3729,Lodeh Kentang Tempe Lombok Ijo
+pass1,V027,"nangka muda,santan,cabai keriting",578C62372F,resep_275,Gudeg Nangka Telor
+pass1,V027,"nangka muda,santan,cabai keriting",7D6B38C113,resep_4166,Kue Lumpur Nasi Topping Abon Ikan
+pass1,V027,"nangka muda,santan,cabai keriting",ADC67A73E6,resep_1075,Gulai kambing segar
+pass1,V027,"nangka muda,santan,cabai keriting",9679A84F4E,resep_892,Jangan Kates Tahu (Lodeh Pepaya Muda)
+pass1,V028,"telur,sosis,bawang merah",386660F659,resep_2481,Telur gulung isi sosis
+pass1,V028,"telur,sosis,bawang merah",EBA00CE853,resep_2582,Telur Dadar Daun Bawang
+pass1,V028,"telur,sosis,bawang merah",7BDB1EA4DB,resep_736,Roll Egg aka Dadar telur gulung
+pass1,V028,"telur,sosis,bawang merah",5E0E0427EB,resep_2216,Dadar Telur Sosis Bunga Bawang
+pass1,V028,"telur,sosis,bawang merah",0EB0E1AD6B,resep_4095,Telur Gulung Sosis
+pass1,V028,"telur,sosis,bawang merah",A952A650D3,resep_4420,"Dadar Telur, Tahu dan Sosis"
+pass1,V028,"telur,sosis,bawang merah",BF239A99E6,resep_4791,Telur Dadar Daun Kelor
+pass1,V028,"telur,sosis,bawang merah",25F7E10C63,resep_1675,Orak-arik Tahu Telor Sosis
+pass1,V028,"telur,sosis,bawang merah",69F28C7E55,resep_3815,Sayur sawi telur sosis
+pass1,V029,"kentang,telur rebus",53E7CDDC80,resep_930,Sambel Pete kentang telur ceplok simple
+pass1,V029,"kentang,telur rebus",10D6D28B3B,resep_4933,Semur Kentang Telur
+pass1,V029,"kentang,telur rebus",AC6A27BCFF,resep_455,Sambal kentang dan telur goreng simpel
+pass1,V029,"kentang,telur rebus",4B5A3A485C,resep_4472,Balado Hijau Kentang Telur
+pass1,V029,"kentang,telur rebus",4EEEAEA876,resep_4918,Sambal Kentang Telur Rebus
+pass1,V029,"kentang,telur rebus",3AD084C469,resep_1005,Puff Pastry Isi Salad Telur Kentang Keju
+pass1,V029,"kentang,telur rebus",6BC20D7936,resep_3865,Gulai Kentang Telur
+pass1,V029,"kentang,telur rebus",AC3A132B86,resep_2147,Macaroni telur
+pass1,V030,"singkong parut,kelapa parut,gula merah",63E6E5C7D7,resep_3520,Serundeng Daging Manis
+pass1,V030,"singkong parut,kelapa parut,gula merah",A99C7335CD,resep_1195,Tahu Campur
+pass1,V030,"singkong parut,kelapa parut,gula merah",E74F4C409C,resep_282,Empal gepuk daging sapi
+pass1,V030,"singkong parut,kelapa parut,gula merah",79DC1CB761,resep_4250,Pepes Ikan Kelapa
+pass1,V030,"singkong parut,kelapa parut,gula merah",A35D8FBB97,resep_338,Dendeng Ragi Daging Sapi
+pass1,V030,"singkong parut,kelapa parut,gula merah",F505D25C7E,resep_3326,Empal Gepuk (Sapi)
+pass1,V030,"singkong parut,kelapa parut,gula merah",6BA8C708EB,resep_2877,Ayam Serundeng
+pass1,V030,"singkong parut,kelapa parut,gula merah",2AF7CD45F9,resep_2181,Serundeng daging ayam
+pass1,V030,"singkong parut,kelapa parut,gula merah",25759F9893,resep_710,Gecok Ayam
+pass2,V001,"ati ampela ayam,kentang",498ABDB21B,resep_3406,"Goreng ayam, tempe balado"
+pass2,V001,"ati ampela ayam,kentang",3C64DE0A5E,resep_2077,Sup Ayam kuah Bening padat kaldu
+pass2,V001,"ati ampela ayam,kentang",1E96E92C22,resep_681,Kari Ayam Kentang Tahu Telur (Curry Masala)
+pass2,V001,"ati ampela ayam,kentang",BB90856961,resep_1962,Sup Ayam Kuning Khas Betawi
+pass2,V001,"ati ampela ayam,kentang",6C345EE1EB,resep_2752,Semur Ayam Kentang Ala Mama Kirana
+pass2,V002,"labu siam,jagung,kacang panjang",D832430AA9,resep_1871,Sayur Asem Daging Sapi
+pass2,V002,"labu siam,jagung,kacang panjang",816CFECFEE,resep_3591,Tumis Jagung Telur Labu Siam Simple & Enak
+pass2,V002,"labu siam,jagung,kacang panjang",0B1C71D3BE,resep_4511,Lontong Sayur Jipang Labu Siam Kacang Panjang Tahu Telur
+pass2,V002,"labu siam,jagung,kacang panjang",B73CE484F6,resep_2107,Gule Udang Labu Siam
+pass2,V002,"labu siam,jagung,kacang panjang",9B87091890,resep_2387,Tumis Labu Kacang Tahu
+pass2,V002,"labu siam,jagung,kacang panjang",A801BC6BF0,resep_4908,"Healthy Diet Food: Beef Slice, Boiled Egg, Jagung, Tomat dan Labu Siam"
+pass2,V002,"labu siam,jagung,kacang panjang",4B52CFC811,resep_4823,Sayur Asem Tetelan
+pass2,V002,"labu siam,jagung,kacang panjang",C3B71BE122,resep_3430,Telur dadar kacang Panjang
+pass2,V003,"tempe,kacang panjang",E1C80967F8,resep_2089,Tumis kacang panjang tempe (44_GAS2025)
+pass2,V003,"tempe,kacang panjang",0B69E1827E,resep_3976,Tempe orek kacang panjang
+pass2,V003,"tempe,kacang panjang",9F523C4760,resep_4751,Tumis Kacang Panjang Tempe Tahu
+pass2,V003,"tempe,kacang panjang",E775AA3D49,resep_1440,Oseng Tempe Kacang Panjang
+pass2,V003,"tempe,kacang panjang",30A6E3F842,resep_3622,Tumis tempe
+pass2,V003,"tempe,kacang panjang",959B3E2578,resep_1190,Tumis Kacang Panjang Tempe
+pass2,V003,"tempe,kacang panjang",005338EA13,resep_1249,Gulai Kacang panjang tempe
+pass2,V003,"tempe,kacang panjang",45BE50AB96,resep_3219,Oseng tempe kacang panjang
+pass2,V003,"tempe,kacang panjang",9078B159AC,resep_1956,Tumis tempe kacang panjang special
+pass2,V003,"tempe,kacang panjang",39AA5D3E05,resep_237,Tempe Kecap
+pass2,V003,"tempe,kacang panjang",EBD9A25944,resep_4507,"Tempe,teri kacang"
+pass2,V005,"telur,kentang,santan",4871CC0082,resep_2029,Tahu Telur Kuah Santan
+pass2,V005,"telur,kentang,santan",17D18F3D78,resep_1689,Telur Dadar Santan Rawit
+pass2,V005,"telur,kentang,santan",D81ADEAC19,resep_4680,Mie ayam bawang kuah santan
+pass2,V005,"telur,kentang,santan",4A65966538,resep_2147,Macaroni telur
+pass2,V005,"telur,kentang,santan",137D33914B,resep_1524,Telur balado
+pass2,V005,"telur,kentang,santan",5AF77BCA05,resep_4154,Tahu Telur Kuah Santan
+pass2,V005,"telur,kentang,santan",914068090F,resep_9,Tahu Telur Santan Pedas
+pass2,V005,"telur,kentang,santan",B0D4DB1526,resep_4306,Tofu Telur Kuah Santan
+pass2,V005,"telur,kentang,santan",445B074BDB,resep_2647,"Mpasi 6+| Snack labu kuning, kentang dan telur puyuh"
+pass2,V005,"telur,kentang,santan",00B0FFFEDD,resep_380,Perkedel Kentang Ikan Tongkol
+pass2,V005,"telur,kentang,santan",26554E1C8C,resep_2513,Omelet kentang telur
+pass2,V006,"telur ayam,tepung terigu protein sedang",E68D0AA338,resep_2833,Egg Roll
+pass2,V006,"telur ayam,tepung terigu protein sedang",40DA46C558,resep_1702,Udang goreng selimut
+pass2,V006,"telur ayam,tepung terigu protein sedang",AD4001B6EA,resep_4730,Sambal Telur Tepung
+pass2,V006,"telur ayam,tepung terigu protein sedang",E35C9CD9D5,resep_3580,Tempe crispy bumbu racik ayam
+pass2,V006,"telur ayam,tepung terigu protein sedang",303EA8E0CF,resep_425,Egg Roll ala Monde
+pass2,V006,"telur ayam,tepung terigu protein sedang",BE9628D5AE,resep_3480,Telur Dadar Keriting Crispy
+pass2,V006,"telur ayam,tepung terigu protein sedang",D446F37A9A,resep_2748,Ayam Saus Telur Asin
+pass2,V006,"telur ayam,tepung terigu protein sedang",7F5FE16FA0,resep_722,Telur Saus Tiram
+pass2,V006,"telur ayam,tepung terigu protein sedang",B690FB1E36,resep_4752,Tahu Tepung Goreng
+pass2,V006,"telur ayam,tepung terigu protein sedang",194667D051,resep_2948,Cilok goreng telur ala ala
+pass2,V007,"ikan patin,tomat,cabe rawit merah",F257E7DEC0,resep_138,Pindang Serani Ikan Patin
+pass2,V007,"ikan patin,tomat,cabe rawit merah",9481E7D05C,resep_4841,Pindang patin
+pass2,V007,"ikan patin,tomat,cabe rawit merah",A0729483BE,resep_1282,Nasi Telor Ceplok Sambal Kecap
+pass2,V007,"ikan patin,tomat,cabe rawit merah",891DC5876B,resep_731,Pindang Ikan Patin
+pass2,V007,"ikan patin,tomat,cabe rawit merah",780C6465CE,resep_3704,Sambel klothok lezat
+pass2,V007,"ikan patin,tomat,cabe rawit merah",20A21964F1,resep_2388,Sasangan Patin Khas Dayak KalTeng
+pass2,V007,"ikan patin,tomat,cabe rawit merah",8C8F605C1C,resep_1827,Soto Ikan Patin
+pass2,V007,"ikan patin,tomat,cabe rawit merah",10AAACF1FD,resep_1443,Sambel Ikan Patin (Sambelan Tuban)
+pass2,V007,"ikan patin,tomat,cabe rawit merah",9E19469928,resep_1799,Sambal ikan Roa
+pass2,V007,"ikan patin,tomat,cabe rawit merah",F3BCC490F5,resep_262,Ikan Patin Bumbu Kuning (Part 2)
+pass2,V008,"ikan bandeng,tahu putih,kecap manis",9B1295B92B,resep_3128,Ikan Bandeng Bakar
+pass2,V008,"ikan bandeng,tahu putih,kecap manis",18915FA32B,resep_4230,Pindang bandeng
+pass2,V008,"ikan bandeng,tahu putih,kecap manis",F03BE1A9D4,resep_4213,Cireng Tahu (CIHU)
+pass2,V008,"ikan bandeng,tahu putih,kecap manis",DE581C041B,resep_3965,Tumis Tahu Telor Saos Tiram
+pass2,V008,"ikan bandeng,tahu putih,kecap manis",A7C2E6B1F7,resep_957,Tumis Tahu
+pass2,V008,"ikan bandeng,tahu putih,kecap manis",410462F58E,resep_3827,Ikan bumbu Bali
+pass2,V008,"ikan bandeng,tahu putih,kecap manis",454F41838C,resep_1970,Tumis Tahu Ikan Teri
+pass2,V008,"ikan bandeng,tahu putih,kecap manis",5AF98FB964,resep_4687,Semur tahu telur puyuh
+pass2,V008,"ikan bandeng,tahu putih,kecap manis",DB1E53A2BC,resep_3978,Pindang Bandeng
+pass2,V008,"ikan bandeng,tahu putih,kecap manis",54258F1247,resep_3626,Sate bawal
+pass2,V009,"tahu putih,telur ayam,tepung tapioka",2AAB7A7A1E,resep_1389,Dadar Tahu Telur
+pass2,V009,"tahu putih,telur ayam,tepung tapioka",CEB749E2C4,resep_3640,Tahu Telur Malangan
+pass2,V009,"tahu putih,telur ayam,tepung tapioka",F35B074C93,resep_3484,Cireng tahu putih
+pass2,V009,"tahu putih,telur ayam,tepung tapioka",CDE9B08F4E,resep_4752,Tahu Tepung Goreng
+pass2,V009,"tahu putih,telur ayam,tepung tapioka",63D0CA7A7F,resep_3426,Perkedel Tahu
+pass2,V009,"tahu putih,telur ayam,tepung tapioka",CB1D51AE4E,resep_4923,Tahu Bejek
+pass2,V009,"tahu putih,telur ayam,tepung tapioka",1E49B0ED4E,resep_2679,Tahu Fantasi
+pass2,V009,"tahu putih,telur ayam,tepung tapioka",C3725583D0,resep_478,Frozen Food Tahu Cireng
+pass2,V009,"tahu putih,telur ayam,tepung tapioka",E3B33DF188,resep_931,Tahu Walik
+pass2,V009,"tahu putih,telur ayam,tepung tapioka",056C792267,resep_391,Martabak Telur Isi Tahu
+pass2,V009,"tahu putih,telur ayam,tepung tapioka",36CA09337F,resep_3804,Tahu Fantasi
+pass2,V010,"beras,teri goreng,cabai merah keriting",F161A119F5,resep_1652,Semar Mendem isi Ayam Krengsengan
+pass2,V010,"beras,teri goreng,cabai merah keriting",696F87D157,resep_163,Siomay Ayam Devina Hermawan
+pass2,V010,"beras,teri goreng,cabai merah keriting",24A2B056E2,resep_1003,Nasi Liwet Ikan Teri
+pass2,V010,"beras,teri goreng,cabai merah keriting",C4665C9637,resep_508,Gurame Saus Sambal Korea
+pass2,V011,"telur,baby potato",A8BF3CA6DA,resep_1251,"Mix Protein Steak (Tahu Tempe, Daging cincang)"
+pass2,V012,"ayam,tomat hijau,cabai rawit",44BDEF2E2C,resep_4882,Telur ceplok kuah tomat
+pass2,V012,"ayam,tomat hijau,cabai rawit",E9FA2A98F6,resep_3082,Garang ayam
+pass2,V012,"ayam,tomat hijau,cabai rawit",3A5842F595,resep_4737,Tumis Ayam Aromatic
+pass2,V012,"ayam,tomat hijau,cabai rawit",45B4760138,resep_1046,Fire Chicken Wings
+pass2,V012,"ayam,tomat hijau,cabai rawit",3ED90F0D70,resep_1663,Ayam Cabai Garam
+pass2,V012,"ayam,tomat hijau,cabai rawit",03AAD86E8C,resep_1326,Dadar Telur Tomat Cabe Hijau
+pass2,V012,"ayam,tomat hijau,cabai rawit",5A8ED6B526,resep_649,Ayam kecap
+pass2,V012,"ayam,tomat hijau,cabai rawit",D11BD8F3EA,resep_3674,Telur Ceplok Sambal Matah
+pass2,V012,"ayam,tomat hijau,cabai rawit",6BBE529DF0,resep_3309,Telur Ceplok Balado
+pass2,V012,"ayam,tomat hijau,cabai rawit",4319F3A06B,resep_341,Telur Balado (pakai resep Desaku balado bubuk)
+pass2,V012,"ayam,tomat hijau,cabai rawit",AB5455B99E,resep_4759,Pepes Ayam
+pass2,V012,"ayam,tomat hijau,cabai rawit",DAA11B9029,resep_737,Mie Ayam Spesial ala Mommy Juna
+pass2,V013,"makaroni,telur",D22C54A249,resep_4800,MAKLOR (Makaroni Telor)
+pass2,V013,"makaroni,telur",420172F322,resep_4717,Makaroni Telur
+pass2,V013,"makaroni,telur",327B830735,resep_3533,Maklor (makaroni telor)
+pass2,V013,"makaroni,telur",F2FED84262,resep_3254,Makaroni Telur
+pass2,V013,"makaroni,telur",5780055473,resep_795,Makaroni telur dadar
+pass2,V014,"daging ayam,jamur kuping,wortel",EA09ABDF72,resep_4940,Japchae (Korean Food) ayam
+pass2,V014,"daging ayam,jamur kuping,wortel",C4BA99FA67,resep_3944,Sempol Ayam Wortel
+pass2,V014,"daging ayam,jamur kuping,wortel",CD8B12C26A,resep_3727,"Sempol Ayam, Wortel dan Tahu (12 month+)"
+pass2,V014,"daging ayam,jamur kuping,wortel",0958B804DC,resep_578,"Tahu isi ayam, sayur dan jamur kuping (no tepung)"
+pass2,V014,"daging ayam,jamur kuping,wortel",787504FA47,resep_2383,Capcay ayam jamur Ala ala
+pass2,V014,"daging ayam,jamur kuping,wortel",5B7CF7C2EB,resep_2158,Nugget tahu ayam wortel
+pass2,V014,"daging ayam,jamur kuping,wortel",01AED27567,resep_3997,Ayam kentang bumbu kari
+pass2,V014,"daging ayam,jamur kuping,wortel",1780B57654,resep_337,Bubur ayam sayur (simple banget)
+pass2,V014,"daging ayam,jamur kuping,wortel",6E1C7B4DB4,resep_2411,Tumis Toge Wortel Ayam
+pass2,V015,"ubi jalar,jahe",BA378C462F,resep_4742,Goreng goreng daging sapi khas bugis
+pass2,V016,"tempe,labu air,santan kental",45EF74D381,resep_2332,Tahu Tempe Santan Sederhana
+pass2,V016,"tempe,labu air,santan kental",B770E3F4EE,resep_4513,[279] Tempe Goreng Ketumbar
+pass2,V016,"tempe,labu air,santan kental",0A8CAA3700,resep_3009,Tahu Tempe Bakar Bumbu Rujak
+pass2,V016,"tempe,labu air,santan kental",5C4104BE2C,resep_463,Tempe + tahu Crispy
+pass2,V016,"tempe,labu air,santan kental",27835854D9,resep_377,Tempe Goreng Kriuk
+pass2,V016,"tempe,labu air,santan kental",D029FC9B91,resep_3473,Tempe Kriuk
+pass2,V016,"tempe,labu air,santan kental",E1F9D6BED5,resep_580,Resep Tempe Kriuk
+pass2,V016,"tempe,labu air,santan kental",C0E2FB55FA,resep_407,Kering Tempe Kentang
+pass2,V016,"tempe,labu air,santan kental",13258F9AB6,resep_4001,Sayur Santan Tempe Telur Labu Siam
+pass2,V016,"tempe,labu air,santan kental",2BD2EB6FA8,resep_2093,Sayur santan labusiam tempe by icha
+pass2,V017,"tahu putih,kacang tanah",3AD9D5B2C7,resep_1051,Tahu telor bumbu kacang
+pass2,V017,"tahu putih,kacang tanah",D6A74E1712,resep_3402,Sego Tahu Blitar
+pass2,V017,"tahu putih,kacang tanah",FF150B415E,resep_564,Tahu campur rumahan
+pass2,V017,"tahu putih,kacang tanah",F10BDB72FD,resep_3909,Tahu tek
+pass2,V017,"tahu putih,kacang tanah",6A97A9A8A1,resep_2585,Sego Tahu Blitar
+pass2,V017,"tahu putih,kacang tanah",3CCD4F0E85,resep_1604,Tahu Telur Malangan
+pass2,V017,"tahu putih,kacang tanah",38E42D5ED4,resep_253,Tahu Telur Kudus
+pass2,V017,"tahu putih,kacang tanah",CA367AF2D0,resep_4566,Tahu Telur Khas Jawa Timur
+pass2,V019,"ikan tuna,tomat,cabai rawit",F0966D4AF2,resep_4861,Lempah Ikan Tuna
+pass2,V019,"ikan tuna,tomat,cabai rawit",3197BCD6BD,resep_2476,Ikan Tuna dan Bakso Saus Lada Hitam
+pass2,V019,"ikan tuna,tomat,cabai rawit",EE5EC5E6A6,resep_4502,Tuna asam manis
+pass2,V019,"ikan tuna,tomat,cabai rawit",B98DDBF7E8,resep_4324,Sarden homemade mpasi friendly
+pass2,V019,"ikan tuna,tomat,cabai rawit",2B860CECBC,resep_3270,Tuna Balado
+pass2,V019,"ikan tuna,tomat,cabai rawit",988548E5CA,resep_2459,Tuna Cilantro
+pass2,V019,"ikan tuna,tomat,cabai rawit",42D1DB470B,resep_1946,Mie Gelas Kuah Isi Sayuran Telur Sosis #PR_AnekaMieKuah
+pass2,V019,"ikan tuna,tomat,cabai rawit",1E3ADC92AB,resep_923,Tuna Suwir Kemangi
+pass2,V019,"ikan tuna,tomat,cabai rawit",A76F4AAD7A,resep_3004,Tuna bumbu kemangi
+pass2,V022,"mie,ebi kering",09D4109720,resep_4644,Lomie Ayam Kangkung
+pass2,V022,"mie,ebi kering",D5CBEE2302,resep_1613,Rujak Mie Tahu
+pass2,V023,"tepung terigu,tepung tapioka,ragout ayam sayur",39D8366FAD,resep_3786,Tahu Goreng Kriuk
+pass2,V023,"tepung terigu,tepung tapioka,ragout ayam sayur",6A13A5BDFE,resep_238,Ayam tepung
+pass2,V023,"tepung terigu,tepung tapioka,ragout ayam sayur",8C93F5A390,resep_2063,Seluang goreng tepung
+pass2,V023,"tepung terigu,tepung tapioka,ragout ayam sayur",12E08C2B11,resep_4874,Stik Telur Gabus (tanpa keju)
+pass2,V023,"tepung terigu,tepung tapioka,ragout ayam sayur",B4A490B8AC,resep_1252,Ayam Goreng Tepung
+pass2,V023,"tepung terigu,tepung tapioka,ragout ayam sayur",BABCE5A009,resep_2221,Risol Rogut Ayam
+pass2,V023,"tepung terigu,tepung tapioka,ragout ayam sayur",F24BB87AB9,resep_2569,Ayam crispy
+pass2,V023,"tepung terigu,tepung tapioka,ragout ayam sayur",C23D6E24B7,resep_2166,Nugget ayam tahu
+pass2,V023,"tepung terigu,tepung tapioka,ragout ayam sayur",3DE07B068D,resep_2319,Sosis Ayam Suwir
+pass2,V023,"tepung terigu,tepung tapioka,ragout ayam sayur",2F2032CD95,resep_3421,Risoles Rogout Luncheon Ayam
+pass2,V024,"paha atas ayam,mie soun",1CD62812C3,resep_4515,Soto ayam bumbu instan
+pass2,V024,"paha atas ayam,mie soun",46E0F1B5AB,resep_1273,Mie ayam enak simpel
+pass2,V025,"singkong,bawang putih,kunyit",1BF53B657B,resep_2364,Sayur Tahu Kuning
+pass2,V025,"singkong,bawang putih,kunyit",1F24C86C7C,resep_3728,Gule kambing daun singkong
+pass2,V025,"singkong,bawang putih,kunyit",7553CA993C,resep_487,Suwir tongkol daun kunyit
+pass2,V025,"singkong,bawang putih,kunyit",F5BDF6D501,resep_3790,Gulai daun ubi + ikan patin sale
+pass2,V025,"singkong,bawang putih,kunyit",A6CFE32981,resep_976,Sate sapi sederhana
+pass2,V025,"singkong,bawang putih,kunyit",91B010F876,resep_2462,Gulai daun singkong dan telur
+pass2,V025,"singkong,bawang putih,kunyit",C66CFEF5B6,resep_118,GULAI DAUN SINGKONG + TELUR
+pass2,V025,"singkong,bawang putih,kunyit",74FBF65692,resep_1317,Ikan Selar Goreng Kunyit
+pass2,V025,"singkong,bawang putih,kunyit",3FAE4F12F3,resep_1525,Sapi bumbu kuning
+pass2,V025,"singkong,bawang putih,kunyit",5416D2D9EE,resep_2572,Ayam betutu daun singkong
+pass2,V025,"singkong,bawang putih,kunyit",21383020BA,resep_3465,Gulai ikan ala Minang
+pass2,V026,"ubi madu,tepung terigu serbaguna",7A5CBE012E,resep_3915,Ayam madu saos sriracha
+pass2,V026,"ubi madu,tepung terigu serbaguna",497F06EB0E,resep_39,Honey butter garlic chicken
+pass2,V027,"nangka muda,santan,cabai keriting",3B1EFF3BC5,resep_892,Jangan Kates Tahu (Lodeh Pepaya Muda)
+pass2,V027,"nangka muda,santan,cabai keriting",09767E8F0C,resep_1007,Rendang Kentang Tempe
+pass2,V027,"nangka muda,santan,cabai keriting",65E60E6A2E,resep_3729,Lodeh Kentang Tempe Lombok Ijo
+pass2,V027,"nangka muda,santan,cabai keriting",F995FF599A,resep_4166,Kue Lumpur Nasi Topping Abon Ikan
+pass2,V027,"nangka muda,santan,cabai keriting",406D99751A,resep_963,Sayur santan nangka tetelan
+pass2,V027,"nangka muda,santan,cabai keriting",C6CAF9F448,resep_275,Gudeg Nangka Telor
+pass2,V027,"nangka muda,santan,cabai keriting",26AA09788C,resep_55,Rendang daging
+pass2,V027,"nangka muda,santan,cabai keriting",F4E9701170,resep_3592,Gudeg dan Pindang Telur (74)
+pass2,V027,"nangka muda,santan,cabai keriting",8CDC851E04,resep_1075,Gulai kambing segar
+pass2,V028,"telur,sosis,bawang merah",CF966C540A,resep_3815,Sayur sawi telur sosis
+pass2,V028,"telur,sosis,bawang merah",7FB8A69801,resep_2582,Telur Dadar Daun Bawang
+pass2,V028,"telur,sosis,bawang merah",C602C69453,resep_4791,Telur Dadar Daun Kelor
+pass2,V028,"telur,sosis,bawang merah",7C8053F019,resep_736,Roll Egg aka Dadar telur gulung
+pass2,V028,"telur,sosis,bawang merah",D3E901D138,resep_2216,Dadar Telur Sosis Bunga Bawang
+pass2,V028,"telur,sosis,bawang merah",082EAE5DEA,resep_4420,"Dadar Telur, Tahu dan Sosis"
+pass2,V028,"telur,sosis,bawang merah",24FA216067,resep_4095,Telur Gulung Sosis
+pass2,V028,"telur,sosis,bawang merah",238F767150,resep_1675,Orak-arik Tahu Telor Sosis
+pass2,V028,"telur,sosis,bawang merah",AFBF31D486,resep_2481,Telur gulung isi sosis
+pass2,V029,"kentang,telur rebus",2C0D71E9DC,resep_2147,Macaroni telur
+pass2,V029,"kentang,telur rebus",3D1327EBE0,resep_1005,Puff Pastry Isi Salad Telur Kentang Keju
+pass2,V029,"kentang,telur rebus",FED7A9661A,resep_4933,Semur Kentang Telur
+pass2,V029,"kentang,telur rebus",71BC637DC6,resep_930,Sambel Pete kentang telur ceplok simple
+pass2,V029,"kentang,telur rebus",B96040AFD3,resep_4918,Sambal Kentang Telur Rebus
+pass2,V029,"kentang,telur rebus",CED6EF9CB1,resep_4472,Balado Hijau Kentang Telur
+pass2,V029,"kentang,telur rebus",01A70A875B,resep_455,Sambal kentang dan telur goreng simpel
+pass2,V029,"kentang,telur rebus",BAF8201A11,resep_3865,Gulai Kentang Telur
+pass2,V030,"singkong parut,kelapa parut,gula merah",DE5BFE8C86,resep_710,Gecok Ayam
+pass2,V030,"singkong parut,kelapa parut,gula merah",F0AF7C47ED,resep_3326,Empal Gepuk (Sapi)
+pass2,V030,"singkong parut,kelapa parut,gula merah",AF14EF0F82,resep_282,Empal gepuk daging sapi
+pass2,V030,"singkong parut,kelapa parut,gula merah",4226A20B58,resep_2877,Ayam Serundeng
+pass2,V030,"singkong parut,kelapa parut,gula merah",A22CDCEF4B,resep_2181,Serundeng daging ayam
+pass2,V030,"singkong parut,kelapa parut,gula merah",6DDCA167B4,resep_3520,Serundeng Daging Manis
+pass2,V030,"singkong parut,kelapa parut,gula merah",5166C58BE8,resep_1195,Tahu Campur
+pass2,V030,"singkong parut,kelapa parut,gula merah",DB79737AF7,resep_4250,Pepes Ikan Kelapa
+pass2,V030,"singkong parut,kelapa parut,gula merah",C7B6450599,resep_338,Dendeng Ragi Daging Sapi

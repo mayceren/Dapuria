@@ -1,0 +1,517 @@
+pass,query_id,query_text,blind_code,recipe_id,recipe_title,original_rank,final_score,retrieval_source
+pass1,T001,"daging ayam,kluwek",06E72F43F2,resep_3395,Brongkos Daging,1,0.47551248402252094,keyword
+pass1,T002,"paha ayam,petis udang",6E5D5CA667,resep_294,Lumpia Dimsum Ayam Jamur Keju Lumer,3,0.033400023932938595,keyword
+pass1,T002,"paha ayam,petis udang",9F6CF726A3,resep_844,Sate Kelopo Ayam Ondomohen Khas Surabaya,2,0.24644408574922558,keyword
+pass1,T002,"paha ayam,petis udang",09193F1484,resep_3943,Dimsum ayam udang,1,0.7938597255141868,semantic
+pass1,T003,"telur,terigu protein tinggi,coklat dcc",8EACEF3A9A,resep_2116,Telur Krispi #GoldenDelight,4,0.6073981670931745,keyword
+pass1,T003,"telur,terigu protein tinggi,coklat dcc",DCC4BFBA0C,resep_2912,Telur puyuh crispy,1,0.7591591523484171,keyword
+pass1,T003,"telur,terigu protein tinggi,coklat dcc",1FE47C4DB9,resep_1833,Telur Dadar Crispy (Menu Hemat Anak Kost),2,0.7532813334177559,keyword
+pass1,T003,"telur,terigu protein tinggi,coklat dcc",25FC5E62D7,resep_2905,Stick Tempe telur,3,0.7489728812276198,keyword
+pass1,T003,"telur,terigu protein tinggi,coklat dcc",2ADF8895D4,resep_2158,Nugget tahu ayam wortel,5,0.4675526919083182,keyword
+pass1,T004,"ubi ungu kukus,tepung beras,santan",24B24386C5,resep_759,Kue Cara Bikang/Bikang Cukil/Bikang Mawar,5,0.42021405860462896,keyword
+pass1,T004,"ubi ungu kukus,tepung beras,santan",BA277AE6BD,resep_806,"Nasi Uduk Lembek Khas Jakarta, Telur Dadar, dan Brokoli Kukus (8 month+)",4,0.43767894017051195,keyword
+pass1,T004,"ubi ungu kukus,tepung beras,santan",555802E0A6,resep_3048,Arem-arem Daging,3,0.45368974745341284,keyword
+pass1,T004,"ubi ungu kukus,tepung beras,santan",2183B3C6DD,resep_2528,Telur dadar padang,2,0.48559388877416193,keyword
+pass1,T004,"ubi ungu kukus,tepung beras,santan",D178F49634,resep_3331,Bubur Ayam,1,0.4996370470125034,keyword
+pass1,T005,"ale,ikan pindang,tempe",9EB3163266,resep_1887,Tumis tongkol tempe lombok ijo,2,0.40063703344015367,keyword
+pass1,T005,"ale,ikan pindang,tempe",DCF6FF4D89,resep_344,Lodeh Pindang Tahu Tempe,1,0.8473759201399066,semantic
+pass1,T006,"ati ampela,kecap",63EA96A029,resep_1247,Sate Telur Puyuh dan Ati Ampela Ayam (Pelengkap Bubur Ayam),2,0.5352584146952477,keyword
+pass1,T006,"ati ampela,kecap",09906BE176,resep_3877,Bubur Ayam Giling,3,0.18244344964371423,keyword
+pass1,T006,"ati ampela,kecap",D24C4A373F,resep_3241,Ati Ampela Telur Puyuh,1,0.7913602156077111,keyword
+pass1,T009,"kangkung,udang,tomat",B8BD317841,resep_4064,Kangkung cah udang terasi,5,0.7368078991668062,semantic
+pass1,T009,"kangkung,udang,tomat",24EAFE5081,resep_3910,Tumis Kangkung Terasi Udang,3,0.8359672279150822,semantic
+pass1,T009,"kangkung,udang,tomat",4AAF2818B4,resep_1089,Kangkung Terasi Udang,2,0.8991236949590132,semantic
+pass1,T009,"kangkung,udang,tomat",E00F357EE8,resep_3932,Tumis Kangkung Udang,4,0.8347488253120567,semantic
+pass1,T009,"kangkung,udang,tomat",A62D3D95B0,resep_1565,Cah Kangkung Udang,1,0.9333333305828534,semantic
+pass1,T010,"kangkung,telur puyuh,tomat",918F1C49E4,resep_3286,Tumis kangkung tahu,5,0.6892745344082631,semantic
+pass1,T010,"kangkung,telur puyuh,tomat",BB0E5D23CC,resep_4347,Tumis Kangkung Telur Puyuh,1,0.9545454520871083,semantic
+pass1,T010,"kangkung,telur puyuh,tomat",D33B7146D5,resep_796,Cah Kangkung dgn Rebon dan Telur Puyuh,2,0.8903283706331295,semantic
+pass1,T010,"kangkung,telur puyuh,tomat",925C911B8A,resep_1528,Tumis Kangkung Tauge Telur Puyuh,4,0.7949133398204511,semantic
+pass1,T010,"kangkung,telur puyuh,tomat",14E76258C2,resep_2027,Cumi kangkung telur,3,0.8626670067499804,semantic
+pass1,T011,"nasi,udang,telur",5B5F294584,resep_1880,Nasi Telur Mentai,3,0.6983551839300901,semantic
+pass1,T011,"nasi,udang,telur",894E58A7A9,resep_2789,Nasi goreng telur,1,0.7615501787292318,semantic
+pass1,T011,"nasi,udang,telur",51D042FCA6,resep_4301,Telur Dadar Nasi,2,0.7480543675152997,semantic
+pass1,T011,"nasi,udang,telur",5E3F4B738D,resep_3911,Nasi Telur Hongkong,5,0.6329257576682839,semantic
+pass1,T011,"nasi,udang,telur",D7519580AC,resep_4037,Bubur Telur (Egg Porridge),4,0.6718622761653688,semantic
+pass1,T014,"kwetiau,telur",D81B80DE62,resep_388,Kwetiau rebus daging sapi,2,0.4673461367553689,keyword
+pass1,T014,"kwetiau,telur",F54270D93E,resep_3708,Kwetiau Goreng Ayam dan Telur,1,0.9210526292299113,semantic
+pass1,T014,"kwetiau,telur",90B232811D,resep_1532,Kwetiaw Baso Spesial,3,0.3799453643687664,keyword
+pass1,T015,"ayam,air asam jawa,cabe merah kering",90D6E5699B,resep_3295,Ayam Cabe Ijo,3,0.7738337536787077,semantic
+pass1,T015,"ayam,air asam jawa,cabe merah kering",15327AD38C,resep_978,Ayam Tumis Cabe,2,0.8071743823757666,semantic
+pass1,T015,"ayam,air asam jawa,cabe merah kering",EDC1A6ADCD,resep_2320,Ayam Jahe Kecap,5,0.6965790436989127,semantic
+pass1,T015,"ayam,air asam jawa,cabe merah kering",77E0D3C783,resep_2196,Tumis ayam cabe oriental,4,0.7019584333773463,semantic
+pass1,T015,"ayam,air asam jawa,cabe merah kering",F154CC53F6,resep_47,Ayam kuning asam jawa,1,0.9307692278672031,semantic
+pass1,T016,"buncis,tahu kuning,kecap manis",E6C42A47AA,resep_2244,37°°° Tumis Tempe BUNCIS,3,0.7138629804148514,semantic
+pass1,T016,"buncis,tahu kuning,kecap manis",006FB18ED7,resep_4939,Tumis Tahu Buncis,1,0.9461538441239266,semantic
+pass1,T016,"buncis,tahu kuning,kecap manis",067C4CF49B,resep_2743,Tumis buncis wortel tahu,4,0.6958164780065866,semantic
+pass1,T016,"buncis,tahu kuning,kecap manis",6B48BF7893,resep_2061,Buncis cah daging sapi,5,0.6889006756799713,semantic
+pass1,T016,"buncis,tahu kuning,kecap manis",324A035D6B,resep_674,Tumis Buncis Tahu Daging,2,0.7946161411289141,semantic
+pass1,T017,"udang,nanas,tomat",E46CD04D5E,resep_1743,Udang crispy,5,0.7691443140919552,semantic
+pass1,T017,"udang,nanas,tomat",A1B010E8AD,resep_3504,Udang lempah kuning nanas,3,0.7918930234589893,semantic
+pass1,T017,"udang,nanas,tomat",6961239CA8,resep_434,"Tauco udang, pare, pete, tahu dan kacang panjang",2,0.891391730758988,semantic
+pass1,T017,"udang,nanas,tomat",D872C80A89,resep_1985,Udang asam manis,4,0.7749990874244724,semantic
+pass1,T017,"udang,nanas,tomat",434A085061,resep_49,Tauco tahu udang,1,0.911690481947465,semantic
+pass1,T018,"nasi,zucchini,sosis",88A7BDDCD0,resep_3464,Nasi Goreng Telur Sosis,2,0.9316136477138484,semantic
+pass1,T018,"nasi,zucchini,sosis",5205EA0A41,resep_2018,Nasgor Sosis daging kebab,4,0.7644744537424474,semantic
+pass1,T018,"nasi,zucchini,sosis",2FBEC59C70,resep_4300,Nasi Telur Hongkong,5,0.4373647537581696,keyword
+pass1,T018,"nasi,zucchini,sosis",78BEE24B7F,resep_1608,Nasi goreng sosis telur,3,0.9127470833020904,semantic
+pass1,T018,"nasi,zucchini,sosis",894FFB475B,resep_173,Nasi Goreng Telur Sosis,1,0.9363636340452693,semantic
+pass1,T019,"telur,cabe merah besar",BF7EE665FC,resep_778,Telur Dadar Tomat,1,0.957142855240521,semantic
+pass1,T019,"telur,cabe merah besar",6F872C9D9F,resep_3444,Telur Dadar Tomat,5,0.8991912584646,semantic
+pass1,T019,"telur,cabe merah besar",FEE55A2FC2,resep_23,Telur balado,4,0.8992244016447035,semantic
+pass1,T019,"telur,cabe merah besar",FF8DB43FDC,resep_1524,Telur balado,3,0.9112425716748528,semantic
+pass1,T019,"telur,cabe merah besar",0CBF0901A4,resep_1326,Dadar Telur Tomat Cabe Hijau,2,0.9119348486620991,semantic
+pass1,T022,"ayam kampung,wortel",966D02317E,resep_337,Bubur ayam sayur (simple banget),3,0.64160555715631,semantic
+pass1,T022,"ayam kampung,wortel",68AD1B5F97,resep_3532,Dimsum Ayam,5,0.5121936126066859,keyword
+pass1,T022,"ayam kampung,wortel",ECC5262A22,resep_3810,Ayam masak tahu dan jamur,2,0.6839070196836053,keyword
+pass1,T022,"ayam kampung,wortel",9616911B0B,resep_2411,Tumis Toge Wortel Ayam,4,0.6305707876646365,semantic
+pass1,T022,"ayam kampung,wortel",52C5FC3EC7,resep_3453,Sup ayam kampung klaten,1,0.6846093836201237,semantic
+pass1,T023,"kentang,daging sapi",5AF1A586BB,resep_3338,Semur Daging Kentang,4,0.7541804334643594,semantic
+pass1,T023,"kentang,daging sapi",82D656B2FE,resep_1215,Daging kentang tumis,2,0.8069139667377354,semantic
+pass1,T023,"kentang,daging sapi",91E7913A23,resep_4852,Semur daging sapi dan kentang,5,0.6842057647725759,semantic
+pass1,T023,"kentang,daging sapi",5A9F892810,resep_161,Rendang Daging Kentang,3,0.7979958819477861,semantic
+pass1,T023,"kentang,daging sapi",9C9F412B02,resep_972,Semur Daging Kentang,1,0.9363636340505924,semantic
+pass1,T025,"jagung manis,santan,tepung beras",DE2A87EADE,resep_2528,Telur dadar padang,3,0.5016322821546277,keyword
+pass1,T025,"jagung manis,santan,tepung beras",C20385E3BA,resep_3331,Bubur Ayam,4,0.4721061933077425,keyword
+pass1,T025,"jagung manis,santan,tepung beras",78021941FD,resep_806,"Nasi Uduk Lembek Khas Jakarta, Telur Dadar, dan Brokoli Kukus (8 month+)",2,0.5069098180717295,keyword
+pass1,T025,"jagung manis,santan,tepung beras",E4164A153E,resep_2753,Bubur labu+ayam kampung,5,0.4668238405814614,keyword
+pass1,T025,"jagung manis,santan,tepung beras",36430C96CC,resep_3048,Arem-arem Daging,1,0.6035497776615012,keyword
+pass1,T027,"kaki sapi,belimbing wuluh,tomat",B44CBCD9EE,resep_505,Tahu Masak Kemangi,5,0.4685040007669879,keyword
+pass1,T027,"kaki sapi,belimbing wuluh,tomat",362825D9DE,resep_1759,Asem-asem daging sapi,1,0.8403775433642838,semantic
+pass1,T027,"kaki sapi,belimbing wuluh,tomat",2E51CDDEC5,resep_3415,Ikan Layang Asam Belimbing Wuluh,3,0.6791395960163067,keyword
+pass1,T027,"kaki sapi,belimbing wuluh,tomat",14C8C7A0FA,resep_2095,Ikan Sebelah Asam Padeh Belimbing Wuluh,4,0.665055256499573,keyword
+pass1,T027,"kaki sapi,belimbing wuluh,tomat",39EF1EBB09,resep_4168,Khoai tây xào thịt bò (Cah sapi dan kentang ala Vietnam),2,0.6899688797319693,keyword
+pass1,T028,"telur ayam,tepung terigu,cokelat bubuk",DB031CC1A9,resep_722,Telur Saus Tiram,5,0.7872038946369767,semantic
+pass1,T028,"telur ayam,tepung terigu,cokelat bubuk",D7157F055C,resep_3378,Telur Crispy,1,0.8605573952538194,semantic
+pass1,T028,"telur ayam,tepung terigu,cokelat bubuk",E28FBD9334,resep_4342,Pempek Telur,4,0.8037435551185527,semantic
+pass1,T028,"telur ayam,tepung terigu,cokelat bubuk",5E4E2CF814,resep_4730,Sambal Telur Tepung,3,0.8191601976986715,semantic
+pass1,T028,"telur ayam,tepung terigu,cokelat bubuk",0504F5223C,resep_1779,Tahu Telur Kukus Simpel,2,0.8305111281906514,semantic
+pass1,T030,"jamur tiram,tahu putih",92A6F4C144,resep_4462,Tumis kailan tahu cah jamur tiram,4,0.6781792088941407,semantic
+pass1,T030,"jamur tiram,tahu putih",A9FF8617D9,resep_61,Tahu Jamur Tiram Kemangi,1,0.9333333312728692,semantic
+pass1,T030,"jamur tiram,tahu putih",324F02158A,resep_4656,Perkedel tahu jamur tiram,2,0.8966245340721604,semantic
+pass1,T030,"jamur tiram,tahu putih",3BA092C98F,resep_2863,Pepes Tahu Jamur Tiram,5,0.6732200851414101,semantic
+pass1,T030,"jamur tiram,tahu putih",D6EE172BF1,resep_4098,Pepes Tahu Jamur Tiram,3,0.7304235437981433,semantic
+pass1,T031,"kepiting,tomat kecil,cabai merah besar",C5929A656F,resep_677,Taoco tempe bunga kates,1,0.658458678150123,keyword
+pass1,T031,"kepiting,tomat kecil,cabai merah besar",34B592ABA3,resep_1245,Sarden Homemade,5,0.428194451798376,keyword
+pass1,T031,"kepiting,tomat kecil,cabai merah besar",35A2BF96E1,resep_4299,Tahu Telur Kecap,3,0.5864590555171433,keyword
+pass1,T031,"kepiting,tomat kecil,cabai merah besar",21D01FC706,resep_2892,Sambel Tempe Kemangi,4,0.49571844220592565,keyword
+pass1,T031,"kepiting,tomat kecil,cabai merah besar",22801D61C9,resep_79,Orek tempe,2,0.6164107741850674,keyword
+pass1,T032,"dada ayam fillet,nasi",D777229065,resep_4498,Nasi Kuning Ayam Crispy,5,0.6417973643669233,semantic
+pass1,T032,"dada ayam fillet,nasi",F5BFF26BF6,resep_3574,Nasi Tim Ayam Jamur,1,0.7764591329936436,semantic
+pass1,T032,"dada ayam fillet,nasi",78C606822A,resep_3107,Nasi Goreng Ayam Telur,3,0.6827457478536283,semantic
+pass1,T032,"dada ayam fillet,nasi",E4F8A2DF4D,resep_4965,Nasi ayam sambel matah,4,0.6776031015255036,semantic
+pass1,T032,"dada ayam fillet,nasi",E5CB790DB3,resep_337,Bubur ayam sayur (simple banget),2,0.7394741762389112,semantic
+pass1,T033,"nasi,nugget ayam",E29C552C3F,resep_337,Bubur ayam sayur (simple banget),3,0.8261642792987398,semantic
+pass1,T033,"nasi,nugget ayam",85A5F91F7A,resep_4498,Nasi Kuning Ayam Crispy,1,0.8960081741360013,semantic
+pass1,T033,"nasi,nugget ayam",816C524AF2,resep_295,Nasi Kuning Ayam Crispy,2,0.8280426403498471,semantic
+pass1,T033,"nasi,nugget ayam",03175DEE95,resep_200,Nasi Kuning Ayam Crispy,4,0.8234021126241893,semantic
+pass1,T035,"tempe gembus,tepung beras,daun bawang",922F6C3ECD,resep_228,Tempe Kemul,3,0.8634463998270426,semantic
+pass1,T035,"tempe gembus,tepung beras,daun bawang",0637F67C67,resep_4853,Tempe Mendoan,2,0.9096627893265212,semantic
+pass1,T035,"tempe gembus,tepung beras,daun bawang",F44C69191B,resep_2422,Tempe Gembus Goreng Tepung,1,0.9399999979882744,semantic
+pass1,T035,"tempe gembus,tepung beras,daun bawang",1E6138FA28,resep_3660,Tempe Pedas,5,0.8482288620022134,semantic
+pass1,T035,"tempe gembus,tepung beras,daun bawang",368A5F5E4D,resep_2643,Tempe Goreng Tepung,4,0.8586692683683702,semantic
+pass1,T036,"telur ayam,ikan teri",02DFCED998,resep_2999,Tumis Bunga Bawang Telur,5,0.5042201006021902,keyword
+pass1,T036,"telur ayam,ikan teri",B6BEACEBDD,resep_4699,Telor Teri Goreng Cabe Merah,3,0.6112643090359711,keyword
+pass1,T036,"telur ayam,ikan teri",67521DEF67,resep_4384,Telur ceplok cabe iris,2,0.6226242894035445,keyword
+pass1,T036,"telur ayam,ikan teri",B851ED6430,resep_1102,Balado telur dan ikan teri nikmat makan sampai nambah²,1,0.8071953498763959,semantic
+pass1,T036,"telur ayam,ikan teri",D6B9D5770E,resep_3980,Ikan teri basah goreng tepung,4,0.5781184716497929,keyword
+pass1,T038,"pare,teri Medan,cabe rawit merah",C7F959721E,resep_1742,Sambal Tempe Teri Kerupuk Kulit,2,0.6547115083341585,semantic
+pass1,T038,"pare,teri Medan,cabe rawit merah",0D16B78064,resep_2119,Tumis Pare Telur Teri,1,0.8401025880101103,semantic
+pass1,T038,"pare,teri Medan,cabe rawit merah",F43CBE7C04,resep_4384,Telur ceplok cabe iris,5,0.5916127493159092,semantic
+pass1,T038,"pare,teri Medan,cabe rawit merah",2ACBEFCB70,resep_2318,Daging Goreng Sambel Teri,3,0.6493029336780881,semantic
+pass1,T038,"pare,teri Medan,cabe rawit merah",FD1743CDB5,resep_3792,Tumis Pare Tempe Pedas,4,0.6134929359627201,semantic
+pass1,T039,"ikan pindang,tomat,cabe hijau",ABD6A4E07F,resep_374,Ikan Pindang Serani,3,0.7621278962499989,semantic
+pass1,T039,"ikan pindang,tomat,cabe hijau",373281B935,resep_255,Ikan sarden,4,0.6793217388295844,semantic
+pass1,T039,"ikan pindang,tomat,cabe hijau",A00D715272,resep_903,Ikan Pindang Sambel Ijo,5,0.6761463770050509,semantic
+pass1,T039,"ikan pindang,tomat,cabe hijau",DEC515A5C6,resep_3838,Ikan Mujair tauco cabe hijau,2,0.8346585150323108,semantic
+pass1,T039,"ikan pindang,tomat,cabe hijau",BB24D306FD,resep_4036,Sambal ikan pindang,1,0.9363636340669622,semantic
+pass1,T040,"telur,tepung terigu protein tinggi",FFD2644584,resep_4342,Pempek Telur,5,0.761043711094021,semantic
+pass1,T040,"telur,tepung terigu protein tinggi",A6C16DCE63,resep_2912,Telur puyuh crispy,2,0.7984773080965895,semantic
+pass1,T040,"telur,tepung terigu protein tinggi",0506BB22D5,resep_3378,Telur Crispy,4,0.7634701656547044,semantic
+pass1,T040,"telur,tepung terigu protein tinggi",18C851B466,resep_4730,Sambal Telur Tepung,1,0.9099026462038717,semantic
+pass1,T040,"telur,tepung terigu protein tinggi",48C11A1EF0,resep_2245,Pastel sayur telur,3,0.7829891664761097,semantic
+pass1,T042,"ayam,nanas,bawang bombay",C3D8D7DA08,resep_3074,Chicken Salted Egg ala2,4,0.6584976014959641,semantic
+pass1,T042,"ayam,nanas,bawang bombay",8052438E25,resep_3811,Ayam Jahe Tahu,5,0.6285013060228674,semantic
+pass1,T042,"ayam,nanas,bawang bombay",05CB2DBB33,resep_2011,Ayam Teriyaki,3,0.6646642850495534,semantic
+pass1,T042,"ayam,nanas,bawang bombay",4386A562F2,resep_68,Ayam teriyaki,2,0.7216068638464688,semantic
+pass1,T042,"ayam,nanas,bawang bombay",5C6E6DC79E,resep_4815,826) Ayam Kecap Bombay,1,0.7897053619439834,semantic
+pass1,T043,"daging sapi,kentang,tomat",7BEBCD6FDE,resep_3263,Ati Sapi Kentang,2,0.7896898918084296,semantic
+pass1,T043,"daging sapi,kentang,tomat",A13912FC02,resep_1092,Soto Daging Sapi,4,0.7469238109136634,semantic
+pass1,T043,"daging sapi,kentang,tomat",5C18CEE3C9,resep_972,Semur Daging Kentang,3,0.7586383079749834,semantic
+pass1,T043,"daging sapi,kentang,tomat",80FEDC2C5B,resep_3216,"Tim daging sapi, brokoli, tomat",1,0.9499999974377681,semantic
+pass1,T043,"daging sapi,kentang,tomat",D5214DD41C,resep_545,Soto Daging Sapi,5,0.7315182403055113,semantic
+pass1,T044,"ikan barakuda,santan instan",05D064B517,resep_2153,Abon Ikan Bandeng,1,0.6323379706161998,semantic
+pass1,T045,"daging sapi,tomat",CD994D5440,resep_3216,"Tim daging sapi, brokoli, tomat",1,0.9571428538666528,semantic
+pass1,T045,"daging sapi,tomat",5F40452C4D,resep_545,Soto Daging Sapi,3,0.771972083494151,semantic
+pass1,T045,"daging sapi,tomat",E5631DE78D,resep_562,Tumis Buncis Daging Sapi,4,0.7214922408834253,semantic
+pass1,T045,"daging sapi,tomat",0A7DEE7A86,resep_1092,Soto Daging Sapi,2,0.8414483179446175,semantic
+pass1,T045,"daging sapi,tomat",A360469313,resep_2014,Tongseng Daging Sapi,5,0.7035078911623301,semantic
+pass1,T046,"tepung ketan,tepung beras,santan",392340CCF7,resep_3331,Bubur Ayam,5,0.4017777880879137,keyword
+pass1,T046,"tepung ketan,tepung beras,santan",C6F8D7418E,resep_1362,Tahu isi sayur pedas,3,0.44057068791820636,keyword
+pass1,T046,"tepung ketan,tepung beras,santan",14928CA83B,resep_3048,Arem-arem Daging,1,0.5532198213721948,keyword
+pass1,T046,"tepung ketan,tepung beras,santan",27CC205E28,resep_2528,Telur dadar padang,4,0.4317108931910435,keyword
+pass1,T046,"tepung ketan,tepung beras,santan",8645C976A4,resep_3548,Arem-Arem Tempe Pedas,2,0.534992381450812,keyword
+pass1,T047,"timun,wortel,buncis",FA6B8344FB,resep_152,Oseng tahu tempe mix wortel buncis,4,0.8261872333424772,semantic
+pass1,T047,"timun,wortel,buncis",4CA3ADB0A5,resep_1307,"Tumis buncis, wortel, udang",2,0.8571618933150313,semantic
+pass1,T047,"timun,wortel,buncis",9317050B88,resep_4214,Tumis buncis wortel beef,3,0.8380805808480403,semantic
+pass1,T047,"timun,wortel,buncis",E932776B42,resep_1013,Wortel Buncis Oseng Telur Saos Tiram,5,0.8261688836761092,semantic
+pass1,T047,"timun,wortel,buncis",B9E2D90267,resep_2743,Tumis buncis wortel tahu,1,0.9266666648844947,semantic
+pass1,T048,"kuning telur,terigu kunci biru,putih telur",4CC99918B3,resep_1779,Tahu Telur Kukus Simpel,5,0.7449562239339971,semantic
+pass1,T048,"kuning telur,terigu kunci biru,putih telur",A49A6F31CC,resep_253,Tahu Telur Kudus,3,0.7587104895529854,semantic
+pass1,T048,"kuning telur,terigu kunci biru,putih telur",8C76021EE0,resep_267,Telur Kukus Acar Kuning,1,0.7969397840336123,semantic
+pass1,T048,"kuning telur,terigu kunci biru,putih telur",083F94A4F0,resep_3615,Telur terong,4,0.7569542587590039,semantic
+pass1,T048,"kuning telur,terigu kunci biru,putih telur",9F67FC109D,resep_3821,Tahu Telur Kukus,2,0.7643349385629231,semantic
+pass1,T049,"tahu putih,telur,daun bawang",BBF87D3255,resep_1389,Dadar Tahu Telur,1,0.9599999978108129,semantic
+pass1,T049,"tahu putih,telur,daun bawang",ADE1E12256,resep_1965,Tahu Dadar Telur,5,0.8826315146479236,semantic
+pass1,T049,"tahu putih,telur,daun bawang",5FEB9D2F2D,resep_253,Tahu Telur Kudus,4,0.8840925323181426,semantic
+pass1,T049,"tahu putih,telur,daun bawang",A988BB9A16,resep_3640,Tahu Telur Malangan,3,0.9074072311552609,semantic
+pass1,T049,"tahu putih,telur,daun bawang",7507D22AD6,resep_893,Tahu Telur,2,0.9155784320638758,semantic
+pass1,T050,"tahu coklat,wortel,buncis",E737848A09,resep_152,Oseng tahu tempe mix wortel buncis,3,0.7222953358616786,semantic
+pass1,T050,"tahu coklat,wortel,buncis",39ECB946F5,resep_1857,Lodeh Tahu Buncis Super Enak,4,0.6782555559077722,semantic
+pass1,T050,"tahu coklat,wortel,buncis",0FD307B5E9,resep_1013,Wortel Buncis Oseng Telur Saos Tiram,5,0.674941141607489,semantic
+pass1,T050,"tahu coklat,wortel,buncis",DCABE31DC3,resep_2743,Tumis buncis wortel tahu,1,0.9266666647926513,semantic
+pass1,T050,"tahu coklat,wortel,buncis",9B7C652F49,resep_2217,LODEH BUNCIS TAHU -,2,0.8411427534954036,semantic
+pass1,T051,"dada ayam,telur",F0CEA4877B,resep_2479,Sop Tomat Telur,2,0.6513932614999993,keyword
+pass1,T051,"dada ayam,telur",859C592955,resep_1620,Bakso Ayam homemade by Triafutri,5,0.5345533019023566,keyword
+pass1,T051,"dada ayam,telur",477C9D7BBC,resep_4483,Ayam Popcorn,3,0.5806889823562607,keyword
+pass1,T051,"dada ayam,telur",6D9868B37D,resep_1343,Ayam kukus telur / steam egg chicken #homemadebylita,1,0.7396759221185966,keyword
+pass1,T051,"dada ayam,telur",B8008BB07A,resep_2444,Tumis Rebung Ayam,4,0.535237299027981,keyword
+pass1,T052,"tepung ketan putih,tepung tapioka,gula merah",756630B09F,resep_3123,Tahu Walik,2,0.6354739167476147,keyword
+pass1,T052,"tepung ketan putih,tepung tapioka,gula merah",2DBBF915CF,resep_1971,Rolade tahu,4,0.48003669335810806,keyword
+pass1,T052,"tepung ketan putih,tepung tapioka,gula merah",6CA39CE74B,resep_4665,Tahu Aci Kukus,3,0.582998488752497,keyword
+pass1,T052,"tepung ketan putih,tepung tapioka,gula merah",8C9C7008DE,resep_1362,Tahu isi sayur pedas,5,0.44939529035650017,keyword
+pass1,T052,"tepung ketan putih,tepung tapioka,gula merah",655B71C057,resep_3484,Cireng tahu putih,1,0.6952658876110244,keyword
+pass1,T053,"kacang tanah,kentang",658E470354,resep_726,Tahu tek,1,0.5424349157702149,keyword
+pass1,T054,"tempe,telur",BE957CBAAF,resep_3434,Telur Dadar Tempe,1,0.9444444417394549,semantic
+pass1,T054,"tempe,telur",DFCB0D07AA,resep_2663,Telur Dadar Tempe,3,0.8929714963201539,semantic
+pass1,T054,"tempe,telur",EB47CF2F03,resep_2905,Stick Tempe telur,4,0.8517243456343102,semantic
+pass1,T054,"tempe,telur",184048818C,resep_2909,Tempe Orek Telur,5,0.7547735231305035,semantic
+pass1,T054,"tempe,telur",8A271D6195,resep_4527,Telur Dadar Tempe,2,0.918729233021556,semantic
+pass1,T055,"telur,kulit tortilla,smoke beef",9077FC8FAE,resep_2758,Egg & Tortilla Quiche,1,0.8227326601608533,semantic
+pass1,T055,"telur,kulit tortilla,smoke beef",70E185E63B,resep_4702,Cheese Smoke Beef Scone,4,0.4306013291991947,keyword
+pass1,T055,"telur,kulit tortilla,smoke beef",398AC10CB8,resep_1067,Terung Dadar Smoke Beef,2,0.6137321499726383,semantic
+pass1,T055,"telur,kulit tortilla,smoke beef",16381EA819,resep_474,Caesar Salad dengan Smoke Beef,5,0.3567686727614059,keyword
+pass1,T055,"telur,kulit tortilla,smoke beef",2B1BD8507A,resep_1146,"""PERKEDEL BEEF TAHU""",3,0.4342342090129911,keyword
+pass1,T056,"tepung sagu,kulit udang",A64D0E9E03,resep_801,Tekwan udang,1,0.6218611904390001,semantic
+pass1,T057,"rebung,santan kental",89A0E2120C,resep_2280,Santen Tahu Tempe Rebung,2,0.9249999979816608,semantic
+pass1,T057,"rebung,santan kental",9638E56B0A,resep_1681,Opor Rebung Telur,1,0.9342129643155623,semantic
+pass1,T057,"rebung,santan kental",A79DE2C0A8,resep_1976,Gulai Ikan Rebung Asam,3,0.5897883184407384,semantic
+pass1,T058,"brokoli,udang segar,tofu",03C3D096A0,resep_3334,Mun Tofu Brokoli Sapi Cincang,1,0.9266666642431742,semantic
+pass1,T058,"brokoli,udang segar,tofu",23A7563FC3,resep_2074,Egg Tofu siram Brokoli,2,0.9218868524661967,semantic
+pass1,T058,"brokoli,udang segar,tofu",E68F7C812F,resep_1841,Tumis brokoli udang saus tiram,5,0.7943182823832359,semantic
+pass1,T058,"brokoli,udang segar,tofu",146363BF2B,resep_1664,"Cah brokoli, silk tofu, jamur kuping",4,0.8456293203606171,semantic
+pass1,T058,"brokoli,udang segar,tofu",D0CFF04599,resep_2067,Puree Dori Udang Brokoli #EdisiMPASI,3,0.8639830802410948,semantic
+pass1,T059,"kentang,fillet ayam,paprika merah",A35099750D,resep_2752,Semur Ayam Kentang Ala Mama Kirana,3,0.543344608739803,keyword
+pass1,T059,"kentang,fillet ayam,paprika merah",BD74B3E0B6,resep_3406,"Goreng ayam, tempe balado",1,0.6633605393747167,semantic
+pass1,T059,"kentang,fillet ayam,paprika merah",A7FFED2FB9,resep_1962,Sup Ayam Kuning Khas Betawi,5,0.049601594665297274,keyword
+pass1,T059,"kentang,fillet ayam,paprika merah",6F726186A8,resep_681,Kari Ayam Kentang Tahu Telur (Curry Masala),2,0.6069108515986554,keyword
+pass1,T059,"kentang,fillet ayam,paprika merah",1E3DEE15E7,resep_2077,Sup Ayam kuah Bening padat kaldu,4,0.2796537182593114,keyword
+pass1,T060,"jagung manis,tepung beras,daun bawang",8B606E1907,resep_1481,Soup Jagung Telur,4,0.5267240844814756,semantic
+pass1,T060,"jagung manis,tepung beras,daun bawang",62FCC96898,resep_4853,Tempe Mendoan,3,0.5878988371369157,semantic
+pass1,T060,"jagung manis,tepung beras,daun bawang",0F307DE7CE,resep_4479,Pepes Tahu Jagung,2,0.6909617331584991,semantic
+pass1,T060,"jagung manis,tepung beras,daun bawang",B4170E74C5,resep_4734,Dadar Jagung Tahu Tepung Maizena,1,0.9235294088999086,semantic
+pass1,T060,"jagung manis,tepung beras,daun bawang",11BC43AECC,resep_4024,Tempe Daun Jati Rawit Goreng Tepung,5,0.4352092981312582,keyword
+pass1,T061,"tepung beras,susu cair",769A905C7E,resep_238,Ayam tepung,1,0.7659843374569946,semantic
+pass1,T061,"tepung beras,susu cair",F276C4A3A4,resep_4156,#Nasi kebuli kambing,3,0.014285714285714289,keyword
+pass1,T061,"tepung beras,susu cair",900EDB744A,resep_3074,Chicken Salted Egg ala2,2,0.5028658610385874,keyword
+pass1,T062,"terong ungu,cabai merah besar,tomat",C21D464A1C,resep_1123,Tempe Terong Asam Manis,5,0.6884243993855834,semantic
+pass1,T062,"terong ungu,cabai merah besar,tomat",1ADB007E94,resep_513,Tempe Terong Sambal Bawang,3,0.783186274767832,semantic
+pass1,T062,"terong ungu,cabai merah besar,tomat",C0D6E5E652,resep_2468,Sambal Tongkol Terong,2,0.8112371710170231,semantic
+pass1,T062,"terong ungu,cabai merah besar,tomat",FBEB199ED9,resep_4468,Tongkol Terong Cabe,1,0.9279069746801306,semantic
+pass1,T062,"terong ungu,cabai merah besar,tomat",A335F2B0A5,resep_4148,Tumis terong dan tahu kemangi,4,0.7455812932927621,semantic
+pass1,T063,"ikan asin,cabe hijau",E89346FEA3,resep_746,Ikan Asin Telang Masak Asam Manis Pedas,5,0.4642652044732496,keyword
+pass1,T063,"ikan asin,cabe hijau",176BE7A543,resep_3443,Tumis ikan gabus cabe hijau pete simpel,2,0.7625259253054015,semantic
+pass1,T063,"ikan asin,cabe hijau",BD2BD42457,resep_2745,Ikan Asin Tawes Goreng Sambel Ijo + kuluban daun singkong,3,0.6692835357462767,semantic
+pass1,T063,"ikan asin,cabe hijau",F761CADB88,resep_2490,Ikan Asin Cabe Ijo,1,0.9363636345243646,semantic
+pass1,T063,"ikan asin,cabe hijau",216BBBF265,resep_4624,Tumis ikan peda suwir,4,0.4906405609489618,keyword
+pass1,T064,"wortel,sawi,bawang putih",D72263D61D,resep_3471,Cah Tahu Wortel Daun Bawang Saus Tiram,2,0.9069457499855131,semantic
+pass1,T064,"wortel,sawi,bawang putih",DBA21288F1,resep_2435,Tumis Sawi Tahu,3,0.8658509093678894,semantic
+pass1,T064,"wortel,sawi,bawang putih",9C8D1ED89C,resep_4315,Sawi jagung kwetiaw telur wortel nyemek,5,0.7973833479332365,semantic
+pass1,T064,"wortel,sawi,bawang putih",9CD25D607B,resep_241,Bola Tahu Wortel,1,0.9249999969695076,semantic
+pass1,T064,"wortel,sawi,bawang putih",A0A37A465E,resep_1867,Tumis Sawi Tahu,4,0.8279497397978355,semantic
+pass1,T065,"kulit ayam,bumbu ayam goreng,cuka masak",8A1C812F76,resep_3,Ayam Kukus Jahe,2,0.7246693467232723,semantic
+pass1,T065,"kulit ayam,bumbu ayam goreng,cuka masak",FF180CDA6D,resep_2138,Ayam Goreng (Ungkap),3,0.7165379551402847,semantic
+pass1,T065,"kulit ayam,bumbu ayam goreng,cuka masak",E887CCA54C,resep_3563,Ayam Goreng Bumbu Kuning,5,0.7053922682342351,semantic
+pass1,T065,"kulit ayam,bumbu ayam goreng,cuka masak",A3EE22B1C5,resep_987,Ayam goreng kukus,1,0.9210526291070573,semantic
+pass1,T065,"kulit ayam,bumbu ayam goreng,cuka masak",AF15FD1AE4,resep_3060,Ayam Goreng Serundeng,4,0.7123734955864612,semantic
+pass1,T066,"dada ayam fillet,tepung tapioka,wortel",D38912101A,resep_578,"Tahu isi ayam, sayur dan jamur kuping (no tepung)",2,0.8955248687439277,semantic
+pass1,T066,"dada ayam fillet,tepung tapioka,wortel",47A2AE41BF,resep_2744,Ayam asam manis,4,0.8546603410197551,semantic
+pass1,T066,"dada ayam fillet,tepung tapioka,wortel",9721513BC7,resep_902,Chicken Papperoni Homemade,3,0.861597592569449,semantic
+pass1,T066,"dada ayam fillet,tepung tapioka,wortel",31C113989C,resep_2166,Nugget ayam tahu,5,0.8198804153077518,semantic
+pass1,T066,"dada ayam fillet,tepung tapioka,wortel",71257E9DD6,resep_122,Nugget ayam wortel,1,0.9235294079577342,semantic
+pass1,T067,"enoki,telur ayam",73EB48AA28,resep_3502,Telur Dadar Enoki dan Wortel,1,0.9399999981580264,semantic
+pass1,T067,"enoki,telur ayam",437468AD7D,resep_3364,Tahu Sawi Kuah Enoki,2,0.8554613658827821,semantic
+pass1,T067,"enoki,telur ayam",5AC87498E7,resep_2079,Chiken enoki pedas manis,4,0.7165480043811706,semantic
+pass1,T067,"enoki,telur ayam",2151332906,resep_800,Egg Drop Chicken Mushroom,5,0.36568570734874584,keyword
+pass1,T067,"enoki,telur ayam",0A401C0353,resep_2799,Tum Ayam dan Jamur Enoki,3,0.8212519918816081,semantic
+pass1,T068,"tempe,tepung terigu",0425812D8A,resep_3000,Tempe goreng tepung,3,0.8609838306223606,semantic
+pass1,T068,"tempe,tepung terigu",30AD9C00D3,resep_2643,Tempe Goreng Tepung,4,0.846774773617397,semantic
+pass1,T068,"tempe,tepung terigu",945724E812,resep_4535,Tempe Goreng Tepung Daun Jeruk,5,0.8145027962919227,semantic
+pass1,T068,"tempe,tepung terigu",A1EBA0CB77,resep_128,TEMPE goreng Tepung,2,0.8792757438681253,semantic
+pass1,T068,"tempe,tepung terigu",D55A84FF8C,resep_793,Tempe Tepung Simple,1,0.9399999967422701,semantic
+pass1,T069,"sosis,telur ayam,macaroni",643473C3FB,resep_2481,Telur gulung isi sosis,1,0.9363636347331644,semantic
+pass1,T069,"sosis,telur ayam,macaroni",8781DA7E39,resep_2230,Oseng Sosis telur,5,0.8270251060517941,semantic
+pass1,T069,"sosis,telur ayam,macaroni",95109AE30B,resep_3815,Sayur sawi telur sosis,4,0.8422559308635943,semantic
+pass1,T069,"sosis,telur ayam,macaroni",5C31C1CC9D,resep_4095,Telur Gulung Sosis,2,0.8849358957661864,semantic
+pass1,T069,"sosis,telur ayam,macaroni",FF7AAC3E67,resep_1520,Sosis Telur Asam Manis,3,0.876060932409484,semantic
+pass1,T070,"kuning telur,susu kental manis",853251BF20,resep_3074,Chicken Salted Egg ala2,1,0.48766619134033484,keyword
+pass1,T070,"kuning telur,susu kental manis",D108B08F30,resep_2039,Beef Floss Roll Buns,2,0.3384307833352707,keyword
+pass1,T070,"kuning telur,susu kental manis",890065AFE4,resep_3385,SPAGHETTI Daging Asap,3,0.03636363636363636,keyword
+pass2,T001,"daging ayam,kluwek",7B63F4DB43,resep_3395,Brongkos Daging,1,0.47551248402252094,keyword
+pass2,T002,"paha ayam,petis udang",C5F711C51E,resep_3943,Dimsum ayam udang,1,0.7938597255141868,semantic
+pass2,T002,"paha ayam,petis udang",C07EE859A4,resep_844,Sate Kelopo Ayam Ondomohen Khas Surabaya,2,0.24644408574922558,keyword
+pass2,T002,"paha ayam,petis udang",26C328BF6A,resep_294,Lumpia Dimsum Ayam Jamur Keju Lumer,3,0.033400023932938595,keyword
+pass2,T003,"telur,terigu protein tinggi,coklat dcc",5B1E918AC3,resep_1833,Telur Dadar Crispy (Menu Hemat Anak Kost),2,0.7532813334177559,keyword
+pass2,T003,"telur,terigu protein tinggi,coklat dcc",FB8E802BE9,resep_2158,Nugget tahu ayam wortel,5,0.4675526919083182,keyword
+pass2,T003,"telur,terigu protein tinggi,coklat dcc",1C29C9EF30,resep_2116,Telur Krispi #GoldenDelight,4,0.6073981670931745,keyword
+pass2,T003,"telur,terigu protein tinggi,coklat dcc",232BF55273,resep_2905,Stick Tempe telur,3,0.7489728812276198,keyword
+pass2,T003,"telur,terigu protein tinggi,coklat dcc",769493B26C,resep_2912,Telur puyuh crispy,1,0.7591591523484171,keyword
+pass2,T004,"ubi ungu kukus,tepung beras,santan",0215FD0226,resep_759,Kue Cara Bikang/Bikang Cukil/Bikang Mawar,5,0.42021405860462896,keyword
+pass2,T004,"ubi ungu kukus,tepung beras,santan",951582CCDF,resep_2528,Telur dadar padang,2,0.48559388877416193,keyword
+pass2,T004,"ubi ungu kukus,tepung beras,santan",3A9D320517,resep_3331,Bubur Ayam,1,0.4996370470125034,keyword
+pass2,T004,"ubi ungu kukus,tepung beras,santan",8373AD7EA2,resep_3048,Arem-arem Daging,3,0.45368974745341284,keyword
+pass2,T004,"ubi ungu kukus,tepung beras,santan",67B4E5EEEC,resep_806,"Nasi Uduk Lembek Khas Jakarta, Telur Dadar, dan Brokoli Kukus (8 month+)",4,0.43767894017051195,keyword
+pass2,T005,"ale,ikan pindang,tempe",183DF41E05,resep_344,Lodeh Pindang Tahu Tempe,1,0.8473759201399066,semantic
+pass2,T005,"ale,ikan pindang,tempe",21457BA637,resep_1887,Tumis tongkol tempe lombok ijo,2,0.40063703344015367,keyword
+pass2,T006,"ati ampela,kecap",A02763B1B7,resep_1247,Sate Telur Puyuh dan Ati Ampela Ayam (Pelengkap Bubur Ayam),2,0.5352584146952477,keyword
+pass2,T006,"ati ampela,kecap",6742586CD0,resep_3877,Bubur Ayam Giling,3,0.18244344964371423,keyword
+pass2,T006,"ati ampela,kecap",9CE434B2B8,resep_3241,Ati Ampela Telur Puyuh,1,0.7913602156077111,keyword
+pass2,T009,"kangkung,udang,tomat",07C35B1D47,resep_3932,Tumis Kangkung Udang,4,0.8347488253120567,semantic
+pass2,T009,"kangkung,udang,tomat",F0D6DE3D66,resep_1089,Kangkung Terasi Udang,2,0.8991236949590132,semantic
+pass2,T009,"kangkung,udang,tomat",502D515650,resep_3910,Tumis Kangkung Terasi Udang,3,0.8359672279150822,semantic
+pass2,T009,"kangkung,udang,tomat",35F965EF35,resep_4064,Kangkung cah udang terasi,5,0.7368078991668062,semantic
+pass2,T009,"kangkung,udang,tomat",489EA5A081,resep_1565,Cah Kangkung Udang,1,0.9333333305828534,semantic
+pass2,T010,"kangkung,telur puyuh,tomat",5C837ADACD,resep_1528,Tumis Kangkung Tauge Telur Puyuh,4,0.7949133398204511,semantic
+pass2,T010,"kangkung,telur puyuh,tomat",FC49731FCA,resep_796,Cah Kangkung dgn Rebon dan Telur Puyuh,2,0.8903283706331295,semantic
+pass2,T010,"kangkung,telur puyuh,tomat",16A3E85D38,resep_2027,Cumi kangkung telur,3,0.8626670067499804,semantic
+pass2,T010,"kangkung,telur puyuh,tomat",792CC821E4,resep_3286,Tumis kangkung tahu,5,0.6892745344082631,semantic
+pass2,T010,"kangkung,telur puyuh,tomat",668851EEB7,resep_4347,Tumis Kangkung Telur Puyuh,1,0.9545454520871083,semantic
+pass2,T011,"nasi,udang,telur",C53288C775,resep_3911,Nasi Telur Hongkong,5,0.6329257576682839,semantic
+pass2,T011,"nasi,udang,telur",AD86641933,resep_2789,Nasi goreng telur,1,0.7615501787292318,semantic
+pass2,T011,"nasi,udang,telur",299055E604,resep_4301,Telur Dadar Nasi,2,0.7480543675152997,semantic
+pass2,T011,"nasi,udang,telur",99135210BF,resep_1880,Nasi Telur Mentai,3,0.6983551839300901,semantic
+pass2,T011,"nasi,udang,telur",8CB0631E95,resep_4037,Bubur Telur (Egg Porridge),4,0.6718622761653688,semantic
+pass2,T014,"kwetiau,telur",3E211406FF,resep_1532,Kwetiaw Baso Spesial,3,0.3799453643687664,keyword
+pass2,T014,"kwetiau,telur",7D13035197,resep_388,Kwetiau rebus daging sapi,2,0.4673461367553689,keyword
+pass2,T014,"kwetiau,telur",A771C646C0,resep_3708,Kwetiau Goreng Ayam dan Telur,1,0.9210526292299113,semantic
+pass2,T015,"ayam,air asam jawa,cabe merah kering",D83A423E59,resep_978,Ayam Tumis Cabe,2,0.8071743823757666,semantic
+pass2,T015,"ayam,air asam jawa,cabe merah kering",F93C2AF5FF,resep_2320,Ayam Jahe Kecap,5,0.6965790436989127,semantic
+pass2,T015,"ayam,air asam jawa,cabe merah kering",9D9414CB66,resep_2196,Tumis ayam cabe oriental,4,0.7019584333773463,semantic
+pass2,T015,"ayam,air asam jawa,cabe merah kering",9B3D73767D,resep_47,Ayam kuning asam jawa,1,0.9307692278672031,semantic
+pass2,T015,"ayam,air asam jawa,cabe merah kering",01086AAB99,resep_3295,Ayam Cabe Ijo,3,0.7738337536787077,semantic
+pass2,T016,"buncis,tahu kuning,kecap manis",9694E2D7E8,resep_4939,Tumis Tahu Buncis,1,0.9461538441239266,semantic
+pass2,T016,"buncis,tahu kuning,kecap manis",9E0D59E852,resep_2061,Buncis cah daging sapi,5,0.6889006756799713,semantic
+pass2,T016,"buncis,tahu kuning,kecap manis",1154B7BFCC,resep_2244,37°°° Tumis Tempe BUNCIS,3,0.7138629804148514,semantic
+pass2,T016,"buncis,tahu kuning,kecap manis",03BEAC8157,resep_674,Tumis Buncis Tahu Daging,2,0.7946161411289141,semantic
+pass2,T016,"buncis,tahu kuning,kecap manis",D80D1F7D4B,resep_2743,Tumis buncis wortel tahu,4,0.6958164780065866,semantic
+pass2,T017,"udang,nanas,tomat",C9C60D2234,resep_434,"Tauco udang, pare, pete, tahu dan kacang panjang",2,0.891391730758988,semantic
+pass2,T017,"udang,nanas,tomat",09769CD12D,resep_49,Tauco tahu udang,1,0.911690481947465,semantic
+pass2,T017,"udang,nanas,tomat",2BAF327FF4,resep_1743,Udang crispy,5,0.7691443140919552,semantic
+pass2,T017,"udang,nanas,tomat",B9BDC71530,resep_3504,Udang lempah kuning nanas,3,0.7918930234589893,semantic
+pass2,T017,"udang,nanas,tomat",5665DDA1C0,resep_1985,Udang asam manis,4,0.7749990874244724,semantic
+pass2,T018,"nasi,zucchini,sosis",45DD7849D6,resep_173,Nasi Goreng Telur Sosis,1,0.9363636340452693,semantic
+pass2,T018,"nasi,zucchini,sosis",D7C796ABE1,resep_1608,Nasi goreng sosis telur,3,0.9127470833020904,semantic
+pass2,T018,"nasi,zucchini,sosis",5C5C9CC098,resep_3464,Nasi Goreng Telur Sosis,2,0.9316136477138484,semantic
+pass2,T018,"nasi,zucchini,sosis",CBD83E3566,resep_4300,Nasi Telur Hongkong,5,0.4373647537581696,keyword
+pass2,T018,"nasi,zucchini,sosis",8763D96795,resep_2018,Nasgor Sosis daging kebab,4,0.7644744537424474,semantic
+pass2,T019,"telur,cabe merah besar",55B34FAD7C,resep_778,Telur Dadar Tomat,1,0.957142855240521,semantic
+pass2,T019,"telur,cabe merah besar",5CD7FBE7A1,resep_23,Telur balado,4,0.8992244016447035,semantic
+pass2,T019,"telur,cabe merah besar",12EE04E8CA,resep_1524,Telur balado,3,0.9112425716748528,semantic
+pass2,T019,"telur,cabe merah besar",61F441BFB7,resep_1326,Dadar Telur Tomat Cabe Hijau,2,0.9119348486620991,semantic
+pass2,T019,"telur,cabe merah besar",53249091E6,resep_3444,Telur Dadar Tomat,5,0.8991912584646,semantic
+pass2,T022,"ayam kampung,wortel",264B2CF512,resep_337,Bubur ayam sayur (simple banget),3,0.64160555715631,semantic
+pass2,T022,"ayam kampung,wortel",478AEE9667,resep_3453,Sup ayam kampung klaten,1,0.6846093836201237,semantic
+pass2,T022,"ayam kampung,wortel",A2BED3FEE8,resep_2411,Tumis Toge Wortel Ayam,4,0.6305707876646365,semantic
+pass2,T022,"ayam kampung,wortel",FA835E3734,resep_3810,Ayam masak tahu dan jamur,2,0.6839070196836053,keyword
+pass2,T022,"ayam kampung,wortel",C4C0C72734,resep_3532,Dimsum Ayam,5,0.5121936126066859,keyword
+pass2,T023,"kentang,daging sapi",9333297BED,resep_3338,Semur Daging Kentang,4,0.7541804334643594,semantic
+pass2,T023,"kentang,daging sapi",E84C4A3A65,resep_972,Semur Daging Kentang,1,0.9363636340505924,semantic
+pass2,T023,"kentang,daging sapi",14E8E4A23B,resep_161,Rendang Daging Kentang,3,0.7979958819477861,semantic
+pass2,T023,"kentang,daging sapi",50BA9E7E69,resep_1215,Daging kentang tumis,2,0.8069139667377354,semantic
+pass2,T023,"kentang,daging sapi",D9FB549AD9,resep_4852,Semur daging sapi dan kentang,5,0.6842057647725759,semantic
+pass2,T025,"jagung manis,santan,tepung beras",6A6CE1804A,resep_806,"Nasi Uduk Lembek Khas Jakarta, Telur Dadar, dan Brokoli Kukus (8 month+)",2,0.5069098180717295,keyword
+pass2,T025,"jagung manis,santan,tepung beras",E772D7C303,resep_3048,Arem-arem Daging,1,0.6035497776615012,keyword
+pass2,T025,"jagung manis,santan,tepung beras",6C6D687B27,resep_2753,Bubur labu+ayam kampung,5,0.4668238405814614,keyword
+pass2,T025,"jagung manis,santan,tepung beras",5ACC19256B,resep_2528,Telur dadar padang,3,0.5016322821546277,keyword
+pass2,T025,"jagung manis,santan,tepung beras",387E41A1C5,resep_3331,Bubur Ayam,4,0.4721061933077425,keyword
+pass2,T027,"kaki sapi,belimbing wuluh,tomat",D4B4440C1C,resep_1759,Asem-asem daging sapi,1,0.8403775433642838,semantic
+pass2,T027,"kaki sapi,belimbing wuluh,tomat",78251BE978,resep_2095,Ikan Sebelah Asam Padeh Belimbing Wuluh,4,0.665055256499573,keyword
+pass2,T027,"kaki sapi,belimbing wuluh,tomat",57B66BDD5B,resep_505,Tahu Masak Kemangi,5,0.4685040007669879,keyword
+pass2,T027,"kaki sapi,belimbing wuluh,tomat",996A78BCBB,resep_3415,Ikan Layang Asam Belimbing Wuluh,3,0.6791395960163067,keyword
+pass2,T027,"kaki sapi,belimbing wuluh,tomat",1E2811EC5B,resep_4168,Khoai tây xào thịt bò (Cah sapi dan kentang ala Vietnam),2,0.6899688797319693,keyword
+pass2,T028,"telur ayam,tepung terigu,cokelat bubuk",21BAF36775,resep_4730,Sambal Telur Tepung,3,0.8191601976986715,semantic
+pass2,T028,"telur ayam,tepung terigu,cokelat bubuk",EB01ECCD60,resep_1779,Tahu Telur Kukus Simpel,2,0.8305111281906514,semantic
+pass2,T028,"telur ayam,tepung terigu,cokelat bubuk",67DF0154CE,resep_722,Telur Saus Tiram,5,0.7872038946369767,semantic
+pass2,T028,"telur ayam,tepung terigu,cokelat bubuk",5179C82E98,resep_3378,Telur Crispy,1,0.8605573952538194,semantic
+pass2,T028,"telur ayam,tepung terigu,cokelat bubuk",098D344AA4,resep_4342,Pempek Telur,4,0.8037435551185527,semantic
+pass2,T030,"jamur tiram,tahu putih",4DD12D6379,resep_2863,Pepes Tahu Jamur Tiram,5,0.6732200851414101,semantic
+pass2,T030,"jamur tiram,tahu putih",CC615EAF19,resep_4462,Tumis kailan tahu cah jamur tiram,4,0.6781792088941407,semantic
+pass2,T030,"jamur tiram,tahu putih",E4041AAEBE,resep_4656,Perkedel tahu jamur tiram,2,0.8966245340721604,semantic
+pass2,T030,"jamur tiram,tahu putih",8D43713377,resep_4098,Pepes Tahu Jamur Tiram,3,0.7304235437981433,semantic
+pass2,T030,"jamur tiram,tahu putih",8A686D9121,resep_61,Tahu Jamur Tiram Kemangi,1,0.9333333312728692,semantic
+pass2,T031,"kepiting,tomat kecil,cabai merah besar",481E7D250F,resep_4299,Tahu Telur Kecap,3,0.5864590555171433,keyword
+pass2,T031,"kepiting,tomat kecil,cabai merah besar",61D6916226,resep_79,Orek tempe,2,0.6164107741850674,keyword
+pass2,T031,"kepiting,tomat kecil,cabai merah besar",F4A3E38A2D,resep_677,Taoco tempe bunga kates,1,0.658458678150123,keyword
+pass2,T031,"kepiting,tomat kecil,cabai merah besar",8A05C06797,resep_2892,Sambel Tempe Kemangi,4,0.49571844220592565,keyword
+pass2,T031,"kepiting,tomat kecil,cabai merah besar",FB8FE51477,resep_1245,Sarden Homemade,5,0.428194451798376,keyword
+pass2,T032,"dada ayam fillet,nasi",628BDCC6FD,resep_4498,Nasi Kuning Ayam Crispy,5,0.6417973643669233,semantic
+pass2,T032,"dada ayam fillet,nasi",3D0D7A7EAB,resep_3574,Nasi Tim Ayam Jamur,1,0.7764591329936436,semantic
+pass2,T032,"dada ayam fillet,nasi",148BDAA5AD,resep_4965,Nasi ayam sambel matah,4,0.6776031015255036,semantic
+pass2,T032,"dada ayam fillet,nasi",427D63F1A3,resep_337,Bubur ayam sayur (simple banget),2,0.7394741762389112,semantic
+pass2,T032,"dada ayam fillet,nasi",5D2E4EF213,resep_3107,Nasi Goreng Ayam Telur,3,0.6827457478536283,semantic
+pass2,T033,"nasi,nugget ayam",C4AE9BD949,resep_337,Bubur ayam sayur (simple banget),3,0.8261642792987398,semantic
+pass2,T033,"nasi,nugget ayam",4895B868A5,resep_200,Nasi Kuning Ayam Crispy,4,0.8234021126241893,semantic
+pass2,T033,"nasi,nugget ayam",FE8BE2B7EB,resep_295,Nasi Kuning Ayam Crispy,2,0.8280426403498471,semantic
+pass2,T033,"nasi,nugget ayam",533EAC2B12,resep_4498,Nasi Kuning Ayam Crispy,1,0.8960081741360013,semantic
+pass2,T035,"tempe gembus,tepung beras,daun bawang",05069BE55A,resep_228,Tempe Kemul,3,0.8634463998270426,semantic
+pass2,T035,"tempe gembus,tepung beras,daun bawang",47410B2577,resep_2422,Tempe Gembus Goreng Tepung,1,0.9399999979882744,semantic
+pass2,T035,"tempe gembus,tepung beras,daun bawang",FFE939E5B3,resep_2643,Tempe Goreng Tepung,4,0.8586692683683702,semantic
+pass2,T035,"tempe gembus,tepung beras,daun bawang",84BE86C23A,resep_4853,Tempe Mendoan,2,0.9096627893265212,semantic
+pass2,T035,"tempe gembus,tepung beras,daun bawang",F0F8FF5BB2,resep_3660,Tempe Pedas,5,0.8482288620022134,semantic
+pass2,T036,"telur ayam,ikan teri",B37D46ED6E,resep_4384,Telur ceplok cabe iris,2,0.6226242894035445,keyword
+pass2,T036,"telur ayam,ikan teri",20DA549685,resep_3980,Ikan teri basah goreng tepung,4,0.5781184716497929,keyword
+pass2,T036,"telur ayam,ikan teri",9A9DF189DD,resep_1102,Balado telur dan ikan teri nikmat makan sampai nambah²,1,0.8071953498763959,semantic
+pass2,T036,"telur ayam,ikan teri",ED4A899C63,resep_2999,Tumis Bunga Bawang Telur,5,0.5042201006021902,keyword
+pass2,T036,"telur ayam,ikan teri",6790418728,resep_4699,Telor Teri Goreng Cabe Merah,3,0.6112643090359711,keyword
+pass2,T038,"pare,teri Medan,cabe rawit merah",2652FD7C13,resep_2119,Tumis Pare Telur Teri,1,0.8401025880101103,semantic
+pass2,T038,"pare,teri Medan,cabe rawit merah",982FD581F8,resep_2318,Daging Goreng Sambel Teri,3,0.6493029336780881,semantic
+pass2,T038,"pare,teri Medan,cabe rawit merah",3B9600D615,resep_4384,Telur ceplok cabe iris,5,0.5916127493159092,semantic
+pass2,T038,"pare,teri Medan,cabe rawit merah",D0C3C2D4D8,resep_3792,Tumis Pare Tempe Pedas,4,0.6134929359627201,semantic
+pass2,T038,"pare,teri Medan,cabe rawit merah",FC68BDAA48,resep_1742,Sambal Tempe Teri Kerupuk Kulit,2,0.6547115083341585,semantic
+pass2,T039,"ikan pindang,tomat,cabe hijau",093A577EA4,resep_903,Ikan Pindang Sambel Ijo,5,0.6761463770050509,semantic
+pass2,T039,"ikan pindang,tomat,cabe hijau",1D52F65B08,resep_255,Ikan sarden,4,0.6793217388295844,semantic
+pass2,T039,"ikan pindang,tomat,cabe hijau",B8F0F46E2A,resep_3838,Ikan Mujair tauco cabe hijau,2,0.8346585150323108,semantic
+pass2,T039,"ikan pindang,tomat,cabe hijau",22B8EF5E3B,resep_4036,Sambal ikan pindang,1,0.9363636340669622,semantic
+pass2,T039,"ikan pindang,tomat,cabe hijau",B631B5A3AC,resep_374,Ikan Pindang Serani,3,0.7621278962499989,semantic
+pass2,T040,"telur,tepung terigu protein tinggi",86E42FE833,resep_4342,Pempek Telur,5,0.761043711094021,semantic
+pass2,T040,"telur,tepung terigu protein tinggi",41590A8945,resep_3378,Telur Crispy,4,0.7634701656547044,semantic
+pass2,T040,"telur,tepung terigu protein tinggi",DFC26260FC,resep_2912,Telur puyuh crispy,2,0.7984773080965895,semantic
+pass2,T040,"telur,tepung terigu protein tinggi",8B1E80EECE,resep_4730,Sambal Telur Tepung,1,0.9099026462038717,semantic
+pass2,T040,"telur,tepung terigu protein tinggi",B0FE05676E,resep_2245,Pastel sayur telur,3,0.7829891664761097,semantic
+pass2,T042,"ayam,nanas,bawang bombay",152F861E5C,resep_4815,826) Ayam Kecap Bombay,1,0.7897053619439834,semantic
+pass2,T042,"ayam,nanas,bawang bombay",F90A9B9426,resep_3811,Ayam Jahe Tahu,5,0.6285013060228674,semantic
+pass2,T042,"ayam,nanas,bawang bombay",BA5FB5F535,resep_3074,Chicken Salted Egg ala2,4,0.6584976014959641,semantic
+pass2,T042,"ayam,nanas,bawang bombay",17F47806B0,resep_68,Ayam teriyaki,2,0.7216068638464688,semantic
+pass2,T042,"ayam,nanas,bawang bombay",7B441FFA77,resep_2011,Ayam Teriyaki,3,0.6646642850495534,semantic
+pass2,T043,"daging sapi,kentang,tomat",8B6BC79AA3,resep_3216,"Tim daging sapi, brokoli, tomat",1,0.9499999974377681,semantic
+pass2,T043,"daging sapi,kentang,tomat",277C2FFB98,resep_972,Semur Daging Kentang,3,0.7586383079749834,semantic
+pass2,T043,"daging sapi,kentang,tomat",40987C97D2,resep_3263,Ati Sapi Kentang,2,0.7896898918084296,semantic
+pass2,T043,"daging sapi,kentang,tomat",94394C97CD,resep_545,Soto Daging Sapi,5,0.7315182403055113,semantic
+pass2,T043,"daging sapi,kentang,tomat",BEDC0464A4,resep_1092,Soto Daging Sapi,4,0.7469238109136634,semantic
+pass2,T044,"ikan barakuda,santan instan",89C8C059A9,resep_2153,Abon Ikan Bandeng,1,0.6323379706161998,semantic
+pass2,T045,"daging sapi,tomat",816751ED32,resep_3216,"Tim daging sapi, brokoli, tomat",1,0.9571428538666528,semantic
+pass2,T045,"daging sapi,tomat",838441FE69,resep_545,Soto Daging Sapi,3,0.771972083494151,semantic
+pass2,T045,"daging sapi,tomat",471441C3C9,resep_1092,Soto Daging Sapi,2,0.8414483179446175,semantic
+pass2,T045,"daging sapi,tomat",249F30B099,resep_562,Tumis Buncis Daging Sapi,4,0.7214922408834253,semantic
+pass2,T045,"daging sapi,tomat",E11DD29A60,resep_2014,Tongseng Daging Sapi,5,0.7035078911623301,semantic
+pass2,T046,"tepung ketan,tepung beras,santan",72B78A6910,resep_3548,Arem-Arem Tempe Pedas,2,0.534992381450812,keyword
+pass2,T046,"tepung ketan,tepung beras,santan",36602A3245,resep_1362,Tahu isi sayur pedas,3,0.44057068791820636,keyword
+pass2,T046,"tepung ketan,tepung beras,santan",7ED9F56521,resep_2528,Telur dadar padang,4,0.4317108931910435,keyword
+pass2,T046,"tepung ketan,tepung beras,santan",BAB0DCADD7,resep_3048,Arem-arem Daging,1,0.5532198213721948,keyword
+pass2,T046,"tepung ketan,tepung beras,santan",BD23B5A81F,resep_3331,Bubur Ayam,5,0.4017777880879137,keyword
+pass2,T047,"timun,wortel,buncis",56A8068716,resep_4214,Tumis buncis wortel beef,3,0.8380805808480403,semantic
+pass2,T047,"timun,wortel,buncis",E4A8A33DBC,resep_2743,Tumis buncis wortel tahu,1,0.9266666648844947,semantic
+pass2,T047,"timun,wortel,buncis",9623CA70E1,resep_1307,"Tumis buncis, wortel, udang",2,0.8571618933150313,semantic
+pass2,T047,"timun,wortel,buncis",BBC4751F38,resep_152,Oseng tahu tempe mix wortel buncis,4,0.8261872333424772,semantic
+pass2,T047,"timun,wortel,buncis",D8514CCE14,resep_1013,Wortel Buncis Oseng Telur Saos Tiram,5,0.8261688836761092,semantic
+pass2,T048,"kuning telur,terigu kunci biru,putih telur",5839B7ED6E,resep_253,Tahu Telur Kudus,3,0.7587104895529854,semantic
+pass2,T048,"kuning telur,terigu kunci biru,putih telur",3EB233F8BF,resep_3615,Telur terong,4,0.7569542587590039,semantic
+pass2,T048,"kuning telur,terigu kunci biru,putih telur",2014698DCE,resep_1779,Tahu Telur Kukus Simpel,5,0.7449562239339971,semantic
+pass2,T048,"kuning telur,terigu kunci biru,putih telur",EA63478E3F,resep_3821,Tahu Telur Kukus,2,0.7643349385629231,semantic
+pass2,T048,"kuning telur,terigu kunci biru,putih telur",A131D02D4D,resep_267,Telur Kukus Acar Kuning,1,0.7969397840336123,semantic
+pass2,T049,"tahu putih,telur,daun bawang",B96537F777,resep_253,Tahu Telur Kudus,4,0.8840925323181426,semantic
+pass2,T049,"tahu putih,telur,daun bawang",42AFE91EE6,resep_1965,Tahu Dadar Telur,5,0.8826315146479236,semantic
+pass2,T049,"tahu putih,telur,daun bawang",5C0AC2744B,resep_3640,Tahu Telur Malangan,3,0.9074072311552609,semantic
+pass2,T049,"tahu putih,telur,daun bawang",25F6DC2130,resep_893,Tahu Telur,2,0.9155784320638758,semantic
+pass2,T049,"tahu putih,telur,daun bawang",8609DB2DBE,resep_1389,Dadar Tahu Telur,1,0.9599999978108129,semantic
+pass2,T050,"tahu coklat,wortel,buncis",13F211ECC0,resep_2217,LODEH BUNCIS TAHU -,2,0.8411427534954036,semantic
+pass2,T050,"tahu coklat,wortel,buncis",DCBB50088C,resep_2743,Tumis buncis wortel tahu,1,0.9266666647926513,semantic
+pass2,T050,"tahu coklat,wortel,buncis",157AF5387D,resep_1013,Wortel Buncis Oseng Telur Saos Tiram,5,0.674941141607489,semantic
+pass2,T050,"tahu coklat,wortel,buncis",A8EA77FDDA,resep_152,Oseng tahu tempe mix wortel buncis,3,0.7222953358616786,semantic
+pass2,T050,"tahu coklat,wortel,buncis",E81E0B3FF3,resep_1857,Lodeh Tahu Buncis Super Enak,4,0.6782555559077722,semantic
+pass2,T051,"dada ayam,telur",24F50D316A,resep_2479,Sop Tomat Telur,2,0.6513932614999993,keyword
+pass2,T051,"dada ayam,telur",935D5DD4A7,resep_1343,Ayam kukus telur / steam egg chicken #homemadebylita,1,0.7396759221185966,keyword
+pass2,T051,"dada ayam,telur",E3C8D4FD04,resep_4483,Ayam Popcorn,3,0.5806889823562607,keyword
+pass2,T051,"dada ayam,telur",616FAA0F3F,resep_2444,Tumis Rebung Ayam,4,0.535237299027981,keyword
+pass2,T051,"dada ayam,telur",1DFD9F210C,resep_1620,Bakso Ayam homemade by Triafutri,5,0.5345533019023566,keyword
+pass2,T052,"tepung ketan putih,tepung tapioka,gula merah",A43D60FB21,resep_3123,Tahu Walik,2,0.6354739167476147,keyword
+pass2,T052,"tepung ketan putih,tepung tapioka,gula merah",50A9C55FC7,resep_3484,Cireng tahu putih,1,0.6952658876110244,keyword
+pass2,T052,"tepung ketan putih,tepung tapioka,gula merah",1BC31418CC,resep_4665,Tahu Aci Kukus,3,0.582998488752497,keyword
+pass2,T052,"tepung ketan putih,tepung tapioka,gula merah",25F1E44057,resep_1362,Tahu isi sayur pedas,5,0.44939529035650017,keyword
+pass2,T052,"tepung ketan putih,tepung tapioka,gula merah",4D7EA3F053,resep_1971,Rolade tahu,4,0.48003669335810806,keyword
+pass2,T053,"kacang tanah,kentang",FEC47C590B,resep_726,Tahu tek,1,0.5424349157702149,keyword
+pass2,T054,"tempe,telur",622460319D,resep_2663,Telur Dadar Tempe,3,0.8929714963201539,semantic
+pass2,T054,"tempe,telur",05ADEBE10D,resep_2905,Stick Tempe telur,4,0.8517243456343102,semantic
+pass2,T054,"tempe,telur",9BDDF292F4,resep_4527,Telur Dadar Tempe,2,0.918729233021556,semantic
+pass2,T054,"tempe,telur",B283B4A744,resep_2909,Tempe Orek Telur,5,0.7547735231305035,semantic
+pass2,T054,"tempe,telur",375F50DA67,resep_3434,Telur Dadar Tempe,1,0.9444444417394549,semantic
+pass2,T055,"telur,kulit tortilla,smoke beef",9BD5982525,resep_1067,Terung Dadar Smoke Beef,2,0.6137321499726383,semantic
+pass2,T055,"telur,kulit tortilla,smoke beef",2680878AA4,resep_4702,Cheese Smoke Beef Scone,4,0.4306013291991947,keyword
+pass2,T055,"telur,kulit tortilla,smoke beef",742DA88F7B,resep_2758,Egg & Tortilla Quiche,1,0.8227326601608533,semantic
+pass2,T055,"telur,kulit tortilla,smoke beef",897071119B,resep_1146,"""PERKEDEL BEEF TAHU""",3,0.4342342090129911,keyword
+pass2,T055,"telur,kulit tortilla,smoke beef",38575A813B,resep_474,Caesar Salad dengan Smoke Beef,5,0.3567686727614059,keyword
+pass2,T056,"tepung sagu,kulit udang",BDC34FB490,resep_801,Tekwan udang,1,0.6218611904390001,semantic
+pass2,T057,"rebung,santan kental",C3D21657EB,resep_2280,Santen Tahu Tempe Rebung,2,0.9249999979816608,semantic
+pass2,T057,"rebung,santan kental",C7DCD85D1F,resep_1681,Opor Rebung Telur,1,0.9342129643155623,semantic
+pass2,T057,"rebung,santan kental",0DE485150A,resep_1976,Gulai Ikan Rebung Asam,3,0.5897883184407384,semantic
+pass2,T058,"brokoli,udang segar,tofu",1061295072,resep_1841,Tumis brokoli udang saus tiram,5,0.7943182823832359,semantic
+pass2,T058,"brokoli,udang segar,tofu",1CDE5CE386,resep_2074,Egg Tofu siram Brokoli,2,0.9218868524661967,semantic
+pass2,T058,"brokoli,udang segar,tofu",57FDC05690,resep_2067,Puree Dori Udang Brokoli #EdisiMPASI,3,0.8639830802410948,semantic
+pass2,T058,"brokoli,udang segar,tofu",4EB2C49D03,resep_3334,Mun Tofu Brokoli Sapi Cincang,1,0.9266666642431742,semantic
+pass2,T058,"brokoli,udang segar,tofu",D7DD280F4F,resep_1664,"Cah brokoli, silk tofu, jamur kuping",4,0.8456293203606171,semantic
+pass2,T059,"kentang,fillet ayam,paprika merah",3B7477231E,resep_2752,Semur Ayam Kentang Ala Mama Kirana,3,0.543344608739803,keyword
+pass2,T059,"kentang,fillet ayam,paprika merah",04D359AF89,resep_1962,Sup Ayam Kuning Khas Betawi,5,0.049601594665297274,keyword
+pass2,T059,"kentang,fillet ayam,paprika merah",B636A00C94,resep_681,Kari Ayam Kentang Tahu Telur (Curry Masala),2,0.6069108515986554,keyword
+pass2,T059,"kentang,fillet ayam,paprika merah",9295237BD0,resep_3406,"Goreng ayam, tempe balado",1,0.6633605393747167,semantic
+pass2,T059,"kentang,fillet ayam,paprika merah",1B207587FE,resep_2077,Sup Ayam kuah Bening padat kaldu,4,0.2796537182593114,keyword
+pass2,T060,"jagung manis,tepung beras,daun bawang",CCE18E7E5C,resep_4479,Pepes Tahu Jagung,2,0.6909617331584991,semantic
+pass2,T060,"jagung manis,tepung beras,daun bawang",0482E08613,resep_4853,Tempe Mendoan,3,0.5878988371369157,semantic
+pass2,T060,"jagung manis,tepung beras,daun bawang",E4A524D627,resep_4734,Dadar Jagung Tahu Tepung Maizena,1,0.9235294088999086,semantic
+pass2,T060,"jagung manis,tepung beras,daun bawang",D241CE9A98,resep_1481,Soup Jagung Telur,4,0.5267240844814756,semantic
+pass2,T060,"jagung manis,tepung beras,daun bawang",FAFD98F999,resep_4024,Tempe Daun Jati Rawit Goreng Tepung,5,0.4352092981312582,keyword
+pass2,T061,"tepung beras,susu cair",A0903DCA43,resep_3074,Chicken Salted Egg ala2,2,0.5028658610385874,keyword
+pass2,T061,"tepung beras,susu cair",801B33E227,resep_238,Ayam tepung,1,0.7659843374569946,semantic
+pass2,T061,"tepung beras,susu cair",23BCAA667B,resep_4156,#Nasi kebuli kambing,3,0.014285714285714289,keyword
+pass2,T062,"terong ungu,cabai merah besar,tomat",4C32EA8D90,resep_513,Tempe Terong Sambal Bawang,3,0.783186274767832,semantic
+pass2,T062,"terong ungu,cabai merah besar,tomat",927870CCA7,resep_4468,Tongkol Terong Cabe,1,0.9279069746801306,semantic
+pass2,T062,"terong ungu,cabai merah besar,tomat",936D6A5815,resep_2468,Sambal Tongkol Terong,2,0.8112371710170231,semantic
+pass2,T062,"terong ungu,cabai merah besar,tomat",542004B167,resep_4148,Tumis terong dan tahu kemangi,4,0.7455812932927621,semantic
+pass2,T062,"terong ungu,cabai merah besar,tomat",9D1DCD6793,resep_1123,Tempe Terong Asam Manis,5,0.6884243993855834,semantic
+pass2,T063,"ikan asin,cabe hijau",4F2D584944,resep_3443,Tumis ikan gabus cabe hijau pete simpel,2,0.7625259253054015,semantic
+pass2,T063,"ikan asin,cabe hijau",CBDD8F3B18,resep_2490,Ikan Asin Cabe Ijo,1,0.9363636345243646,semantic
+pass2,T063,"ikan asin,cabe hijau",5E81FA3A30,resep_746,Ikan Asin Telang Masak Asam Manis Pedas,5,0.4642652044732496,keyword
+pass2,T063,"ikan asin,cabe hijau",CDD5043931,resep_4624,Tumis ikan peda suwir,4,0.4906405609489618,keyword
+pass2,T063,"ikan asin,cabe hijau",74A4C532F9,resep_2745,Ikan Asin Tawes Goreng Sambel Ijo + kuluban daun singkong,3,0.6692835357462767,semantic
+pass2,T064,"wortel,sawi,bawang putih",D75ADF932D,resep_1867,Tumis Sawi Tahu,4,0.8279497397978355,semantic
+pass2,T064,"wortel,sawi,bawang putih",AB6A5475AC,resep_3471,Cah Tahu Wortel Daun Bawang Saus Tiram,2,0.9069457499855131,semantic
+pass2,T064,"wortel,sawi,bawang putih",569222CB13,resep_2435,Tumis Sawi Tahu,3,0.8658509093678894,semantic
+pass2,T064,"wortel,sawi,bawang putih",F470689049,resep_4315,Sawi jagung kwetiaw telur wortel nyemek,5,0.7973833479332365,semantic
+pass2,T064,"wortel,sawi,bawang putih",CFC4931B17,resep_241,Bola Tahu Wortel,1,0.9249999969695076,semantic
+pass2,T065,"kulit ayam,bumbu ayam goreng,cuka masak",016D6D5238,resep_3563,Ayam Goreng Bumbu Kuning,5,0.7053922682342351,semantic
+pass2,T065,"kulit ayam,bumbu ayam goreng,cuka masak",7C8EFFCCBB,resep_2138,Ayam Goreng (Ungkap),3,0.7165379551402847,semantic
+pass2,T065,"kulit ayam,bumbu ayam goreng,cuka masak",32A47863CA,resep_987,Ayam goreng kukus,1,0.9210526291070573,semantic
+pass2,T065,"kulit ayam,bumbu ayam goreng,cuka masak",68C75C837E,resep_3,Ayam Kukus Jahe,2,0.7246693467232723,semantic
+pass2,T065,"kulit ayam,bumbu ayam goreng,cuka masak",7D234B97BB,resep_3060,Ayam Goreng Serundeng,4,0.7123734955864612,semantic
+pass2,T066,"dada ayam fillet,tepung tapioka,wortel",AB972591AB,resep_2744,Ayam asam manis,4,0.8546603410197551,semantic
+pass2,T066,"dada ayam fillet,tepung tapioka,wortel",807373A450,resep_122,Nugget ayam wortel,1,0.9235294079577342,semantic
+pass2,T066,"dada ayam fillet,tepung tapioka,wortel",C01D939804,resep_578,"Tahu isi ayam, sayur dan jamur kuping (no tepung)",2,0.8955248687439277,semantic
+pass2,T066,"dada ayam fillet,tepung tapioka,wortel",F2B2A3E037,resep_902,Chicken Papperoni Homemade,3,0.861597592569449,semantic
+pass2,T066,"dada ayam fillet,tepung tapioka,wortel",6500A65F0D,resep_2166,Nugget ayam tahu,5,0.8198804153077518,semantic
+pass2,T067,"enoki,telur ayam",E7FAA885D0,resep_2799,Tum Ayam dan Jamur Enoki,3,0.8212519918816081,semantic
+pass2,T067,"enoki,telur ayam",8C1F669D5B,resep_3364,Tahu Sawi Kuah Enoki,2,0.8554613658827821,semantic
+pass2,T067,"enoki,telur ayam",500FF639B4,resep_800,Egg Drop Chicken Mushroom,5,0.36568570734874584,keyword
+pass2,T067,"enoki,telur ayam",3E8E859AC2,resep_3502,Telur Dadar Enoki dan Wortel,1,0.9399999981580264,semantic
+pass2,T067,"enoki,telur ayam",F1B62927B3,resep_2079,Chiken enoki pedas manis,4,0.7165480043811706,semantic
+pass2,T068,"tempe,tepung terigu",9A72567A45,resep_4535,Tempe Goreng Tepung Daun Jeruk,5,0.8145027962919227,semantic
+pass2,T068,"tempe,tepung terigu",C8ED6539F4,resep_793,Tempe Tepung Simple,1,0.9399999967422701,semantic
+pass2,T068,"tempe,tepung terigu",C5B63C71D7,resep_3000,Tempe goreng tepung,3,0.8609838306223606,semantic
+pass2,T068,"tempe,tepung terigu",6C9A6FDDA1,resep_128,TEMPE goreng Tepung,2,0.8792757438681253,semantic
+pass2,T068,"tempe,tepung terigu",BD62349480,resep_2643,Tempe Goreng Tepung,4,0.846774773617397,semantic
+pass2,T069,"sosis,telur ayam,macaroni",D130CA3274,resep_4095,Telur Gulung Sosis,2,0.8849358957661864,semantic
+pass2,T069,"sosis,telur ayam,macaroni",B20745B56A,resep_1520,Sosis Telur Asam Manis,3,0.876060932409484,semantic
+pass2,T069,"sosis,telur ayam,macaroni",61E6FCC278,resep_3815,Sayur sawi telur sosis,4,0.8422559308635943,semantic
+pass2,T069,"sosis,telur ayam,macaroni",AE3C07975F,resep_2230,Oseng Sosis telur,5,0.8270251060517941,semantic
+pass2,T069,"sosis,telur ayam,macaroni",B4764EFB3C,resep_2481,Telur gulung isi sosis,1,0.9363636347331644,semantic
+pass2,T070,"kuning telur,susu kental manis",CB5B4092A5,resep_3385,SPAGHETTI Daging Asap,3,0.03636363636363636,keyword
+pass2,T070,"kuning telur,susu kental manis",4D20D5B36C,resep_2039,Beef Floss Roll Buns,2,0.3384307833352707,keyword
+pass2,T070,"kuning telur,susu kental manis",3C5B9EC60A,resep_3074,Chicken Salted Egg ala2,1,0.48766619134033484,keyword

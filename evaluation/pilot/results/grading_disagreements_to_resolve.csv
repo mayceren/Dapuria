@@ -1,0 +1,11 @@
+query_id,query_text,recipe_id,recipe_title,original_rank,grade_pass1,grade_pass2,agree,resolved_grade
+P001,"telur,cabe rawit",resep_1573,Mie rebus telur+sayur,5,1,2,False,1
+P004,"daging ayam,blimbing wuluh,tomat hijau",resep_4737,Tumis Ayam Aromatic,3,0,1,False,0
+P004,"daging ayam,blimbing wuluh,tomat hijau",resep_3776,Asem asem Daging,5,0,1,False,1
+P005,"ikan gambolo,tomat",resep_619,Pepes Ikan,1,1,2,False,1
+P005,"ikan gambolo,tomat",resep_374,Ikan Pindang Serani,2,1,2,False,1
+P006,"ikan tongkol,cabe rawit,tomat",resep_170,Ikan tongkol suwir,4,1,2,False,1
+P008,"tempe,teri,kacang tanah",resep_4507,"Tempe,teri kacang",2,1,2,False,2
+P009,"kentang,cabai merah besar",resep_4706,Krengsengan Daging (tanpa petis udang),2,1,2,False,1
+P009,"kentang,cabai merah besar",resep_4684,Sambal daging sapi minang,4,1,2,False,1
+P010,"nasi putih,telur,buncis",resep_431,"Nasi Lembek, Kukus Brokoli, Buncis dan Tahu (8 month+)",4,0,1,False,1

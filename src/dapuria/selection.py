@@ -35,13 +35,8 @@ def _same_dish(first: set[str], second: set[str]) -> bool:
     return len(common) >= 2 and len(common) / min(len(first), len(second)) >= 2 / 3
 
 
-def select_recommendations(
-    candidates: list[dict[str, Any]], limit: int,
-) -> list[dict[str, Any]]:
-    """Balance inventory coverage, recipe readiness, and the unchanged WLC score."""
-    if limit < 1:
-        return []
-    ordered = sorted(candidates, key=lambda recipe: (
+def _selection_key(recipe: dict[str, Any]) -> tuple:
+    return (
         -selection_score(recipe),
         -recipe["coverage_user"],
         -recipe["coverage_recipe"],
@@ -50,17 +45,30 @@ def select_recommendations(
         -recipe["ingredient_efficiency"],
         -recipe["final_score"],
         str(recipe["id"]),
-    ))
+    )
+
+
+def _dominates(first: dict[str, Any], second: dict[str, Any]) -> bool:
+    first_matched, second_matched = len(first["matched_user_items"]), len(second["matched_user_items"])
+    first_missing, second_missing = len(first["missing_items"]), len(second["missing_items"])
+    return (first_matched >= second_matched and first_missing <= second_missing
+            and (first_matched > second_matched or first_missing < second_missing))
+
+
+def select_recommendations(
+    candidates: list[dict[str, Any]], limit: int,
+) -> list[dict[str, Any]]:
+    """Balance inventory coverage, recipe readiness, and the unchanged WLC score."""
+    remaining = list(candidates)
     selected = []
-    titles: list[set[str]] = []
-    for recipe in ordered:
+    while remaining and len(selected) < limit:
+        eligible = [recipe for recipe in remaining
+                    if not any(_dominates(other, recipe) for other in remaining)]
+        recipe = min(eligible, key=_selection_key)
         words = _title_words(recipe)
-        if any(_same_dish(words, previous) for previous in titles):
-            continue
         selected.append(recipe)
-        titles.append(words)
-        if len(selected) == limit:
-            break
+        remaining = [other for other in remaining
+                     if other is not recipe and not _same_dish(words, _title_words(other))]
     return selected
 
 

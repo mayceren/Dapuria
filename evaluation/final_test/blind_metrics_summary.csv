@@ -1,0 +1,2 @@
+n_queries,acceptable_success_at_5,strong_success_at_5,acceptable_precision_at_5,strong_precision_at_5,ndcg_at_5,mean_grade_at_5
+70,0.7285714285714285,0.35714285714285715,0.5142857142857143,0.19142857142857142,0.6708090264762223,0.7057142857142856

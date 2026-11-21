@@ -1,0 +1,31 @@
+query_id,query_text,status,n_retrieved,n_valid_after_t_relevansi,n_pooled_unique
+V001,"ati ampela ayam,kentang",ok,70,5,5
+V002,"labu siam,jagung,kacang panjang",ok,70,10,8
+V003,"tempe,kacang panjang",ok,70,24,11
+V004,"bada itam,tempe",no_match,70,0,0
+V005,"telur,kentang,santan",ok,70,36,11
+V006,"telur ayam,tepung terigu protein sedang",ok,70,24,10
+V007,"ikan patin,tomat,cabe rawit merah",ok,70,51,10
+V008,"ikan bandeng,tahu putih,kecap manis",ok,70,27,10
+V009,"tahu putih,telur ayam,tepung tapioka",ok,70,49,11
+V010,"beras,teri goreng,cabai merah keriting",ok,70,4,4
+V011,"telur,baby potato",ok,70,1,1
+V012,"ayam,tomat hijau,cabai rawit",ok,70,32,12
+V013,"makaroni,telur",ok,70,10,5
+V014,"daging ayam,jamur kuping,wortel",ok,70,26,9
+V015,"ubi jalar,jahe",ok,70,1,1
+V016,"tempe,labu air,santan kental",ok,70,42,10
+V017,"tahu putih,kacang tanah",ok,70,12,8
+V018,"jamur champignon,keju mozarella",no_match,70,0,0
+V019,"ikan tuna,tomat,cabai rawit",ok,70,31,9
+V020,"tepung beras,kue keranjang",no_match,70,0,0
+V021,"ikan bawal,kelapa",no_match,70,0,0
+V022,"mie,ebi kering",ok,70,2,2
+V023,"tepung terigu,tepung tapioka,ragout ayam sayur",ok,70,30,10
+V024,"paha atas ayam,mie soun",ok,70,2,2
+V025,"singkong,bawang putih,kunyit",ok,70,52,11
+V026,"ubi madu,tepung terigu serbaguna",ok,70,2,2
+V027,"nangka muda,santan,cabai keriting",ok,70,17,9
+V028,"telur,sosis,bawang merah",ok,70,57,9
+V029,"kentang,telur rebus",ok,70,30,8
+V030,"singkong parut,kelapa parut,gula merah",ok,70,18,9

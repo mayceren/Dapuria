@@ -14,7 +14,27 @@ Input `bawang` juga diperjelas sebelum pencarian: bawang putih, bawang merah, ba
 
 Jawaban seperti `ada dongg` mengonfirmasi bahan pelengkap yang sedang ditanyakan tanpa menambah kata percakapan sebagai bahan. Pernyataan `ga punya tempe, telur toge` menghapus bahan tersebut dari persediaan dan langsung mencari ulang resep tanpa tempe, telur, atau tauge. Batasan berlaku selama percakapan sampai diubah dengan `boleh pakai tauge` atau `hapus batasan`. Nama `toge`/`taoge` disamakan dengan `tauge`; `micin`, `vetsin`, `MSG`, serta penyebutan Sasa/Ajinomoto sebagai penyedap disamakan dengan `msg`. Produk lain seperti `santan Sasa` dan penyedap berlabel non-MSG tetap dibedakan.
 
-Setelah perhitungan WLC, kandidat harus memenuhi ambang relevansi, memiliki bahan utama yang cocok dengan persediaan, dan lolos batasan pengguna. Seleksi akhir menggunakan `coverage_user × ingredient_efficiency × (1 + final_score)`. Efisiensi tetap berupa harmonic mean dari recipe coverage dan user coverage; bahan tambahan menurunkan recipe coverage dan efisiensi. Skor ini menyeimbangkan pemanfaatan bahan pengguna, kesiapan resep, dan kontribusi WLC tanpa mengubah formula atau bobot WLC 0,9/0,1. Jika skor seleksi sama, cakupan, jumlah kecocokan, bahan tambahan, efisiensi, skor WLC, dan ID menjadi pembeda deterministik. Variasi judul masakan yang sangat mirip disaring agar alternatif lebih beragam; jumlah hasil mengikuti kandidat berbeda yang layak. Aturan seleksi merupakan heuristik terpisah dari WLC, sehingga hasil penelitian versi sebelumnya tidak otomatis membuktikan kualitas urutan baru.
+Setelah perhitungan WLC, kandidat harus memenuhi ambang relevansi, memiliki bahan utama yang cocok dengan persediaan, dan lolos batasan pengguna. Seleksi akhir mengikuti dominance: resep A didahulukan dari B jika A memakai setidaknya sebanyak bahan pengguna, membutuhkan tidak lebih banyak bahan tambahan, dan lebih baik pada minimal satu aspek. Jumlah kecocokan dihitung dari `matched_user_items`, sedangkan tambahan dihitung dari `missing_items`.
+
+Pada setiap langkah, seleksi mengambil kandidat yang tidak didominasi kandidat lain yang masih tersedia. Di antara kandidat tersebut, prioritas menggunakan `coverage_user × ingredient_efficiency × (1 + final_score)`, kemudian cakupan pengguna, cakupan resep, jumlah kecocokan, jumlah tambahan, efisiensi, skor WLC, dan ID sebagai pembeda deterministik. Setelah sebuah resep dipilih, kandidat berjudul sangat mirip langsung dikeluarkan dan kandidat yang tidak didominasi dihitung kembali. Dengan demikian, kandidat yang tersaring karena keberagaman tidak terus menahan kandidat lain. Relasi dominance ini merupakan urutan parsial yang ketat, sehingga proses tidak memakai pembanding pasangan yang dapat menghasilkan siklus. Jumlah hasil mengikuti kandidat berbeda yang layak, hingga batas yang diminta.
+
+Efisiensi tetap berupa harmonic mean dari recipe coverage dan user coverage; WLC tetap `0,9 × sbert_score_norm + 0,1 × ingredient_efficiency`. Perbedaan urutan akhir dari urutan WLC berasal dari batasan dominance dan pemilihan seimbang di antara kandidat yang tidak saling mendominasi. Aturan seleksi merupakan heuristik terpisah dari WLC, sehingga kualitas urutan baru perlu dievaluasi kembali pada kumpulan kueri dan penilaian pengguna.
+
+Audit pada salinan indeks bawaan dengan inventory `telur, kecap asin, tomat, seledri, bawang putih` menghasilkan 70 kandidat dan 57 kandidat relevan. Model yang digunakan adalah `LazarusNLP/all-indo-e5-small-v4`; rentang skor semantik pool adalah 0,337829875–0,755759001. Nilai hasil pengukuran tersimpan di [fixture audit](tests/fixtures/egg_ranking_audit.json):
+
+| Atribut | Telur Kecap (`resep_135`) | Telur Dadar Ala Saya (`resep_2235`) |
+| --- | ---: | ---: |
+| `sbert_score` | 0,755759001 | 0,671836257 |
+| `sbert_score_norm` | 0,999999998 | 0,799193836 |
+| `coverage_user` | 0,8 | 0,8 |
+| `coverage_recipe` | 0,4 | 0,444444444 |
+| `ingredient_efficiency` | 0,533333333 | 0,571428571 |
+| `final_score` WLC | 0,953333331 | 0,776417310 |
+| Skor seleksi seimbang | 0,833422221 | 0,812076484 |
+| Bahan pengguna terpakai | 4 | 4 |
+| Bahan tambahan | 6 | 5 |
+
+Jika dibandingkan berdua, Telur Dadar Ala Saya dipilih lebih dahulu karena mendominasi Telur Kecap pada kebutuhan tambahan. Skor seleksi seimbang digunakan saat tidak ada hubungan dominance. Pada pool lengkap, kandidat relevan lain tetap dapat menempati peringkat lebih tinggi.
 
 Pencocokan membedakan bahan asal dari produk turunannya, misalnya ayam dengan telur ayam, tomat dengan saus tomat, serta beras dengan tepung beras. Metadata peralatan dan judul kelompok bahan dibersihkan saat dibaca: `toples air` menjadi `air`, sedangkan `wajan`, `saringan`, dan label `bumbu` tidak dihitung sebagai bahan. Corpus dan indeks sumber tetap dipertahankan.
 

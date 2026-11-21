@@ -1,0 +1,259 @@
+query_id,query_text,recipe_id,recipe_title,original_rank,grade_pass1,grade_pass2,agree,final_grade
+T001,"daging ayam,kluwek",resep_3395,Brongkos Daging,1,1,1,True,1
+T002,"paha ayam,petis udang",resep_3943,Dimsum ayam udang,1,0,0,True,0
+T002,"paha ayam,petis udang",resep_844,Sate Kelopo Ayam Ondomohen Khas Surabaya,2,2,2,True,2
+T002,"paha ayam,petis udang",resep_294,Lumpia Dimsum Ayam Jamur Keju Lumer,3,0,0,True,0
+T003,"telur,terigu protein tinggi,coklat dcc",resep_2912,Telur puyuh crispy,1,0,0,True,0
+T003,"telur,terigu protein tinggi,coklat dcc",resep_1833,Telur Dadar Crispy (Menu Hemat Anak Kost),2,0,0,True,0
+T003,"telur,terigu protein tinggi,coklat dcc",resep_2905,Stick Tempe telur,3,0,0,True,0
+T003,"telur,terigu protein tinggi,coklat dcc",resep_2116,Telur Krispi #GoldenDelight,4,0,0,True,0
+T003,"telur,terigu protein tinggi,coklat dcc",resep_2158,Nugget tahu ayam wortel,5,0,0,True,0
+T004,"ubi ungu kukus,tepung beras,santan",resep_3331,Bubur Ayam,1,0,0,True,0
+T004,"ubi ungu kukus,tepung beras,santan",resep_2528,Telur dadar padang,2,0,0,True,0
+T004,"ubi ungu kukus,tepung beras,santan",resep_3048,Arem-arem Daging,3,0,0,True,0
+T004,"ubi ungu kukus,tepung beras,santan",resep_806,"Nasi Uduk Lembek Khas Jakarta, Telur Dadar, dan Brokoli Kukus (8 month+)",4,0,0,True,0
+T004,"ubi ungu kukus,tepung beras,santan",resep_759,Kue Cara Bikang/Bikang Cukil/Bikang Mawar,5,1,1,True,1
+T005,"ale,ikan pindang,tempe",resep_344,Lodeh Pindang Tahu Tempe,1,1,1,True,1
+T005,"ale,ikan pindang,tempe",resep_1887,Tumis tongkol tempe lombok ijo,2,1,1,True,1
+T006,"ati ampela,kecap",resep_3241,Ati Ampela Telur Puyuh,1,2,2,True,2
+T006,"ati ampela,kecap",resep_1247,Sate Telur Puyuh dan Ati Ampela Ayam (Pelengkap Bubur Ayam),2,2,2,True,2
+T006,"ati ampela,kecap",resep_3877,Bubur Ayam Giling,3,1,1,True,1
+T009,"kangkung,udang,tomat",resep_1565,Cah Kangkung Udang,1,1,1,True,1
+T009,"kangkung,udang,tomat",resep_1089,Kangkung Terasi Udang,2,0,0,True,0
+T009,"kangkung,udang,tomat",resep_3910,Tumis Kangkung Terasi Udang,3,2,2,True,2
+T009,"kangkung,udang,tomat",resep_3932,Tumis Kangkung Udang,4,1,1,True,1
+T009,"kangkung,udang,tomat",resep_4064,Kangkung cah udang terasi,5,1,1,True,1
+T010,"kangkung,telur puyuh,tomat",resep_4347,Tumis Kangkung Telur Puyuh,1,2,2,True,2
+T010,"kangkung,telur puyuh,tomat",resep_796,Cah Kangkung dgn Rebon dan Telur Puyuh,2,1,1,True,1
+T010,"kangkung,telur puyuh,tomat",resep_2027,Cumi kangkung telur,3,0,1,False,0
+T010,"kangkung,telur puyuh,tomat",resep_1528,Tumis Kangkung Tauge Telur Puyuh,4,1,1,True,1
+T010,"kangkung,telur puyuh,tomat",resep_3286,Tumis kangkung tahu,5,1,1,True,1
+T011,"nasi,udang,telur",resep_2789,Nasi goreng telur,1,1,1,True,1
+T011,"nasi,udang,telur",resep_4301,Telur Dadar Nasi,2,1,1,True,1
+T011,"nasi,udang,telur",resep_1880,Nasi Telur Mentai,3,1,1,True,1
+T011,"nasi,udang,telur",resep_4037,Bubur Telur (Egg Porridge),4,1,1,True,1
+T011,"nasi,udang,telur",resep_3911,Nasi Telur Hongkong,5,1,1,True,1
+T014,"kwetiau,telur",resep_3708,Kwetiau Goreng Ayam dan Telur,1,2,2,True,2
+T014,"kwetiau,telur",resep_388,Kwetiau rebus daging sapi,2,2,2,True,2
+T014,"kwetiau,telur",resep_1532,Kwetiaw Baso Spesial,3,2,2,True,2
+T015,"ayam,air asam jawa,cabe merah kering",resep_47,Ayam kuning asam jawa,1,1,1,True,1
+T015,"ayam,air asam jawa,cabe merah kering",resep_978,Ayam Tumis Cabe,2,0,0,True,0
+T015,"ayam,air asam jawa,cabe merah kering",resep_3295,Ayam Cabe Ijo,3,0,0,True,0
+T015,"ayam,air asam jawa,cabe merah kering",resep_2196,Tumis ayam cabe oriental,4,0,0,True,0
+T015,"ayam,air asam jawa,cabe merah kering",resep_2320,Ayam Jahe Kecap,5,0,0,True,0
+T016,"buncis,tahu kuning,kecap manis",resep_4939,Tumis Tahu Buncis,1,1,2,False,2
+T016,"buncis,tahu kuning,kecap manis",resep_674,Tumis Buncis Tahu Daging,2,2,2,True,2
+T016,"buncis,tahu kuning,kecap manis",resep_2244,37°°° Tumis Tempe BUNCIS,3,1,1,True,1
+T016,"buncis,tahu kuning,kecap manis",resep_2743,Tumis buncis wortel tahu,4,1,1,True,1
+T016,"buncis,tahu kuning,kecap manis",resep_2061,Buncis cah daging sapi,5,1,1,True,1
+T017,"udang,nanas,tomat",resep_49,Tauco tahu udang,1,0,1,False,0
+T017,"udang,nanas,tomat",resep_434,"Tauco udang, pare, pete, tahu dan kacang panjang",2,0,1,False,0
+T017,"udang,nanas,tomat",resep_3504,Udang lempah kuning nanas,3,1,1,True,1
+T017,"udang,nanas,tomat",resep_1985,Udang asam manis,4,1,1,True,1
+T017,"udang,nanas,tomat",resep_1743,Udang crispy,5,1,1,True,1
+T018,"nasi,zucchini,sosis",resep_173,Nasi Goreng Telur Sosis,1,1,1,True,1
+T018,"nasi,zucchini,sosis",resep_3464,Nasi Goreng Telur Sosis,2,1,1,True,1
+T018,"nasi,zucchini,sosis",resep_1608,Nasi goreng sosis telur,3,1,1,True,1
+T018,"nasi,zucchini,sosis",resep_2018,Nasgor Sosis daging kebab,4,1,1,True,1
+T018,"nasi,zucchini,sosis",resep_4300,Nasi Telur Hongkong,5,1,1,True,1
+T019,"telur,cabe merah besar",resep_778,Telur Dadar Tomat,1,2,2,True,2
+T019,"telur,cabe merah besar",resep_1326,Dadar Telur Tomat Cabe Hijau,2,1,1,True,1
+T019,"telur,cabe merah besar",resep_1524,Telur balado,3,1,1,True,1
+T019,"telur,cabe merah besar",resep_23,Telur balado,4,1,1,True,1
+T019,"telur,cabe merah besar",resep_3444,Telur Dadar Tomat,5,2,2,True,2
+T022,"ayam kampung,wortel",resep_3453,Sup ayam kampung klaten,1,2,1,False,2
+T022,"ayam kampung,wortel",resep_3810,Ayam masak tahu dan jamur,2,1,1,True,1
+T022,"ayam kampung,wortel",resep_337,Bubur ayam sayur (simple banget),3,1,1,True,1
+T022,"ayam kampung,wortel",resep_2411,Tumis Toge Wortel Ayam,4,1,1,True,1
+T022,"ayam kampung,wortel",resep_3532,Dimsum Ayam,5,1,1,True,1
+T023,"kentang,daging sapi",resep_972,Semur Daging Kentang,1,2,2,True,2
+T023,"kentang,daging sapi",resep_1215,Daging kentang tumis,2,2,2,True,2
+T023,"kentang,daging sapi",resep_161,Rendang Daging Kentang,3,2,2,True,2
+T023,"kentang,daging sapi",resep_3338,Semur Daging Kentang,4,2,2,True,2
+T023,"kentang,daging sapi",resep_4852,Semur daging sapi dan kentang,5,2,2,True,2
+T025,"jagung manis,santan,tepung beras",resep_3048,Arem-arem Daging,1,0,0,True,0
+T025,"jagung manis,santan,tepung beras",resep_806,"Nasi Uduk Lembek Khas Jakarta, Telur Dadar, dan Brokoli Kukus (8 month+)",2,0,0,True,0
+T025,"jagung manis,santan,tepung beras",resep_2528,Telur dadar padang,3,1,0,False,0
+T025,"jagung manis,santan,tepung beras",resep_3331,Bubur Ayam,4,0,0,True,0
+T025,"jagung manis,santan,tepung beras",resep_2753,Bubur labu+ayam kampung,5,0,0,True,0
+T027,"kaki sapi,belimbing wuluh,tomat",resep_1759,Asem-asem daging sapi,1,1,1,True,1
+T027,"kaki sapi,belimbing wuluh,tomat",resep_4168,Khoai tây xào thịt bò (Cah sapi dan kentang ala Vietnam),2,0,0,True,0
+T027,"kaki sapi,belimbing wuluh,tomat",resep_3415,Ikan Layang Asam Belimbing Wuluh,3,0,0,True,0
+T027,"kaki sapi,belimbing wuluh,tomat",resep_2095,Ikan Sebelah Asam Padeh Belimbing Wuluh,4,0,0,True,0
+T027,"kaki sapi,belimbing wuluh,tomat",resep_505,Tahu Masak Kemangi,5,0,0,True,0
+T028,"telur ayam,tepung terigu,cokelat bubuk",resep_3378,Telur Crispy,1,0,0,True,0
+T028,"telur ayam,tepung terigu,cokelat bubuk",resep_1779,Tahu Telur Kukus Simpel,2,0,0,True,0
+T028,"telur ayam,tepung terigu,cokelat bubuk",resep_4730,Sambal Telur Tepung,3,0,0,True,0
+T028,"telur ayam,tepung terigu,cokelat bubuk",resep_4342,Pempek Telur,4,0,0,True,0
+T028,"telur ayam,tepung terigu,cokelat bubuk",resep_722,Telur Saus Tiram,5,0,0,True,0
+T030,"jamur tiram,tahu putih",resep_61,Tahu Jamur Tiram Kemangi,1,2,2,True,2
+T030,"jamur tiram,tahu putih",resep_4656,Perkedel tahu jamur tiram,2,2,2,True,2
+T030,"jamur tiram,tahu putih",resep_4098,Pepes Tahu Jamur Tiram,3,2,2,True,2
+T030,"jamur tiram,tahu putih",resep_4462,Tumis kailan tahu cah jamur tiram,4,1,1,True,1
+T030,"jamur tiram,tahu putih",resep_2863,Pepes Tahu Jamur Tiram,5,2,2,True,2
+T031,"kepiting,tomat kecil,cabai merah besar",resep_677,Taoco tempe bunga kates,1,0,0,True,0
+T031,"kepiting,tomat kecil,cabai merah besar",resep_79,Orek tempe,2,0,0,True,0
+T031,"kepiting,tomat kecil,cabai merah besar",resep_4299,Tahu Telur Kecap,3,0,0,True,0
+T031,"kepiting,tomat kecil,cabai merah besar",resep_2892,Sambel Tempe Kemangi,4,0,0,True,0
+T031,"kepiting,tomat kecil,cabai merah besar",resep_1245,Sarden Homemade,5,0,0,True,0
+T032,"dada ayam fillet,nasi",resep_3574,Nasi Tim Ayam Jamur,1,2,2,True,2
+T032,"dada ayam fillet,nasi",resep_337,Bubur ayam sayur (simple banget),2,1,1,True,1
+T032,"dada ayam fillet,nasi",resep_3107,Nasi Goreng Ayam Telur,3,1,2,False,2
+T032,"dada ayam fillet,nasi",resep_4965,Nasi ayam sambel matah,4,1,1,True,1
+T032,"dada ayam fillet,nasi",resep_4498,Nasi Kuning Ayam Crispy,5,1,1,True,1
+T033,"nasi,nugget ayam",resep_4498,Nasi Kuning Ayam Crispy,1,1,1,True,1
+T033,"nasi,nugget ayam",resep_295,Nasi Kuning Ayam Crispy,2,1,1,True,1
+T033,"nasi,nugget ayam",resep_337,Bubur ayam sayur (simple banget),3,0,0,True,0
+T033,"nasi,nugget ayam",resep_200,Nasi Kuning Ayam Crispy,4,1,1,True,1
+T035,"tempe gembus,tepung beras,daun bawang",resep_2422,Tempe Gembus Goreng Tepung,1,1,1,True,1
+T035,"tempe gembus,tepung beras,daun bawang",resep_4853,Tempe Mendoan,2,1,1,True,1
+T035,"tempe gembus,tepung beras,daun bawang",resep_228,Tempe Kemul,3,1,1,True,1
+T035,"tempe gembus,tepung beras,daun bawang",resep_2643,Tempe Goreng Tepung,4,1,1,True,1
+T035,"tempe gembus,tepung beras,daun bawang",resep_3660,Tempe Pedas,5,0,0,True,0
+T036,"telur ayam,ikan teri",resep_1102,Balado telur dan ikan teri nikmat makan sampai nambah²,1,2,2,True,2
+T036,"telur ayam,ikan teri",resep_4384,Telur ceplok cabe iris,2,2,2,True,2
+T036,"telur ayam,ikan teri",resep_4699,Telor Teri Goreng Cabe Merah,3,2,2,True,2
+T036,"telur ayam,ikan teri",resep_3980,Ikan teri basah goreng tepung,4,2,2,True,2
+T036,"telur ayam,ikan teri",resep_2999,Tumis Bunga Bawang Telur,5,1,2,False,1
+T038,"pare,teri Medan,cabe rawit merah",resep_2119,Tumis Pare Telur Teri,1,1,1,True,1
+T038,"pare,teri Medan,cabe rawit merah",resep_1742,Sambal Tempe Teri Kerupuk Kulit,2,1,0,False,0
+T038,"pare,teri Medan,cabe rawit merah",resep_2318,Daging Goreng Sambel Teri,3,0,0,True,0
+T038,"pare,teri Medan,cabe rawit merah",resep_3792,Tumis Pare Tempe Pedas,4,1,1,True,1
+T038,"pare,teri Medan,cabe rawit merah",resep_4384,Telur ceplok cabe iris,5,0,0,True,0
+T039,"ikan pindang,tomat,cabe hijau",resep_4036,Sambal ikan pindang,1,1,1,True,1
+T039,"ikan pindang,tomat,cabe hijau",resep_3838,Ikan Mujair tauco cabe hijau,2,1,1,True,1
+T039,"ikan pindang,tomat,cabe hijau",resep_374,Ikan Pindang Serani,3,1,1,True,1
+T039,"ikan pindang,tomat,cabe hijau",resep_255,Ikan sarden,4,1,1,True,1
+T039,"ikan pindang,tomat,cabe hijau",resep_903,Ikan Pindang Sambel Ijo,5,1,1,True,1
+T040,"telur,tepung terigu protein tinggi",resep_4730,Sambal Telur Tepung,1,1,1,True,1
+T040,"telur,tepung terigu protein tinggi",resep_2912,Telur puyuh crispy,2,1,1,True,1
+T040,"telur,tepung terigu protein tinggi",resep_2245,Pastel sayur telur,3,1,1,True,1
+T040,"telur,tepung terigu protein tinggi",resep_3378,Telur Crispy,4,1,1,True,1
+T040,"telur,tepung terigu protein tinggi",resep_4342,Pempek Telur,5,1,1,True,1
+T042,"ayam,nanas,bawang bombay",resep_4815,826) Ayam Kecap Bombay,1,1,1,True,1
+T042,"ayam,nanas,bawang bombay",resep_68,Ayam teriyaki,2,1,1,True,1
+T042,"ayam,nanas,bawang bombay",resep_2011,Ayam Teriyaki,3,1,1,True,1
+T042,"ayam,nanas,bawang bombay",resep_3074,Chicken Salted Egg ala2,4,0,0,True,0
+T042,"ayam,nanas,bawang bombay",resep_3811,Ayam Jahe Tahu,5,0,1,False,0
+T043,"daging sapi,kentang,tomat",resep_3216,"Tim daging sapi, brokoli, tomat",1,1,1,True,1
+T043,"daging sapi,kentang,tomat",resep_3263,Ati Sapi Kentang,2,1,1,True,1
+T043,"daging sapi,kentang,tomat",resep_972,Semur Daging Kentang,3,1,1,True,1
+T043,"daging sapi,kentang,tomat",resep_1092,Soto Daging Sapi,4,1,1,True,1
+T043,"daging sapi,kentang,tomat",resep_545,Soto Daging Sapi,5,1,1,True,1
+T044,"ikan barakuda,santan instan",resep_2153,Abon Ikan Bandeng,1,1,1,True,1
+T045,"daging sapi,tomat",resep_3216,"Tim daging sapi, brokoli, tomat",1,2,2,True,2
+T045,"daging sapi,tomat",resep_1092,Soto Daging Sapi,2,1,1,True,1
+T045,"daging sapi,tomat",resep_545,Soto Daging Sapi,3,1,1,True,1
+T045,"daging sapi,tomat",resep_562,Tumis Buncis Daging Sapi,4,2,2,True,2
+T045,"daging sapi,tomat",resep_2014,Tongseng Daging Sapi,5,2,2,True,2
+T046,"tepung ketan,tepung beras,santan",resep_3048,Arem-arem Daging,1,0,0,True,0
+T046,"tepung ketan,tepung beras,santan",resep_3548,Arem-Arem Tempe Pedas,2,0,0,True,0
+T046,"tepung ketan,tepung beras,santan",resep_1362,Tahu isi sayur pedas,3,0,0,True,0
+T046,"tepung ketan,tepung beras,santan",resep_2528,Telur dadar padang,4,0,0,True,0
+T046,"tepung ketan,tepung beras,santan",resep_3331,Bubur Ayam,5,0,0,True,0
+T047,"timun,wortel,buncis",resep_2743,Tumis buncis wortel tahu,1,1,1,True,1
+T047,"timun,wortel,buncis",resep_1307,"Tumis buncis, wortel, udang",2,1,1,True,1
+T047,"timun,wortel,buncis",resep_4214,Tumis buncis wortel beef,3,1,1,True,1
+T047,"timun,wortel,buncis",resep_152,Oseng tahu tempe mix wortel buncis,4,1,1,True,1
+T047,"timun,wortel,buncis",resep_1013,Wortel Buncis Oseng Telur Saos Tiram,5,1,1,True,1
+T048,"kuning telur,terigu kunci biru,putih telur",resep_267,Telur Kukus Acar Kuning,1,0,0,True,0
+T048,"kuning telur,terigu kunci biru,putih telur",resep_3821,Tahu Telur Kukus,2,0,0,True,0
+T048,"kuning telur,terigu kunci biru,putih telur",resep_253,Tahu Telur Kudus,3,0,0,True,0
+T048,"kuning telur,terigu kunci biru,putih telur",resep_3615,Telur terong,4,0,0,True,0
+T048,"kuning telur,terigu kunci biru,putih telur",resep_1779,Tahu Telur Kukus Simpel,5,1,1,True,1
+T049,"tahu putih,telur,daun bawang",resep_1389,Dadar Tahu Telur,1,2,2,True,2
+T049,"tahu putih,telur,daun bawang",resep_893,Tahu Telur,2,1,2,False,2
+T049,"tahu putih,telur,daun bawang",resep_3640,Tahu Telur Malangan,3,2,2,True,2
+T049,"tahu putih,telur,daun bawang",resep_253,Tahu Telur Kudus,4,1,1,True,1
+T049,"tahu putih,telur,daun bawang",resep_1965,Tahu Dadar Telur,5,1,1,True,1
+T050,"tahu coklat,wortel,buncis",resep_2743,Tumis buncis wortel tahu,1,1,1,True,1
+T050,"tahu coklat,wortel,buncis",resep_2217,LODEH BUNCIS TAHU -,2,1,1,True,1
+T050,"tahu coklat,wortel,buncis",resep_152,Oseng tahu tempe mix wortel buncis,3,1,1,True,1
+T050,"tahu coklat,wortel,buncis",resep_1857,Lodeh Tahu Buncis Super Enak,4,1,2,False,2
+T050,"tahu coklat,wortel,buncis",resep_1013,Wortel Buncis Oseng Telur Saos Tiram,5,1,1,True,1
+T051,"dada ayam,telur",resep_1343,Ayam kukus telur / steam egg chicken #homemadebylita,1,2,2,True,2
+T051,"dada ayam,telur",resep_2479,Sop Tomat Telur,2,2,2,True,2
+T051,"dada ayam,telur",resep_4483,Ayam Popcorn,3,2,2,True,2
+T051,"dada ayam,telur",resep_2444,Tumis Rebung Ayam,4,2,2,True,2
+T051,"dada ayam,telur",resep_1620,Bakso Ayam homemade by Triafutri,5,2,2,True,2
+T052,"tepung ketan putih,tepung tapioka,gula merah",resep_3484,Cireng tahu putih,1,0,0,True,0
+T052,"tepung ketan putih,tepung tapioka,gula merah",resep_3123,Tahu Walik,2,0,0,True,0
+T052,"tepung ketan putih,tepung tapioka,gula merah",resep_4665,Tahu Aci Kukus,3,0,0,True,0
+T052,"tepung ketan putih,tepung tapioka,gula merah",resep_1971,Rolade tahu,4,0,0,True,0
+T052,"tepung ketan putih,tepung tapioka,gula merah",resep_1362,Tahu isi sayur pedas,5,0,0,True,0
+T053,"kacang tanah,kentang",resep_726,Tahu tek,1,2,2,True,2
+T054,"tempe,telur",resep_3434,Telur Dadar Tempe,1,2,2,True,2
+T054,"tempe,telur",resep_4527,Telur Dadar Tempe,2,2,2,True,2
+T054,"tempe,telur",resep_2663,Telur Dadar Tempe,3,2,2,True,2
+T054,"tempe,telur",resep_2905,Stick Tempe telur,4,2,2,True,2
+T054,"tempe,telur",resep_2909,Tempe Orek Telur,5,2,2,True,2
+T055,"telur,kulit tortilla,smoke beef",resep_2758,Egg & Tortilla Quiche,1,1,1,True,1
+T055,"telur,kulit tortilla,smoke beef",resep_1067,Terung Dadar Smoke Beef,2,1,1,True,1
+T055,"telur,kulit tortilla,smoke beef",resep_1146,"""PERKEDEL BEEF TAHU""",3,0,0,True,0
+T055,"telur,kulit tortilla,smoke beef",resep_4702,Cheese Smoke Beef Scone,4,0,0,True,0
+T055,"telur,kulit tortilla,smoke beef",resep_474,Caesar Salad dengan Smoke Beef,5,1,1,True,1
+T056,"tepung sagu,kulit udang",resep_801,Tekwan udang,1,1,1,True,1
+T057,"rebung,santan kental",resep_1681,Opor Rebung Telur,1,2,2,True,2
+T057,"rebung,santan kental",resep_2280,Santen Tahu Tempe Rebung,2,1,1,True,1
+T057,"rebung,santan kental",resep_1976,Gulai Ikan Rebung Asam,3,2,2,True,2
+T058,"brokoli,udang segar,tofu",resep_3334,Mun Tofu Brokoli Sapi Cincang,1,1,1,True,1
+T058,"brokoli,udang segar,tofu",resep_2074,Egg Tofu siram Brokoli,2,1,1,True,1
+T058,"brokoli,udang segar,tofu",resep_2067,Puree Dori Udang Brokoli #EdisiMPASI,3,1,1,True,1
+T058,"brokoli,udang segar,tofu",resep_1664,"Cah brokoli, silk tofu, jamur kuping",4,1,1,True,1
+T058,"brokoli,udang segar,tofu",resep_1841,Tumis brokoli udang saus tiram,5,1,1,True,1
+T059,"kentang,fillet ayam,paprika merah",resep_3406,"Goreng ayam, tempe balado",1,1,1,True,1
+T059,"kentang,fillet ayam,paprika merah",resep_681,Kari Ayam Kentang Tahu Telur (Curry Masala),2,1,1,True,1
+T059,"kentang,fillet ayam,paprika merah",resep_2752,Semur Ayam Kentang Ala Mama Kirana,3,1,1,True,1
+T059,"kentang,fillet ayam,paprika merah",resep_2077,Sup Ayam kuah Bening padat kaldu,4,1,1,True,1
+T059,"kentang,fillet ayam,paprika merah",resep_1962,Sup Ayam Kuning Khas Betawi,5,1,1,True,1
+T060,"jagung manis,tepung beras,daun bawang",resep_4734,Dadar Jagung Tahu Tepung Maizena,1,1,1,True,1
+T060,"jagung manis,tepung beras,daun bawang",resep_4479,Pepes Tahu Jagung,2,0,1,False,0
+T060,"jagung manis,tepung beras,daun bawang",resep_4853,Tempe Mendoan,3,0,1,False,0
+T060,"jagung manis,tepung beras,daun bawang",resep_1481,Soup Jagung Telur,4,0,1,False,0
+T060,"jagung manis,tepung beras,daun bawang",resep_4024,Tempe Daun Jati Rawit Goreng Tepung,5,0,1,False,0
+T061,"tepung beras,susu cair",resep_238,Ayam tepung,1,1,1,True,1
+T061,"tepung beras,susu cair",resep_3074,Chicken Salted Egg ala2,2,1,1,True,1
+T061,"tepung beras,susu cair",resep_4156,#Nasi kebuli kambing,3,0,0,True,0
+T062,"terong ungu,cabai merah besar,tomat",resep_4468,Tongkol Terong Cabe,1,1,1,True,1
+T062,"terong ungu,cabai merah besar,tomat",resep_2468,Sambal Tongkol Terong,2,1,1,True,1
+T062,"terong ungu,cabai merah besar,tomat",resep_513,Tempe Terong Sambal Bawang,3,1,1,True,1
+T062,"terong ungu,cabai merah besar,tomat",resep_4148,Tumis terong dan tahu kemangi,4,1,1,True,1
+T062,"terong ungu,cabai merah besar,tomat",resep_1123,Tempe Terong Asam Manis,5,0,1,False,0
+T063,"ikan asin,cabe hijau",resep_2490,Ikan Asin Cabe Ijo,1,2,2,True,2
+T063,"ikan asin,cabe hijau",resep_3443,Tumis ikan gabus cabe hijau pete simpel,2,2,2,True,2
+T063,"ikan asin,cabe hijau",resep_2745,Ikan Asin Tawes Goreng Sambel Ijo + kuluban daun singkong,3,2,2,True,2
+T063,"ikan asin,cabe hijau",resep_4624,Tumis ikan peda suwir,4,2,2,True,2
+T063,"ikan asin,cabe hijau",resep_746,Ikan Asin Telang Masak Asam Manis Pedas,5,2,2,True,2
+T064,"wortel,sawi,bawang putih",resep_241,Bola Tahu Wortel,1,1,1,True,1
+T064,"wortel,sawi,bawang putih",resep_3471,Cah Tahu Wortel Daun Bawang Saus Tiram,2,1,1,True,1
+T064,"wortel,sawi,bawang putih",resep_2435,Tumis Sawi Tahu,3,2,2,True,2
+T064,"wortel,sawi,bawang putih",resep_1867,Tumis Sawi Tahu,4,2,2,True,2
+T064,"wortel,sawi,bawang putih",resep_4315,Sawi jagung kwetiaw telur wortel nyemek,5,2,2,True,2
+T065,"kulit ayam,bumbu ayam goreng,cuka masak",resep_987,Ayam goreng kukus,1,0,0,True,0
+T065,"kulit ayam,bumbu ayam goreng,cuka masak",resep_3,Ayam Kukus Jahe,2,0,0,True,0
+T065,"kulit ayam,bumbu ayam goreng,cuka masak",resep_2138,Ayam Goreng (Ungkap),3,0,1,False,0
+T065,"kulit ayam,bumbu ayam goreng,cuka masak",resep_3060,Ayam Goreng Serundeng,4,0,0,True,0
+T065,"kulit ayam,bumbu ayam goreng,cuka masak",resep_3563,Ayam Goreng Bumbu Kuning,5,0,0,True,0
+T066,"dada ayam fillet,tepung tapioka,wortel",resep_122,Nugget ayam wortel,1,2,2,True,2
+T066,"dada ayam fillet,tepung tapioka,wortel",resep_578,"Tahu isi ayam, sayur dan jamur kuping (no tepung)",2,0,0,True,0
+T066,"dada ayam fillet,tepung tapioka,wortel",resep_902,Chicken Papperoni Homemade,3,0,0,True,0
+T066,"dada ayam fillet,tepung tapioka,wortel",resep_2744,Ayam asam manis,4,1,1,True,1
+T066,"dada ayam fillet,tepung tapioka,wortel",resep_2166,Nugget ayam tahu,5,1,1,True,1
+T067,"enoki,telur ayam",resep_3502,Telur Dadar Enoki dan Wortel,1,2,2,True,2
+T067,"enoki,telur ayam",resep_3364,Tahu Sawi Kuah Enoki,2,2,2,True,2
+T067,"enoki,telur ayam",resep_2799,Tum Ayam dan Jamur Enoki,3,2,2,True,2
+T067,"enoki,telur ayam",resep_2079,Chiken enoki pedas manis,4,1,1,True,1
+T067,"enoki,telur ayam",resep_800,Egg Drop Chicken Mushroom,5,2,2,True,2
+T068,"tempe,tepung terigu",resep_793,Tempe Tepung Simple,1,2,2,True,2
+T068,"tempe,tepung terigu",resep_128,TEMPE goreng Tepung,2,2,2,True,2
+T068,"tempe,tepung terigu",resep_3000,Tempe goreng tepung,3,2,2,True,2
+T068,"tempe,tepung terigu",resep_2643,Tempe Goreng Tepung,4,2,2,True,2
+T068,"tempe,tepung terigu",resep_4535,Tempe Goreng Tepung Daun Jeruk,5,2,2,True,2
+T069,"sosis,telur ayam,macaroni",resep_2481,Telur gulung isi sosis,1,0,0,True,0
+T069,"sosis,telur ayam,macaroni",resep_4095,Telur Gulung Sosis,2,0,0,True,0
+T069,"sosis,telur ayam,macaroni",resep_1520,Sosis Telur Asam Manis,3,1,1,True,1
+T069,"sosis,telur ayam,macaroni",resep_3815,Sayur sawi telur sosis,4,1,1,True,1
+T069,"sosis,telur ayam,macaroni",resep_2230,Oseng Sosis telur,5,1,1,True,1
+T070,"kuning telur,susu kental manis",resep_3074,Chicken Salted Egg ala2,1,0,0,True,0
+T070,"kuning telur,susu kental manis",resep_2039,Beef Floss Roll Buns,2,2,2,True,2
+T070,"kuning telur,susu kental manis",resep_3385,SPAGHETTI Daging Asap,3,0,0,True,0

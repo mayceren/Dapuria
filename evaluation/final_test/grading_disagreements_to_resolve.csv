@@ -1,0 +1,19 @@
+query_id,query_text,recipe_id,recipe_title,grade_pass1,grade_pass2,resolved_grade
+T010,"kangkung,telur puyuh,tomat",resep_2027,Cumi kangkung telur,0,1,0
+T016,"buncis,tahu kuning,kecap manis",resep_4939,Tumis Tahu Buncis,1,2,2
+T017,"udang,nanas,tomat",resep_434,"Tauco udang, pare, pete, tahu dan kacang panjang",0,1,0
+T017,"udang,nanas,tomat",resep_49,Tauco tahu udang,0,1,0
+T022,"ayam kampung,wortel",resep_3453,Sup ayam kampung klaten,2,1,2
+T025,"jagung manis,santan,tepung beras",resep_2528,Telur dadar padang,1,0,0
+T032,"dada ayam fillet,nasi",resep_3107,Nasi Goreng Ayam Telur,1,2,2
+T036,"telur ayam,ikan teri",resep_2999,Tumis Bunga Bawang Telur,1,2,1
+T038,"pare,teri Medan,cabe rawit merah",resep_1742,Sambal Tempe Teri Kerupuk Kulit,1,0,0
+T042,"ayam,nanas,bawang bombay",resep_3811,Ayam Jahe Tahu,0,1,0
+T049,"tahu putih,telur,daun bawang",resep_893,Tahu Telur,1,2,2
+T050,"tahu coklat,wortel,buncis",resep_1857,Lodeh Tahu Buncis Super Enak,1,2,2
+T060,"jagung manis,tepung beras,daun bawang",resep_1481,Soup Jagung Telur,0,1,0
+T060,"jagung manis,tepung beras,daun bawang",resep_4853,Tempe Mendoan,0,1,0
+T060,"jagung manis,tepung beras,daun bawang",resep_4479,Pepes Tahu Jagung,0,1,0
+T060,"jagung manis,tepung beras,daun bawang",resep_4024,Tempe Daun Jati Rawit Goreng Tepung,0,1,0
+T062,"terong ungu,cabai merah besar,tomat",resep_1123,Tempe Terong Asam Manis,0,1,0
+T065,"kulit ayam,bumbu ayam goreng,cuka masak",resep_2138,Ayam Goreng (Ungkap),0,1,0

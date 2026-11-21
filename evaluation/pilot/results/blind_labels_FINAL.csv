@@ -1,0 +1,49 @@
+query_id,query_text,recipe_id,recipe_title,original_rank,grade_pass1,grade_pass2,agree,final_grade
+P001,"telur,cabe rawit",resep_3282,Tahu telur kuah sederhana,1,2,2,True,2
+P001,"telur,cabe rawit",resep_3586,Telur Oseng Bawang Ikan Asin,2,2,2,True,2
+P001,"telur,cabe rawit",resep_3033,Telur ceplok kecap,3,2,2,True,2
+P001,"telur,cabe rawit",resep_2198,Telur ikan cabe ijo,4,0,0,True,0
+P001,"telur,cabe rawit",resep_1573,Mie rebus telur+sayur,5,1,2,False,1
+P002,"telur,jagung manis,tahu",resep_1038,"Telur Dadar Tahu (Tebal, Gurih, Padat)",1,1,1,True,1
+P002,"telur,jagung manis,tahu",resep_1389,Dadar Tahu Telur,2,1,1,True,1
+P002,"telur,jagung manis,tahu",resep_3245,Tahu gejrot telur,3,1,1,True,1
+P002,"telur,jagung manis,tahu",resep_119,Telur Tahu Asam Manis,4,1,1,True,1
+P002,"telur,jagung manis,tahu",resep_2675,Gulai tahu telur,5,1,1,True,1
+P003,"ayam,kelapa parut",resep_2381,Ayam goreng bumbu instan parutan kelapa,1,2,2,True,2
+P003,"ayam,kelapa parut",resep_1856,Ayam Serundeng,2,2,2,True,2
+P003,"ayam,kelapa parut",resep_143,Ayam Serundeng,3,2,2,True,2
+P003,"ayam,kelapa parut",resep_3060,Ayam Goreng Serundeng,4,2,2,True,2
+P003,"ayam,kelapa parut",resep_710,Gecok Ayam,5,2,2,True,2
+P004,"daging ayam,blimbing wuluh,tomat hijau",resep_3406,"Goreng ayam, tempe balado",1,0,0,True,0
+P004,"daging ayam,blimbing wuluh,tomat hijau",resep_648,Garang asem ayam,2,1,1,True,1
+P004,"daging ayam,blimbing wuluh,tomat hijau",resep_4737,Tumis Ayam Aromatic,3,0,1,False,0
+P004,"daging ayam,blimbing wuluh,tomat hijau",resep_649,Ayam kecap,4,0,0,True,0
+P004,"daging ayam,blimbing wuluh,tomat hijau",resep_3776,Asem asem Daging,5,0,1,False,1
+P005,"ikan gambolo,tomat",resep_619,Pepes Ikan,1,1,2,False,1
+P005,"ikan gambolo,tomat",resep_374,Ikan Pindang Serani,2,1,2,False,1
+P005,"ikan gambolo,tomat",resep_1107,Ikan Bakar Ekor Kuning,3,1,1,True,1
+P006,"ikan tongkol,cabe rawit,tomat",resep_1091,Ikan tongkol suwir pedas,1,2,2,True,2
+P006,"ikan tongkol,cabe rawit,tomat",resep_4960,Ikan Tongkol Balado,2,2,2,True,2
+P006,"ikan tongkol,cabe rawit,tomat",resep_4616,Ikan tongkol + Tempe bumbu rujak (Sumenep-Madura),3,2,2,True,2
+P006,"ikan tongkol,cabe rawit,tomat",resep_170,Ikan tongkol suwir,4,1,2,False,1
+P006,"ikan tongkol,cabe rawit,tomat",resep_142,Tongkol Suwir Cabe Hijau,5,1,1,True,1
+P007,"tahu,labu siam",resep_3769,Tahu Aci Labu Siam,1,2,2,True,2
+P007,"tahu,labu siam",resep_2324,Sayur Tahu Labu siam & Wortel,2,2,2,True,2
+P007,"tahu,labu siam",resep_4850,Lodeh tahu labu siam,3,2,2,True,2
+P007,"tahu,labu siam",resep_2387,Tumis Labu Kacang Tahu,4,2,2,True,2
+P007,"tahu,labu siam",resep_4511,Lontong Sayur Jipang Labu Siam Kacang Panjang Tahu Telur,5,2,2,True,2
+P008,"tempe,teri,kacang tanah",resep_2542,Kering Tempe Kacang Teri,1,2,2,True,2
+P008,"tempe,teri,kacang tanah",resep_4507,"Tempe,teri kacang",2,1,2,False,2
+P008,"tempe,teri,kacang tanah",resep_4217,Kering tempe,3,2,2,True,2
+P008,"tempe,teri,kacang tanah",resep_2865,Tempe Orek Kacang Tanah,4,1,1,True,1
+P008,"tempe,teri,kacang tanah",resep_4598,Tumis Tempe Teri,5,1,1,True,1
+P009,"kentang,cabai merah besar",resep_1796,Tumis Kentang Bola Sapi,1,2,2,True,2
+P009,"kentang,cabai merah besar",resep_4706,Krengsengan Daging (tanpa petis udang),2,1,2,False,1
+P009,"kentang,cabai merah besar",resep_4948,Roti Jala Kuah Kari Kambing Aceh,3,1,1,True,1
+P009,"kentang,cabai merah besar",resep_4684,Sambal daging sapi minang,4,1,2,False,1
+P009,"kentang,cabai merah besar",resep_566,Steak daging sapi saus lada hitam(sederhana),5,1,1,True,1
+P010,"nasi putih,telur,buncis",resep_2789,Nasi goreng telur,1,1,1,True,1
+P010,"nasi putih,telur,buncis",resep_1891,Nasi Goreng Telur dan Tumis Buncis Tempe (14 month+),2,2,2,True,2
+P010,"nasi putih,telur,buncis",resep_4558,Tumis Buncis Telur Ebi,3,1,1,True,1
+P010,"nasi putih,telur,buncis",resep_431,"Nasi Lembek, Kukus Brokoli, Buncis dan Tahu (8 month+)",4,0,1,False,1
+P010,"nasi putih,telur,buncis",resep_2133,"Nasi dengan Ikan Berkuah, Telur, dan Tempe",5,1,1,True,1

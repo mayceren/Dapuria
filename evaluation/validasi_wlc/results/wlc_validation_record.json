@@ -1,0 +1,59 @@
+{
+  "validation_manifest": "evaluation\\manifests\\query_manifest_validation_FROZEN.csv",
+  "validation_manifest_sha256": "94e515bf952f7ab46d578eac3fd82c11b667f31255e3c0e067290fc742ce02de",
+  "seed": 20261022,
+  "grid": [
+    {
+      "semantic_weight": 0.0,
+      "ingredient_weight": 1.0
+    },
+    {
+      "semantic_weight": 0.1,
+      "ingredient_weight": 0.9
+    },
+    {
+      "semantic_weight": 0.2,
+      "ingredient_weight": 0.8
+    },
+    {
+      "semantic_weight": 0.3,
+      "ingredient_weight": 0.7
+    },
+    {
+      "semantic_weight": 0.4,
+      "ingredient_weight": 0.6
+    },
+    {
+      "semantic_weight": 0.5,
+      "ingredient_weight": 0.5
+    },
+    {
+      "semantic_weight": 0.6,
+      "ingredient_weight": 0.4
+    },
+    {
+      "semantic_weight": 0.7,
+      "ingredient_weight": 0.3
+    },
+    {
+      "semantic_weight": 0.8,
+      "ingredient_weight": 0.2
+    },
+    {
+      "semantic_weight": 0.9,
+      "ingredient_weight": 0.1
+    },
+    {
+      "semantic_weight": 1.0,
+      "ingredient_weight": 0.0
+    }
+  ],
+  "top_k_sbert": 50,
+  "max_keyword_extra": 20,
+  "top_n_per_config": 5,
+  "model_name": "LazarusNLP/all-indo-e5-small-v4",
+  "collection_name": "resep_masakan",
+  "n_queries": 30,
+  "n_pooled_candidates": 197,
+  "method": "Retrieve once per query; compute semantic normalization and ingredient efficiency once; apply T_relevansi per candidate; rerank valid candidates under every WLC weight; pool and deduplicate the Top-5 candidates from all configurations."
+}

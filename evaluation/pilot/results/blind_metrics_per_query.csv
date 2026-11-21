@@ -1,0 +1,11 @@
+query_id,query_text,split,status,acceptable_success_at_5,strong_success_at_5,acceptable_precision_at_5,strong_precision_at_5,ndcg_at_5,mean_grade_at_5
+P001,"telur,cabe rawit",pilot,ok,1,1,0.8,0.6,0.9935774939007994,1.4
+P002,"telur,jagung manis,tahu",pilot,ok,1,0,1.0,0.0,1.0,1.0
+P003,"ayam,kelapa parut",pilot,ok,1,1,1.0,1.0,1.0,2.0
+P004,"daging ayam,blimbing wuluh,tomat hijau",pilot,ok,1,0,0.4,0.0,0.6240505200038379,0.4
+P005,"ikan gambolo,tomat",pilot,ok,1,0,0.6,0.0,1.0,0.6
+P006,"ikan tongkol,cabe rawit,tomat",pilot,ok,1,1,1.0,0.6,1.0,1.6
+P007,"tahu,labu siam",pilot,ok,1,1,1.0,1.0,1.0,2.0
+P008,"tempe,teri,kacang tanah",pilot,ok,1,1,1.0,0.6,1.0,1.6
+P009,"kentang,cabai merah besar",pilot,ok,1,1,1.0,0.2,1.0,1.2
+P010,"nasi putih,telur,buncis",pilot,ok,1,1,1.0,0.2,0.850834274847108,1.2

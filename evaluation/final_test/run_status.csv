@@ -1,0 +1,71 @@
+query_id,query_text,split,status,n_displayed
+T001,"daging ayam,kluwek",test,ok,1
+T002,"paha ayam,petis udang",test,ok,3
+T003,"telur,terigu protein tinggi,coklat dcc",test,ok,5
+T004,"ubi ungu kukus,tepung beras,santan",test,ok,5
+T005,"ale,ikan pindang,tempe",test,ok,2
+T006,"ati ampela,kecap",test,ok,3
+T007,"singkong putih,daging ayam cincang",test,no_match,0
+T008,"tape singkong,nangka",test,no_match,0
+T009,"kangkung,udang,tomat",test,ok,5
+T010,"kangkung,telur puyuh,tomat",test,ok,5
+T011,"nasi,udang,telur",test,ok,5
+T012,"kacang hijau,santan instan",test,no_match,0
+T013,"blakutak,tomat hijau",test,no_match,0
+T014,"kwetiau,telur",test,ok,3
+T015,"ayam,air asam jawa,cabe merah kering",test,ok,5
+T016,"buncis,tahu kuning,kecap manis",test,ok,5
+T017,"udang,nanas,tomat",test,ok,5
+T018,"nasi,zucchini,sosis",test,ok,5
+T019,"telur,cabe merah besar",test,ok,5
+T020,"ayam fillet,tepung protein rendah",test,no_match,0
+T021,"pisang uli,kuning telur",test,no_match,0
+T022,"ayam kampung,wortel",test,ok,5
+T023,"kentang,daging sapi",test,ok,5
+T024,"mie instan,sosis",test,no_match,0
+T025,"jagung manis,santan,tepung beras",test,ok,5
+T026,"mie urai pipih,kol",test,no_match,0
+T027,"kaki sapi,belimbing wuluh,tomat",test,ok,5
+T028,"telur ayam,tepung terigu,cokelat bubuk",test,ok,5
+T029,"bunga pepaya,teri",test,no_match,0
+T030,"jamur tiram,tahu putih",test,ok,5
+T031,"kepiting,tomat kecil,cabai merah besar",test,ok,5
+T032,"dada ayam fillet,nasi",test,ok,5
+T033,"nasi,nugget ayam",test,ok,4
+T034,"jantung pisang,ebi",test,no_match,0
+T035,"tempe gembus,tepung beras,daun bawang",test,ok,5
+T036,"telur ayam,ikan teri",test,ok,5
+T037,"udang sabu/rebon,terong muda,asam sunti",test,no_match,0
+T038,"pare,teri Medan,cabe rawit merah",test,ok,5
+T039,"ikan pindang,tomat,cabe hijau",test,ok,5
+T040,"telur,tepung terigu protein tinggi",test,ok,5
+T041,"pisang uli,kacang tanah",test,no_match,0
+T042,"ayam,nanas,bawang bombay",test,ok,5
+T043,"daging sapi,kentang,tomat",test,ok,5
+T044,"ikan barakuda,santan instan",test,ok,1
+T045,"daging sapi,tomat",test,ok,5
+T046,"tepung ketan,tepung beras,santan",test,ok,5
+T047,"timun,wortel,buncis",test,ok,5
+T048,"kuning telur,terigu kunci biru,putih telur",test,ok,5
+T049,"tahu putih,telur,daun bawang",test,ok,5
+T050,"tahu coklat,wortel,buncis",test,ok,5
+T051,"dada ayam,telur",test,ok,5
+T052,"tepung ketan putih,tepung tapioka,gula merah",test,ok,5
+T053,"kacang tanah,kentang",test,ok,1
+T054,"tempe,telur",test,ok,5
+T055,"telur,kulit tortilla,smoke beef",test,ok,5
+T056,"tepung sagu,kulit udang",test,ok,1
+T057,"rebung,santan kental",test,ok,3
+T058,"brokoli,udang segar,tofu",test,ok,5
+T059,"kentang,fillet ayam,paprika merah",test,ok,5
+T060,"jagung manis,tepung beras,daun bawang",test,ok,5
+T061,"tepung beras,susu cair",test,ok,3
+T062,"terong ungu,cabai merah besar,tomat",test,ok,5
+T063,"ikan asin,cabe hijau",test,ok,5
+T064,"wortel,sawi,bawang putih",test,ok,5
+T065,"kulit ayam,bumbu ayam goreng,cuka masak",test,ok,5
+T066,"dada ayam fillet,tepung tapioka,wortel",test,ok,5
+T067,"enoki,telur ayam",test,ok,5
+T068,"tempe,tepung terigu",test,ok,5
+T069,"sosis,telur ayam,macaroni",test,ok,5
+T070,"kuning telur,susu kental manis",test,ok,3

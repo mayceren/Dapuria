@@ -1,0 +1,2 @@
+split,n_queries,acceptable_success_at_5,strong_success_at_5,acceptable_precision_at_5,strong_precision_at_5,ndcg_at_5,mean_grade_at_5
+pilot,10,1.0,0.7,0.8800000000000001,0.42000000000000004,0.9468462288751744,1.3

@@ -1,0 +1,71 @@
+query_id,query_text,split,status,acceptable_success_at_5,strong_success_at_5,acceptable_precision_at_5,strong_precision_at_5,ndcg_at_5,mean_grade_at_5
+T001,"daging ayam,kluwek",test,ok,1,0,0.2,0.0,1.0,0.2
+T002,"paha ayam,petis udang",test,ok,1,1,0.2,0.2,0.6309297535714575,0.4
+T003,"telur,terigu protein tinggi,coklat dcc",test,ok,0,0,0.0,0.0,0.0,0.0
+T004,"ubi ungu kukus,tepung beras,santan",test,ok,1,0,0.2,0.0,0.38685280723454163,0.2
+T005,"ale,ikan pindang,tempe",test,ok,1,0,0.4,0.0,1.0,0.4
+T006,"ati ampela,kecap",test,ok,1,1,0.6,0.4,1.0,1.0
+T007,"singkong putih,daging ayam cincang",test,no_match,0,0,0.0,0.0,0.0,0.0
+T008,"tape singkong,nangka",test,no_match,0,0,0.0,0.0,0.0,0.0
+T009,"kangkung,udang,tomat",test,ok,1,1,0.8,0.2,0.7272721797229539,1.0
+T010,"kangkung,telur puyuh,tomat",test,ok,1,1,0.8,0.2,0.9751957567060058,1.0
+T011,"nasi,udang,telur",test,ok,1,0,1.0,0.0,1.0,1.0
+T012,"kacang hijau,santan instan",test,no_match,0,0,0.0,0.0,0.0,0.0
+T013,"blakutak,tomat hijau",test,no_match,0,0,0.0,0.0,0.0,0.0
+T014,"kwetiau,telur",test,ok,1,1,0.6,0.6,1.0,1.2
+T015,"ayam,air asam jawa,cabe merah kering",test,ok,1,0,0.2,0.0,1.0,0.2
+T016,"buncis,tahu kuning,kecap manis",test,ok,1,1,1.0,0.4,1.0,1.4
+T017,"udang,nanas,tomat",test,ok,1,0,0.6,0.0,0.6182885020492784,0.6
+T018,"nasi,zucchini,sosis",test,ok,1,0,1.0,0.0,1.0,1.0
+T019,"telur,cabe merah besar",test,ok,1,1,1.0,0.4,0.9213963208540731,1.4
+T020,"ayam fillet,tepung protein rendah",test,no_match,0,0,0.0,0.0,0.0,0.0
+T021,"pisang uli,kuning telur",test,no_match,0,0,0.0,0.0,0.0,0.0
+T022,"ayam kampung,wortel",test,ok,1,1,1.0,0.2,1.0,1.2
+T023,"kentang,daging sapi",test,ok,1,1,1.0,1.0,1.0,2.0
+T024,"mie instan,sosis",test,no_match,0,0,0.0,0.0,0.0,0.0
+T025,"jagung manis,santan,tepung beras",test,ok,0,0,0.0,0.0,0.0,0.0
+T026,"mie urai pipih,kol",test,no_match,0,0,0.0,0.0,0.0,0.0
+T027,"kaki sapi,belimbing wuluh,tomat",test,ok,1,0,0.2,0.0,1.0,0.2
+T028,"telur ayam,tepung terigu,cokelat bubuk",test,ok,0,0,0.0,0.0,0.0,0.0
+T029,"bunga pepaya,teri",test,no_match,0,0,0.0,0.0,0.0,0.0
+T030,"jamur tiram,tahu putih",test,ok,1,1,1.0,0.8,0.9891413446337513,1.8
+T031,"kepiting,tomat kecil,cabai merah besar",test,ok,0,0,0.0,0.0,0.0,0.0
+T032,"dada ayam fillet,nasi",test,ok,1,1,1.0,0.4,0.9578347709816888,1.4
+T033,"nasi,nugget ayam",test,ok,1,0,0.6,0.0,0.9674679834891693,0.6
+T034,"jantung pisang,ebi",test,no_match,0,0,0.0,0.0,0.0,0.0
+T035,"tempe gembus,tepung beras,daun bawang",test,ok,1,0,0.8,0.0,1.0,0.8
+T036,"telur ayam,ikan teri",test,ok,1,1,1.0,0.8,1.0,1.8
+T037,"udang sabu/rebon,terong muda,asam sunti",test,no_match,0,0,0.0,0.0,0.0,0.0
+T038,"pare,teri Medan,cabe rawit merah",test,ok,1,0,0.4,0.0,0.8772153153380493,0.4
+T039,"ikan pindang,tomat,cabe hijau",test,ok,1,0,1.0,0.0,1.0,1.0
+T040,"telur,tepung terigu protein tinggi",test,ok,1,0,1.0,0.0,1.0,1.0
+T041,"pisang uli,kacang tanah",test,no_match,0,0,0.0,0.0,0.0,0.0
+T042,"ayam,nanas,bawang bombay",test,ok,1,0,0.6,0.0,1.0,0.6
+T043,"daging sapi,kentang,tomat",test,ok,1,0,1.0,0.0,1.0,1.0
+T044,"ikan barakuda,santan instan",test,ok,1,0,0.2,0.0,1.0,0.2
+T045,"daging sapi,tomat",test,ok,1,1,1.0,0.6,0.9130689212173096,1.6
+T046,"tepung ketan,tepung beras,santan",test,ok,0,0,0.0,0.0,0.0,0.0
+T047,"timun,wortel,buncis",test,ok,1,0,1.0,0.0,1.0,1.0
+T048,"kuning telur,terigu kunci biru,putih telur",test,ok,1,0,0.2,0.0,0.38685280723454163,0.2
+T049,"tahu putih,telur,daun bawang",test,ok,1,1,1.0,0.6,1.0,1.6
+T050,"tahu coklat,wortel,buncis",test,ok,1,1,1.0,0.2,0.7698986984637216,1.2
+T051,"dada ayam,telur",test,ok,1,1,1.0,1.0,1.0,2.0
+T052,"tepung ketan putih,tepung tapioka,gula merah",test,ok,0,0,0.0,0.0,0.0,0.0
+T053,"kacang tanah,kentang",test,ok,1,1,0.2,0.2,1.0,0.4
+T054,"tempe,telur",test,ok,1,1,1.0,1.0,1.0,2.0
+T055,"telur,kulit tortilla,smoke beef",test,ok,1,0,0.6,0.0,0.9469024295259745,0.6
+T056,"tepung sagu,kulit udang",test,ok,1,0,0.2,0.0,1.0,0.2
+T057,"rebung,santan kental",test,ok,1,1,0.6,0.4,0.9514426589871553,1.0
+T058,"brokoli,udang segar,tofu",test,ok,1,0,1.0,0.0,1.0,1.0
+T059,"kentang,fillet ayam,paprika merah",test,ok,1,0,1.0,0.0,1.0,1.0
+T060,"jagung manis,tepung beras,daun bawang",test,ok,1,0,0.2,0.0,1.0,0.2
+T061,"tepung beras,susu cair",test,ok,1,0,0.4,0.0,1.0,0.4
+T062,"terong ungu,cabai merah besar,tomat",test,ok,1,0,0.8,0.0,1.0,0.8
+T063,"ikan asin,cabe hijau",test,ok,1,1,1.0,1.0,1.0,2.0
+T064,"wortel,sawi,bawang putih",test,ok,1,1,1.0,0.6,0.7743787950430012,1.6
+T065,"kulit ayam,bumbu ayam goreng,cuka masak",test,ok,0,0,0.0,0.0,0.0,0.0
+T066,"dada ayam fillet,tepung tapioka,wortel",test,ok,1,1,0.6,0.2,0.924133208028394,0.8
+T067,"enoki,telur ayam",test,ok,1,1,1.0,0.8,0.9891413446337513,1.8
+T068,"tempe,tepung terigu",test,ok,1,1,1.0,1.0,1.0,2.0
+T069,"sosis,telur ayam,macaroni",test,ok,1,0,0.6,0.0,0.6182885020492784,0.6
+T070,"kuning telur,susu kental manis",test,ok,1,1,0.2,0.2,0.6309297535714575,0.4

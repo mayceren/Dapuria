@@ -1,0 +1,25 @@
+Grade 2 — Sangat relevan / strong
+Semua bahan pada query cocok secara langsung dengan resep dan digunakan
+secara kuat atau merupakan bagian penting dari resep.
+
+Grade 1 — Dapat diterima / acceptable
+Resep masih layak direkomendasikan, tetapi:
+- hanya sebagian bahan query yang cocok kuat;
+- terdapat kecocokan generik yang tidak cukup spesifik; atau
+- dibutuhkan substitusi bahan yang masih wajar secara kuliner.
+
+Jika rekomendasi membutuhkan substitusi bahan, nilai maksimal adalah Grade 1.
+
+Grade 0 — Tidak sesuai
+Resep tidak cukup sesuai dengan kombinasi bahan query, kehilangan bahan
+penting dari query, atau membutuhkan perubahan yang terlalu besar sehingga
+tidak lagi merupakan rekomendasi yang wajar.
+
+Jika query menyebut bahan spesifik tetapi resep hanya menyebut kategori
+generiknya, kecocokan tersebut tidak dianggap direct match untuk Grade 2.
+
+Contoh:
+ikan gambolo → resep hanya menulis "ikan" → maksimal Grade 1
+cabe rawit → resep hanya menulis "cabe" → maksimal Grade 1
+cabai merah besar → resep hanya menulis "cabai merah" → maksimal Grade 1
+kacang tanah → resep hanya menulis "kacang" → maksimal Grade 1
