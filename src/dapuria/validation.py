@@ -1,11 +1,13 @@
 from __future__ import annotations
 
 from .main_ingredients import has_main_ingredient
+from .preprocessing import parse_user_ingredients
 
 
 def validate_initial(
     user_ingredients: list[str], min_count: int = 1
 ) -> tuple[bool, str]:
+    user_ingredients = list(dict.fromkeys(name for item in user_ingredients for name in parse_user_ingredients(item)))
     if len(user_ingredients) < min_count:
         return False, "no_ingredients"
     if not has_main_ingredient(user_ingredients):

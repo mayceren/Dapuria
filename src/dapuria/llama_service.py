@@ -166,6 +166,7 @@ class LlamaService:
 
     def interpret_confirmation(self, reply: str, candidates: list[str]) -> Confirmation:
         """Confirm explicitly named variants; keep questions and uncertainty pending."""
+        candidates = list(dict.fromkeys(name for candidate in candidates for name in parse_user_ingredients(candidate)))
         if not reply or not candidates:
             return Confirmation("unclear", [])
 
@@ -223,6 +224,8 @@ class LlamaService:
                 Confirmation("confirmed", [candidates[0]]) if len(candidates) == 1
                 else Confirmation("unclear", [])
             )
+        if not parse_user_ingredients(UNAVAILABLE.sub("", reply_l)):
+            return Confirmation("unclear", [])
 
         # Negation belongs to a clause, including words AFTER an ingredient.
         # Ambiguous clauses are treated conservatively, never as ownership.
@@ -290,7 +293,8 @@ class LlamaService:
             return Confirmation(status, [])
 
         # A statement naming other inventory does not answer the pending question.
-        if EXPLICIT_AVAILABILITY.search(reply_l) or re.search(uncertain_pattern, reply_l):
+        if (EXPLICIT_AVAILABILITY.search(reply_l) or re.search(uncertain_pattern, reply_l)
+                or not any(re.search(pattern, reply_l) for pattern in candidate_patterns.values())):
             return Confirmation("unclear", [])
 
         # LLM parsing is only a fallback for more complex natural-language

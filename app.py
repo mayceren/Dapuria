@@ -25,9 +25,14 @@ from dapuria.ingredient_clarification import (
     update_type_inventory,
 )
 from dapuria.llama_service import LlamaService
-from dapuria.pantry import update_inventory
+from dapuria.pantry import is_inventory_command, update_inventory
 from dapuria.preferences import ingredient_is_excluded, update_preferences
-from dapuria.preprocessing import parse_user_ingredients
+from dapuria.preprocessing import (
+    input_feedback,
+    is_confirmation_reply,
+    parse_user_ingredients,
+    parse_user_input,
+)
 from dapuria.ui import (
     MAIN_LOGO,
     activity,
@@ -83,10 +88,10 @@ def persist_chat() -> None:
         st.session_state.history_error = "Riwayat belum tersimpan. Percakapan tetap bisa dilanjutkan di sesi ini."
 
 
-def finish_turn() -> None:
+def finish_turn(*, attach_result: bool = True) -> None:
     st.session_state.submission = None
     messages = st.session_state.messages
-    if (messages and messages[-1]["role"] == "assistant"
+    if (attach_result and messages and messages[-1]["role"] == "assistant"
             and st.session_state.latest_result and st.session_state.phase == "await_query"):
         messages[-1]["result"] = st.session_state.latest_result
     persist_chat()
@@ -430,6 +435,18 @@ if submission:
         is_type_reply = st.session_state.phase == "await_confirmation" and type_kind in TYPE_CLARIFICATIONS
         inventory_message = expand_type_reply(user_message, type_kind) if is_type_reply else user_message
         preferences = update_preferences(st.session_state.excluded_ingredients, inventory_message)
+        parsed_input = parse_user_input(inventory_message)
+        clean_inventory = update_inventory(st.session_state.inventory, "")
+        proposed_inventory = update_inventory(clean_inventory, preferences.inventory_text)
+        st.session_state.inventory = clean_inventory
+        meaningful_input = (
+            bool(parsed_input.ingredients) or preferences.has_directive
+            or proposed_inventory != clean_inventory or is_inventory_command(preferences.inventory_text)
+            or (st.session_state.phase == "await_confirmation" and is_confirmation_reply(user_message))
+        )
+        if not meaningful_input:
+            st.session_state.messages.append({"role": "assistant", "content": input_feedback(parsed_input)})
+            finish_turn(attach_result=False)
         st.session_state.excluded_ingredients = preferences.excluded
         is_confirmation = (st.session_state.phase == "await_confirmation"
                            and not is_type_reply and not preferences.has_directive)
@@ -449,7 +466,7 @@ if submission:
                 st.session_state.inventory = update_type_inventory(st.session_state.inventory, inventory_text, type_kind)
             else:
                 st.session_state.inventory = refine_type_inventory(
-                    update_inventory(st.session_state.inventory, inventory_text)
+                    proposed_inventory
                 )
             st.session_state.phase = "await_query"
             st.session_state.pending = None
@@ -566,7 +583,8 @@ if submission:
             combined_query = ", ".join(st.session_state.inventory)
 
             # Reuse the exact initial result when no ingredient was added.
-            if st.session_state.inventory == original_ingredients and initial_result is not None:
+            if (st.session_state.inventory == original_ingredients and initial_result is not None
+                    and initial_result.get("user_ingredients") == st.session_state.inventory):
                 result = initial_result
             else:
                 with activity("Mencocokkan bahan tambahan dengan resep…"):

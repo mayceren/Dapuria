@@ -5,7 +5,12 @@ from typing import Any
 
 from .config import Settings
 from .preferences import ingredient_is_excluded, update_preferences
-from .preprocessing import ingredient_matches, parse_user_ingredients
+from .preprocessing import (
+    ingredient_matches,
+    input_feedback,
+    parse_user_ingredients,
+    parse_user_input,
+)
 from .recipe_data import normalize_recipe
 from .recipe_details import RecipeDetails
 from .reranking import (
@@ -54,6 +59,8 @@ class RecipeService:
     ) -> tuple[list[dict[str, Any]], list[str]]:
         top_n = top_n or self.settings.top_n
         user_ingredients = parse_user_ingredients(user_text)
+        if not user_ingredients:
+            return [], []
 
         canonical_query = ", ".join(user_ingredients)
 
@@ -113,7 +120,7 @@ class RecipeService:
                 **metadata,
                 "status": status,
                 "user_ingredients": [],
-                "message": "Belum ada bahan yang terdeteksi. Masukkan bahan yang kamu miliki, dipisahkan dengan koma.",
+                "message": input_feedback(parse_user_input(user_text)),
             }
         if not valid and status == "need_main_ingredient":
             return {

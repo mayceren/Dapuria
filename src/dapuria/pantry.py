@@ -59,7 +59,8 @@ def update_inventory(current: list[str], message: str) -> list[str]:
     replacement = REPLACE.fullmatch(text.rstrip(".!"))
     if replacement:
         old, new = replacement.groups()
-        return list(dict.fromkeys(_remove(items, _names(old)) + _names(new)))
+        replacements = _names(new)
+        return list(dict.fromkeys(_remove(items, _names(old)) + replacements)) if replacements else items
 
     for clause in re.split(r"\b(?:tapi|tetapi|namun|sedangkan)\b", text, flags=re.IGNORECASE):
         removing = False
@@ -84,4 +85,18 @@ def update_inventory(current: list[str], message: str) -> list[str]:
             else:
                 items = list(dict.fromkeys(items + _names(segment)))
     return items
+
+
+def is_inventory_command(message: str) -> bool:
+    text = user_ingredient_text(message).strip()
+    if RESET.match(text):
+        return True
+    if re.fullmatch(r"(?:cari(?:kan)?(?: resep)?(?: lagi)?|lanjut(?:kan)?|coba lagi)[.!?]*", text, re.IGNORECASE):
+        return True
+    replacement = REPLACE.fullmatch(text.rstrip(".!"))
+    if replacement:
+        return bool(_names(replacement.group(2)))
+    if UNAVAILABLE.search(text):
+        return bool(_names(UNAVAILABLE.sub("", text)))
+    return bool((ADD.match(text) or REMOVE.match(text)) and _names(ADD.sub("", REMOVE.sub("", text))))
 

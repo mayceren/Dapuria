@@ -1,8 +1,14 @@
 from __future__ import annotations
 
+import csv
 import html
+import json
 import re
+from dataclasses import dataclass
 from functools import lru_cache
+from pathlib import Path
+
+from .config import Settings
 
 INGREDIENT_ALIASES = {
     "garlic powder": "bawang putih bubuk",
@@ -153,6 +159,9 @@ USER_PREFIXES = tuple(re.compile(pattern, re.IGNORECASE) for pattern in (
     r"(?:cari(?:kan)?|rekomendasi(?:kan)?)\s+(?:resep|menu|masakan)\b"
     r"(?:\s+(?:dari|dengan|pakai|pake|berbahan)(?:\s+(?:bahan|dasar))?)?\s*[:,]?\s*"),
     rf"^(?:{SUBJECT}\s+)?(?:mau|ingin|pengen)\s+masak\s+(?:pakai|pake|dengan|dari)\s+",
+    (rf"^(?:{SUBJECT}\s+)?(?:(?:mau|ingin|pengen)\s+)?"
+     r"(?:masak|goreng|tumis|rebus|kukus|panggang)(?:\s+(?:pakai|pake|menggunakan|dengan))?\s+"),
+    r"^(?:pakai|pake|menggunakan|dengan)\s+",
     rf"^(?:{SUBJECT}\s+)?{MODIFIERS}(?:punya|memiliki|ada(?:nya)?|tersedia)\b\s*{MODIFIERS}[:,]?\s*",
     r"^yang\s+(?:ada(?:nya)?|tersedia)\b\s*[:,]?\s*",
     r"^(?:cuma|hanya)\s+",
@@ -185,6 +194,34 @@ EXPLICIT_AVAILABILITY = re.compile(
     r"\b(?:punya|memiliki|miliki|ada(?:nya)?|tersedia)\b|^(?:cuma|hanya)\b",
     re.IGNORECASE,
 )
+NON_FOOD_OBJECT = re.compile(
+    r"\b(?:panci|wajan|spatula|pisau|talenan|kompor|blender|saringan|baskom|toples|stoples"
+    r"|gelas|mangkuk|piring|sendok|garpu|loyang|kukusan|laptop|mouse|meja|kursi|keyboard"
+    r"|monitor|ponsel|handphone|televisi|sepatu|baju)\b", re.IGNORECASE,
+)
+NON_FOOD_CONVERSATION = re.compile(
+    r"^(?:halo|hai|hei|hey|apa kabar|selamat pagi|selamat siang|selamat sore|selamat malam)\b"
+    r"|\b(?:cuaca(?:nya)?|nyalakan|matikan)\b", re.IGNORECASE,
+)
+CONFIRMATION_REPLIES = frozenset({
+    "ya", "iya", "y", "yes", "punya", "ada", "boleh", "ok", "oke",
+    "tidak", "tidak ada", "nggak", "nggak ada", "gak", "gak ada", "ga", "ga ada",
+    "ngga", "ngga ada", "enggak", "enggak ada", "no", "tidak punya", "nggak punya",
+    "gak punya", "ga punya", "lanjut", "lewati", "skip", "belum", "habis", "sudah habis",
+})
+INGREDIENT_PROMPT = (
+    "Aku bantu carikan resep dari bahan makanan yang kamu punya, ya. "
+    "Coba sebutkan bahannya, misalnya telur, tomat, tahu, atau ayam."
+)
+AMBIGUOUS_FOOD_NAMES = frozenset({
+    "putih", "merah", "asin", "manis", "panas", "dingin", "besar", "kecil", "sedikit", "banyak", "semua",
+})
+
+
+@dataclass(frozen=True)
+class IngredientInput:
+    ingredients: list[str]
+    unrecognized: list[str]
 
 
 def _strip_user_framing(text: str) -> str:
@@ -259,7 +296,7 @@ def user_ingredient_text(text: str) -> str:
     return REQUEST_SUFFIX.sub("", _strip_user_framing(html.unescape(str(text))))
 
 
-def parse_user_ingredients(text: str) -> list[str]:
+def parse_user_input(text: str) -> IngredientInput:
     """Extract a deterministic inventory from lists or common Indonesian phrases.
 
     Negated or uncertain lists stay excluded until a contrast or an explicit
@@ -268,6 +305,7 @@ def parse_user_ingredients(text: str) -> list[str]:
     text = user_ingredient_text(text)
     parsed: list[str] = []
     for clause in re.split(r"\b(?:tapi|tetapi|sedangkan|namun)\b", text, flags=re.IGNORECASE):
+        clause = re.sub(r"\s+(?:pakai|pake|menggunakan)\s+", ", ", clause, flags=re.IGNORECASE)
         available = True
         for item in USER_SEPARATORS.split(clause):
             item = item.strip()
@@ -289,7 +327,60 @@ def parse_user_ingredients(text: str) -> list[str]:
             if name and name not in NON_INGREDIENT_REPLIES:
                 words = name.split()
                 parsed.extend(words if len(words) > 1 and all(word in BARE_LIST_ITEMS for word in words) else [name])
-    return list(dict.fromkeys(parsed))
+    ingredients: list[str] = []
+    unrecognized: list[str] = []
+    for name in dict.fromkeys(parsed):
+        if NON_FOOD_OBJECT.search(name) or NON_FOOD_CONVERSATION.search(name):
+            continue
+        if name not in AMBIGUOUS_FOOD_NAMES and name in ingredient_vocabulary(Settings().corpus_path):
+            ingredients.append(name)
+        else:
+            unrecognized.append(name)
+    return IngredientInput(ingredients, unrecognized)
+
+
+def parse_user_ingredients(text: str) -> list[str]:
+    return parse_user_input(text).ingredients
+
+
+@lru_cache(maxsize=4)
+def ingredient_vocabulary(corpus_path: Path) -> frozenset[str]:
+    from .main_ingredients import MAIN_INGREDIENT_KEYWORDS_FLAT
+
+    names = set(MAIN_INGREDIENT_KEYWORDS_FLAT) | set(INGREDIENT_ALIASES.values()) | {
+        "air", "garam", "gula", "kecap", "bawang", "minyak", "minyak goreng", "kaldu",
+        "bawang lanang", "kecap jamur",
+    }
+    paths = {corpus_path, Path(__file__).resolve().parents[2] / "data/corpus/recipes.csv"}
+    for path in paths:
+        if not path.is_file():
+            continue
+        with path.open(encoding="utf-8-sig", newline="") as stream:
+            for row in csv.DictReader(stream):
+                try:
+                    ingredients = json.loads(row.get("ingredient_names") or "[]")
+                except (ValueError, TypeError):
+                    continue
+                if not isinstance(ingredients, list):
+                    continue
+                for raw in ingredients:
+                    name = parse_ingredient(raw)["name"]
+                    if not name or NON_FOOD_OBJECT.search(name) or NON_FOOD_CONVERSATION.search(name):
+                        continue
+                    words = name.split()
+                    names.update(" ".join(words[:index]) for index in range(1, len(words) + 1))
+    return frozenset(clean_name(name) for name in names if clean_name(name))
+
+
+def input_feedback(parsed: IngredientInput) -> str:
+    if parsed.unrecognized:
+        names = ", ".join(name[:72] for name in parsed.unrecognized[:3])
+        return f"Aku belum mengenali **{names}** sebagai bahan makanan. Coba sebutkan nama bahan yang lebih umum, ya."
+    return INGREDIENT_PROMPT
+
+
+def is_confirmation_reply(text: str) -> bool:
+    return strip_reply_particles(text.lower().strip(" .,!?:;")) in CONFIRMATION_REPLIES
 
 
 def ingredient_matches(user_name: str, recipe_name: str) -> bool:

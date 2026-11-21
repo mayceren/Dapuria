@@ -40,7 +40,7 @@ def update_preferences(current: list[str], message: str) -> PreferenceUpdate:
     explicit ownership statement. Named unavailable ingredients also exclude
     recipes; a generic denial remains an answer to the pending question.
     """
-    excluded = list(dict.fromkeys(normalize_ingredient_name(item) for item in current))
+    excluded = list(dict.fromkeys(name for item in current for name in parse_user_ingredients(item)))
     text = user_ingredient_text(message)
     has_directive = False
     if RESET.match(text) and not DIRECTIVE.match(text):
@@ -64,18 +64,19 @@ def update_preferences(current: list[str], message: str) -> PreferenceUpdate:
                     inventory.append(prefix)
                 for i, match in enumerate(matches):
                     mode = match.lastgroup
-                    if mode != "unavailable":
-                        has_directive = True
                     end = matches[i + 1].start() if i + 1 < len(matches) else len(segment)
                     names_text = segment[match.end():end].strip()
                     if mode == "clear":
                         names = parse_user_ingredients(names_text)
-                        excluded = [item for item in excluded if item not in names] if names else []
+                        if names or not names_text:
+                            has_directive = True
+                            excluded = [item for item in excluded if item not in names] if names else []
                         mode = None
                         continue
                     names_text = re.sub(r"\b(?!punya\b)(\w+)nya\b", r"\1", names_text, flags=re.IGNORECASE)
                     names_text = re.sub(r"\s+lagi$", "", names_text, flags=re.IGNORECASE)
                     names = parse_user_ingredients(names_text)
+                    has_directive = has_directive or bool(names)
                     if mode in {"avoid", "unavailable"}:
                         excluded = list(dict.fromkeys(excluded + names))
                         if mode == "unavailable":
@@ -91,6 +92,7 @@ def update_preferences(current: list[str], message: str) -> PreferenceUpdate:
             if mode in {"avoid", "allow", "unavailable"}:
                 segment = re.sub(r"\s+lagi$", "", segment, flags=re.IGNORECASE)
                 names = parse_user_ingredients(segment)
+                has_directive = has_directive or bool(names)
                 if mode in {"avoid", "unavailable"}:
                     excluded = list(dict.fromkeys(excluded + names))
                     if mode == "unavailable":
